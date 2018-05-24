@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "compAsm \r nasm_f \r decompile \r"
+

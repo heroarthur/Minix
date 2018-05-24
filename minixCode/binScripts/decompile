@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ $# -lt 1 ]; then 
+    echo "choose a ELF file"
+else
+    objdump -D -Mintel "$1" > "objdump_$1"
+fi

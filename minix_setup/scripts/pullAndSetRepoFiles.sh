@@ -1,9 +1,13 @@
 #!/usr/bin/expect
 spawn ssh root@localhost -p 10022
-#install nano
-expect "# "
-send "git clone https://github.com/heroarthur/Minix.git \r"
-expect "# "
-send "cd Minix \r"
 
+
+#clone repository and set working directory
+send "cd /home \r"
+expect "# "
+send "git clone git://github.com/heroarthur/Minix \r"
+expect "# "
+send "cd Minix && cp -r minixCode ../ && cd .. && rm -r Minix && cd minixCode \r"
+#clear terminal 
+send "clear && pwd \r"
 interact
