@@ -4,7 +4,6 @@ if [ "$#" -lt 1 ] ; then
 else
    FILE="$1"
    NAME=${FILE%.*}
-   nasm -f elf64 -o "$NAME.o" "$1"   
    nasm -f bin "$FILE" -o "$NAME"
 fi
 
