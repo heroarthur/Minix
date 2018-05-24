@@ -15,7 +15,5 @@ send "Y \r"
 expect "# "
 
 
-
-
-#send "exit\r"
-interact
+send "exit\r"
+#interact
