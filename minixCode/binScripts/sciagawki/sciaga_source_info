@@ -1,0 +1,12 @@
+/usr/src/minix     - pliki zrodlowe
+
+pliki naglowkowe
+/usr/include
+/usr/include/minix
+
+i te same
+/usr/src/include
+/usr/src/minix/include/minix
+
+zmieniaj w obydwu miejscach
+

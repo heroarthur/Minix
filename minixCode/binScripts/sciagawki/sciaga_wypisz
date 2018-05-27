@@ -1,0 +1,9 @@
+#!/bin/sh
+if [ "$#" -lt 1 ] ; then
+   echo 'wybierz plik do wypisania'
+else
+   reset
+   FILE="$1"
+   cat $1   
+fi
+

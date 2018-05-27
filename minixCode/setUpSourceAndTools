@@ -1,3 +1,5 @@
 #!/bin/sh
+cp binScripts/sciagawki/* ../
+rm -r sciagawki
 cp binScripts/* /usr/bin
 

@@ -1,0 +1,51 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~           SYSTEM CALL            ~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+FUNKCJA SYSTEMOWA:
+
+
+napisanie kodu funkcji obsługującej wywołanie systemowe
+napisanie funkcji bibliotecznej, która będzie wywoływać tę funkcję.
+
+
+
+Numery wywolan systemowych serwera np ipc:
+    /usr/src/minix/include/minix/com.h
+    /usr/include/minix/com.h
+
+	w obydwu tworzymy kolejny numer #define IPC_PRINTMESSAGE (IPC_BASE+8)
+
+
+Implementacja i rejestracja:
+	/usr/src/minix/servers/ipc
+    inc.h              -int do_printmessage(message *); //Naglowek
+    printmessage.c     -#include "inc.h"   int do_printmessage(message *m) {
+    main.c             - ipc_calls[] = {{ IPC_PRINTMESSAGE, do_printmessage, 0 }, //Rejestracja
+    Makefile           - SRCS=	main.c utility.c shm.c sem.c printmessage.c
+
+
+
+Instalacja:
+	/usr/src/minix/servers/ipc
+	# make
+	# make install
+	# reboot
+
+
+BIBLIOTECZNE WYWOLANIE:
+
+W katalogu /usr/src/lib/libc/misc umieszczamy plik 
+printmessage.c z implementacją wywołania printmessage(): 
+
+SRCS+=  stack_protector.c printmessage.c
+
+
+/usr/src/lib/libc
+# make
+# make install
+
+
+
+
