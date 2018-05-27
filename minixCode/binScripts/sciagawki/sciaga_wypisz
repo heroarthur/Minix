@@ -3,7 +3,7 @@ if [ "$#" -lt 1 ] ; then
    echo 'wybierz plik do wypisania'
 else
    clear
-   FILE="$1"
-   cat $1   
+   FILE="/usr/bin/$1"
+   cat $FILE 
 fi
 
