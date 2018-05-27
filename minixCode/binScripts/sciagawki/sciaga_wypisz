@@ -2,7 +2,7 @@
 if [ "$#" -lt 1 ] ; then
    echo 'wybierz plik do wypisania'
 else
-   reset
+   clear
    FILE="$1"
    cat $1   
 fi
