@@ -1,2 +1,2 @@
 #!/bin/sh
-sciaga_wypisz /usr/bin/sciaga_source_info
+sciaga_wypisz sciaga_source_info

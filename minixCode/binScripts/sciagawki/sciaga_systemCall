@@ -1,2 +1,2 @@
 #!/bin/sh
-sciaga_wypisz /usr/bin/sciaga_systemCall_info
+sciaga_wypisz sciaga_systemCall_info
