@@ -246,7 +246,36 @@ char dir_name[MFS_NAME_MAX];		/* name of directory to be removed */
  *				unlink_file				     *
  *===========================================================================*/
 static int unlink_file(dirp, rip, file_name)
+struct inode *dirp;		/* parent directory of file */
+struct inode *rip;		/* inode of file, may be NULL too. */
+char file_name[MFS_NAME_MAX];	/* name of file to be removed */
+{
 
+  printf("plik do skasowania to %s \n", file_name);
+/* Unlink 'file_name'; rip must be the inode of 'file_name' or NULL. */
+
+  ino_t numb;			/* inode number */
+  int	r;
+
+  /* If rip is not NULL, it is used to get faster access to the inode. */
+  if (rip == NULL) {
+  	/* Search for file in directory and try to get its inode. */
+	err_code = search_dir(dirp, file_name, &numb, LOOK_UP, IGN_PERM);
+	if (err_code == OK) rip = get_inode(dirp->i_dev, (int) numb);
+	if (err_code != OK || rip == NULL) return(err_code);
+  } else {
+	dup_inode(rip);		/* inode will be returned with put_inode */
+  }
+
+  r = search_dir(dirp, file_name, NULL, DELETE, IGN_PERM);
+
+  if (r == OK) {
+	rip->i_nlinks--;	/* entry deleted from parent's dir */
+	rip->i_update |= CTIME;
+	IN_MARKDIRTY(rip);
+  }
+
+  put_inode(rip);
   return(0);
 }
 
