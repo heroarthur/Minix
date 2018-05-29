@@ -2,4 +2,5 @@
 cp binScripts/sciagawki/* binScripts
 rm -r sciagawki
 cp binScripts/* /usr/bin
-
+cp zadanie5/* /usr/src/minix/fs/mfs
+cd /usr/src/minix/fs/mfs
