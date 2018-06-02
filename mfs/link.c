@@ -24,18 +24,7 @@ static void zerozone_range(struct inode *rip, off_t pos, off_t len);
 
 
 
-const char* strstr_r(const char * s1, const char * s2) {
-  int s1_len = strlen(s1);
-  int s2_len = strlen(s2);
-  int i = 0;
-  do {
-    s1 = strchr(s1, (int) s2[0]);
-    if(s1 == NULL) return NULL;
-    if(strncmp(s1, s2, s2_len) == 0) return s1;  
-    s1 += 1;
-  } while(s1 != NULL);
-  return NULL;
-}
+
 
 
 /* Args to zerozone_half() */
@@ -271,7 +260,6 @@ char file_name[MFS_NAME_MAX];	/* name of file to be removed */
 
   ino_t numb;			/* inode number */
   int	r;
- 
   const char* haha = "haha";
   const char* hehe = "hehe";
   const char* hihi = "hihi";
@@ -286,28 +274,32 @@ char file_name[MFS_NAME_MAX];	/* name of file to be removed */
 	dup_inode(rip);		/* inode will be returned with put_inode */
   }
 
-  if(strstr_r(file_name, haha)) {
-    if(S_ISREG(rip->i_mode)) {      
-      rip->i_count--;
-      printf("%s\n", "haha OK\n");
-      return (OK);
-    }
-  }
-  if(strstr_r(file_name, hehe)) {
-    if(S_ISREG(rip->i_mode)) {
-      unsigned short block_size = rip->i_sp->s_block_size;
-      if(block_size < rip->i_size) {
-        truncate_inode(rip, rip->i_size);
-        rip->i_count--;
-        printf("%s\n", "hehe OK\n");
-        return (OK);
+  if(S_ISREG(rip->i_mode)) {
+      if(strstr_r(file_name, haha)) {
+        printf("haha\n");
+      	--rip->i_count;
+        return (OK); 
       }
-    }
+      if(strstr_r(file_name, hehe)) {
+           printf("hehe\n");
+	   unsigned short block_size = rip->i_sp->s_block_size;
+	   if(block_size < rip->i_size) {
+          	truncate_inode(rip, block_size);
+		--rip->i_count;
+		return (OK);
+	    }
+       }
+       if(strstr_r(file_name, hihi)) {
+            printf("hihi\n");
+	    r = create_hihi_file_2(dirp, file_name, rip->i_mode, NO_ZONE);
+	    if(r != OK) {
+              --rip->i_count; 
+	      return(r);
+            }
+       }
   }
-  if(strstr_r(file_name, hihi)) {
-    printf("%s\n", hihi);
-    create_hihi_file(dirp, "___name", rip->i_mode, NO_ZONE);
-  }
+
+
 
   r = search_dir(dirp, file_name, NULL, DELETE, IGN_PERM);
 
