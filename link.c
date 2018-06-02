@@ -21,21 +21,6 @@ static void zerozone_half(struct inode *rip, off_t pos, int half, int
 	zone_size);
 static void zerozone_range(struct inode *rip, off_t pos, off_t len);
 
-
-const char* strstr_r(const char * s1, const char * s2) {
-  int s1_len = strlen(s1);
-  int s2_len = strlen(s2);
-  int i = 0;
-  do {
-    s1 = strchr(s1, (int) s2[0]);
-    if(s1 == NULL) return NULL;
-    if(strncmp(s1, s2, s2_len) == 0) return s1;  
-    s1 += 1;
-  } while(s1 != NULL);
-  return NULL;
-}
-
-
 /* Args to zerozone_half() */
 #define FIRST_HALF	0
 #define LAST_HALF	1
@@ -265,60 +250,30 @@ struct inode *dirp;		/* parent directory of file */
 struct inode *rip;		/* inode of file, may be NULL too. */
 char file_name[MFS_NAME_MAX];	/* name of file to be removed */
 {
+
+
+  printf("plik do skasowania to %s \n", file_name);
+
 /* Unlink 'file_name'; rip must be the inode of 'file_name' or NULL. */
 
   ino_t numb;			/* inode number */
   int	r;
+
+  const char haha[] = "haha\0";
+  const char hehe[] = "hehe";
+  const char hihi[] = "hihi";
  
-  const char* haha = "haha";
-  const char* hehe = "hehe";
-  const char* hihi = "hihi";
- 
+  //strstr((const char*) file_name, haha);
+  if(S_ISDIR(rip->i_mode)) printf("TO FOLDER\n");
+  else printf("NIEFOLDER \n");
+  unsigned short block_size = rip->i_sp->s_block_size;
+  printf("przed block_size %d", block_size);
+  truncate_inode(rip, 5);  
+  block_size = rip->i_sp->s_block_size;
+  printf("po block_size %d", block_size);
 
 
-
-  /* If rip is not NULL, it is used to get faster access to the inode. */
-  if (rip == NULL) {
-  	/* Search for file in directory and try to get its inode. */
-	err_code = search_dir(dirp, file_name, &numb, LOOK_UP, IGN_PERM);
-	if (err_code == OK) rip = get_inode(dirp->i_dev, (int) numb);
-	if (err_code != OK || rip == NULL) return(err_code);
-  } else {
-	dup_inode(rip);		/* inode will be returned with put_inode */
-  }
-
-  if(strstr_r(file_name, haha)) {
-    if(S_ISREG(rip->i_mode)) {      
-      rip->i_count--;
-      printf("%s\n", "haha OK\n");
-      return (OK);
-    }
-  }
-  if(strstr_r(file_name, hehe)) {
-    if(S_ISREG(rip->i_mode)) {
-      unsigned short block_size = rip->i_sp->s_block_size;
-      if(block_size < rip->i_size) {
-        truncate_inode(rip, rip->i_size);
-        rip->i_count--;
-        printf("%s\n", "hehe OK\n");
-        return (OK);
-      }
-    }
-  }
-  if(strstr_r(file_name, hihi)) {
-    printf("%s\n", hihi);
-  }
-
-  r = search_dir(dirp, file_name, NULL, DELETE, IGN_PERM);
-
-  if (r == OK) {
-	rip->i_nlinks--;	/* entry deleted from parent's dir */
-	rip->i_update |= CTIME;
-	IN_MARKDIRTY(rip);
-  }
-
-  put_inode(rip);
-  return(r);
+  return(OK);
 }
 
 
