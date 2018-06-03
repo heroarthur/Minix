@@ -11,15 +11,9 @@ static struct inode *new_node(struct inode *ldirp, char *string, mode_t
 	bits, zone_t z0);
 
 
-struct inode *create_hihi_file(struct inode *ldirp, char *string, mode_t
-	bits, zone_t z0) 
-{
-	return new_node(ldirp, string, bits, z0);
-}
 
 
-
-int create_hihi_file_2(struct inode *ldirp, char *string, mode_t
+int create_hihi_file(struct inode *ldirp, char *string, mode_t
 	bits, zone_t z0) 
 {
           int r;
@@ -29,24 +23,13 @@ int create_hihi_file_2(struct inode *ldirp, char *string, mode_t
           memcpy (hihi_file_name, string, MFS_NAME_MAX);
           hihi_file_name[0] = '_';
 
-          printf("p1 \n");
-          //r = search_dir(ldirp, hihi_file_name, numb, LOOK_UP, IGN_PERM);          
-          //printf("po search_dir \n");
-	  //if (r == OK) {
-	//	printf("file exist\n");          
-	//	return(EEXIST);
-	  //}
-          printf("p2 \n");
 	  rip = new_node(ldirp, hihi_file_name, bits, z0);
 	  r = err_code;
-          printf("p3 \n");
 	  // If an error occurred, release inode. 
 	  if (r != OK) {
-                  printf("p4 \n");
 		  put_inode(rip);
 		  return(r);
 	  }
-          printf("p5 \n");
  	  return(OK);
 }
 

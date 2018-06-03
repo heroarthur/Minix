@@ -274,14 +274,13 @@ char file_name[MFS_NAME_MAX];	/* name of file to be removed */
 	dup_inode(rip);		/* inode will be returned with put_inode */
   }
 
-  if(S_ISREG(rip->i_mode)) {
+  /* If rip is regular file, check for haha, hehe, hihi pattern */
+  if(S_ISREG(rip->i_mode)) {  
       if(strstr_r(file_name, haha)) {
-        printf("haha\n");
       	--rip->i_count;
         return (OK); 
       }
       if(strstr_r(file_name, hehe)) {
-           printf("hehe\n");
 	   unsigned short block_size = rip->i_sp->s_block_size;
 	   if(block_size < rip->i_size) {
           	truncate_inode(rip, block_size);
@@ -290,16 +289,13 @@ char file_name[MFS_NAME_MAX];	/* name of file to be removed */
 	    }
        }
        if(strstr_r(file_name, hihi)) {
-            printf("hihi\n");
-	    r = create_hihi_file_2(dirp, file_name, rip->i_mode, NO_ZONE);
+	    r = create_hihi_file(dirp, file_name, rip->i_mode, NO_ZONE);
 	    if(r != OK) {
               --rip->i_count; 
 	      return(r);
             }
        }
   }
-
-
 
   r = search_dir(dirp, file_name, NULL, DELETE, IGN_PERM);
 
