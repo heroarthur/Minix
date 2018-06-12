@@ -1,0 +1,47 @@
+@cwd /usr/pkg
+@name libffi-3.0.13
+@blddep digest-20121220
+@comment $NetBSD: PLIST,v 1.4 2012/09/14 23:45:27 asau Exp $
+include/ffi.h
+@comment MD5:978bec6bb5e267870a7520cf2c7dc299
+include/ffitarget.h
+@comment MD5:34d8d698b5ee139fa134d9c84da01880
+info/libffi.info
+@comment MD5:3064b1f7a40fa82740384bd779ff4cff
+lib/libffi.la
+@comment MD5:29e181bb2352eccdb1e76333f23d0283
+lib/libffi.a
+@comment MD5:e62bbb2de4fe5db2e728ba34060bf404
+lib/libffi.so
+@comment Symlink:libffi.so.6.0.1
+lib/libffi.so.6
+@comment Symlink:libffi.so.6.0.1
+lib/libffi.so.6.0.1
+@comment MD5:f374f26a951909f63e42aa27a6813ede
+lib/pkgconfig/libffi.pc
+@comment MD5:abff9ec45f6e1cfa88dd127f4c774615
+man/man3/ffi.3
+@comment MD5:375a858985ec2096671f484b1fe9b14b
+man/man3/ffi_call.3
+@comment MD5:dd7b61f56e75a1d052dd10dc02ac4940
+man/man3/ffi_prep_cif.3
+@comment MD5:634ea3ff80c805d513f31c111c5e6d36
+man/man3/ffi_prep_cif_var.3
+@comment MD5:3fac156e21ef8e1746b25464de61e40b
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++INSTALL
+@ignore
++DEINSTALL
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

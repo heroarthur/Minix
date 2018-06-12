@@ -1,0 +1,8 @@
+shells/bash/Makefile:	$NetBSD: Makefile,v 1.61 2014/03/12 10:08:46 wiz Exp $
+shells/bash/PLIST:	$NetBSD: PLIST,v 1.7 2014/03/12 10:08:46 wiz Exp $
+shells/bash/distinfo:	$NetBSD: distinfo,v 1.29 2014/03/12 10:08:46 wiz Exp $
+shells/bash/patches/patch-af:	$NetBSD: patch-af,v 1.6 2011/03/12 15:26:45 wiz Exp $
+shells/bash/patches/patch-ag:	$NetBSD: patch-ag,v 1.2 2005/12/31 00:02:28 wiz Exp $
+shells/bash/patches/patch-aj:	$NetBSD: patch-aj,v 1.1 2011/02/20 14:22:15 wiz Exp $
+shells/bash/patches/patch-builtins_ulimit.def:	$NetBSD: patch-builtins_ulimit.def,v 1.1 2013/06/09 18:12:14 bsiegert Exp $
+shells/bash/patches/patch-configure:	$NetBSD$

@@ -1,0 +1,4 @@
+bin/2to3 /usr/pkg/bin/2to3-2.7
+bin/pydoc /usr/pkg/bin/pydoc2.7
+bin/python /usr/pkg/bin/python2.7
+bin/smtpd.py /usr/pkg/bin/smtpd2.7.py

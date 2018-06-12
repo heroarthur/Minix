@@ -1,0 +1,270 @@
+Nov 18 12:34:22 10 syslogd: restart
+Nov 18 12:34:22 10 kernel: 
+Nov 18 12:34:22 10 kernel: MINIX 3.3.0. (588a35b)
+Nov 18 12:34:22 10 kernel: Copyright 2014, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 18 12:34:22 10 kernel: MINIX is open source software, see http://www.minix3.org
+Nov 18 12:34:22 10 kernel: Started VFS: 9 worker thread(s)
+Nov 18 12:34:22 10 kernel: virtio-net: Mac set by host: 52:54:00:12:34:56
+Nov 18 12:34:22 10 kernel: virtio-net: Current Status 1
+Nov 18 12:34:22 10 kernel: virtio-net: Host supports control channel
+Nov 18 12:34:22 10 kernel: virtio-net: Host supports control channel for RX
+Nov 18 12:34:26 10 1 2016-11-18T12:34:26.566666+00:00 10.0.2.15 login - - - ROOT LOGIN (root) on tty console
+Nov 18 12:34:26 10 1 2016-11-18T12:34:26.566666+00:00 10.0.2.15 login - - - Cannot update lastlogx: Invalid argument
+Nov 18 12:34:26 10 1 2016-11-18T12:34:26.650000+00:00 10.0.2.15 login - - - ROOT LOGIN (root) ON console
+Nov 18 12:54:22 10 -- MARK --
+Nov 18 13:14:22 10 -- MARK --
+Nov 18 13:34:22 10 -- MARK --
+Nov 18 13:54:22 10 -- MARK --
+Nov 18 14:14:22 10 -- MARK --
+Nov 18 14:34:22 10 -- MARK --
+Nov 18 14:54:22 10 -- MARK --
+Nov 18 15:14:22 10 -- MARK --
+Nov 18 15:34:22 10 -- MARK --
+Nov 18 15:54:22 10 -- MARK --
+Nov 18 16:14:22 10 -- MARK --
+Nov 18 16:34:22 10 -- MARK --
+Nov 18 17:29:20 10 syslogd: restart
+Nov 18 17:29:20 10 kernel: 
+Nov 18 17:29:20 10 kernel: MINIX 3.3.0. (588a35b)
+Nov 18 17:29:20 10 kernel: Copyright 2014, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 18 17:29:20 10 kernel: MINIX is open source software, see http://www.minix3.org
+Nov 18 17:29:20 10 kernel: Started VFS: 9 worker thread(s)
+Nov 18 17:29:20 10 kernel: virtio-net: Mac set by host: 52:54:00:12:34:56
+Nov 18 17:29:20 10 kernel: virtio-net: Current Status 1
+Nov 18 17:29:20 10 kernel: virtio-net: Host supports control channel
+Nov 18 17:29:20 10 kernel: virtio-net: Host supports control channel for RX
+Nov 18 17:29:27 10 1 2016-11-18T17:29:27.083333+00:00 10.0.2.15 login - - - ROOT LOGIN (root) on tty console
+Nov 18 17:29:27 10 1 2016-11-18T17:29:27.083333+00:00 10.0.2.15 login - - - Cannot update lastlogx: Invalid argument
+Nov 18 17:29:27 10 1 2016-11-18T17:29:27.133333+00:00 10.0.2.15 login - - - ROOT LOGIN (root) ON console
+Nov 18 17:36:23 10 syslogd: restart
+Nov 18 17:36:23 10 kernel: 
+Nov 18 17:36:23 10 kernel: MINIX 3.3.0. (588a35b)
+Nov 18 17:36:23 10 kernel: Copyright 2014, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 18 17:36:23 10 kernel: MINIX is open source software, see http://www.minix3.org
+Nov 18 17:36:23 10 kernel: Started VFS: 9 worker thread(s)
+Nov 18 17:36:23 10 kernel: virtio-net: Mac set by host: 52:54:00:12:34:56
+Nov 18 17:36:23 10 kernel: virtio-net: Current Status 1
+Nov 18 17:36:23 10 kernel: virtio-net: Host supports control channel
+Nov 18 17:36:23 10 kernel: virtio-net: Host supports control channel for RX
+Nov 18 17:36:28 10 1 2016-11-18T17:36:28.650000+00:00 10.0.2.15 login - - - ROOT LOGIN (root) on tty console
+Nov 18 17:36:28 10 1 2016-11-18T17:36:28.650000+00:00 10.0.2.15 login - - - Cannot update lastlogx: Invalid argument
+Nov 18 17:36:28 10 1 2016-11-18T17:36:28.716666+00:00 10.0.2.15 login - - - ROOT LOGIN (root) ON console
+Nov 18 17:56:23 10 -- MARK --
+Nov 18 18:16:23 10 -- MARK --
+Nov 18 18:36:23 10 -- MARK --
+Nov 18 18:56:23 10 -- MARK --
+Nov 18 19:07:21 10 1 2016-11-18T19:07:21.233333+00:00 10.0.2.15 shutdown - - - halt by root: 
+Nov 18 19:07:24 10 1 2016-11-18T19:07:24.483333+00:00 10.0.2.15 root - - - kadmind: WARNING: $kadmind is not set properly - see rc.conf(5).
+Nov 18 19:07:29 10 syslogd: exiting on signal 15 - Undefined error: 0
+Nov 18 19:09:58 10 syslogd: restart
+Nov 18 19:09:58 10 kernel: 
+Nov 18 19:09:58 10 kernel: MINIX 3.3.0. Copyright 2014, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 18 19:09:58 10 kernel: MINIX is open source software, see http://www.minix3.org
+Nov 18 19:09:58 10 kernel: Started VFS: 9 worker thread(s)
+Nov 18 19:09:58 10 kernel: virtio-net: Mac set by host: 52:54:00:12:34:56
+Nov 18 19:09:58 10 kernel: virtio-net: Current Status 1
+Nov 18 19:09:58 10 kernel: virtio-net: Host supports control channel
+Nov 18 19:09:58 10 kernel: virtio-net: Host supports control channel for RX
+Nov 18 19:10:36 10 1 2016-11-18T19:10:36.633333+00:00 10.0.2.15 login - - - ROOT LOGIN (root) on tty console
+Nov 18 19:10:36 10 1 2016-11-18T19:10:36.650000+00:00 10.0.2.15 login - - - Cannot update lastlogx: Invalid argument
+Nov 18 19:10:36 10 1 2016-11-18T19:10:36.700000+00:00 10.0.2.15 login - - - ROOT LOGIN (root) ON console
+Nov 18 19:29:58 10 -- MARK --
+Nov 18 19:49:58 10 -- MARK --
+Nov 18 20:09:58 10 -- MARK --
+Nov 18 20:29:58 10 -- MARK --
+Nov 18 20:49:58 10 -- MARK --
+Nov 18 21:01:50 10 1 2016-11-18T21:01:50.183333+00:00 10.0.2.15 reboot - - - rebooted by root
+Nov 18 21:01:50 10 syslogd: exiting on signal 15 - Undefined error: 0
+Nov 18 21:02:05 10 syslogd: restart
+Nov 18 21:02:05 10 kernel: 
+Nov 18 21:02:05 10 kernel: MINIX 3.3.0. Copyright 2014, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 18 21:02:05 10 kernel: MINIX is open source software, see http://www.minix3.org
+Nov 18 21:02:05 10 kernel: Started VFS: 9 worker thread(s)
+Nov 18 21:02:05 10 kernel: virtio-net: Mac set by host: 52:54:00:12:34:56
+Nov 18 21:02:05 10 kernel: virtio-net: Current Status 1
+Nov 18 21:02:05 10 kernel: virtio-net: Host supports control channel
+Nov 18 21:02:05 10 kernel: virtio-net: Host supports control channel for RX
+Nov 18 21:02:14 10 1 2016-11-18T21:02:14.416666+00:00 10.0.2.15 login - - - ROOT LOGIN (root) on tty console
+Nov 18 21:02:14 10 1 2016-11-18T21:02:14.433333+00:00 10.0.2.15 login - - - Cannot update lastlogx: Invalid argument
+Nov 18 21:02:14 10 1 2016-11-18T21:02:14.500000+00:00 10.0.2.15 login - - - ROOT LOGIN (root) ON console
+Nov 18 21:02:23 10 1 2016-11-18T21:02:23.383333+00:00 10.0.2.15 shutdown - - - halt by root: 
+Nov 18 21:02:26 10 1 2016-11-18T21:02:26.583333+00:00 10.0.2.15 root - - - kadmind: WARNING: $kadmind is not set properly - see rc.conf(5).
+Nov 18 21:02:26 10 1 2016-11-18T21:02:26.650000+00:00 10.0.2.15 root - - - kcm: WARNING: $kcm is not set properly - see rc.conf(5).
+Nov 18 21:02:26 10 1 2016-11-18T21:02:26.766666+00:00 10.0.2.15 root - - - kpasswdd: WARNING: $kpasswdd is not set properly - see rc.conf(5).
+Nov 18 21:02:31 10 syslogd: exiting on signal 15 - Undefined error: 0
+Nov 20 17:27:50 10 syslogd: restart
+Nov 20 17:27:50 10 kernel: 
+Nov 20 17:27:50 10 kernel: MINIX 3.3.0. Copyright 2014, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 20 17:27:50 10 kernel: MINIX is open source software, see http://www.minix3.org
+Nov 20 17:27:50 10 kernel: Started VFS: 9 worker thread(s)
+Nov 20 17:27:50 10 kernel: virtio-net: Mac set by host: 52:54:00:12:34:56
+Nov 20 17:27:50 10 kernel: virtio-net: Current Status 1
+Nov 20 17:27:50 10 kernel: virtio-net: Host supports control channel
+Nov 20 17:27:50 10 kernel: virtio-net: Host supports control channel for RX
+Nov 20 17:29:59 10 1 2016-11-20T17:29:59.000000+00:00 10.0.2.15 login - - - ROOT LOGIN (root) on tty console
+Nov 20 17:29:59 10 1 2016-11-20T17:29:59.016666+00:00 10.0.2.15 login - - - Cannot update lastlogx: Invalid argument
+Nov 20 17:29:59 10 1 2016-11-20T17:29:59.066666+00:00 10.0.2.15 login - - - ROOT LOGIN (root) ON console
+Nov 20 17:32:45 10 1 2016-11-20T17:32:45.633333+00:00 10.0.2.15 reboot - - - rebooted by root
+Nov 20 17:32:45 10 syslogd: exiting on signal 15 - Undefined error: 0
+Nov 20 17:32:59 10 syslogd: restart
+Nov 20 17:32:59 10 kernel: 
+Nov 20 17:32:59 10 kernel: MINIX 3.3.0. Copyright 2014, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 20 17:32:59 10 kernel: MINIX is open source software, see http://www.minix3.org
+Nov 20 17:32:59 10 kernel: Started VFS: 9 worker thread(s)
+Nov 20 17:32:59 10 kernel: virtio-net: Mac set by host: 52:54:00:12:34:56
+Nov 20 17:32:59 10 kernel: virtio-net: Current Status 1
+Nov 20 17:32:59 10 kernel: virtio-net: Host supports control channel
+Nov 20 17:32:59 10 kernel: virtio-net: Host supports control channel for RX
+Nov 20 17:33:00 10 1 2016-11-20T17:33:00.350000+00:00 10.0.2.15 sshd 208 - - Server listening on 0.0.0.0 port 22.
+Nov 20 17:33:00 10 1 2016-11-20T17:33:00.400000+00:00 10.0.2.15 sshd 208 - - error: Couldn't create pid file "/usr/pkg/var/run/sshd.pid": No such file or directory
+Nov 20 17:33:05 10 1 2016-11-20T17:33:05.766666+00:00 10.0.2.15 login - - - ROOT LOGIN (root) on tty console
+Nov 20 17:33:05 10 1 2016-11-20T17:33:05.766666+00:00 10.0.2.15 login - - - Cannot update lastlogx: Invalid argument
+Nov 20 17:33:05 10 1 2016-11-20T17:33:05.850000+00:00 10.0.2.15 login - - - ROOT LOGIN (root) ON console
+Nov 20 17:33:07 10 1 2016-11-20T17:33:07.133333+00:00 10.0.2.15 reboot - - - rebooted by root
+Nov 20 17:33:07 10 syslogd: exiting on signal 15 - Undefined error: 0
+Nov 20 17:33:20 10 syslogd: restart
+Nov 20 17:33:20 10 kernel: 
+Nov 20 17:33:20 10 kernel: MINIX 3.3.0. Copyright 2014, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 20 17:33:20 10 kernel: MINIX is open source software, see http://www.minix3.org
+Nov 20 17:33:20 10 kernel: Started VFS: 9 worker thread(s)
+Nov 20 17:33:20 10 kernel: virtio-net: Mac set by host: 52:54:00:12:34:56
+Nov 20 17:33:20 10 kernel: virtio-net: Current Status 1
+Nov 20 17:33:20 10 kernel: virtio-net: Host supports control channel
+Nov 20 17:33:20 10 kernel: virtio-net: Host supports control channel for RX
+Nov 20 17:33:44 10 1 2016-11-20T17:33:44.333333+00:00 10.0.2.15 login - - - ROOT LOGIN (root) on tty console
+Nov 20 17:33:44 10 1 2016-11-20T17:33:44.350000+00:00 10.0.2.15 login - - - Cannot update lastlogx: Invalid argument
+Nov 20 17:33:44 10 1 2016-11-20T17:33:44.416666+00:00 10.0.2.15 login - - - ROOT LOGIN (root) ON console
+Nov 20 17:34:55 10 1 2016-11-20T17:34:55.633333+00:00 10.0.2.15 reboot - - - rebooted by root
+Nov 20 17:34:55 10 syslogd: exiting on signal 15 - Undefined error: 0
+Nov 20 17:35:07 10 syslogd: restart
+Nov 20 17:35:07 10 kernel: 
+Nov 20 17:35:07 10 kernel: MINIX 3.3.0. Copyright 2014, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 20 17:35:07 10 kernel: MINIX is open source software, see http://www.minix3.org
+Nov 20 17:35:07 10 kernel: Started VFS: 9 worker thread(s)
+Nov 20 17:35:07 10 kernel: virtio-net: Mac set by host: 52:54:00:12:34:56
+Nov 20 17:35:07 10 kernel: virtio-net: Current Status 1
+Nov 20 17:35:07 10 kernel: virtio-net: Host supports control channel
+Nov 20 17:35:07 10 kernel: virtio-net: Host supports control channel for RX
+Nov 20 17:35:11 10 1 2016-11-20T17:35:11.933333+00:00 10.0.2.15 login - - - ROOT LOGIN (root) on tty console
+Nov 20 17:35:11 10 1 2016-11-20T17:35:11.933333+00:00 10.0.2.15 login - - - Cannot update lastlogx: Invalid argument
+Nov 20 17:35:12 10 1 2016-11-20T17:35:12.000000+00:00 10.0.2.15 login - - - ROOT LOGIN (root) ON console
+Nov 20 17:35:58 10 1 2016-11-20T17:35:58.100000+00:00 10.0.2.15 shutdown - - - halt by root: 
+Nov 20 17:36:06 10 syslogd: exiting on signal 15 - Undefined error: 0
+Nov 20 17:42:28 10 syslogd: restart
+Nov 20 17:42:28 10 kernel: 
+Nov 20 17:42:28 10 kernel: MINIX 3.3.0. Copyright 2014, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 20 17:42:28 10 kernel: MINIX is open source software, see http://www.minix3.org
+Nov 20 17:42:28 10 kernel: Started VFS: 9 worker thread(s)
+Nov 20 17:42:28 10 kernel: virtio-net: Mac set by host: 52:54:00:12:34:56
+Nov 20 17:42:28 10 kernel: virtio-net: Current Status 1
+Nov 20 17:42:28 10 kernel: virtio-net: Host supports control channel
+Nov 20 17:42:28 10 kernel: virtio-net: Host supports control channel for RX
+Nov 20 17:42:32 10 1 2016-11-20T17:42:32.733333+00:00 10.0.2.15 login - - - ROOT LOGIN (root) on tty console
+Nov 20 17:42:32 10 1 2016-11-20T17:42:32.750000+00:00 10.0.2.15 login - - - Cannot update lastlogx: Invalid argument
+Nov 20 17:42:32 10 1 2016-11-20T17:42:32.816666+00:00 10.0.2.15 login - - - ROOT LOGIN (root) ON console
+Nov 20 18:02:28 10 -- MARK --
+Nov 20 18:22:28 10 -- MARK --
+Nov 20 18:42:28 10 -- MARK --
+Nov 20 19:02:28 10 -- MARK --
+Nov 20 19:22:28 10 -- MARK --
+Nov 20 19:42:28 10 -- MARK --
+Nov 20 20:02:28 10 -- MARK --
+Nov 20 20:22:28 10 -- MARK --
+Nov 20 20:42:28 10 -- MARK --
+Nov 20 21:02:28 10 -- MARK --
+Nov 20 21:22:28 10 -- MARK --
+Nov 20 21:42:28 10 -- MARK --
+Nov 20 22:02:28 10 -- MARK --
+Nov 20 22:22:28 10 -- MARK --
+Nov 20 22:30:03 10 1 2016-11-20T22:30:03.066666+00:00 10.0.2.15 login - - - ROOT LOGIN (root) on tty console
+Nov 20 22:30:03 10 1 2016-11-20T22:30:03.066666+00:00 10.0.2.15 login - - - Cannot update lastlogx: Invalid argument
+Nov 20 22:30:03 10 1 2016-11-20T22:30:03.150000+00:00 10.0.2.15 login - - - ROOT LOGIN (root) ON console
+Nov 20 22:30:06 10 1 2016-11-20T22:30:06.750000+00:00 10.0.2.15 shutdown - - - halt by root: 
+Nov 20 22:30:15 10 syslogd: exiting on signal 15 - Undefined error: 0
+Nov 21 11:40:52 10 syslogd: restart
+Nov 21 11:40:53 10 kernel: 
+Nov 21 11:40:53 10 kernel: MINIX 3.3.0. Copyright 2014, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 21 11:40:53 10 kernel: MINIX is open source software, see http://www.minix3.org
+Nov 21 11:40:53 10 kernel: Started VFS: 9 worker thread(s)
+Nov 21 11:40:53 10 kernel: virtio-net: Mac set by host: 52:54:00:12:34:56
+Nov 21 11:40:53 10 kernel: virtio-net: Current Status 1
+Nov 21 11:40:53 10 kernel: virtio-net: Host supports control channel
+Nov 21 11:40:53 10 kernel: virtio-net: Host supports control channel for RX
+Nov 21 11:44:16 10 1 2016-11-21T11:44:16.233333+00:00 10.0.2.15 login - - - ROOT LOGIN (root) on tty console
+Nov 21 11:44:16 10 1 2016-11-21T11:44:16.250000+00:00 10.0.2.15 login - - - Cannot update lastlogx: Invalid argument
+Nov 21 11:44:16 10 1 2016-11-21T11:44:16.316666+00:00 10.0.2.15 login - - - ROOT LOGIN (root) ON console
+Nov 21 12:00:52 10 -- MARK --
+Nov 21 12:05:52 10 1 2016-11-21T12:05:52.750000+00:00 10.0.2.15 shutdown - - - halt by root: 
+Nov 21 12:06:01 10 syslogd: exiting on signal 15 - Undefined error: 0
+Nov 21 12:06:31 10 syslogd: restart
+Nov 21 12:06:31 10 kernel: 
+Nov 21 12:06:31 10 kernel: MINIX 3.3.0. Copyright 2014, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 21 12:06:31 10 kernel: MINIX is open source software, see http://www.minix3.org
+Nov 21 12:06:31 10 kernel: Started VFS: 9 worker thread(s)
+Nov 21 12:06:31 10 kernel: virtio-net: Mac set by host: 52:54:00:12:34:56
+Nov 21 12:06:31 10 kernel: virtio-net: Current Status 1
+Nov 21 12:06:31 10 kernel: virtio-net: Host supports control channel
+Nov 21 12:06:31 10 kernel: virtio-net: Host supports control channel for RX
+Nov 21 12:06:35 10 1 2016-11-21T12:06:35.800000+00:00 10.0.2.15 login - - - ROOT LOGIN (root) on tty console
+Nov 21 12:06:35 10 1 2016-11-21T12:06:35.800000+00:00 10.0.2.15 login - - - Cannot update lastlogx: Invalid argument
+Nov 21 12:06:35 10 1 2016-11-21T12:06:35.883333+00:00 10.0.2.15 login - - - ROOT LOGIN (root) ON console
+Nov 21 12:09:10 10 1 2016-11-21T12:09:10.766666+00:00 10.0.2.15 sshd 548 - - Server listening on 0.0.0.0 port 22.
+Nov 21 12:09:10 10 1 2016-11-21T12:09:10.783333+00:00 10.0.2.15 sshd 548 - - error: Couldn't create pid file "/usr/pkg/var/run/sshd.pid": No such file or directory
+Nov 21 12:09:16 10 1 2016-11-21T12:09:16.933333+00:00 10.0.2.15 sshd 549 - - Connection closed by 10.0.2.2
+Nov 21 12:10:04 10 1 2016-11-21T12:10:04.016666+00:00 10.0.2.15 shutdown - - - halt by root: 
+Nov 21 12:10:12 10 syslogd: exiting on signal 15 - Undefined error: 0
+Nov 21 18:04:26 10 syslogd: restart
+Nov 21 18:04:26 10 kernel: 
+Nov 21 18:04:26 10 kernel: MINIX 3.3.0. Copyright 2014, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 21 18:04:26 10 kernel: MINIX is open source software, see http://www.minix3.org
+Nov 21 18:04:26 10 kernel: Started VFS: 9 worker thread(s)
+Nov 21 18:04:26 10 kernel: virtio-net: Mac set by host: 52:54:00:12:34:56
+Nov 21 18:04:26 10 kernel: virtio-net: Current Status 1
+Nov 21 18:04:26 10 kernel: virtio-net: Host supports control channel
+Nov 21 18:04:26 10 kernel: virtio-net: Host supports control channel for RX
+Nov 21 18:04:30 10 1 2016-11-21T18:04:30.983333+00:00 10.0.2.15 login - - - ROOT LOGIN (root) on tty console
+Nov 21 18:04:31 10 1 2016-11-21T18:04:31.000000+00:00 10.0.2.15 login - - - Cannot update lastlogx: Invalid argument
+Nov 21 18:04:31 10 1 2016-11-21T18:04:31.066666+00:00 10.0.2.15 login - - - ROOT LOGIN (root) ON console
+Nov 21 18:04:41 10 1 2016-11-21T18:04:41.650000+00:00 10.0.2.15 sshd 190 - - Accepted password for root from 10.0.2.2 port 47169 ssh2
+Nov 21 18:04:41 10 1 2016-11-21T18:04:41.666666+00:00 10.0.2.15 sshd 190 - - error: setsockopt TCP_NODELAY: Function not implemented
+Nov 21 18:04:41 10 1 2016-11-21T18:04:41.666666+00:00 10.0.2.15 sshd 190 - - error: setsockopt IP_TOS 8: Function not implemented:
+Nov 21 18:04:41 10 1 2016-11-21T18:04:41.783333+00:00 10.0.2.15 sshd 190 - - Received disconnect from 10.0.2.2: 11: disconnected by user
+Nov 21 18:05:25 10 1 2016-11-21T18:05:25.333333+00:00 10.0.2.15 sshd 197 - - Connection closed by 10.0.2.2
+Nov 21 18:05:25 10 1 2016-11-21T18:05:25.483333+00:00 10.0.2.15 sshd 198 - - Connection closed by 10.0.2.2
+Nov 21 18:05:27 10 1 2016-11-21T18:05:27.283333+00:00 10.0.2.15 sshd 199 - - Accepted password for root from 10.0.2.2 port 47175 ssh2
+Nov 21 18:05:27 10 1 2016-11-21T18:05:27.283333+00:00 10.0.2.15 sshd 199 - - error: setsockopt TCP_NODELAY: Function not implemented
+Nov 21 18:05:27 10 1 2016-11-21T18:05:27.300000+00:00 10.0.2.15 sshd 199 - - error: setsockopt IP_TOS 8: Function not implemented:
+Nov 21 18:05:27 10 1 2016-11-21T18:05:27.350000+00:00 10.0.2.15 sshd 199 - - Received disconnect from 10.0.2.2: 11: disconnected by user
+Nov 21 18:05:34 10 1 2016-11-21T18:05:34.450000+00:00 10.0.2.15 shutdown - - - halt by root: 
+Nov 21 18:05:42 10 syslogd: exiting on signal 15 - Undefined error: 0
+Dec  6 17:46:08 10 syslogd: restart
+Dec  6 17:46:08 10 kernel: 
+Dec  6 17:46:08 10 kernel: MINIX 3.3.0. (588a35b)
+Dec  6 17:46:08 10 kernel: Copyright 2014, Vrije Universiteit, Amsterdam, The Netherlands
+Dec  6 17:46:08 10 kernel: MINIX is open source software, see http://www.minix3.org
+Dec  6 17:46:08 10 kernel: Started VFS: 9 worker thread(s)
+Dec  6 17:46:08 10 kernel: virtio-net: Mac set by host: 52:54:00:12:34:56
+Dec  6 17:46:08 10 kernel: virtio-net: Current Status 1
+Dec  6 17:46:08 10 kernel: virtio-net: Host supports control channel
+Dec  6 17:46:08 10 kernel: virtio-net: Host supports control channel for RX
+Dec  6 17:46:14 10 1 2016-12-06T17:46:14.333333+00:00 10.0.2.15 sshd 192 - - Server listening on 0.0.0.0 port 22.
+Dec  6 17:46:14 10 1 2016-12-06T17:46:14.416666+00:00 10.0.2.15 sshd 192 - - error: Couldn't create pid file "/usr/pkg/var/run/sshd.pid": No such file or directory
+Dec  6 17:46:20 10 1 2016-12-06T17:46:20.166666+00:00 10.0.2.15 login - - - ROOT LOGIN (root) on tty console
+Dec  6 17:46:20 10 1 2016-12-06T17:46:20.250000+00:00 10.0.2.15 login - - - Cannot update lastlogx: Invalid argument
+Dec  6 17:46:20 10 1 2016-12-06T17:46:20.966666+00:00 10.0.2.15 login - - - ROOT LOGIN (root) ON console
+Dec  6 17:49:49 10 1 2016-12-06T17:49:49.050000+00:00 10.0.2.15 shutdown - - - halt by root: 
+Dec  6 17:49:58 10 syslogd: exiting on signal 15 - Undefined error: 0
+Jun  4 18:07:24 10 syslogd: restart
+Jun  4 18:07:24 10 kernel: 
+Jun  4 18:07:24 10 kernel: MINIX 3.3.0. Copyright 2014, Vrije Universiteit, Amsterdam, The Netherlands
+Jun  4 18:07:24 10 kernel: MINIX is open source software, see http://www.minix3.org
+Jun  4 18:07:24 10 kernel: Started VFS: 9 worker thread(s)
+Jun  4 18:07:24 10 kernel: virtio-net: Mac set by host: 52:54:00:12:34:56
+Jun  4 18:07:24 10 kernel: virtio-net: Current Status 1
+Jun  4 18:07:24 10 kernel: virtio-net: Host supports control channel
+Jun  4 18:07:24 10 kernel: virtio-net: Host supports control channel for RX
+Jun  4 18:07:25 10 1 2018-06-04T18:07:25.483333+00:00 10.0.2.15 sshd 191 - - Server listening on 0.0.0.0 port 22.
+Jun  4 18:07:25 10 1 2018-06-04T18:07:25.850000+00:00 10.0.2.15 sshd 191 - - error: Couldn't create pid file "/usr/pkg/var/run/sshd.pid": No such file or directory
+Jun  4 18:07:50 10 1 2018-06-04T18:07:50.500000+00:00 10.0.2.15 sshd 223 - - Accepted password for root from 10.0.2.2 port 49828 ssh2
+Jun  4 18:07:50 10 1 2018-06-04T18:07:50.500000+00:00 10.0.2.15 sshd 223 - - error: setsockopt TCP_NODELAY: Function not implemented
+Jun  4 18:07:50 10 1 2018-06-04T18:07:50.500000+00:00 10.0.2.15 sshd 223 - - error: setsockopt IP_TOS 8: Function not implemented:

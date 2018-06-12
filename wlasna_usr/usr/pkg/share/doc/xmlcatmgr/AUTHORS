@@ -1,0 +1,26 @@
+XML Catalog Manager                                                 AUTHORS
+===========================================================================
+
+
+Authors
+-------
+
+* Julio M. Merino Vidal <jmmv@users.sourceforge.net>
+  Main developer.
+
+
+Contributors
+------------
+
+* Hiroki Sato <hrs@FreeBSD.org>
+  Fixes to allow multiple entries with the same content in XML catalogs.
+
+* Peter Breitenlohner <peb@mppmu.mpg.de>
+  Miscellaneous fixes and some ideas (specially the `-p' flag).
+
+* Yoshihiro Toda <yoshihiro_toda@mac.com>
+  Fixed a bug in xml.c's attribute table.
+
+
+===========================================================================
+$Id: AUTHORS,v 1.2 2004/08/31 19:20:04 jmmv Exp $

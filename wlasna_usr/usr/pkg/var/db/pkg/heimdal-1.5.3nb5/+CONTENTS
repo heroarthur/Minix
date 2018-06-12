@@ -1,0 +1,2558 @@
+@cwd /usr/pkg
+@pkgcfl arla-[0-9]*
+@pkgcfl mit-krb5-[0-9]*
+@pkgcfl openafs-[0-9]*
+@pkgcfl gss-[0-9]*
+@pkgcfl kth-krb4-[0-9]*
+@name heimdal-1.5.3nb5
+@blddep openssl-1.0.1g
+@pkgdep openssl>=1.0.1c
+@blddep digest-20121220
+@comment $NetBSD: PLIST,v 1.24 2014/03/11 14:05:13 jperkin Exp $
+bin/afslog
+@comment MD5:767e5c82b4f30797456412809e6e0e37
+bin/compile_et
+@comment MD5:733d63a3aa3d24774223111eb217e142
+bin/gsstool
+@comment MD5:3afb71d6fb2d26d868dedd18b93c4d1a
+bin/hxtool
+@comment MD5:7005663ba82e9f48030a325dfaf9893e
+bin/idn-lookup
+@comment MD5:9a594fb15d88f9b7f25e0d8629138c35
+bin/kcc
+@comment MD5:906beb664689d67e99d76b18dcbbb0fd
+bin/kdestroy
+@comment MD5:5397650db493ff9aaec287f8fc2df706
+bin/kf
+@comment MD5:d45a20c686116da03d89e5e3d5bbaefb
+bin/kftp
+@comment MD5:ab5811fb583801a5a422606f163985df
+bin/kgetcred
+@comment MD5:3b7d403d30dc2806880d3531e5aa2827
+bin/kinit
+@comment MD5:b8654a20f483011493ea23d2ea0a568e
+bin/klist
+@comment Symlink:kcc
+bin/kpasswd
+@comment MD5:51433cc0386afba72c717f80375e6ca1
+bin/krb5-config
+@comment MD5:5818a2c8fc7f255a2a9044b0963b57ac
+bin/login
+@comment MD5:04b864c9fbeb59015c7329d712e13362
+bin/kswitch
+@comment Symlink:kcc
+bin/otp
+@comment MD5:1391ee5464d84d2f45e308fb7f5ac2c3
+bin/otpprint
+@comment MD5:4e1c4df3e40b4d174ae90b532e74573a
+bin/pagsh
+@comment MD5:23e2eba33d159989ddd3b3ceda376dc7
+bin/pfrom
+@comment MD5:65ff200a66b85cab52cf5dea679706ee
+bin/rcp
+@comment MD5:cc0518af10f233c2668e9479d3773f1b
+bin/rsh
+@comment MD5:89d91a3a3fba5f1d0180d070b05e1366
+bin/string2key
+@comment MD5:acea776a588a4b92c19b197d795ad754
+bin/su
+@comment MD5:4c687900322c0e022a968df242de55f7
+bin/telnet
+@comment MD5:fb8cf92d4e34698b359fde5dcaabc415
+bin/verify_krb5_conf
+@comment MD5:7381233da1f5c56e9793f73878ddb341
+include/krb5/asn1-common.h
+@comment MD5:5dc4e2e60889cb7dafed487158347e09
+include/krb5/asn1_err.h
+@comment MD5:a861979034c141118e421beb622a4183
+include/krb5/base64.h
+@comment MD5:26e354ba1f401c133297bc896eb5350c
+include/krb5/cms_asn1.h
+@comment MD5:66302229414db67af18992ab090edb11
+include/krb5/com_err.h
+@comment MD5:b6ab467807afdf3964e17ba6ca865f0d
+include/krb5/com_right.h
+@comment MD5:c24176736bb9d4afb8656e5595c0a27b
+include/krb5/crmf_asn1.h
+@comment MD5:e3d387a49d5462a2368e78b6c0f61895
+include/krb5/der-private.h
+@comment MD5:cbc2a35bc3b49336ba679ad530fa52ef
+include/krb5/der-protos.h
+@comment MD5:1f2b8ee04f495df103992c1aaf570a61
+include/krb5/der.h
+@comment MD5:f38526f9ba9b4a617cef34c01da7d760
+include/krb5/digest_asn1.h
+@comment MD5:f2ef22b4020a390ec0a79edf297247d9
+include/krb5/getarg.h
+@comment MD5:336c8ecd49848af9a776d0253cb7c17d
+include/krb5/gssapi.h
+@comment MD5:339501e685e8c0131b2dfa7a2d52b28d
+include/krb5/gssapi/gkrb5_err.h
+@comment MD5:31981bdccf7d7de9f60e7601ea367134
+include/krb5/gssapi/gssapi.h
+@comment MD5:34f820bfa94ca85d0248c185a3167e30
+include/krb5/gssapi/gssapi_krb5.h
+@comment MD5:0d372cba56fe39358de0ef372f5d9ac9
+include/krb5/gssapi/gssapi_ntlm.h
+@comment MD5:9b7320e2ebe4383ddeb8422cfdba2615
+include/krb5/gssapi/gssapi_oid.h
+@comment MD5:8ff228980f3b2199572d342e36377c79
+include/krb5/gssapi/gssapi_spnego.h
+@comment MD5:0fdcc28ef61b46ffcce3803d4182dd31
+@comment include/krb5/hcrypto/aes.h
+@comment include/krb5/hcrypto/bn.h
+@comment include/krb5/hcrypto/des.h
+@comment include/krb5/hcrypto/dh.h
+@comment include/krb5/hcrypto/dsa.h
+@comment include/krb5/hcrypto/ec.h
+@comment include/krb5/hcrypto/ecdh.h
+@comment include/krb5/hcrypto/ecdsa.h
+@comment include/krb5/hcrypto/engine.h
+@comment include/krb5/hcrypto/evp-cc.h
+@comment include/krb5/hcrypto/evp-hcrypto.h
+@comment include/krb5/hcrypto/evp.h
+@comment include/krb5/hcrypto/hmac.h
+@comment include/krb5/hcrypto/md2.h
+@comment include/krb5/hcrypto/md4.h
+@comment include/krb5/hcrypto/md5.h
+@comment include/krb5/hcrypto/pkcs12.h
+@comment include/krb5/hcrypto/rand.h
+@comment include/krb5/hcrypto/rc2.h
+@comment include/krb5/hcrypto/rc4.h
+@comment include/krb5/hcrypto/rsa.h
+@comment include/krb5/hcrypto/sha.h
+@comment include/krb5/hcrypto/ui.h
+include/krb5/hdb-protos.h
+@comment MD5:ffcbc307bb9c5d6bc96483a3a37cf750
+include/krb5/hdb.h
+@comment MD5:88d38b2f6a1a104a4c5f472cb166462f
+include/krb5/hdb_asn1.h
+@comment MD5:7b4ba96eecc3d7d6c235cfb4941b7071
+include/krb5/hdb_err.h
+@comment MD5:f9e3a351421a5667a3264e1646042e9a
+include/krb5/heim-ipc.h
+@comment MD5:ae7be8570756c40fbd824bdd6cd20c27
+include/krb5/heim_asn1.h
+@comment MD5:3133a2801f6941be544911da3b3c701c
+include/krb5/heim_err.h
+@comment MD5:4c4b71331008ab8d8a14e5e754a6376a
+include/krb5/heimbase.h
+@comment MD5:8297a16b130e5d301a4897fe9b0d1710
+include/krb5/heimntlm-protos.h
+@comment MD5:f349ef9628d226ae3267431a4771d65c
+include/krb5/heimntlm.h
+@comment MD5:3c58f121d62350a3006e664470b9a1ec
+include/krb5/hex.h
+@comment MD5:832ea331f037a030985b2639802bd444
+include/krb5/hx509-protos.h
+@comment MD5:9333f9320d041e585c4aaf2e807aebc2
+include/krb5/hx509.h
+@comment MD5:5122c0c7f0a64b013aa6b7c54fd6ee37
+include/krb5/hx509_err.h
+@comment MD5:82060ebe898687bc199876f33c4c8309
+include/krb5/k524_err.h
+@comment MD5:6bb4d5633a31c6a8aa0b6acdd1100758
+include/krb5/kadm5/admin.h
+@comment MD5:77d9e6c2785bcf090434e7c0158c18de
+include/krb5/kadm5/kadm5-private.h
+@comment MD5:6b1cc127fce76bc54312a162e802d345
+include/krb5/kadm5/kadm5-protos.h
+@comment MD5:436527c5500a2043ed8a834fdf2b33e7
+include/krb5/kadm5/kadm5-pwcheck.h
+@comment MD5:c8980019c1c527c7e0005828f9f7126a
+include/krb5/kadm5/kadm5_err.h
+@comment MD5:31b8122027fa8f60600277cfaec8378d
+include/krb5/kadm5/private.h
+@comment MD5:67f59a57beb45158905c8f1ace29727e
+include/krb5/kafs.h
+@comment MD5:9a062e8bbc089bd9a6b61a59cd28a168
+include/krb5/kdc-protos.h
+@comment MD5:1af3aee80fa4f6fac1aabf816825690b
+include/krb5/kdc.h
+@comment MD5:1783bd292044fa7804349d8bcf126650
+include/krb5/krb5-private.h
+@comment MD5:806e20532735acdcacfc7e76afe5a71f
+include/krb5/krb5-protos.h
+@comment MD5:bc445f1d1534bd47d087b322ccaa01bf
+include/krb5/krb5-types.h
+@comment MD5:7eb812e7387a50595f6c3d120de03d1e
+include/krb5/krb5.h
+@comment MD5:878de68257806f1459541cca44c9ac84
+include/krb5/krb5/ccache_plugin.h
+@comment MD5:b064f34e5735d5ae650a63c789fa1a07
+include/krb5/krb5/locate_plugin.h
+@comment MD5:772af10634a1db90b93d4dd13ed3224d
+include/krb5/krb5/send_to_kdc_plugin.h
+@comment MD5:8d5da6b0546433bdc6e759e1b115525a
+include/krb5/krb5/windc_plugin.h
+@comment MD5:02157144c5a28a80d3167372704dfa75
+include/krb5/krb5_asn1.h
+@comment MD5:0915bc0c463c41a09d5d7250a0e7680c
+include/krb5/krb5_ccapi.h
+@comment MD5:05d895229ad5de3a87808fba0a2b7069
+include/krb5/krb5_err.h
+@comment MD5:ec1817a40111091724933f02ae9b5f8b
+include/krb5/kx509_asn1.h
+@comment MD5:66d2fda9c501b079af0d24905c83ce9f
+include/krb5/ntlm_err.h
+@comment MD5:18d6215e8474cf35037304820e7ab703
+include/krb5/ocsp_asn1.h
+@comment MD5:b03e2e924d9fbc6e473c49f04371db1d
+include/krb5/otp.h
+@comment MD5:f43f514bfb49af841a0442b3bc32c5fc
+include/krb5/parse_bytes.h
+@comment MD5:4ebd8946b1abf8344d7f82dc9f987d3e
+include/krb5/parse_time.h
+@comment MD5:78b788cebb425272b5beb4af3c7c7372
+include/krb5/parse_units.h
+@comment MD5:a4b8fa35ec8109a4f255401836c2a146
+include/krb5/pkcs10_asn1.h
+@comment MD5:1e1ccb88a8e259d6057a38c70c478991
+include/krb5/pkcs12_asn1.h
+@comment MD5:77a24c5e3c6996ec26af77c58506734c
+include/krb5/pkcs8_asn1.h
+@comment MD5:664cbd63a9988d1c7ac2c0931b190686
+include/krb5/pkcs9_asn1.h
+@comment MD5:d486d1ed6d791d42643e9315d31c375a
+include/krb5/pkinit_asn1.h
+@comment MD5:61c86d5f0ed2ed509d9a8e6cf49730fe
+include/krb5/resolve.h
+@comment MD5:ea035c4268e0c36840b4a074f612a20d
+include/krb5/rfc2459_asn1.h
+@comment MD5:e206f0cc25ead8b0eed1e0ac1c2f1682
+include/krb5/roken-common.h
+@comment MD5:bb41312217f7cd4fd568c32e66bfc0ac
+include/krb5/roken.h
+@comment MD5:6c236a592d98a95882b21579ebd9eda8
+@comment include/krb5/roken/glob.h
+@comment include/krb5/roken/vis.h
+include/krb5/rtbl.h
+@comment MD5:137244270c9fe120d55824e7179e9626
+include/krb5/sl.h
+@comment MD5:5bdae473add2268cb65e42fb597314fd
+include/krb5/wind.h
+@comment MD5:b579fcbf2e76fff7b5e6458d0d7a4f4e
+include/krb5/wind_err.h
+@comment MD5:fd17eae5c588a35767179a405e0ce74b
+include/krb5/xdbm.h
+@comment MD5:9200b05728bcef6052a39f63ef70bb45
+info/heimdal.info
+@comment MD5:373bb0648d435e958455859fb26e654b
+info/hx509.info
+@comment MD5:2355a691eab10eeafd75dad0e2c28ff2
+@comment lib/afskauthlib.so
+lib/libasn1.la
+@comment MD5:a16063e6fcaed6f4d344b57f0586d3a5
+lib/libasn1.a
+@comment MD5:ef6dd7ed568f7a26848af97912211450
+lib/libasn1.so
+@comment Symlink:libasn1.so.8.0.0
+lib/libasn1.so.8
+@comment Symlink:libasn1.so.8.0.0
+lib/libasn1.so.8.0.0
+@comment MD5:5c7997f62b0816e0be448e73df06914d
+lib/libcom_err.la
+@comment MD5:9da2ef57c28925f5739987e5ac9b10f6
+lib/libcom_err.a
+@comment MD5:718d54c59b2db5ddcbcf32b029f5ab93
+lib/libcom_err.so
+@comment Symlink:libcom_err.so.1.1.3
+lib/libcom_err.so.1
+@comment Symlink:libcom_err.so.1.1.3
+lib/libcom_err.so.1.1.3
+@comment MD5:b2aac61e8cff2cc5d93d2d276c70e8bb
+lib/libgssapi.la
+@comment MD5:08b833e4a154b87e6a96fd6231ce6ec8
+lib/libgssapi.a
+@comment MD5:cc8743300547a0d44486bec4330340a1
+lib/libgssapi.so
+@comment Symlink:libgssapi.so.3.0.0
+lib/libgssapi.so.3
+@comment Symlink:libgssapi.so.3.0.0
+lib/libgssapi.so.3.0.0
+@comment MD5:27bf01df0a4002e367715b01bc0087bd
+@comment lib/libhcrypto.la
+lib/libhdb.la
+@comment MD5:c6b81f48d544532558b2e57cf69cb4e7
+lib/libhdb.a
+@comment MD5:098e9bc3cff0e8667cbbb7ea5695d5e0
+lib/libhdb.so
+@comment Symlink:libhdb.so.9.2.0
+lib/libhdb.so.9
+@comment Symlink:libhdb.so.9.2.0
+lib/libhdb.so.9.2.0
+@comment MD5:238ab3f69a6369144869cd1d2f56f310
+lib/libheimbase.la
+@comment MD5:feb041056ceaa198f577938bb08094c6
+lib/libheimbase.a
+@comment MD5:a2380cc6e86b85d46483b134135c0cd8
+lib/libheimbase.so
+@comment Symlink:libheimbase.so.1.0.0
+lib/libheimbase.so.1
+@comment Symlink:libheimbase.so.1.0.0
+lib/libheimbase.so.1.0.0
+@comment MD5:8ae31eb428e3611853ef64fa8951a462
+lib/libheimntlm.la
+@comment MD5:154847441ba83df6419581d6230b25df
+lib/libheimntlm.a
+@comment MD5:0c3cc5792932184315ddb66b044db53d
+lib/libheimntlm.so
+@comment Symlink:libheimntlm.so.0.1.0
+lib/libheimntlm.so.0
+@comment Symlink:libheimntlm.so.0.1.0
+lib/libheimntlm.so.0.1.0
+@comment MD5:58da7efbb60de2455cd3d841708569c7
+lib/libhx509.la
+@comment MD5:da54acba1113e8851891f770cfb1e9f8
+lib/libhx509.a
+@comment MD5:28f67a8379836bec977feb359fcb6533
+lib/libhx509.so
+@comment Symlink:libhx509.so.5.0.0
+lib/libhx509.so.5
+@comment Symlink:libhx509.so.5.0.0
+lib/libhx509.so.5.0.0
+@comment MD5:aa63ef6c0e2cfb48487757bd835532f3
+lib/libkadm5clnt.la
+@comment MD5:fc9ead289aace5374e1e186e0c35488c
+lib/libkadm5clnt.a
+@comment MD5:8fd0301fc8ab6f7c32a6775bdf5bc0ff
+lib/libkadm5clnt.so
+@comment Symlink:libkadm5clnt.so.7.0.1
+lib/libkadm5clnt.so.7
+@comment Symlink:libkadm5clnt.so.7.0.1
+lib/libkadm5clnt.so.7.0.1
+@comment MD5:8592f6b63fab3650a9eaa746d97df0a2
+lib/libkadm5srv.la
+@comment MD5:9a9be0e9377c87d14f8e831d7c45e18b
+lib/libkadm5srv.a
+@comment MD5:4c18ac35986dd7111faadad0709b6f18
+lib/libkadm5srv.so
+@comment Symlink:libkadm5srv.so.8.0.1
+lib/libkadm5srv.so.8
+@comment Symlink:libkadm5srv.so.8.0.1
+lib/libkadm5srv.so.8.0.1
+@comment MD5:118ff11a66de234f8da7979c63fef38a
+lib/libkafs.la
+@comment MD5:8fc2981a4c49e3cd8773d7b9c00ab816
+lib/libkafs.a
+@comment MD5:6f408b863fd445321db51782faa8066b
+lib/libkafs.so
+@comment Symlink:libkafs.so.0.5.1
+lib/libkafs.so.0
+@comment Symlink:libkafs.so.0.5.1
+lib/libkafs.so.0.5.1
+@comment MD5:55f8d10261e5d109eb6ee70d8542483e
+lib/libkdc.la
+@comment MD5:cad77768dcff2f62deabae26a5b218e5
+lib/libkdc.a
+@comment MD5:aa482f9bcefb1ce11a4af9fe5bb0441f
+lib/libkdc.so
+@comment Symlink:libkdc.so.2.0.0
+lib/libkdc.so.2
+@comment Symlink:libkdc.so.2.0.0
+lib/libkdc.so.2.0.0
+@comment MD5:ef134bbc4742ebb1173f976eb8fa5609
+lib/libkrb5.la
+@comment MD5:09b1e496ee5dbf05c6e708448125f318
+lib/libkrb5.a
+@comment MD5:2926532ffc9feed307d0d8a0f11ec060
+lib/libkrb5.so
+@comment Symlink:libkrb5.so.26.0.0
+lib/libkrb5.so.26
+@comment Symlink:libkrb5.so.26.0.0
+lib/libkrb5.so.26.0.0
+@comment MD5:256dd2278772b7376098310331e2ffeb
+lib/libotp.la
+@comment MD5:99a58c7837d8051604667183052aaa8a
+lib/libotp.a
+@comment MD5:2baf50e5782c3b49a21ebf1058851487
+lib/libotp.so
+@comment Symlink:libotp.so.0.1.5
+lib/libotp.so.0
+@comment Symlink:libotp.so.0.1.5
+lib/libotp.so.0.1.5
+@comment MD5:641816302b69f1a318175f25710e8ac9
+lib/libroken.la
+@comment MD5:093c94d5c8763c4259ab248a88d44ccc
+lib/libroken.a
+@comment MD5:2ae8b2e5836c0e40667a99802a3a31c2
+lib/libroken.so
+@comment Symlink:libroken.so.18.1.0
+lib/libroken.so.18
+@comment Symlink:libroken.so.18.1.0
+lib/libroken.so.18.1.0
+@comment MD5:4514c72d6801742cb7e84e0a4963deee
+lib/libsl.la
+@comment MD5:fb74998a4cedbb630dcdf2130c82d244
+lib/libsl.a
+@comment MD5:cea3cd5b228b8a6b856e739f2ce74ed6
+lib/libsl.so
+@comment Symlink:libsl.so.0.2.1
+lib/libsl.so.0
+@comment Symlink:libsl.so.0.2.1
+lib/libsl.so.0.2.1
+@comment MD5:8ad3a671d02cde45aab48d7e616d6bce
+lib/libwind.la
+@comment MD5:dde933294076298fd856f1f2756b8c96
+lib/libwind.a
+@comment MD5:1d5ad6ea0e1881bf23bb8d698ead092c
+lib/libwind.so
+@comment Symlink:libwind.so.0.0.0
+lib/libwind.so.0
+@comment Symlink:libwind.so.0.0.0
+lib/libwind.so.0.0.0
+@comment MD5:78f468a84b4afc6dfb3ebfeff5aa8262
+lib/pkgconfig/heimdal-gssapi.pc
+@comment MD5:27b622dbee834b7b93d91984d67c2cff
+lib/windc.la
+@comment MD5:abc06443be1820faaca0c5942b6fa8b4
+lib/windc.a
+@comment MD5:39610ad9a1cab7859dcbab71c52fea93
+lib/windc.so
+@comment Symlink:windc.so.0.0.0
+lib/windc.so.0
+@comment Symlink:windc.so.0.0.0
+lib/windc.so.0.0.0
+@comment MD5:ec4e02c83fcf8bcffed25565e4a8d404
+libexec/digest-service
+@comment MD5:783a1b52668fa64f988e4b28ea79cde1
+libexec/heimdal/asn1_compile
+@comment MD5:629d560e94540e49e11c3c90e21386ef
+libexec/heimdal/asn1_print
+@comment MD5:f9e112bfd92a7c39e4e7a52b5377a356
+libexec/heimdal/slc
+@comment MD5:43cc9d66447bd562c9094286e61fbe5a
+libexec/hprop
+@comment MD5:3c2f27ae4160ab9231aa18be93c4d701
+libexec/hpropd
+@comment MD5:d13759efdda9f31caf4dd2a78d40bb17
+libexec/ipropd-master
+@comment MD5:d9bde56757debc4fe018af9c60c92673
+libexec/ipropd-slave
+@comment MD5:7a95f448804248155e8c716a8827046d
+libexec/kadmind
+@comment MD5:01020cef30086fa7e5306205fb94e89e
+libexec/kcm
+@comment MD5:8d0d07f1764ef7340d391710bf29529d
+libexec/kdc
+@comment MD5:e76cf542eb2c21c42d54c04d7be2d453
+libexec/kdigest
+@comment MD5:cb441106ccb925a295db1d512998136a
+libexec/kfd
+@comment MD5:d40b50d62b685999e7fb1d02ada1aea6
+libexec/kftpd
+@comment MD5:54d6efd0604fc987346eba499fe62807
+libexec/kimpersonate
+@comment MD5:e89d25e694d5cdf19133524b669ebd8d
+libexec/kpasswdd
+@comment MD5:a9ade4d9ed231f5f205ce24ed3fe79d6
+libexec/popper
+@comment MD5:30c5e47d02c7f9e71f4ac0416ecb658e
+libexec/push
+@comment MD5:b6b62a2f3e080d5a0c005dd39161b620
+libexec/rshd
+@comment MD5:ece34578424b35e08c9a9a5c4b495c84
+libexec/telnetd
+@comment MD5:caf90d2ad48feed6c74a99f90a815b09
+man/man1/afslog.1
+@comment MD5:8066b7fabdb588a1bf5d808af814d802
+man/man1/kdestroy.1
+@comment MD5:78cf9823488cbf88807385b4c574f965
+man/man1/kf.1
+@comment MD5:6007f0e411ca0e1091d5f7b815920ec9
+man/man1/kftp.1
+@comment MD5:02923f992797218e783b3c07e68eb258
+man/man1/kgetcred.1
+@comment MD5:ac682cfdce36d56b19c2cd5bc4e9a055
+man/man1/kinit.1
+@comment MD5:9ef78c227ccc6e6a3c0c13b8029ab9c9
+man/man1/klist.1
+@comment MD5:8f5f827cd9593c2fab9f76c4447442cb
+man/man1/kpasswd.1
+@comment MD5:03fd0034c55d6c3e7f22a9f871bf5d52
+man/man1/krb5-config.1
+@comment MD5:ff5969875540cc8e9698026a74efc4c0
+man/man1/kswitch.1
+@comment MD5:e7ac933057e1af8d61a25a2017063ad9
+man/man1/kx.1
+@comment MD5:6ffd9ad2f6db7c44ad5fe7f9ec16909a
+man/man1/login.1
+@comment MD5:776b78555d6a5a92cda4d1baf67a4e3b
+man/man1/otp.1
+@comment MD5:62db59967be515b5a8f49f6690831223
+man/man1/otpprint.1
+@comment MD5:4b59f2310c22a3ff6b060f586dce1841
+man/man1/pagsh.1
+@comment MD5:8a7433000fd094a4b40ef79ab6fde1fb
+man/man1/pfrom.1
+@comment MD5:e0b4562eef526474261c28eeead18c02
+man/man1/rcp.1
+@comment MD5:9419143f01b930e821edb484f2f72ab7
+man/man1/rsh.1
+@comment MD5:90bba9b21f5f64af51c67e340b1d17d2
+man/man1/rxtelnet.1
+@comment MD5:ac7858ef1123b580fbbd32ccd9a948f1
+man/man1/rxterm.1
+@comment MD5:f776ffdf7c814a7c392b4061daa10aa7
+man/man1/su.1
+@comment MD5:08f8ad1dd179398925944b757641f61d
+man/man1/telnet.1
+@comment MD5:4d9384b7018b263d20739dad958ee44f
+man/man1/tenletxr.1
+@comment MD5:d4aa398c00ede5e8b36eef872346962e
+man/man1/xnlock.1
+@comment MD5:90b2ae2070fcc4b19a8eccd7045bc283
+man/man3/HDB.3
+@comment MD5:d60d725ff05983ff64669c7e6d947d61
+man/man3/__gss_c_attr_stream_sizes_oid_desc.3
+@comment MD5:bacea1c2870622251216615cc7ee36c4
+man/man3/arg_printusage.3
+@comment MD5:d9e75100f3aaa7657660533e56b5edb8
+man/man3/challenge.3
+@comment MD5:45270a6434166f4fd7ab29238cec76e9
+man/man3/context.3
+@comment MD5:45270a6434166f4fd7ab29238cec76e9
+man/man3/data.3
+@comment MD5:e8a2f1dc70eae765ea0fb60398842458
+man/man3/domain.3
+@comment MD5:99fe11f97feab52ce56c8a26a8343dc1
+man/man3/ecalloc.3
+@comment MD5:cfcd28bb544ad072e553475c606de6e0
+man/man3/emalloc.3
+@comment MD5:cfcd28bb544ad072e553475c606de6e0
+man/man3/eread.3
+@comment MD5:cfcd28bb544ad072e553475c606de6e0
+man/man3/erealloc.3
+@comment MD5:cfcd28bb544ad072e553475c606de6e0
+man/man3/esetenv.3
+@comment MD5:cfcd28bb544ad072e553475c606de6e0
+man/man3/estrdup.3
+@comment MD5:cfcd28bb544ad072e553475c606de6e0
+man/man3/ewrite.3
+@comment MD5:cfcd28bb544ad072e553475c606de6e0
+man/man3/flags.3
+@comment MD5:99fe11f97feab52ce56c8a26a8343dc1
+man/man3/getarg.3
+@comment MD5:d9e75100f3aaa7657660533e56b5edb8
+man/man3/gss_accept_sec_context.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_acquire_cred.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_add_cred.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_add_oid_set_member.3
+@comment MD5:bacea1c2870622251216615cc7ee36c4
+man/man3/gss_canonicalize_name.3
+@comment MD5:bacea1c2870622251216615cc7ee36c4
+man/man3/gss_compare_name.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_context_time.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_create_empty_oid_set.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_delete_sec_context.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_display_name.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_display_status.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_duplicate_name.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_export_name.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_export_sec_context.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_get_mic.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_import_name.3
+@comment MD5:bacea1c2870622251216615cc7ee36c4
+man/man3/gss_import_sec_context.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_indicate_mechs.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_init_sec_context.3
+@comment MD5:bacea1c2870622251216615cc7ee36c4
+man/man3/gss_inquire_attrs_for_mech.3
+@comment MD5:bacea1c2870622251216615cc7ee36c4
+man/man3/gss_inquire_context.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_inquire_cred.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_inquire_cred_by_mech.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_inquire_mechs_for_name.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_inquire_names_for_mech.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_inquire_saslname_for_mech.3
+@comment MD5:bacea1c2870622251216615cc7ee36c4
+man/man3/gss_krb5_ccache_name.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_krb5_compat_des3_mic.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_krb5_copy_ccache.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_krb5_get_tkt_flags.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_krb5_import_ccache.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_krb5_import_cred.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_oid_equal.3
+@comment MD5:bacea1c2870622251216615cc7ee36c4
+man/man3/gss_process_context_token.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_release_buffer.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_release_cred.3
+@comment MD5:bacea1c2870622251216615cc7ee36c4
+man/man3/gss_release_iov_buffer.3
+@comment MD5:bacea1c2870622251216615cc7ee36c4
+man/man3/gss_release_name.3
+@comment MD5:bacea1c2870622251216615cc7ee36c4
+man/man3/gss_release_oid_set.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_seal.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_sign.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_test_oid_set_member.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_unseal.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_unwrap.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_unwrap_iov.3
+@comment MD5:bacea1c2870622251216615cc7ee36c4
+man/man3/gss_verify.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_verify_mic.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gss_wrap.3
+@comment MD5:bacea1c2870622251216615cc7ee36c4
+man/man3/gss_wrap_iov.3
+@comment MD5:bacea1c2870622251216615cc7ee36c4
+man/man3/gss_wrap_iov_length.3
+@comment MD5:bacea1c2870622251216615cc7ee36c4
+man/man3/gss_wrap_size_limit.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gssapi.3
+@comment MD5:25841f2cc3e3335952df41876cd23fbd
+man/man3/gssapi_mechs_intro.3
+@comment MD5:625ccf271b8139d50a6ddc776d50e7ba
+man/man3/gssapi_services_intro.3
+@comment MD5:fd47766cdee1d6f4f61c4ee7711c81b1
+man/man3/gsskrb5_extract_authz_data_from_sec_context.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/gsskrb5_register_acceptor_identity.3
+@comment MD5:c60e8e9700dee4a44468d1d2536d16df
+man/man3/hcrypto_core.3
+@comment MD5:100ab63424dededa239c796f95fd1e1d
+man/man3/hcrypto_des.3
+@comment MD5:b7bafa4b0dc89076129474f2cb129012
+man/man3/hcrypto_dh.3
+@comment MD5:95a7d7a5005885c375817d312e7fa766
+man/man3/hcrypto_evp.3
+@comment MD5:60e77a4512fb60c809c5c78ac0c39aaa
+man/man3/hcrypto_misc.3
+@comment MD5:717d36b9077a4ea9ef61be96117fbec7
+man/man3/hcrypto_rand.3
+@comment MD5:0cb40b3f70ca8c0fb366adbf65e8a4d1
+man/man3/hcrypto_rsa.3
+@comment MD5:3e97dd4d5b3da056205560a4252d9ce6
+man/man3/hdb__del.3
+@comment MD5:b802321e4390cf7c3545b3d1b6f2133d
+man/man3/hdb__get.3
+@comment MD5:b802321e4390cf7c3545b3d1b6f2133d
+man/man3/hdb__put.3
+@comment MD5:b802321e4390cf7c3545b3d1b6f2133d
+man/man3/hdb_auth_status.3
+@comment MD5:b802321e4390cf7c3545b3d1b6f2133d
+man/man3/hdb_check_constrained_delegation.3
+@comment MD5:b802321e4390cf7c3545b3d1b6f2133d
+man/man3/hdb_check_pkinit_ms_upn_match.3
+@comment MD5:b802321e4390cf7c3545b3d1b6f2133d
+man/man3/hdb_check_s4u2self.3
+@comment MD5:b802321e4390cf7c3545b3d1b6f2133d
+man/man3/hdb_close.3
+@comment MD5:b802321e4390cf7c3545b3d1b6f2133d
+man/man3/hdb_destroy.3
+@comment MD5:b802321e4390cf7c3545b3d1b6f2133d
+man/man3/hdb_entry_ex.3
+@comment MD5:d8be06b45b257175c3b0d2a241f72731
+man/man3/hdb_fetch_kvno.3
+@comment MD5:b802321e4390cf7c3545b3d1b6f2133d
+man/man3/hdb_firstkey.3
+@comment MD5:b802321e4390cf7c3545b3d1b6f2133d
+man/man3/hdb_free.3
+@comment MD5:b802321e4390cf7c3545b3d1b6f2133d
+man/man3/hdb_get_realms.3
+@comment MD5:b802321e4390cf7c3545b3d1b6f2133d
+man/man3/hdb_lock.3
+@comment MD5:b802321e4390cf7c3545b3d1b6f2133d
+man/man3/hdb_name.3
+@comment MD5:b802321e4390cf7c3545b3d1b6f2133d
+man/man3/hdb_nextkey.3
+@comment MD5:b802321e4390cf7c3545b3d1b6f2133d
+man/man3/hdb_open.3
+@comment MD5:b802321e4390cf7c3545b3d1b6f2133d
+man/man3/hdb_password.3
+@comment MD5:b802321e4390cf7c3545b3d1b6f2133d
+man/man3/hdb_remove.3
+@comment MD5:b802321e4390cf7c3545b3d1b6f2133d
+man/man3/hdb_rename.3
+@comment MD5:b802321e4390cf7c3545b3d1b6f2133d
+man/man3/hdb_store.3
+@comment MD5:b802321e4390cf7c3545b3d1b6f2133d
+man/man3/hdb_unlock.3
+@comment MD5:b802321e4390cf7c3545b3d1b6f2133d
+man/man3/heim_ntlm_build_ntlm1_master.3
+@comment MD5:6226d0af951b38c46b657a00c701b18c
+man/man3/heim_ntlm_build_ntlm2_master.3
+@comment MD5:6226d0af951b38c46b657a00c701b18c
+man/man3/heim_ntlm_calculate_lm2.3
+@comment MD5:6226d0af951b38c46b657a00c701b18c
+man/man3/heim_ntlm_calculate_ntlm1.3
+@comment MD5:6226d0af951b38c46b657a00c701b18c
+man/man3/heim_ntlm_calculate_ntlm2.3
+@comment MD5:6226d0af951b38c46b657a00c701b18c
+man/man3/heim_ntlm_decode_targetinfo.3
+@comment MD5:6226d0af951b38c46b657a00c701b18c
+man/man3/heim_ntlm_encode_targetinfo.3
+@comment MD5:6226d0af951b38c46b657a00c701b18c
+man/man3/heim_ntlm_encode_type1.3
+@comment MD5:6226d0af951b38c46b657a00c701b18c
+man/man3/heim_ntlm_encode_type2.3
+@comment MD5:6226d0af951b38c46b657a00c701b18c
+man/man3/heim_ntlm_encode_type3.3
+@comment MD5:6226d0af951b38c46b657a00c701b18c
+man/man3/heim_ntlm_free_buf.3
+@comment MD5:6226d0af951b38c46b657a00c701b18c
+man/man3/heim_ntlm_free_targetinfo.3
+@comment MD5:6226d0af951b38c46b657a00c701b18c
+man/man3/heim_ntlm_free_type1.3
+@comment MD5:6226d0af951b38c46b657a00c701b18c
+man/man3/heim_ntlm_free_type2.3
+@comment MD5:6226d0af951b38c46b657a00c701b18c
+man/man3/heim_ntlm_free_type3.3
+@comment MD5:6226d0af951b38c46b657a00c701b18c
+man/man3/heim_ntlm_keyex_unwrap.3
+@comment MD5:6226d0af951b38c46b657a00c701b18c
+man/man3/heim_ntlm_nt_key.3
+@comment MD5:6226d0af951b38c46b657a00c701b18c
+man/man3/heim_ntlm_ntlmv2_key.3
+@comment MD5:6226d0af951b38c46b657a00c701b18c
+man/man3/heim_ntlm_verify_ntlm2.3
+@comment MD5:6226d0af951b38c46b657a00c701b18c
+man/man3/hostname.3
+@comment MD5:99fe11f97feab52ce56c8a26a8343dc1
+man/man3/hx509.3
+@comment MD5:ed9be528a793fa47537e7926e422f94f
+man/man3/hx509_bitstring_print.3
+@comment MD5:48d7888c0bfc3408632155e7b5da9e86
+man/man3/hx509_ca.3
+@comment MD5:28757c1617e5afd6c859bfa74ecbf575
+man/man3/hx509_ca_sign.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_sign_self.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_add_crl_dp_uri.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_add_eku.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_add_san_hostname.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_add_san_jid.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_add_san_ms_upn.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_add_san_otherName.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_add_san_pkinit.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_add_san_rfc822name.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_free.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_init.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_set_ca.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_set_domaincontroller.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_set_notAfter.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_set_notAfter_lifetime.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_set_notBefore.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_set_proxy.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_set_serialnumber.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_set_spki.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_set_subject.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_set_template.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_set_unique.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_subject_expand.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_ca_tbs_template_units.3
+@comment MD5:77370ddccf0ac29156d346b4d5eb537b
+man/man3/hx509_cert.3
+@comment MD5:3e97523f46bccd030d1d6a749b8720a5
+man/man3/hx509_cert_binary.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_cert_check_eku.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_cert_cmp.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_cert_find_subjectAltName_otherName.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_cert_free.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_cert_get_SPKI.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_cert_get_SPKI_AlgorithmIdentifier.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_cert_get_attribute.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_cert_get_base_subject.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_cert_get_friendly_name.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_cert_get_issuer.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_cert_get_issuer_unique_id.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_cert_get_notAfter.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_cert_get_notBefore.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_cert_get_serialnumber.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_cert_get_subject.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_cert_get_subject_unique_id.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_cert_init.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_cert_init_data.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_cert_keyusage_print.3
+@comment MD5:48d7888c0bfc3408632155e7b5da9e86
+man/man3/hx509_cert_ref.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_cert_set_friendly_name.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_certs_add.3
+@comment MD5:33a177e8d3c38af6d9e8eafdee73f700
+man/man3/hx509_certs_append.3
+@comment MD5:33a177e8d3c38af6d9e8eafdee73f700
+man/man3/hx509_certs_end_seq.3
+@comment MD5:33a177e8d3c38af6d9e8eafdee73f700
+man/man3/hx509_certs_filter.3
+@comment MD5:33a177e8d3c38af6d9e8eafdee73f700
+man/man3/hx509_certs_find.3
+@comment MD5:33a177e8d3c38af6d9e8eafdee73f700
+man/man3/hx509_certs_free.3
+@comment MD5:33a177e8d3c38af6d9e8eafdee73f700
+man/man3/hx509_certs_info.3
+@comment MD5:33a177e8d3c38af6d9e8eafdee73f700
+man/man3/hx509_certs_init.3
+@comment MD5:33a177e8d3c38af6d9e8eafdee73f700
+man/man3/hx509_certs_iter_f.3
+@comment MD5:33a177e8d3c38af6d9e8eafdee73f700
+man/man3/hx509_certs_merge.3
+@comment MD5:33a177e8d3c38af6d9e8eafdee73f700
+man/man3/hx509_certs_next_cert.3
+@comment MD5:33a177e8d3c38af6d9e8eafdee73f700
+man/man3/hx509_certs_start_seq.3
+@comment MD5:33a177e8d3c38af6d9e8eafdee73f700
+man/man3/hx509_certs_store.3
+@comment MD5:33a177e8d3c38af6d9e8eafdee73f700
+man/man3/hx509_ci_print_names.3
+@comment MD5:33a177e8d3c38af6d9e8eafdee73f700
+man/man3/hx509_clear_error_string.3
+@comment MD5:2668ad338bb9f1fac87bf4b62f1a66e7
+man/man3/hx509_cms.3
+@comment MD5:f5bb8259af26f8e499e59d75dd76e338
+man/man3/hx509_cms_create_signed_1.3
+@comment MD5:bf4bb1ee7c7c31de3270fa1e1ef334ab
+man/man3/hx509_cms_envelope_1.3
+@comment MD5:bf4bb1ee7c7c31de3270fa1e1ef334ab
+man/man3/hx509_cms_unenvelope.3
+@comment MD5:bf4bb1ee7c7c31de3270fa1e1ef334ab
+man/man3/hx509_cms_unwrap_ContentInfo.3
+@comment MD5:bf4bb1ee7c7c31de3270fa1e1ef334ab
+man/man3/hx509_cms_verify_signed.3
+@comment MD5:bf4bb1ee7c7c31de3270fa1e1ef334ab
+man/man3/hx509_cms_wrap_ContentInfo.3
+@comment MD5:bf4bb1ee7c7c31de3270fa1e1ef334ab
+man/man3/hx509_context_free.3
+@comment MD5:6666af8365beeba5b4940389389be7f7
+man/man3/hx509_context_init.3
+@comment MD5:6666af8365beeba5b4940389389be7f7
+man/man3/hx509_context_set_missing_revoke.3
+@comment MD5:5638035c1e7a0850f53083f6093fd2d6
+man/man3/hx509_crl_add_revoked_certs.3
+@comment MD5:5638035c1e7a0850f53083f6093fd2d6
+man/man3/hx509_crl_alloc.3
+@comment MD5:5638035c1e7a0850f53083f6093fd2d6
+man/man3/hx509_crl_free.3
+@comment MD5:5638035c1e7a0850f53083f6093fd2d6
+man/man3/hx509_crl_lifetime.3
+@comment MD5:5638035c1e7a0850f53083f6093fd2d6
+man/man3/hx509_crl_sign.3
+@comment MD5:5638035c1e7a0850f53083f6093fd2d6
+man/man3/hx509_crypto.3
+@comment MD5:6fd4bd787e7951ee04c39264a3ab33b8
+man/man3/hx509_env.3
+@comment MD5:cd4343116251cbfe444a908cde644c4c
+man/man3/hx509_env_add.3
+@comment MD5:f3a4f5df7feeb4e7ef3f99567606cf0d
+man/man3/hx509_env_add_binding.3
+@comment MD5:f3a4f5df7feeb4e7ef3f99567606cf0d
+man/man3/hx509_env_find.3
+@comment MD5:f3a4f5df7feeb4e7ef3f99567606cf0d
+man/man3/hx509_env_find_binding.3
+@comment MD5:f3a4f5df7feeb4e7ef3f99567606cf0d
+man/man3/hx509_env_free.3
+@comment MD5:f3a4f5df7feeb4e7ef3f99567606cf0d
+man/man3/hx509_env_lfind.3
+@comment MD5:f3a4f5df7feeb4e7ef3f99567606cf0d
+man/man3/hx509_err.3
+@comment MD5:2668ad338bb9f1fac87bf4b62f1a66e7
+man/man3/hx509_error.3
+@comment MD5:8d57eb30a3331240a67b323979692b72
+man/man3/hx509_free_error_string.3
+@comment MD5:2668ad338bb9f1fac87bf4b62f1a66e7
+man/man3/hx509_free_octet_string_list.3
+@comment MD5:ecfd57cc844792c731feb99e63da912d
+man/man3/hx509_general_name_unparse.3
+@comment MD5:176f8d0a327c3eda9dcb32ef1d895938
+man/man3/hx509_get_error_string.3
+@comment MD5:2668ad338bb9f1fac87bf4b62f1a66e7
+man/man3/hx509_get_one_cert.3
+@comment MD5:33a177e8d3c38af6d9e8eafdee73f700
+man/man3/hx509_keyset.3
+@comment MD5:f46ea2c51fe3eaa0f3fcae6dfabe94f9
+man/man3/hx509_lock.3
+@comment MD5:b76af1d122d6661ca4977d0b50bca828
+man/man3/hx509_misc.3
+@comment MD5:2cbc36aa1d02918a69fd0a614fe87515
+man/man3/hx509_name.3
+@comment MD5:9f463dc0b0920d019a5be973a566256a
+man/man3/hx509_name_binary.3
+@comment MD5:176f8d0a327c3eda9dcb32ef1d895938
+man/man3/hx509_name_cmp.3
+@comment MD5:176f8d0a327c3eda9dcb32ef1d895938
+man/man3/hx509_name_copy.3
+@comment MD5:176f8d0a327c3eda9dcb32ef1d895938
+man/man3/hx509_name_expand.3
+@comment MD5:176f8d0a327c3eda9dcb32ef1d895938
+man/man3/hx509_name_free.3
+@comment MD5:176f8d0a327c3eda9dcb32ef1d895938
+man/man3/hx509_name_is_null_p.3
+@comment MD5:176f8d0a327c3eda9dcb32ef1d895938
+man/man3/hx509_name_to_Name.3
+@comment MD5:176f8d0a327c3eda9dcb32ef1d895938
+man/man3/hx509_name_to_string.3
+@comment MD5:176f8d0a327c3eda9dcb32ef1d895938
+man/man3/hx509_ocsp_request.3
+@comment MD5:10633ad5a0fcc22fca55c7291e55ef45
+man/man3/hx509_ocsp_verify.3
+@comment MD5:5638035c1e7a0850f53083f6093fd2d6
+man/man3/hx509_oid_print.3
+@comment MD5:48d7888c0bfc3408632155e7b5da9e86
+man/man3/hx509_oid_sprint.3
+@comment MD5:48d7888c0bfc3408632155e7b5da9e86
+man/man3/hx509_parse_name.3
+@comment MD5:176f8d0a327c3eda9dcb32ef1d895938
+man/man3/hx509_peer.3
+@comment MD5:c66bd0720611c6e3c71f51d7ff742cd8
+man/man3/hx509_peer_info_add_cms_alg.3
+@comment MD5:ba39b28139a1268ccf2acf5f84f12136
+man/man3/hx509_peer_info_alloc.3
+@comment MD5:ba39b28139a1268ccf2acf5f84f12136
+man/man3/hx509_peer_info_free.3
+@comment MD5:ba39b28139a1268ccf2acf5f84f12136
+man/man3/hx509_peer_info_set_cert.3
+@comment MD5:ba39b28139a1268ccf2acf5f84f12136
+man/man3/hx509_peer_info_set_cms_algs.3
+@comment MD5:ba39b28139a1268ccf2acf5f84f12136
+man/man3/hx509_print.3
+@comment MD5:9ec18f91ca9943687df7d0b0a0c344f4
+man/man3/hx509_print_cert.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_print_stdout.3
+@comment MD5:48d7888c0bfc3408632155e7b5da9e86
+man/man3/hx509_query.3
+@comment MD5:945cc20cd3930d2dd1e7a2d9f3143370
+man/man3/hx509_query_alloc.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_query_free.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_query_match_cmp_func.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_query_match_eku.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_query_match_friendly_name.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_query_match_issuer_serial.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_query_match_option.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_query_statistic_file.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_query_unparse_stats.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_revoke.3
+@comment MD5:ee5892cfeb357e43b0f59dfb1b99c22c
+man/man3/hx509_revoke_add_crl.3
+@comment MD5:10633ad5a0fcc22fca55c7291e55ef45
+man/man3/hx509_revoke_add_ocsp.3
+@comment MD5:10633ad5a0fcc22fca55c7291e55ef45
+man/man3/hx509_revoke_free.3
+@comment MD5:10633ad5a0fcc22fca55c7291e55ef45
+man/man3/hx509_revoke_init.3
+@comment MD5:10633ad5a0fcc22fca55c7291e55ef45
+man/man3/hx509_revoke_ocsp_print.3
+@comment MD5:10633ad5a0fcc22fca55c7291e55ef45
+man/man3/hx509_revoke_verify.3
+@comment MD5:10633ad5a0fcc22fca55c7291e55ef45
+man/man3/hx509_set_error_string.3
+@comment MD5:2668ad338bb9f1fac87bf4b62f1a66e7
+man/man3/hx509_set_error_stringv.3
+@comment MD5:2668ad338bb9f1fac87bf4b62f1a66e7
+man/man3/hx509_unparse_der_name.3
+@comment MD5:176f8d0a327c3eda9dcb32ef1d895938
+man/man3/hx509_validate_cert.3
+@comment MD5:48d7888c0bfc3408632155e7b5da9e86
+man/man3/hx509_validate_ctx_add_flags.3
+@comment MD5:48d7888c0bfc3408632155e7b5da9e86
+man/man3/hx509_validate_ctx_free.3
+@comment MD5:48d7888c0bfc3408632155e7b5da9e86
+man/man3/hx509_validate_ctx_init.3
+@comment MD5:48d7888c0bfc3408632155e7b5da9e86
+man/man3/hx509_validate_ctx_set_print.3
+@comment MD5:48d7888c0bfc3408632155e7b5da9e86
+man/man3/hx509_verify.3
+@comment MD5:f3c2deef515c744f7bff0fa0b8169392
+man/man3/hx509_verify_attach_anchors.3
+@comment MD5:5638035c1e7a0850f53083f6093fd2d6
+man/man3/hx509_verify_attach_revoke.3
+@comment MD5:5638035c1e7a0850f53083f6093fd2d6
+man/man3/hx509_verify_ctx_f_allow_default_trustanchors.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_verify_destroy_ctx.3
+@comment MD5:5638035c1e7a0850f53083f6093fd2d6
+man/man3/hx509_verify_hostname.3
+@comment MD5:1f36155595f628c5475bed5205f6eb2c
+man/man3/hx509_verify_init_ctx.3
+@comment MD5:5638035c1e7a0850f53083f6093fd2d6
+man/man3/hx509_verify_path.3
+@comment MD5:5638035c1e7a0850f53083f6093fd2d6
+man/man3/hx509_verify_set_max_depth.3
+@comment MD5:5638035c1e7a0850f53083f6093fd2d6
+man/man3/hx509_verify_set_proxy_certificate.3
+@comment MD5:5638035c1e7a0850f53083f6093fd2d6
+man/man3/hx509_verify_set_strict_rfc3280_verification.3
+@comment MD5:5638035c1e7a0850f53083f6093fd2d6
+man/man3/hx509_verify_set_time.3
+@comment MD5:5638035c1e7a0850f53083f6093fd2d6
+man/man3/hx509_verify_signature.3
+@comment MD5:0b6ad1cd338ae725818faa724a29bf73
+man/man3/hx509_xfree.3
+@comment MD5:ecfd57cc844792c731feb99e63da912d
+man/man3/internalvsmechname.3
+@comment MD5:3b4bcb9ba48e5243e9658370138ef5fd
+man/man3/k_afs_cell_of_file.3
+@comment MD5:7dcf8e793f1eac6c8da8e8d586d4271e
+man/man3/k_hasafs.3
+@comment MD5:7dcf8e793f1eac6c8da8e8d586d4271e
+man/man3/k_hasafs_recheck.3
+@comment MD5:7dcf8e793f1eac6c8da8e8d586d4271e
+man/man3/k_pioctl.3
+@comment MD5:7dcf8e793f1eac6c8da8e8d586d4271e
+man/man3/k_setpag.3
+@comment MD5:7dcf8e793f1eac6c8da8e8d586d4271e
+man/man3/k_unlog.3
+@comment MD5:7dcf8e793f1eac6c8da8e8d586d4271e
+man/man3/kadm5_add_passwd_quality_verifier.3
+@comment MD5:75caa79cb6e336671478db4ceff5aaa5
+man/man3/kadm5_check_password_quality.3
+@comment MD5:75caa79cb6e336671478db4ceff5aaa5
+man/man3/kadm5_pwcheck.3
+@comment MD5:75caa79cb6e336671478db4ceff5aaa5
+man/man3/kadm5_setup_passwd_quality_check.3
+@comment MD5:75caa79cb6e336671478db4ceff5aaa5
+man/man3/kafs.3
+@comment MD5:7dcf8e793f1eac6c8da8e8d586d4271e
+man/man3/kafs_set_verbose.3
+@comment MD5:7dcf8e793f1eac6c8da8e8d586d4271e
+man/man3/kafs_settoken.3
+@comment MD5:7dcf8e793f1eac6c8da8e8d586d4271e
+man/man3/kafs_settoken5.3
+@comment MD5:7dcf8e793f1eac6c8da8e8d586d4271e
+man/man3/kafs_settoken_rxkad.3
+@comment MD5:7dcf8e793f1eac6c8da8e8d586d4271e
+man/man3/krb5.3
+@comment MD5:43bd52c9841835d70d312e4541e80ef2
+man/man3/krb524_convert_creds_kdc.3
+@comment MD5:6bc459eba489a677a8e954c796c07d25
+man/man3/krb524_convert_creds_kdc_ccache.3
+@comment MD5:6bc459eba489a677a8e954c796c07d25
+man/man3/krb5_425_conv_principal.3
+@comment MD5:dfddaf1c9c1e5b59b8ec81b3c7644f33
+man/man3/krb5_425_conv_principal_ext.3
+@comment MD5:dfddaf1c9c1e5b59b8ec81b3c7644f33
+man/man3/krb5_524_conv_principal.3
+@comment MD5:dfddaf1c9c1e5b59b8ec81b3c7644f33
+man/man3/krb5_acc_ops.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_acl_match_file.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_acl_match_string.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_add_et_list.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_add_extra_addresses.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_add_ignore_addresses.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_addlog_dest.3
+@comment MD5:ce6a5ca621dd4cd6885a0f20daa256a6
+man/man3/krb5_addlog_func.3
+@comment MD5:ce6a5ca621dd4cd6885a0f20daa256a6
+man/man3/krb5_addr2sockaddr.3
+@comment MD5:2f053615414fa3818b895e92aa6e946c
+man/man3/krb5_address.3
+@comment MD5:15619f230ebde8b3c149fd61edb46031
+man/man3/krb5_address_compare.3
+@comment MD5:2f053615414fa3818b895e92aa6e946c
+man/man3/krb5_address_order.3
+@comment MD5:2f053615414fa3818b895e92aa6e946c
+man/man3/krb5_address_prefixlen_boundary.3
+@comment MD5:2f053615414fa3818b895e92aa6e946c
+man/man3/krb5_address_search.3
+@comment MD5:2f053615414fa3818b895e92aa6e946c
+man/man3/krb5_afslog.3
+@comment MD5:7dcf8e793f1eac6c8da8e8d586d4271e
+man/man3/krb5_afslog_uid.3
+@comment MD5:7dcf8e793f1eac6c8da8e8d586d4271e
+man/man3/krb5_allow_weak_crypto.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_aname_to_localname.3
+@comment MD5:e0e062d89f87361f1ed3f7aef9df59c9
+man/man3/krb5_anyaddr.3
+@comment MD5:2f053615414fa3818b895e92aa6e946c
+man/man3/krb5_appdefault.3
+@comment MD5:b9b7a41fe9a0104d279cc571d36b737a
+man/man3/krb5_appdefault_boolean.3
+@comment MD5:b9b7a41fe9a0104d279cc571d36b737a
+man/man3/krb5_appdefault_string.3
+@comment MD5:b9b7a41fe9a0104d279cc571d36b737a
+man/man3/krb5_appdefault_time.3
+@comment MD5:b9b7a41fe9a0104d279cc571d36b737a
+man/man3/krb5_append_addresses.3
+@comment MD5:2f053615414fa3818b895e92aa6e946c
+man/man3/krb5_auth.3
+@comment MD5:233e1e2c7180af04d7fa0693835fac0b
+man/man3/krb5_auth_con_addflags.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_free.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_genaddrs.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_generatelocalsubkey.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_getaddrs.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_getauthenticator.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_getflags.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_getkey.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_getlocalsubkey.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_getrcache.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_getremotesubkey.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_getuserkey.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_init.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_initivector.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_removeflags.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_setaddrs.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_setaddrs_from_fd.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_setflags.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_setivector.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_setkey.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_setlocalsubkey.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_setrcache.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_setremotesubkey.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_con_setuserkey.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_context.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_getcksumtype.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_getkeytype.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_getlocalseqnumber.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_getremoteseqnumber.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_auth_setcksumtype.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_setkeytype.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_setlocalseqnumber.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_auth_setremoteseqnumber.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_build_ap_req.3
+@comment MD5:05689ca671b7145938db39a993ab2621
+man/man3/krb5_build_principal.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_build_principal_ext.3
+@comment MD5:a7dbf3dfb2e0325e721ff5c5cdaac4f3
+man/man3/krb5_build_principal_va.3
+@comment MD5:a7dbf3dfb2e0325e721ff5c5cdaac4f3
+man/man3/krb5_build_principal_va_ext.3
+@comment MD5:a7dbf3dfb2e0325e721ff5c5cdaac4f3
+man/man3/krb5_c_block_size.3
+@comment MD5:4036c7df9db1e1a23f272650a55a756c
+man/man3/krb5_c_checksum_length.3
+@comment MD5:4036c7df9db1e1a23f272650a55a756c
+man/man3/krb5_c_decrypt.3
+@comment MD5:4036c7df9db1e1a23f272650a55a756c
+man/man3/krb5_c_encrypt.3
+@comment MD5:4036c7df9db1e1a23f272650a55a756c
+man/man3/krb5_c_encrypt_length.3
+@comment MD5:4036c7df9db1e1a23f272650a55a756c
+man/man3/krb5_c_enctype_compare.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_c_get_checksum.3
+@comment MD5:4036c7df9db1e1a23f272650a55a756c
+man/man3/krb5_c_is_coll_proof_cksum.3
+@comment MD5:4036c7df9db1e1a23f272650a55a756c
+man/man3/krb5_c_is_keyed_cksum.3
+@comment MD5:4036c7df9db1e1a23f272650a55a756c
+man/man3/krb5_c_keylength.3
+@comment MD5:4036c7df9db1e1a23f272650a55a756c
+man/man3/krb5_c_make_checksum.3
+@comment MD5:4036c7df9db1e1a23f272650a55a756c
+man/man3/krb5_c_make_random_key.3
+@comment MD5:4036c7df9db1e1a23f272650a55a756c
+man/man3/krb5_c_set_checksum.3
+@comment MD5:4036c7df9db1e1a23f272650a55a756c
+man/man3/krb5_c_valid_cksumtype.3
+@comment MD5:4036c7df9db1e1a23f272650a55a756c
+man/man3/krb5_c_valid_enctype.3
+@comment MD5:4036c7df9db1e1a23f272650a55a756c
+man/man3/krb5_c_verify_checksum.3
+@comment MD5:4036c7df9db1e1a23f272650a55a756c
+man/man3/krb5_cc_cache_end_seq_get.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_cache_get_first.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_cache_match.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_cache_next.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_clear_mcred.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_close.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_copy_cache.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_copy_creds.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_copy_match_f.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_default.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_default_name.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_destroy.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_end_seq_get.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_gen_new.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_get_config.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_get_flags.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_get_friendly_name.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_get_full_name.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_get_kdc_offset.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_get_lifetime.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_get_name.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_get_ops.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_get_prefix_ops.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_get_principal.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_get_type.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_get_version.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_initialize.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_last_change_time.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_move.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_new_unique.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_next_cred.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_register.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_remove_cred.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_resolve.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_retrieve_cred.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_set_config.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_set_default_name.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_set_flags.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_set_friendly_name.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_set_kdc_offset.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_start_seq_get.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_store_cred.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_support_switch.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cc_switch.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_ccache.3
+@comment MD5:b4bc3cf564142cf7ba4781be792baebd
+man/man3/krb5_ccache_intro.3
+@comment MD5:025df30f3633578873caf1a3d8cc36c8
+man/man3/krb5_cccol_cursor_free.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cccol_cursor_new.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cccol_cursor_next.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_cccol_last_change_time.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_change_password.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_check_transited.3
+@comment MD5:71dea69444b3dc3782efae856eb8a89e
+man/man3/krb5_check_transited_realms.3
+@comment MD5:71dea69444b3dc3782efae856eb8a89e
+man/man3/krb5_checksum.3
+@comment MD5:b7da0eeea68c428f0146ebcc16ebac03
+man/man3/krb5_checksum_disable.3
+@comment MD5:b7da0eeea68c428f0146ebcc16ebac03
+man/man3/krb5_checksum_is_collision_proof.3
+@comment MD5:b7da0eeea68c428f0146ebcc16ebac03
+man/man3/krb5_checksum_is_keyed.3
+@comment MD5:b7da0eeea68c428f0146ebcc16ebac03
+man/man3/krb5_checksumsize.3
+@comment MD5:b7da0eeea68c428f0146ebcc16ebac03
+man/man3/krb5_cksumtype_to_enctype.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_cksumtype_valid.3
+@comment MD5:b7da0eeea68c428f0146ebcc16ebac03
+man/man3/krb5_clear_error_message.3
+@comment MD5:48a9952f454153a803d0d446c739b041
+man/man3/krb5_clear_error_string.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_closelog.3
+@comment MD5:ce6a5ca621dd4cd6885a0f20daa256a6
+man/man3/krb5_compare_creds.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_config_file_free.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_config_free_strings.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_config_get_bool.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_config_get_bool_default.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_config_get_list.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_config_get_string.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_config_get_string_default.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_config_get_strings.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_config_get_time.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_config_get_time_default.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_config_parse_file_multi.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_config_parse_string_multi.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_config_vget_bool.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_config_vget_bool_default.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_config_vget_list.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_config_vget_string.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_config_vget_string_default.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_config_vget_strings.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_config_vget_time.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_config_vget_time_default.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_context.3
+@comment MD5:8b188e68ae0cf452a2912689be5f985a
+man/man3/krb5_copy_address.3
+@comment MD5:2f053615414fa3818b895e92aa6e946c
+man/man3/krb5_copy_addresses.3
+@comment MD5:2f053615414fa3818b895e92aa6e946c
+man/man3/krb5_copy_checksum.3
+@comment MD5:b7da0eeea68c428f0146ebcc16ebac03
+man/man3/krb5_copy_context.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_copy_creds.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_copy_creds_contents.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_copy_data.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_copy_host_realm.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_copy_keyblock.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_copy_keyblock_contents.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_copy_principal.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_copy_ticket.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_create_checksum.3
+@comment MD5:b7da0eeea68c428f0146ebcc16ebac03
+man/man3/krb5_create_checksum_iov.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_credential.3
+@comment MD5:a0a55a8a6f3663d9ae1497cec0a7a293
+man/man3/krb5_creds.3
+@comment MD5:c29c7056327cb2bde5b23d653e4056ea
+man/man3/krb5_creds_get_ticket_flags.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_crypto.3
+@comment MD5:49380cef2fab570e444d66d00c262b11
+man/man3/krb5_crypto_destroy.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_crypto_fx_cf2.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_crypto_get_checksum_type.3
+@comment MD5:b7da0eeea68c428f0146ebcc16ebac03
+man/man3/krb5_crypto_getblocksize.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_crypto_getconfoundersize.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_crypto_getenctype.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_crypto_getpadsize.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_crypto_init.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_crypto_iov.3
+@comment MD5:c41f75ef009733a8724b1d0bdf726175
+man/man3/krb5_crypto_overhead.3
+@comment MD5:b725013023a62e79fdce1ab95bef001c
+man/man3/krb5_data_alloc.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_data_cmp.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_data_copy.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_data_ct_cmp.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_data_free.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_data_realloc.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_data_zero.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_decrypt.3
+@comment MD5:b725013023a62e79fdce1ab95bef001c
+man/man3/krb5_decrypt_EncryptedData.3
+@comment MD5:b725013023a62e79fdce1ab95bef001c
+man/man3/krb5_decrypt_iov_ivec.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_decrypt_ivec.3
+@comment MD5:b725013023a62e79fdce1ab95bef001c
+man/man3/krb5_decrypt_ticket.3
+@comment MD5:b725013023a62e79fdce1ab95bef001c
+man/man3/krb5_deprecated.3
+@comment MD5:4aa61f6495c29a0260da8e340bb30ce4
+man/man3/krb5_digest.3
+@comment MD5:35e3067de4a3386034f1739034de7f3c
+man/man3/krb5_digest_alloc.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_free.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_get_a1_hash.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_get_client_binding.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_get_identifier.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_get_opaque.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_get_responseData.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_get_rsp.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_get_server_nonce.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_get_tickets.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_init_request.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_probe.3
+@comment MD5:5d316e6f1644e88c2c552c52752753ef
+man/man3/krb5_digest_request.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_set_authentication_user.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_set_authid.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_set_client_nonce.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_set_digest.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_set_hostname.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_set_identifier.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_set_method.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_set_nonceCount.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_set_opaque.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_set_qop.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_set_realm.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_set_server_cb.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_set_server_nonce.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_set_type.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_set_uri.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_digest_set_username.3
+@comment MD5:36ccb73b47a0b1f5896146931d6bb204
+man/man3/krb5_domain_x500_decode.3
+@comment MD5:71dea69444b3dc3782efae856eb8a89e
+man/man3/krb5_domain_x500_encode.3
+@comment MD5:71dea69444b3dc3782efae856eb8a89e
+man/man3/krb5_eai_to_heim_errno.3
+@comment MD5:48a9952f454153a803d0d446c739b041
+man/man3/krb5_encrypt.3
+@comment MD5:b725013023a62e79fdce1ab95bef001c
+man/man3/krb5_encrypt_EncryptedData.3
+@comment MD5:b725013023a62e79fdce1ab95bef001c
+man/man3/krb5_encrypt_iov_ivec.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_encrypt_ivec.3
+@comment MD5:b725013023a62e79fdce1ab95bef001c
+man/man3/krb5_enctype_disable.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_enctype_enable.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_enctype_keysize.3
+@comment MD5:b725013023a62e79fdce1ab95bef001c
+man/man3/krb5_enctype_to_string.3
+@comment MD5:b725013023a62e79fdce1ab95bef001c
+man/man3/krb5_enctype_valid.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_enctypes_compatible_keys.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_error.3
+@comment MD5:2278b37012d3972bc99649b1ea76e1d4
+man/man3/krb5_error_from_rd_error.3
+@comment MD5:0f928ecb761bcdc62ad8e61c681dae05
+man/man3/krb5_expand_hostname.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_expand_hostname_realms.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_fcc_ops.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_fileformats.3
+@comment MD5:8a90dd8cec8d10391f5e62d6f2e5e08e
+man/man3/krb5_find_padata.3
+@comment MD5:143ed2c7ded9b623e1aba7839b30e824
+man/man3/krb5_format_time.3
+@comment MD5:25ba18c952367c8e7f3888f5398737f8
+man/man3/krb5_free_address.3
+@comment MD5:2f053615414fa3818b895e92aa6e946c
+man/man3/krb5_free_addresses.3
+@comment MD5:2f053615414fa3818b895e92aa6e946c
+man/man3/krb5_free_authenticator.3
+@comment MD5:9f1cb74dd599ac94f8d0920b6753542b
+man/man3/krb5_free_checksum.3
+@comment MD5:b7da0eeea68c428f0146ebcc16ebac03
+man/man3/krb5_free_checksum_contents.3
+@comment MD5:b7da0eeea68c428f0146ebcc16ebac03
+man/man3/krb5_free_config_files.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_free_context.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_free_cred_contents.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_free_creds.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_free_creds_contents.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_free_data.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_free_data_contents.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_free_error.3
+@comment MD5:0f928ecb761bcdc62ad8e61c681dae05
+man/man3/krb5_free_error_contents.3
+@comment MD5:0f928ecb761bcdc62ad8e61c681dae05
+man/man3/krb5_free_error_string.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_free_host_realm.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_free_kdc_rep.3
+@comment MD5:87d94a1c5876f243b395ff7915913743
+man/man3/krb5_free_keyblock.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_free_keyblock_contents.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_free_krbhst.3
+@comment MD5:f1a64697749e2783868a322eb38e64eb
+man/man3/krb5_free_principal.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_free_salt.3
+@comment MD5:08066df77c4c9a2d6071107a15169ca2
+man/man3/krb5_free_ticket.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_free_unparsed_name.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_fwd_tgt_creds.3
+@comment MD5:c622814c2a4732a4f2cc0a86a29d708b
+man/man3/krb5_generate_random_block.3
+@comment MD5:0567e0301595a754344e036ae1d0019d
+man/man3/krb5_generate_subkey.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_generate_subkey_extended.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_get_all_client_addrs.3
+@comment MD5:c999327f5ced8d8e93c2bfc932d05698
+man/man3/krb5_get_all_server_addrs.3
+@comment MD5:c999327f5ced8d8e93c2bfc932d05698
+man/man3/krb5_get_cred_from_kdc.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_get_cred_from_kdc_opt.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_get_credentials.3
+@comment MD5:ad69dcdf7efb7bd2599484b838fba39f
+man/man3/krb5_get_credentials_with_flags.3
+@comment MD5:ad69dcdf7efb7bd2599484b838fba39f
+man/man3/krb5_get_creds.3
+@comment MD5:7fb4469bd9e9a3ed0a3185a51d216fc3
+man/man3/krb5_get_creds_opt_add_options.3
+@comment MD5:7fb4469bd9e9a3ed0a3185a51d216fc3
+man/man3/krb5_get_creds_opt_alloc.3
+@comment MD5:7fb4469bd9e9a3ed0a3185a51d216fc3
+man/man3/krb5_get_creds_opt_free.3
+@comment MD5:7fb4469bd9e9a3ed0a3185a51d216fc3
+man/man3/krb5_get_creds_opt_set_enctype.3
+@comment MD5:7fb4469bd9e9a3ed0a3185a51d216fc3
+man/man3/krb5_get_creds_opt_set_impersonate.3
+@comment MD5:7fb4469bd9e9a3ed0a3185a51d216fc3
+man/man3/krb5_get_creds_opt_set_options.3
+@comment MD5:7fb4469bd9e9a3ed0a3185a51d216fc3
+man/man3/krb5_get_creds_opt_set_ticket.3
+@comment MD5:7fb4469bd9e9a3ed0a3185a51d216fc3
+man/man3/krb5_get_default_config_files.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_get_default_in_tkt_etypes.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_get_default_principal.3
+@comment MD5:a7dbf3dfb2e0325e721ff5c5cdaac4f3
+man/man3/krb5_get_default_realm.3
+@comment MD5:554efccc9bdae07cd469b4a901982003
+man/man3/krb5_get_default_realms.3
+@comment MD5:554efccc9bdae07cd469b4a901982003
+man/man3/krb5_get_dns_canonicalize_hostname.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_get_dns_canonize_hostname.3
+@comment MD5:8b188e68ae0cf452a2912689be5f985a
+man/man3/krb5_get_extra_addresses.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_get_fcache_version.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_get_forwarded_creds.3
+@comment MD5:c622814c2a4732a4f2cc0a86a29d708b
+man/man3/krb5_get_host_realm.3
+@comment MD5:554efccc9bdae07cd469b4a901982003
+man/man3/krb5_get_ignore_addresses.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_get_in_cred.3
+@comment MD5:87d94a1c5876f243b395ff7915913743
+man/man3/krb5_get_in_tkt.3
+@comment MD5:87d94a1c5876f243b395ff7915913743
+man/man3/krb5_get_in_tkt_with_keytab.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_get_in_tkt_with_password.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_get_in_tkt_with_skey.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_get_init_creds.3
+@comment MD5:3076ecb708a2cb961caf2668be036328
+man/man3/krb5_get_init_creds_keyblock.3
+@comment MD5:c622814c2a4732a4f2cc0a86a29d708b
+man/man3/krb5_get_init_creds_keytab.3
+@comment MD5:c622814c2a4732a4f2cc0a86a29d708b
+man/man3/krb5_get_init_creds_opt.3
+@comment MD5:3076ecb708a2cb961caf2668be036328
+man/man3/krb5_get_init_creds_opt_alloc.3
+@comment MD5:c622814c2a4732a4f2cc0a86a29d708b
+man/man3/krb5_get_init_creds_opt_free.3
+@comment MD5:c622814c2a4732a4f2cc0a86a29d708b
+man/man3/krb5_get_init_creds_opt_get_error.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_get_init_creds_opt_init.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_get_init_creds_opt_set_address_list.3
+@comment MD5:3076ecb708a2cb961caf2668be036328
+man/man3/krb5_get_init_creds_opt_set_addressless.3
+@comment MD5:3076ecb708a2cb961caf2668be036328
+man/man3/krb5_get_init_creds_opt_set_anonymous.3
+@comment MD5:3076ecb708a2cb961caf2668be036328
+man/man3/krb5_get_init_creds_opt_set_canonicalize.3
+@comment MD5:3076ecb708a2cb961caf2668be036328
+man/man3/krb5_get_init_creds_opt_set_default_flags.3
+@comment MD5:3076ecb708a2cb961caf2668be036328
+man/man3/krb5_get_init_creds_opt_set_etype_list.3
+@comment MD5:3076ecb708a2cb961caf2668be036328
+man/man3/krb5_get_init_creds_opt_set_forwardable.3
+@comment MD5:3076ecb708a2cb961caf2668be036328
+man/man3/krb5_get_init_creds_opt_set_pa_password.3
+@comment MD5:3076ecb708a2cb961caf2668be036328
+man/man3/krb5_get_init_creds_opt_set_paq_request.3
+@comment MD5:3076ecb708a2cb961caf2668be036328
+man/man3/krb5_get_init_creds_opt_set_preauth_list.3
+@comment MD5:3076ecb708a2cb961caf2668be036328
+man/man3/krb5_get_init_creds_opt_set_proxiable.3
+@comment MD5:3076ecb708a2cb961caf2668be036328
+man/man3/krb5_get_init_creds_opt_set_renew_life.3
+@comment MD5:3076ecb708a2cb961caf2668be036328
+man/man3/krb5_get_init_creds_opt_set_salt.3
+@comment MD5:3076ecb708a2cb961caf2668be036328
+man/man3/krb5_get_init_creds_opt_set_tkt_life.3
+@comment MD5:3076ecb708a2cb961caf2668be036328
+man/man3/krb5_get_init_creds_opt_set_win2k.3
+@comment MD5:3076ecb708a2cb961caf2668be036328
+man/man3/krb5_get_init_creds_password.3
+@comment MD5:c622814c2a4732a4f2cc0a86a29d708b
+man/man3/krb5_get_kdc_cred.3
+@comment MD5:ad69dcdf7efb7bd2599484b838fba39f
+man/man3/krb5_get_kdc_sec_offset.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_get_krb524hst.3
+@comment MD5:f1a64697749e2783868a322eb38e64eb
+man/man3/krb5_get_krb_admin_hst.3
+@comment MD5:f1a64697749e2783868a322eb38e64eb
+man/man3/krb5_get_krb_changepw_hst.3
+@comment MD5:f1a64697749e2783868a322eb38e64eb
+man/man3/krb5_get_krbhst.3
+@comment MD5:f1a64697749e2783868a322eb38e64eb
+man/man3/krb5_get_max_time_skew.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_get_pw_salt.3
+@comment MD5:08066df77c4c9a2d6071107a15169ca2
+man/man3/krb5_get_renewed_creds.3
+@comment MD5:ad69dcdf7efb7bd2599484b838fba39f
+man/man3/krb5_get_server_rcache.3
+@comment MD5:10d20c58bff11a251f0cf7131aa0a94c
+man/man3/krb5_get_use_admin_kdc.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_get_validated_creds.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_get_wrapped_length.3
+@comment MD5:b725013023a62e79fdce1ab95bef001c
+man/man3/krb5_getportbyname.3
+@comment MD5:054a7e00443a64dd6be9667c63906f9e
+man/man3/krb5_h_addr2addr.3
+@comment MD5:2f053615414fa3818b895e92aa6e946c
+man/man3/krb5_h_addr2sockaddr.3
+@comment MD5:2f053615414fa3818b895e92aa6e946c
+man/man3/krb5_h_errno_to_heim_errno.3
+@comment MD5:48a9952f454153a803d0d446c739b041
+man/man3/krb5_hmac.3
+@comment MD5:b7da0eeea68c428f0146ebcc16ebac03
+man/man3/krb5_init_context.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_init_creds_free.3
+@comment MD5:c622814c2a4732a4f2cc0a86a29d708b
+man/man3/krb5_init_creds_get.3
+@comment MD5:c622814c2a4732a4f2cc0a86a29d708b
+man/man3/krb5_init_creds_get_error.3
+@comment MD5:c622814c2a4732a4f2cc0a86a29d708b
+man/man3/krb5_init_creds_init.3
+@comment MD5:c622814c2a4732a4f2cc0a86a29d708b
+man/man3/krb5_init_creds_intro.3
+@comment MD5:277ddd0d385e10dfa2bc7df942811a5f
+man/man3/krb5_init_creds_set_keytab.3
+@comment MD5:c622814c2a4732a4f2cc0a86a29d708b
+man/man3/krb5_init_creds_set_password.3
+@comment MD5:c622814c2a4732a4f2cc0a86a29d708b
+man/man3/krb5_init_creds_set_service.3
+@comment MD5:c622814c2a4732a4f2cc0a86a29d708b
+man/man3/krb5_init_creds_step.3
+@comment MD5:c622814c2a4732a4f2cc0a86a29d708b
+man/man3/krb5_init_ets.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_initlog.3
+@comment MD5:ce6a5ca621dd4cd6885a0f20daa256a6
+man/man3/krb5_introduction.3
+@comment MD5:c797393a1cc0b567a540e432246d399b
+man/man3/krb5_is_config_principal.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_is_thread_safe.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_kerberos_enctypes.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_keyblock_get_enctype.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_keyblock_init.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_keyblock_zero.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_keytab.3
+@comment MD5:e3883613705af4a76eac60a42ad6af93
+man/man3/krb5_keytab_intro.3
+@comment MD5:e224755ea52784e5d099397d29034b41
+man/man3/krb5_keytab_key_proc.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_keytype_to_enctypes.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_keytype_to_enctypes_default.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_keytype_to_string.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_krbhst_format_string.3
+@comment MD5:1a1d89fb8d00153f9be7099b14032dd1
+man/man3/krb5_krbhst_free.3
+@comment MD5:1a1d89fb8d00153f9be7099b14032dd1
+man/man3/krb5_krbhst_get_addrinfo.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_krbhst_init.3
+@comment MD5:1a1d89fb8d00153f9be7099b14032dd1
+man/man3/krb5_krbhst_init_flags.3
+@comment MD5:1a1d89fb8d00153f9be7099b14032dd1
+man/man3/krb5_krbhst_next.3
+@comment MD5:1a1d89fb8d00153f9be7099b14032dd1
+man/man3/krb5_krbhst_next_as_string.3
+@comment MD5:1a1d89fb8d00153f9be7099b14032dd1
+man/man3/krb5_krbhst_reset.3
+@comment MD5:1a1d89fb8d00153f9be7099b14032dd1
+man/man3/krb5_kt_add_entry.3
+@comment MD5:230695e0aabce3c77a3c8db47812ea9e
+man/man3/krb5_kt_close.3
+@comment MD5:230695e0aabce3c77a3c8db47812ea9e
+man/man3/krb5_kt_compare.3
+@comment MD5:230695e0aabce3c77a3c8db47812ea9e
+man/man3/krb5_kt_copy_entry_contents.3
+@comment MD5:230695e0aabce3c77a3c8db47812ea9e
+man/man3/krb5_kt_default.3
+@comment MD5:230695e0aabce3c77a3c8db47812ea9e
+man/man3/krb5_kt_default_modify_name.3
+@comment MD5:230695e0aabce3c77a3c8db47812ea9e
+man/man3/krb5_kt_default_name.3
+@comment MD5:230695e0aabce3c77a3c8db47812ea9e
+man/man3/krb5_kt_destroy.3
+@comment MD5:230695e0aabce3c77a3c8db47812ea9e
+man/man3/krb5_kt_end_seq_get.3
+@comment MD5:230695e0aabce3c77a3c8db47812ea9e
+man/man3/krb5_kt_free_entry.3
+@comment MD5:230695e0aabce3c77a3c8db47812ea9e
+man/man3/krb5_kt_get_entry.3
+@comment MD5:230695e0aabce3c77a3c8db47812ea9e
+man/man3/krb5_kt_get_full_name.3
+@comment MD5:230695e0aabce3c77a3c8db47812ea9e
+man/man3/krb5_kt_get_name.3
+@comment MD5:230695e0aabce3c77a3c8db47812ea9e
+man/man3/krb5_kt_get_type.3
+@comment MD5:230695e0aabce3c77a3c8db47812ea9e
+man/man3/krb5_kt_have_content.3
+@comment MD5:230695e0aabce3c77a3c8db47812ea9e
+man/man3/krb5_kt_next_entry.3
+@comment MD5:230695e0aabce3c77a3c8db47812ea9e
+man/man3/krb5_kt_read_service_key.3
+@comment MD5:230695e0aabce3c77a3c8db47812ea9e
+man/man3/krb5_kt_register.3
+@comment MD5:230695e0aabce3c77a3c8db47812ea9e
+man/man3/krb5_kt_remove_entry.3
+@comment MD5:230695e0aabce3c77a3c8db47812ea9e
+man/man3/krb5_kt_resolve.3
+@comment MD5:230695e0aabce3c77a3c8db47812ea9e
+man/man3/krb5_kt_start_seq_get.3
+@comment MD5:230695e0aabce3c77a3c8db47812ea9e
+man/man3/krb5_kuserok.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_log.3
+@comment MD5:ce6a5ca621dd4cd6885a0f20daa256a6
+man/man3/krb5_log_msg.3
+@comment MD5:ce6a5ca621dd4cd6885a0f20daa256a6
+man/man3/krb5_make_addrport.3
+@comment MD5:2f053615414fa3818b895e92aa6e946c
+man/man3/krb5_make_principal.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_max_sockaddr_size.3
+@comment MD5:2f053615414fa3818b895e92aa6e946c
+man/man3/krb5_mcc_ops.3
+@comment MD5:113ab4bab3fa633b260969c35a16d27a
+man/man3/krb5_mk_priv.3
+@comment MD5:492e2b865fa39c0072d02f85be28ad5c
+man/man3/krb5_mk_rep.3
+@comment MD5:05689ca671b7145938db39a993ab2621
+man/man3/krb5_mk_rep_exact.3
+@comment MD5:05689ca671b7145938db39a993ab2621
+man/man3/krb5_mk_rep_extended.3
+@comment MD5:05689ca671b7145938db39a993ab2621
+man/man3/krb5_mk_req.3
+@comment MD5:05689ca671b7145938db39a993ab2621
+man/man3/krb5_mk_req_exact.3
+@comment MD5:05689ca671b7145938db39a993ab2621
+man/man3/krb5_mk_req_extended.3
+@comment MD5:05689ca671b7145938db39a993ab2621
+man/man3/krb5_mk_safe.3
+@comment MD5:492e2b865fa39c0072d02f85be28ad5c
+man/man3/krb5_openlog.3
+@comment MD5:ce6a5ca621dd4cd6885a0f20daa256a6
+man/man3/krb5_pac.3
+@comment MD5:4e5dbcaefa059efa3055b6e15637afb1
+man/man3/krb5_pac_get_buffer.3
+@comment MD5:8c1a8c50d20f27c463133cf93b43e4aa
+man/man3/krb5_pac_verify.3
+@comment MD5:8c1a8c50d20f27c463133cf93b43e4aa
+man/man3/krb5_padata_add.3
+@comment MD5:143ed2c7ded9b623e1aba7839b30e824
+man/man3/krb5_parse_address.3
+@comment MD5:2f053615414fa3818b895e92aa6e946c
+man/man3/krb5_parse_name.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_parse_name_flags.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_parse_nametype.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_passwd_result_to_string.3
+@comment MD5:9b962bd9249842b653f878171d3d23f2
+man/man3/krb5_password_key_proc.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_plugin_register.3
+@comment MD5:851e3ec757f99d0e3e58a84d930f8eae
+man/man3/krb5_prepend_config_files.3
+@comment MD5:8b188e68ae0cf452a2912689be5f985a
+man/man3/krb5_prepend_config_files_default.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_princ_realm.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_princ_set_realm.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_principal.3
+@comment MD5:7e1f8e15af0561df560c351416286518
+man/man3/krb5_principal_compare.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_principal_compare_any_realm.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_principal_get_comp_string.3
+@comment MD5:a7dbf3dfb2e0325e721ff5c5cdaac4f3
+man/man3/krb5_principal_get_num_comp.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_principal_get_realm.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_principal_get_type.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_principal_intro.3
+@comment MD5:89bc77fd4672f88a37ecd1ca711baab2
+man/man3/krb5_principal_is_krbtgt.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_principal_match.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_principal_set_realm.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_principal_set_type.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_print_address.3
+@comment MD5:2f053615414fa3818b895e92aa6e946c
+man/man3/krb5_prompt.3
+@comment MD5:3076ecb708a2cb961caf2668be036328
+man/man3/krb5_prompter_posix.3
+@comment MD5:3076ecb708a2cb961caf2668be036328
+man/man3/krb5_pwcheck.3
+@comment MD5:75caa79cb6e336671478db4ceff5aaa5
+man/man3/krb5_random_to_key.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_rc_close.3
+@comment MD5:10d20c58bff11a251f0cf7131aa0a94c
+man/man3/krb5_rc_default.3
+@comment MD5:10d20c58bff11a251f0cf7131aa0a94c
+man/man3/krb5_rc_default_name.3
+@comment MD5:10d20c58bff11a251f0cf7131aa0a94c
+man/man3/krb5_rc_default_type.3
+@comment MD5:10d20c58bff11a251f0cf7131aa0a94c
+man/man3/krb5_rc_destroy.3
+@comment MD5:10d20c58bff11a251f0cf7131aa0a94c
+man/man3/krb5_rc_expunge.3
+@comment MD5:10d20c58bff11a251f0cf7131aa0a94c
+man/man3/krb5_rc_get_lifespan.3
+@comment MD5:10d20c58bff11a251f0cf7131aa0a94c
+man/man3/krb5_rc_get_name.3
+@comment MD5:10d20c58bff11a251f0cf7131aa0a94c
+man/man3/krb5_rc_get_type.3
+@comment MD5:10d20c58bff11a251f0cf7131aa0a94c
+man/man3/krb5_rc_initialize.3
+@comment MD5:10d20c58bff11a251f0cf7131aa0a94c
+man/man3/krb5_rc_recover.3
+@comment MD5:10d20c58bff11a251f0cf7131aa0a94c
+man/man3/krb5_rc_resolve.3
+@comment MD5:10d20c58bff11a251f0cf7131aa0a94c
+man/man3/krb5_rc_resolve_full.3
+@comment MD5:10d20c58bff11a251f0cf7131aa0a94c
+man/man3/krb5_rc_resolve_type.3
+@comment MD5:10d20c58bff11a251f0cf7131aa0a94c
+man/man3/krb5_rc_store.3
+@comment MD5:10d20c58bff11a251f0cf7131aa0a94c
+man/man3/krb5_rcache.3
+@comment MD5:10d20c58bff11a251f0cf7131aa0a94c
+man/man3/krb5_rd_error.3
+@comment MD5:0f928ecb761bcdc62ad8e61c681dae05
+man/man3/krb5_rd_priv.3
+@comment MD5:1dac74324efce3a5cc6824b0923cec95
+man/man3/krb5_rd_rep.3
+@comment MD5:05689ca671b7145938db39a993ab2621
+man/man3/krb5_rd_req.3
+@comment MD5:05689ca671b7145938db39a993ab2621
+man/man3/krb5_rd_req_ctx.3
+@comment MD5:bae1e8c79eca04512718b87324de3dd9
+man/man3/krb5_rd_req_in_ctx_alloc.3
+@comment MD5:bae1e8c79eca04512718b87324de3dd9
+man/man3/krb5_rd_req_in_set_keytab.3
+@comment MD5:bae1e8c79eca04512718b87324de3dd9
+man/man3/krb5_rd_req_in_set_pac_check.3
+@comment MD5:bae1e8c79eca04512718b87324de3dd9
+man/man3/krb5_rd_req_out_ctx_free.3
+@comment MD5:bae1e8c79eca04512718b87324de3dd9
+man/man3/krb5_rd_req_out_get_server.3
+@comment MD5:bae1e8c79eca04512718b87324de3dd9
+man/man3/krb5_rd_req_with_keyblock.3
+@comment MD5:05689ca671b7145938db39a993ab2621
+man/man3/krb5_rd_safe.3
+@comment MD5:1dac74324efce3a5cc6824b0923cec95
+man/man3/krb5_realm_compare.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_ret_address.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_ret_addrs.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_ret_authdata.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_ret_creds.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_ret_creds_tag.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_ret_data.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_ret_int16.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_ret_int32.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_ret_int8.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_ret_keyblock.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_ret_principal.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_ret_string.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_ret_stringz.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_ret_times.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_ret_uint16.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_ret_uint32.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_ret_uint8.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_set_config_files.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_set_default_in_tkt_etypes.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_set_default_realm.3
+@comment MD5:554efccc9bdae07cd469b4a901982003
+man/man3/krb5_set_dns_canonicalize_hostname.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_set_dns_canonize_hostname.3
+@comment MD5:8b188e68ae0cf452a2912689be5f985a
+man/man3/krb5_set_error_message.3
+@comment MD5:48a9952f454153a803d0d446c739b041
+man/man3/krb5_set_error_string.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_set_extra_addresses.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_set_fcache_version.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_set_home_dir_access.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_set_ignore_addresses.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_set_kdc_sec_offset.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_set_max_time_skew.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_set_password.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_set_password_using_ccache.3
+@comment MD5:9b962bd9249842b653f878171d3d23f2
+man/man3/krb5_set_real_time.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_set_use_admin_kdc.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_sname_to_principal.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_sock_to_principal.3
+@comment MD5:a7dbf3dfb2e0325e721ff5c5cdaac4f3
+man/man3/krb5_sockaddr2address.3
+@comment MD5:2f053615414fa3818b895e92aa6e946c
+man/man3/krb5_sockaddr2port.3
+@comment MD5:2f053615414fa3818b895e92aa6e946c
+man/man3/krb5_sockaddr_uninteresting.3
+@comment MD5:2f053615414fa3818b895e92aa6e946c
+man/man3/krb5_storage.3
+@comment MD5:2bb82f4d4398b9fd65d89afbbda9fd79
+man/man3/krb5_storage_clear_flags.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_storage_emem.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_storage_free.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_storage_from_data.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_storage_from_fd.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_storage_from_mem.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_storage_from_readonly_mem.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_storage_get_byteorder.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_storage_get_eof_code.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_storage_is_flags.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_storage_read.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_storage_seek.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_storage_set_byteorder.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_storage_set_eof_code.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_storage_set_flags.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_storage_set_max_alloc.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_storage_to_data.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_storage_truncate.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_storage_write.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_store_address.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_store_addrs.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_store_authdata.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_store_creds.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_store_creds_tag.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_store_data.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_store_int16.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_store_int32.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_store_int8.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_store_keyblock.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_store_principal.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_store_string.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_store_stringz.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_store_times.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_store_uint16.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_store_uint32.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_store_uint8.3
+@comment MD5:34217751d710bf2ebde1143c8c3a3cba
+man/man3/krb5_string_to_deltat.3
+@comment MD5:25ba18c952367c8e7f3888f5398737f8
+man/man3/krb5_string_to_enctype.3
+@comment MD5:b725013023a62e79fdce1ab95bef001c
+man/man3/krb5_string_to_key.3
+@comment MD5:08066df77c4c9a2d6071107a15169ca2
+man/man3/krb5_string_to_key_data.3
+@comment MD5:08066df77c4c9a2d6071107a15169ca2
+man/man3/krb5_string_to_key_data_salt.3
+@comment MD5:08066df77c4c9a2d6071107a15169ca2
+man/man3/krb5_string_to_key_data_salt_opaque.3
+@comment MD5:08066df77c4c9a2d6071107a15169ca2
+man/man3/krb5_string_to_key_salt.3
+@comment MD5:08066df77c4c9a2d6071107a15169ca2
+man/man3/krb5_string_to_key_salt_opaque.3
+@comment MD5:08066df77c4c9a2d6071107a15169ca2
+man/man3/krb5_string_to_keytype.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_support.3
+@comment MD5:8ea76130f1b75e0ccf982c06063e1d81
+man/man3/krb5_ticket.3
+@comment MD5:90b528c06b6868869bf6d6b3bf62a515
+man/man3/krb5_ticket_get_authorization_data_type.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_ticket_get_client.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_ticket_get_endtime.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_ticket_get_flags.3
+@comment MD5:e1e38b3ef0a187d77e5dd6737fef6e00
+man/man3/krb5_ticket_get_server.3
+@comment MD5:88ec270abf9275ba0ee777a113007dce
+man/man3/krb5_timeofday.3
+@comment MD5:25ba18c952367c8e7f3888f5398737f8
+man/man3/krb5_unparse_name.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_unparse_name_fixed.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_unparse_name_fixed_flags.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_unparse_name_fixed_short.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_unparse_name_flags.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_unparse_name_short.3
+@comment MD5:920306d0736f47b033b5236a6af52e98
+man/man3/krb5_us_timeofday.3
+@comment MD5:25ba18c952367c8e7f3888f5398737f8
+man/man3/krb5_v4compat.3
+@comment MD5:496256b579680e6aec6c96a80c03abe9
+man/man3/krb5_verify_ap_req.3
+@comment MD5:05689ca671b7145938db39a993ab2621
+man/man3/krb5_verify_checksum.3
+@comment MD5:b7da0eeea68c428f0146ebcc16ebac03
+man/man3/krb5_verify_checksum_iov.3
+@comment MD5:8efe5ceb3fe1ac37163d43e15dc4294d
+man/man3/krb5_verify_init_creds.3
+@comment MD5:f33e0de80a19325e8df1aa62b87f72b1
+man/man3/krb5_verify_init_creds_opt_init.3
+@comment MD5:f33e0de80a19325e8df1aa62b87f72b1
+man/man3/krb5_verify_init_creds_opt_set_ap_req_nofail.3
+@comment MD5:f33e0de80a19325e8df1aa62b87f72b1
+man/man3/krb5_verify_opt_alloc.3
+@comment MD5:afe8a55472963e20a498a298aa95bb2f
+man/man3/krb5_verify_opt_free.3
+@comment MD5:afe8a55472963e20a498a298aa95bb2f
+man/man3/krb5_verify_opt_init.3
+@comment MD5:afe8a55472963e20a498a298aa95bb2f
+man/man3/krb5_verify_opt_set_ccache.3
+@comment MD5:afe8a55472963e20a498a298aa95bb2f
+man/man3/krb5_verify_opt_set_flags.3
+@comment MD5:afe8a55472963e20a498a298aa95bb2f
+man/man3/krb5_verify_opt_set_keytab.3
+@comment MD5:afe8a55472963e20a498a298aa95bb2f
+man/man3/krb5_verify_opt_set_secure.3
+@comment MD5:afe8a55472963e20a498a298aa95bb2f
+man/man3/krb5_verify_opt_set_service.3
+@comment MD5:afe8a55472963e20a498a298aa95bb2f
+man/man3/krb5_verify_user.3
+@comment MD5:afe8a55472963e20a498a298aa95bb2f
+man/man3/krb5_verify_user_lrealm.3
+@comment MD5:afe8a55472963e20a498a298aa95bb2f
+man/man3/krb5_verify_user_opt.3
+@comment MD5:afe8a55472963e20a498a298aa95bb2f
+man/man3/krb5_vlog.3
+@comment MD5:ce6a5ca621dd4cd6885a0f20daa256a6
+man/man3/krb5_vlog_msg.3
+@comment MD5:ce6a5ca621dd4cd6885a0f20daa256a6
+man/man3/krb5_vset_error_string.3
+@comment MD5:4ffaee63cd43419a1f96bf3b45474424
+man/man3/krb5_vwarn.3
+@comment MD5:48a9952f454153a803d0d446c739b041
+man/man3/krb_afslog.3
+@comment MD5:7dcf8e793f1eac6c8da8e8d586d4271e
+man/man3/krb_afslog_uid.3
+@comment MD5:7dcf8e793f1eac6c8da8e8d586d4271e
+man/man3/length.3
+@comment MD5:e8a2f1dc70eae765ea0fb60398842458
+man/man3/lm.3
+@comment MD5:09493fcd7ed195e6321b4f6ddb52d89b
+man/man3/ntlm.3
+@comment MD5:09493fcd7ed195e6321b4f6ddb52d89b
+man/man3/ntlm_buf.3
+@comment MD5:401328e8b1fdd276025e304c07cc9772
+man/man3/ntlm_core.3
+@comment MD5:f2de8c2cc4d79017c92de6b89087e57b
+man/man3/ntlm_type1.3
+@comment MD5:2c5d888d5daa972c5970827de391b204
+man/man3/ntlm_type2.3
+@comment MD5:177365c52f3a3d2e2027c29f7e5aa7fd
+man/man3/ntlm_type3.3
+@comment MD5:942e21522778ef5d0ff2882950503fe5
+man/man3/os.3
+@comment MD5:99fe11f97feab52ce56c8a26a8343dc1
+man/man3/page_ca.3
+@comment MD5:66889b680f3f3ad2d2e5205ed2a8a041
+man/man3/page_cert.3
+@comment MD5:0f70d5e02121272f3bb2529a12852da4
+man/man3/page_cms.3
+@comment MD5:01f4908eb9c29d3ff4f9442dc260722e
+man/man3/page_des.3
+@comment MD5:1a98421744ef9ef4ce3af35d7d6db7a2
+man/man3/page_dh.3
+@comment MD5:e0653feb82ad6413687f0446759ae061
+man/man3/page_env.3
+@comment MD5:7cc4b881eb374a6ed6aa516a3088395d
+man/man3/page_error.3
+@comment MD5:ecd49abb98672f766331498dc12e70c3
+man/man3/page_evp.3
+@comment MD5:a66ed23ea92226326687cdc80ea4e104
+man/man3/page_keyset.3
+@comment MD5:0a373267d4d2266f24b3a61b816d5ed6
+man/man3/page_lock.3
+@comment MD5:edf40b8c68f6680884824a4d843e5145
+man/man3/page_name.3
+@comment MD5:c1742c8e1d047c9d99bc96ad42b97c93
+man/man3/page_peer.3
+@comment MD5:4859010f41a74fa1eec23edff5f1a0c1
+man/man3/page_print.3
+@comment MD5:ee1e5692599c91e3fc94e44904b7c399
+man/man3/page_rand.3
+@comment MD5:ecb077395296a63d2be615264bdbb79f
+man/man3/page_revoke.3
+@comment MD5:06fed13a04feefd76b0e46d3b892f38e
+man/man3/page_rsa.3
+@comment MD5:999d02c07cf2a8fe5aca46ec2f3afdde
+man/man3/parse_time.3
+@comment MD5:2b7d801c7970787dce33c2adbc927d74
+man/man3/print_time_table.3
+@comment MD5:2b7d801c7970787dce33c2adbc927d74
+man/man3/rtbl.3
+@comment MD5:eca1d4d22cb5aed02115efea5298210e
+man/man3/rtbl_add_column.3
+@comment MD5:eca1d4d22cb5aed02115efea5298210e
+man/man3/rtbl_add_column_by_id.3
+@comment MD5:eca1d4d22cb5aed02115efea5298210e
+man/man3/rtbl_add_column_entry.3
+@comment MD5:eca1d4d22cb5aed02115efea5298210e
+man/man3/rtbl_add_column_entry_by_id.3
+@comment MD5:eca1d4d22cb5aed02115efea5298210e
+man/man3/rtbl_create.3
+@comment MD5:eca1d4d22cb5aed02115efea5298210e
+man/man3/rtbl_destroy.3
+@comment MD5:eca1d4d22cb5aed02115efea5298210e
+man/man3/rtbl_format.3
+@comment MD5:eca1d4d22cb5aed02115efea5298210e
+man/man3/rtbl_get_flags.3
+@comment MD5:eca1d4d22cb5aed02115efea5298210e
+man/man3/rtbl_new_row.3
+@comment MD5:eca1d4d22cb5aed02115efea5298210e
+man/man3/rtbl_set_column_affix_by_id.3
+@comment MD5:eca1d4d22cb5aed02115efea5298210e
+man/man3/rtbl_set_column_prefix.3
+@comment MD5:eca1d4d22cb5aed02115efea5298210e
+man/man3/rtbl_set_flags.3
+@comment MD5:eca1d4d22cb5aed02115efea5298210e
+man/man3/rtbl_set_prefix.3
+@comment MD5:eca1d4d22cb5aed02115efea5298210e
+man/man3/rtbl_set_separator.3
+@comment MD5:eca1d4d22cb5aed02115efea5298210e
+man/man3/sessionkey.3
+@comment MD5:09493fcd7ed195e6321b4f6ddb52d89b
+man/man3/targetinfo.3
+@comment MD5:45270a6434166f4fd7ab29238cec76e9
+man/man3/targetname.3
+@comment MD5:45270a6434166f4fd7ab29238cec76e9
+man/man3/unparse_time.3
+@comment MD5:2b7d801c7970787dce33c2adbc927d74
+man/man3/unparse_time_approx.3
+@comment MD5:2b7d801c7970787dce33c2adbc927d74
+man/man3/username.3
+@comment MD5:09493fcd7ed195e6321b4f6ddb52d89b
+man/man3/wind.3
+@comment MD5:fa82ed48dc1495b0eb6c8346888bce8b
+man/man3/wind_profile.3
+@comment MD5:0a48fee8f3734afe2331fa4b3b068688
+man/man3/wind_punycode_label_toascii.3
+@comment MD5:0a48fee8f3734afe2331fa4b3b068688
+man/man3/wind_stringprep.3
+@comment MD5:0a48fee8f3734afe2331fa4b3b068688
+man/man3/wind_ucs2read.3
+@comment MD5:0a48fee8f3734afe2331fa4b3b068688
+man/man3/wind_ucs2utf8.3
+@comment MD5:0a48fee8f3734afe2331fa4b3b068688
+man/man3/wind_ucs2utf8_length.3
+@comment MD5:0a48fee8f3734afe2331fa4b3b068688
+man/man3/wind_ucs2write.3
+@comment MD5:0a48fee8f3734afe2331fa4b3b068688
+man/man3/wind_ucs4utf8.3
+@comment MD5:0a48fee8f3734afe2331fa4b3b068688
+man/man3/wind_ucs4utf8_length.3
+@comment MD5:0a48fee8f3734afe2331fa4b3b068688
+man/man3/wind_utf8ucs2.3
+@comment MD5:0a48fee8f3734afe2331fa4b3b068688
+man/man3/wind_utf8ucs2_length.3
+@comment MD5:0a48fee8f3734afe2331fa4b3b068688
+man/man3/wind_utf8ucs4.3
+@comment MD5:0a48fee8f3734afe2331fa4b3b068688
+man/man3/wind_utf8ucs4_length.3
+@comment MD5:0a48fee8f3734afe2331fa4b3b068688
+man/man3/ws.3
+@comment MD5:09493fcd7ed195e6321b4f6ddb52d89b
+man/man5/kftpusers.5
+@comment MD5:de9bc5f00ae7e711abe9edce806154fa
+man/man5/krb5.conf.5
+@comment MD5:4d1804ccb1bf7fea0f65fecef56d09d4
+man/man5/login.access.5
+@comment MD5:7ae7e3e969e57b2f4d5ea2ae86fc323f
+man/man5/mech.5
+@comment MD5:e50c31881820d952f3888076489a884b
+man/man5/qop.5
+@comment MD5:e50c31881820d952f3888076489a884b
+man/man8/hprop.8
+@comment MD5:2b4e857f7c5693ee931f83162357856b
+man/man8/hpropd.8
+@comment MD5:222a35a9cab70114b06b77470ea4bf89
+man/man8/iprop-log.8
+@comment MD5:f8e733ed18cbd6d5eddb4181e070b8b2
+man/man8/iprop.8
+@comment MD5:26736c2efd769c72749b1e992212afee
+man/man8/ipropd-master.8
+@comment MD5:26736c2efd769c72749b1e992212afee
+man/man8/ipropd-slave.8
+@comment MD5:26736c2efd769c72749b1e992212afee
+man/man8/kadmin.8
+@comment MD5:7dec9341ed2ec32a38fd53917c429168
+man/man8/kadmind.8
+@comment MD5:c79e98afc2ccb1282a472850c865e612
+man/man8/kcm.8
+@comment MD5:8908738710174aea9ce384f26cca69c8
+man/man8/kdc.8
+@comment MD5:b3a2a7fb3e12b2f17c89f1d8fa05b9f5
+man/man8/kdigest.8
+@comment MD5:10a7f58ce1e06cb630dee4d7f7bde9c2
+man/man8/kerberos.8
+@comment MD5:0be49b3fa149c6c8c8c253d1ac151c9e
+man/man8/kfd.8
+@comment MD5:21df70f75d81b334cc333ec3b6c53da3
+man/man8/kftpd.8
+@comment MD5:2438a8af30a262f87068e3a6be01899f
+man/man8/kimpersonate.8
+@comment MD5:72cd159be52b83e9c7372aa3c534e6e9
+man/man8/kpasswdd.8
+@comment MD5:a47a7ff04a3be7197355735cd8e31f80
+man/man8/kstash.8
+@comment MD5:073898ef06e7bce6e67302cb52f1cc46
+man/man8/ktutil.8
+@comment MD5:34d15552479915b19f726409ef6e908d
+man/man8/kxd.8
+@comment MD5:0f572ed15886cb118508080a7ba93c33
+man/man8/popper.8
+@comment MD5:f878f5f7bba05e0957a9b8942d84e184
+man/man8/push.8
+@comment MD5:74859cec990232932268b5c440f3b057
+man/man8/rshd.8
+@comment MD5:029abad8afef0156306d9c19e4d99f84
+man/man8/telnetd.8
+@comment MD5:edeccb5b4de131bc700bf9c86f3af276
+man/man8/string2key.8
+@comment MD5:8e960ab6637157ef4b204d60f8053ce1
+man/man8/verify_krb5_conf.8
+@comment MD5:ea3c25192771895fab49209b4960eccd
+sbin/iprop-log
+@comment MD5:f2f75585d36bddcd5ddcb63f76177b68
+sbin/kadmin
+@comment MD5:426649c9b519b0e37d22c0d3af76e1ab
+sbin/kstash
+@comment MD5:93b7b670ee027131bed5fd7bdbaff6f7
+sbin/ktutil
+@comment MD5:dbb66a1c79ceb53f71b81b4ea5d5d123
+@comment share/examples/heimdal/hdb.schema
+share/examples/rc.d/kadmind
+@comment MD5:92ed58de5379b80d42ebedb27715d83e
+share/examples/rc.d/kcm
+@comment MD5:4186e952d0310334761bdd40fde5ef7d
+share/examples/rc.d/kdc
+@comment MD5:bc413b1cce27b34c028f42ad5554c6f6
+share/examples/rc.d/kpasswdd
+@comment MD5:1a88944c9211e697c40723ac23925d90
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++INSTALL
+@ignore
++DEINSTALL
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

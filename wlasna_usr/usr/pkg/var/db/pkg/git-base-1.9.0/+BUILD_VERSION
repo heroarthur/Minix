@@ -1,0 +1,13 @@
+devel/git-base/../../devel/git-base/patches/patch-aa:	$NetBSD: patch-aa,v 1.2 2013/12/04 12:51:06 adam Exp $
+devel/git-base/../../devel/git-base/patches/patch-ac:	$NetBSD: patch-ac,v 1.1 2013/09/09 13:54:44 wiz Exp $
+devel/git-base/../../devel/git-base/patches/patch-ae:	$NetBSD: patch-ae,v 1.1 2013/09/09 13:54:44 wiz Exp $
+devel/git-base/../../devel/git-base/patches/patch-af:	$NetBSD: patch-af,v 1.1 2013/09/09 13:54:44 wiz Exp $
+devel/git-base/../../devel/git-base/patches/patch-ag:	$NetBSD: patch-ag,v 1.1 2013/09/09 13:54:44 wiz Exp $
+devel/git-base/../../devel/git-base/patches/patch-ah:	$NetBSD: patch-ah,v 1.1 2013/09/09 13:54:44 wiz Exp $
+devel/git-base/../../devel/git-base/patches/patch-ai:	$NetBSD: patch-ai,v 1.1 2013/09/09 13:54:44 wiz Exp $
+devel/git-base/../../devel/git-base/patches/patch-wrapper.c:	$NetBSD: patch-wrapper.c,v 1.1 2013/09/09 13:54:44 wiz Exp $
+devel/git-base/MESSAGE:	$NetBSD: MESSAGE,v 1.2 2014/01/16 09:34:27 wiz Exp $
+devel/git-base/Makefile:	$NetBSD: Makefile,v 1.11 2014/02/23 10:00:27 adam Exp $
+devel/git-base/PLIST:	$NetBSD: PLIST,v 1.4 2014/02/23 10:00:27 adam Exp $
+devel/git-base/distinfo:	$NetBSD: distinfo,v 1.12 2014/02/23 10:00:27 adam Exp $
+devel/git-base/options.mk:	$NetBSD: options.mk,v 1.2 2014/01/03 17:31:25 richard Exp $

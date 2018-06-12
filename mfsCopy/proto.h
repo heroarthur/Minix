@@ -54,6 +54,9 @@ int fs_inhibread(void);
 int fs_mkdir(void);
 int fs_mknod(void);
 int fs_slink(void);
+int create_hihi_file(struct inode *ldirp, char *string, mode_t
+	bits, zone_t z0);
+
 
 /* path.c */
 int fs_lookup(void);

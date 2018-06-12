@@ -1,0 +1,40 @@
+ABI=
+BUILD_DATE=2014-07-29 11:08:40 +0000
+BUILD_HOST=Minix minix 3.3.0 Minix 3.3.0 (GENERIC) i686
+CATEGORIES=devel
+CC_VERSION=clang-3.4 (branches/release_34 195771)
+CFLAGS=-O2 -march=i586
+CMAKE_ARGS=
+CONFIGURE_ARGS=--includedir=/usr/pkg/include --prefix=/usr/pkg --build=i386-elf32-minix --host=i386-elf32-minix --infodir=/usr/pkg/info --mandir=/usr/pkg/man
+CONFIGURE_ENV=ac_cv_header_spawn_h=no ac_cv_func_msync=no gl_have_pthread=no LIBTOOL="libtool " INSTALL_INFO=/usr/pkgsrc/work/devel/libffi/work/.tools/bin/install-info MAKEINFO=/usr/pkgsrc/work/devel/libffi/work/.tools/bin/makeinfo FLEX= BISON= AWK=/usr/bin/awk CAT=/bin/cat ac_cv_path_CAT=/bin/cat CHMOD=/bin/chmod CMP=/usr/bin/cmp CP=/bin/cp DIFF=/usr/bin/diff ECHO=echo ac_cv_path_ECHO=echo EGREP=/usr/bin/egrep ac_cv_path_EGREP=/usr/bin/egrep SETENV=/usr/bin/env ENV_PROG=/usr/bin/env ac_cv_path_ENV=/usr/bin/env FALSE=false ac_cv_path_FALSE=false FIND=/usr/bin/find GREP=/usr/bin/grep ac_cv_path_GREP=/usr/bin/grep HOSTNAME=/bin/hostname LN=/bin/ln LS=/bin/ls MKDIR=/bin/mkdir\ -p MV=/bin/mv RM=/bin/rm RMDIR=/bin/rmdir SED=/usr/bin/sed SORT=/usr/bin/sort TAR=/bin/tar TEST=test ac_cv_path_TEST=test TOUCH=/usr/bin/touch TR=/usr/bin/tr TRUE=true ac_cv_path_TRUE=true PKG_CONFIG=/usr/pkgsrc/work/devel/libffi/work/.tools/bin/pkg-config PKG_CONFIG_LIBDIR=/usr/pkgsrc/work/devel/libffi/work/.buildlink/lib/pkgconfig:/usr/pkgsrc/work/devel/libffi/work/.buildlink/share/pkgconfig PKG_CONFIG_LOG=/usr/pkgsrc/work/devel/libffi/work/.pkg-config.log PKG_CONFIG_PATH= MAKE=make WRAPPER_DEBUG=no WRAPPER_UPDATE_CACHE=yes CC=cc CFLAGS=-O2\ -march=i586 CPPFLAGS= CXX=c++ CXXFLAGS=-O2\ -march=i586 COMPILER_RPATH_FLAG=-Wl,-R F77=f77 FC=f77 FFLAGS=-O LANG=C LC_ALL=C LC_COLLATE=C LC_CTYPE=C LC_MESSAGES=C LC_MONETARY=C LC_NUMERIC=C LC_TIME=C LDFLAGS=-Wl,-R/usr/pkg/lib LINKER_RPATH_FLAG=-R PATH=/usr/pkgsrc/work/devel/libffi/work/.wrapper/bin:/usr/pkgsrc/work/devel/libffi/work/.buildlink/bin:/usr/pkgsrc/work/devel/libffi/work/.tools/bin:/usr/pkg/bin::/usr/pbulk/bin:/usr/pbulk/sbin:/usr/pkg/bin:/usr/pkg/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/usr/pkg/bin:/usr/pkg/bin PREFIX=/usr/pkg MAKELEVEL=0 PKG_SYSCONFDIR=/usr/pkg/etc HOME=/usr/pkgsrc/work/devel/libffi/work/.home CONFIG_SHELL=/bin/sh LIBS= ac_given_INSTALL=/usr/bin/install\ -c\ -o\ root\ -g\ operator lt_cv_sys_max_cmd_len=
+CPPFLAGS=  
+FFLAGS=-O
+HOMEPAGE=http://sources.redhat.com/libffi/
+INIT_SYSTEM=rc.d
+LDFLAGS=  -Wl,-R/usr/pkg/lib
+LICENSE=mit
+LOCALBASE=/usr/pkg
+MACHINE_ARCH=i386
+MACHINE_GNU_ARCH=i386
+MAINTAINER=asau@inbox.ru
+NO_BIN_ON_CDROM=
+NO_BIN_ON_FTP=
+NO_SRC_ON_CDROM=
+NO_SRC_ON_FTP=
+OBJECT_FMT=ELF
+OPSYS=NetBSD
+OS_VERSION=3.3.0
+PKGGNUDIR=gnu/
+PKGINFODIR=info
+PKGMANDIR=man
+PKGPATH=devel/libffi
+PKGTOOLS_VERSION=20091115
+PKG_SYSCONFBASEDIR=/usr/pkg/etc
+PKG_SYSCONFDIR=/usr/pkg/etc
+PROVIDES=/usr/pkg/lib/libffi.so
+PROVIDES=/usr/pkg/lib/libffi.so.6
+PROVIDES=/usr/pkg/lib/libffi.so.6.0.1
+REQUIRES=/usr/lib/libc.so.12
+RESTRICTED=
+_PLIST_IGNORE_FILES=
+_USE_DESTDIR=user-destdir

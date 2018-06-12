@@ -1,0 +1,18 @@
+#!/bin/sh
+#
+# $NetBSD: kcm.sh,v 1.1 2005/10/26 15:12:45 jlam Exp $
+#
+# PROVIDE: kcm
+# REQUIRE: NETWORKING
+# BEFORE:  SERVERS
+
+. /etc/rc.subr
+
+name="kcm"
+rcvar=$name
+command="/usr/pkg/libexec/${name}"
+command_args="--detach"
+required_files="/usr/pkg/etc/krb5.conf"
+
+load_rc_config $name
+run_rc_command "$1"

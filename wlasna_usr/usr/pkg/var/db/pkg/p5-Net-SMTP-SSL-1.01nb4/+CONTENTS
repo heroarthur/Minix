@@ -1,0 +1,36 @@
+@cwd /usr/pkg
+@name p5-Net-SMTP-SSL-1.01nb4
+@blddep p5-IO-Socket-SSL-1.967
+@pkgdep p5-IO-Socket-SSL-[0-9]*
+@blddep perl-5.18.2nb1
+@pkgdep perl<5.20.0
+@blddep perl-5.18.2nb1
+@pkgdep perl>=5.18.0
+@blddep pth-2.0.7nb3
+@pkgdep pth>=2.0.0nb2
+@blddep digest-20121220
+@comment The following lines are automatically generated
+@comment from the installed .packlist files.
+lib/perl5/vendor_perl/5.18.0/Net/SMTP/SSL.pm
+@comment MD5:d0d60295e09860b102bc1e653cc23996
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SMTP/SSL/.packlist
+@comment MD5:f8f51a081b1015d14cb1a519f52b3425
+lib/perl5/vendor_perl/man/man3/Net::SMTP::SSL.3
+@comment MD5:dd1a8b648655de40b2e018987b718fe8
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++INSTALL
+@ignore
++DEINSTALL
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

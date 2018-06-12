@@ -1,0 +1,52 @@
+@cwd /usr/pkg
+@name p5-GSSAPI-0.28nb4
+@blddep perl-5.18.2nb1
+@pkgdep perl<5.20.0
+@blddep perl-5.18.2nb1
+@pkgdep perl>=5.18.0
+@blddep pth-2.0.7nb3
+@pkgdep pth>=2.0.0nb2
+@blddep heimdal-1.5.3nb5
+@pkgdep heimdal>=1.5.3nb4
+@blddep digest-20121220
+@comment The following lines are automatically generated
+@comment from the installed .packlist files.
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/GSSAPI.pm
+@comment MD5:fbe12a6b3b6d7cc58584fad8e39a83a0
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/GSSAPI/OID.pm
+@comment MD5:a2e0784acaaf1b9c228dd094534498fe
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/GSSAPI/OID/Set.pm
+@comment MD5:b7681b6b4e91919674c10dcb1b4a9369
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/GSSAPI/Status.pm
+@comment MD5:a0ead38f0552d5c2a2d41dd7e6882b9b
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/GSSAPI/.packlist
+@comment MD5:e316e8994df5698b36143721d1756178
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/GSSAPI/GSSAPI.bs
+@comment MD5:d41d8cd98f00b204e9800998ecf8427e
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/GSSAPI/GSSAPI.so
+@comment MD5:49a5094b2beadf2e3828f25524674a3a
+lib/perl5/vendor_perl/man/man3/GSSAPI.3
+@comment MD5:f48bd2fc12abe134653f76a6f5ff4732
+lib/perl5/vendor_perl/man/man3/GSSAPI::OID.3
+@comment MD5:5a81c4f4c20abba78fd0478a792408db
+lib/perl5/vendor_perl/man/man3/GSSAPI::OID::Set.3
+@comment MD5:739f1afa374c0df6a40447e52174adcb
+lib/perl5/vendor_perl/man/man3/GSSAPI::Status.3
+@comment MD5:8db08029bc984f17f0da8b4a9b3f0045
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++INSTALL
+@ignore
++DEINSTALL
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

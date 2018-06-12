@@ -1,0 +1,14 @@
+textproc/libxml2/Makefile:	$NetBSD: Makefile,v 1.128 2013/12/28 23:04:36 tron Exp $
+textproc/libxml2/PLIST:	$NetBSD: PLIST,v 1.44 2013/05/26 09:22:14 adam Exp $
+textproc/libxml2/buildlink3.mk:	$NetBSD: buildlink3.mk,v 1.18 2012/06/14 07:39:37 sbd Exp $
+textproc/libxml2/distinfo:	$NetBSD: distinfo,v 1.102 2013/11/25 23:30:23 wiz Exp $
+textproc/libxml2/options.mk:	$NetBSD: options.mk,v 1.2 2012/06/12 15:46:03 wiz Exp $
+textproc/libxml2/patches/patch-aa:	$NetBSD: patch-aa,v 1.27 2013/05/26 09:22:14 adam Exp $
+textproc/libxml2/patches/patch-ab:	$NetBSD: patch-ab,v 1.27 2013/05/26 09:22:14 adam Exp $
+textproc/libxml2/patches/patch-ac:	$NetBSD: patch-ac,v 1.7 2012/09/15 10:23:38 adam Exp $
+textproc/libxml2/patches/patch-ad:	$NetBSD: patch-ad,v 1.17 2005/07/12 21:15:21 recht Exp $
+textproc/libxml2/patches/patch-ae:	$NetBSD: patch-ae,v 1.13 2013/05/26 09:22:14 adam Exp $
+textproc/libxml2/patches/patch-ag:	$NetBSD: patch-ag,v 1.11 2012/09/15 10:23:38 adam Exp $
+textproc/libxml2/patches/patch-aj:	$NetBSD: patch-aj,v 1.3 2012/09/15 10:23:38 adam Exp $
+textproc/libxml2/patches/patch-threads.c:	$NetBSD: patch-threads.c,v 1.4 2013/05/26 09:22:14 adam Exp $
+textproc/libxml2/patches/patch-xzlib.c:	$NetBSD: patch-xzlib.c,v 1.1 2013/11/25 23:30:23 wiz Exp $

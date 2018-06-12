@@ -1,0 +1,10 @@
+prefix=/usr/pkg
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=/usr/pkg/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.0.13
+Libs: -Wl,-R${libdir} -L${libdir} -lffi
+Cflags: -I${includedir}

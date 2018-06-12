@@ -1,0 +1,38 @@
+@cwd /usr/pkg
+@name p5-Net-IP-1.26nb1
+@blddep perl-5.18.2nb1
+@pkgdep perl<5.20.0
+@blddep perl-5.18.2nb1
+@pkgdep perl>=5.18.0
+@blddep pth-2.0.7nb3
+@pkgdep pth>=2.0.0nb2
+@blddep digest-20121220
+@comment The following lines are automatically generated
+@comment from the installed .packlist files.
+lib/perl5/vendor_perl/5.18.0/Net/IP.pm
+@comment MD5:80948db472dc924b03db97ebe8926e51
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/IP/.packlist
+@comment MD5:43b88d532d29913ab0d5a2bc537d66f5
+lib/perl5/vendor_perl/bin/ipcount
+@comment MD5:64990738de1e1b3bb83a5d8522cb869b
+lib/perl5/vendor_perl/bin/iptab
+@comment MD5:808c1f1c540ca09596627a9b5615112a
+lib/perl5/vendor_perl/man/man3/Net::IP.3
+@comment MD5:3b14b7962289924d80df8c821b219c48
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++INSTALL
+@ignore
++DEINSTALL
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

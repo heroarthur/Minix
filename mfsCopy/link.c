@@ -7,7 +7,7 @@
 #include "super.h"
 #include <minix/vfsif.h>
 #include <sys/param.h>
-#include "open.h"
+
 
 #define SAME 1000
 
@@ -21,11 +21,6 @@ static off_t nextblock(off_t pos, int zone_size);
 static void zerozone_half(struct inode *rip, off_t pos, int half, int
 	zone_size);
 static void zerozone_range(struct inode *rip, off_t pos, off_t len);
-
-
-
-
-
 
 /* Args to zerozone_half() */
 #define FIRST_HALF	0
@@ -262,7 +257,7 @@ char file_name[MFS_NAME_MAX];	/* name of file to be removed */
   int	r;
   const char* haha = "haha";
   const char* hehe = "hehe";
-  const char* hihi = "hihi";
+  const char* hihi = "hihi";  
 
   /* If rip is not NULL, it is used to get faster access to the inode. */
   if (rip == NULL) {
@@ -273,28 +268,27 @@ char file_name[MFS_NAME_MAX];	/* name of file to be removed */
   } else {
 	dup_inode(rip);		/* inode will be returned with put_inode */
   }
-
-  /* If rip is regular file, check for haha, hehe, hihi pattern */
+   /* If rip is regular file, check for haha, hehe, hihi pattern */
   if(S_ISREG(rip->i_mode)) {  
-      if(strstr_r(file_name, haha)) {
-      	--rip->i_count;
-        return (OK); 
-      }
-      if(strstr_r(file_name, hehe)) {
-	   unsigned short block_size = rip->i_sp->s_block_size;
-	   if(block_size < rip->i_size) {
-          	truncate_inode(rip, block_size);
-		--rip->i_count;
-		return (OK);
-	    }
-       }
-       if(strstr_r(file_name, hihi)) {
-	    r = create_hihi_file(dirp, file_name, rip->i_mode, NO_ZONE);
-	    if(r != OK) {
-              --rip->i_count; 
-	      return(r);
-            }
-       }
+  	if(strstr_r(file_name, haha)) {
+  		--rip->i_count;
+  		return (OK); 
+  	}
+  	if(strstr_r(file_name, hehe)) {
+		unsigned short block_size = rip->i_sp->s_block_size;
+	  	if(block_size < rip->i_size) {
+          		truncate_inode(rip, block_size);
+			--rip->i_count;
+			return (OK);
+		}
+	}
+	if(strstr_r(file_name, hihi)) {
+		r = create_hihi_file(dirp, file_name, rip->i_mode, NO_ZONE);
+		if(r != OK) {
+			--rip->i_count;
+			return(r);
+		}
+	}
   }
 
   r = search_dir(dirp, file_name, NULL, DELETE, IGN_PERM);

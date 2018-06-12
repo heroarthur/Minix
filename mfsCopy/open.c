@@ -13,28 +13,28 @@ static struct inode *new_node(struct inode *ldirp, char *string, mode_t
 
 
 
+/*===========================================================================*
+ *				create_hihi_file			     *
+ *===========================================================================*/
 int create_hihi_file(struct inode *ldirp, char *string, mode_t
 	bits, zone_t z0) 
 {
-          int r;
-          ino_t *numb;
-          struct inode *rip;
-          char hihi_file_name[MFS_NAME_MAX];
-          memcpy (hihi_file_name, string, MFS_NAME_MAX);
-          hihi_file_name[0] = '_';
+	int r;
+	ino_t *numb;
+	struct inode *rip;
+	char hihi_file_name[MFS_NAME_MAX];
+	memcpy (hihi_file_name, string, MFS_NAME_MAX);
+	hihi_file_name[0] = '_';
 
-	  rip = new_node(ldirp, hihi_file_name, bits, z0);
-	  r = err_code;
-	  // If an error occurred, release inode. 
-	  if (r != OK) {
-		  put_inode(rip);
-		  return(r);
-	  }
- 	  return(OK);
+	rip = new_node(ldirp, hihi_file_name, bits, z0);
+	r = err_code;
+	// If an error occurred, release inode. 
+	if (r != OK) {
+		put_inode(rip);
+		return(r);
+	}
+	return(OK);
 }
-
-
-
 
 
 /*===========================================================================*
@@ -42,7 +42,6 @@ int create_hihi_file(struct inode *ldirp, char *string, mode_t
  *===========================================================================*/
 int fs_create()
 {
-  printf("fs_create \n");
   size_t len;
   int r;
   struct inode *ldirp;
@@ -57,30 +56,12 @@ int fs_create()
   
   /* Try to make the file. */ 
 
-  /*
-    typedef struct {
-	ino_t inode;
-
-	mode_t mode;
-	uid_t uid;
-	gid_t gid;
-	cp_grant_id_t grant;
-	size_t path_len;
-
-	uint8_t data[28];
-     } mess_vfs_fs_create;  
-  */
-  printf("path_len: %d \n" ,fs_m_in.m_vfs_fs_create.path_len);
-
   /* Copy the last component (i.e., file name) */
   len = min(fs_m_in.m_vfs_fs_create.path_len, sizeof(lastc));
   err_code = sys_safecopyfrom(VFS_PROC_NR, fs_m_in.m_vfs_fs_create.grant,
 			      (vir_bytes) 0, (vir_bytes) lastc, len);
-  printf("name_1 %s \n", lastc);
   if (err_code != OK) return err_code;
   NUL(lastc, len, sizeof(lastc));
-
-  printf("name_2 %s \n", lastc);
 
   /* Get last directory inode (i.e., directory that will hold the new inode) */
   if ((ldirp = get_inode(fs_dev, fs_m_in.m_vfs_fs_create.inode)) == NULL)

@@ -1,0 +1,41 @@
+@cwd /usr/pkg
+@name expat-2.1.0
+@blddep digest-20121220
+@comment $NetBSD: PLIST,v 1.9 2012/04/01 08:52:43 obache Exp $
+bin/xmlwf
+@comment MD5:d02211de86192a5e7e623b240f7936bf
+include/expat.h
+@comment MD5:c63254f83a88d2eb61378dd9ac126ff1
+include/expat_external.h
+@comment MD5:8e2b8dce543d6ff4cdb37f4a8daabd9e
+lib/libexpat.la
+@comment MD5:ea9dcde732c30c3c077898fb682de362
+lib/libexpat.a
+@comment MD5:d5815b5b3df268f38c65e727fefa6a36
+lib/libexpat.so
+@comment Symlink:libexpat.so.1.6.0
+lib/libexpat.so.1
+@comment Symlink:libexpat.so.1.6.0
+lib/libexpat.so.1.6.0
+@comment MD5:63b2e3d2e07df0e5072f52e010799085
+lib/pkgconfig/expat.pc
+@comment MD5:62e12139d18727f8b637201ee9bfaf61
+man/man1/xmlwf.1
+@comment MD5:29bcbbfe021a6eea430970e40e3abb3b
+share/doc/html/expat/reference.html
+@comment MD5:6a051dbcd7a3d35efd684bfa7dc4e8cb
+share/doc/html/expat/style.css
+@comment MD5:72592bbd454d71c7e8eddcf6e42778e2
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

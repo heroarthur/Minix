@@ -1,0 +1,504 @@
+@cwd /usr/pkg
+@pkgcfl scmgit-base-[0-9]*
+@name git-base-1.9.0
+@blddep p5-Error-0.17021
+@pkgdep p5-Error>=0.17015
+@blddep perl-5.18.2nb1
+@pkgdep {perl>=5.13.8,p5-MIME-Base64>=3.13}
+@blddep p5-Email-Valid-1.192
+@pkgdep p5-Email-Valid>=0.190
+@blddep p5-MailTools-2.12nb1
+@pkgdep p5-MailTools>=2.11
+@blddep p5-Net-SMTP-SSL-1.01nb4
+@pkgdep p5-Net-SMTP-SSL>=1.01
+@blddep p5-Authen-SASL-2.16nb1
+@pkgdep p5-Authen-SASL>=1.0
+@blddep perl-5.18.2nb1
+@pkgdep perl<5.20.0
+@blddep perl-5.18.2nb1
+@pkgdep perl>=5.18.0
+@blddep pth-2.0.7nb3
+@pkgdep pth>=2.0.0nb2
+@blddep openssl-1.0.1g
+@pkgdep openssl>=1.0.1c
+@blddep expat-2.1.0
+@pkgdep expat>=2.0.0nb1
+@blddep curl-7.36.0
+@pkgdep curl>=7.35.0nb1
+@blddep digest-20121220
+@comment $NetBSD: PLIST,v 1.4 2014/02/23 10:00:27 adam Exp $
+bin/git
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+bin/git-cvsserver
+@comment MD5:07c648c68b1561d353f5f540b173c944
+bin/git-receive-pack
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+bin/git-shell
+@comment MD5:108970c7fbee9352509f319a2de6cd21
+bin/git-upload-archive
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+bin/git-upload-pack
+@comment MD5:8a88e313c878fa78e4ee4744f0114ad0
+lib/perl5/vendor_perl/5.18.0/Git.pm
+@comment MD5:17acb7470e39d0467cc5bea4261c8281
+lib/perl5/vendor_perl/5.18.0/Git/I18N.pm
+@comment MD5:a89c93e2675d49e4a722c50d63edd467
+lib/perl5/vendor_perl/5.18.0/Git/IndexInfo.pm
+@comment MD5:30560a7671aad4360ab3cea1f65aca18
+lib/perl5/vendor_perl/5.18.0/Git/SVN.pm
+@comment MD5:9c1ed4fa336419e2a0e2db4fb676aa81
+lib/perl5/vendor_perl/5.18.0/Git/SVN/Editor.pm
+@comment MD5:fa662601b03c5eba2bb117eef6df0535
+lib/perl5/vendor_perl/5.18.0/Git/SVN/Fetcher.pm
+@comment MD5:21f84c18e282e182a04288411d2a10b4
+lib/perl5/vendor_perl/5.18.0/Git/SVN/GlobSpec.pm
+@comment MD5:7a4f4be3613df6d7361a6b00c00dd299
+lib/perl5/vendor_perl/5.18.0/Git/SVN/Log.pm
+@comment MD5:90e1b1a275abe71f3e71370f9dd1673b
+lib/perl5/vendor_perl/5.18.0/Git/SVN/Memoize/YAML.pm
+@comment MD5:ad5e060ae2e479d154f3a0fe3e86758d
+lib/perl5/vendor_perl/5.18.0/Git/SVN/Migration.pm
+@comment MD5:d4020f978432ab2dd2eb9a5f5fcf39b8
+lib/perl5/vendor_perl/5.18.0/Git/SVN/Prompt.pm
+@comment MD5:3217746ab1daf260f7b6a4b8b5585d30
+lib/perl5/vendor_perl/5.18.0/Git/SVN/Ra.pm
+@comment MD5:503196641a99b7e909a16140ca1d656b
+lib/perl5/vendor_perl/5.18.0/Git/SVN/Utils.pm
+@comment MD5:eeac385d2a0194c55008b587390a1e26
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Git/.packlist
+@comment MD5:70d05c53c347b8c331871364a2d173f9
+lib/perl5/vendor_perl/man/man3/Git.3
+@comment MD5:98ca6e94c903f5a1c80a74226dff8c6e
+lib/perl5/vendor_perl/man/man3/Git::I18N.3
+@comment MD5:d9f5d517378af357cc95f30e51c99431
+lib/perl5/vendor_perl/man/man3/Git::SVN::Editor.3
+@comment MD5:af70101dff190430fbaa3d1ed7ac1aa0
+lib/perl5/vendor_perl/man/man3/Git::SVN::Fetcher.3
+@comment MD5:e8298e54179f16cbea2cd5946f553ea4
+lib/perl5/vendor_perl/man/man3/Git::SVN::Memoize::YAML.3
+@comment MD5:e51e96aa652f16b8530d5425f66d8e92
+lib/perl5/vendor_perl/man/man3/Git::SVN::Prompt.3
+@comment MD5:191aea249cc400dc5e422efcc8ec4c0f
+lib/perl5/vendor_perl/man/man3/Git::SVN::Ra.3
+@comment MD5:d25c445830e4ae70e7ffb54e76dbe754
+lib/perl5/vendor_perl/man/man3/Git::SVN::Utils.3
+@comment MD5:e35e2972bd7898335450e68933bb4f95
+libexec/git-core/git
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-add
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-add--interactive
+@comment MD5:6fa77864ed74987d4bd255efaf643926
+libexec/git-core/git-am
+@comment MD5:b5a72e2447865db9ea8bf76b84494ce0
+libexec/git-core/git-annotate
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-apply
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-archimport
+@comment MD5:8eac37fc17ec0aa649c9e20a8fb58858
+libexec/git-core/git-archive
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-bisect
+@comment MD5:85985b9d93d9dc44a0e60e3724ef7673
+libexec/git-core/git-bisect--helper
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-blame
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-branch
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-bundle
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-cat-file
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-check-attr
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-check-ignore
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-check-mailmap
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-check-ref-format
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-checkout
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-checkout-index
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-cherry
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-cherry-pick
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-clean
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-clone
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-column
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-commit
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-commit-tree
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-config
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-count-objects
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-credential
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-credential-cache
+@comment MD5:f219dcd26dc3b92e77b2a8ff24839b5d
+libexec/git-core/git-credential-cache--daemon
+@comment MD5:82e4b7c1fe8430977f4c5074238d3b47
+libexec/git-core/git-credential-store
+@comment MD5:48865c2fa9cc4d6902ca40e8e47f5907
+libexec/git-core/git-cvsexportcommit
+@comment MD5:cf6ec84b733829f6b2ad7c2c6c6f8a64
+libexec/git-core/git-cvsimport
+@comment MD5:7d3af86d8fefd1ca30aead55d2701d58
+libexec/git-core/git-cvsserver
+@comment MD5:07c648c68b1561d353f5f540b173c944
+libexec/git-core/git-daemon
+@comment MD5:4a0a37f7ef0908a2a2da9990abe0e1cf
+libexec/git-core/git-describe
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-diff
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-diff-files
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-diff-index
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-diff-tree
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-difftool
+@comment MD5:7b74149f8d5e428a14795a6abb0c3bcd
+libexec/git-core/git-difftool--helper
+@comment MD5:dc6af09afc10e2cf50e19250f33162f1
+libexec/git-core/git-fast-export
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-fast-import
+@comment MD5:662a61198bd90485400ab94ad57018e9
+libexec/git-core/git-fetch
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-fetch-pack
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-filter-branch
+@comment MD5:92a9e630c88cfac4ddb71de943afc311
+libexec/git-core/git-fmt-merge-msg
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-for-each-ref
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-format-patch
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-fsck
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-fsck-objects
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-gc
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-get-tar-commit-id
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-grep
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-hash-object
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-help
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-http-backend
+@comment MD5:a8f8f5be4045e4f5a5f6e99a5f14130b
+@comment libexec/git-core/git-http-fetch
+@comment libexec/git-core/git-http-push
+libexec/git-core/git-imap-send
+@comment MD5:a7d4fb2d8d9cf6bffaf11130136b3d27
+libexec/git-core/git-index-pack
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-init
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-init-db
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-instaweb
+@comment MD5:e363bfc45af05819cbd1c4ed38a529e7
+libexec/git-core/git-log
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-ls-files
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-ls-remote
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-ls-tree
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-mailinfo
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-mailsplit
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-merge
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-merge-base
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-merge-file
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-merge-index
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-merge-octopus
+@comment MD5:656cb90a0e1c4c1e7f2de2f26b5b106b
+libexec/git-core/git-merge-one-file
+@comment MD5:b6239daee61380edaaf03e29b69651cf
+libexec/git-core/git-merge-ours
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-merge-recursive
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-merge-resolve
+@comment MD5:c8466908a274e211a43d287e510f2f19
+libexec/git-core/git-merge-subtree
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-merge-tree
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-mergetool
+@comment MD5:1fd2f1cb3b5087c68a05682ec3329a69
+libexec/git-core/git-mergetool--lib
+@comment MD5:75a2f5d86b83eed9d0fea3b6eebc1d3b
+libexec/git-core/git-mktag
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-mktree
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-mv
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-name-rev
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-notes
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-p4
+@comment MD5:286e18ec2188a4a55619f374c4a2c102
+libexec/git-core/git-pack-objects
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-pack-redundant
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-pack-refs
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-parse-remote
+@comment MD5:bcf588cae18aa3deaf7d3f82a47c2e9e
+libexec/git-core/git-patch-id
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-prune
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-prune-packed
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-pull
+@comment MD5:d7967fb8d9467d3618febd3c8b39b6cd
+libexec/git-core/git-push
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-quiltimport
+@comment MD5:4a187ec81399d8307c2bb9d10cd5e4d0
+libexec/git-core/git-read-tree
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-rebase
+@comment MD5:75c4481791da80d4c802b7e4de966629
+libexec/git-core/git-rebase--am
+@comment MD5:7855eb184c3a44bf8ca49c686b8ea46a
+libexec/git-core/git-rebase--interactive
+@comment MD5:9044ff0d25d5e6daeda931de4da43096
+libexec/git-core/git-rebase--merge
+@comment MD5:9d6ab2d0fc6a1d6c6f9387aa500a3534
+libexec/git-core/git-receive-pack
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-reflog
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-relink
+@comment MD5:45a00c7550a0d0ff0cceed359dbe06ef
+libexec/git-core/git-remote
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-remote-ext
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-remote-fd
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+@comment libexec/git-core/git-remote-ftp
+@comment libexec/git-core/git-remote-ftps
+@comment libexec/git-core/git-remote-http
+@comment libexec/git-core/git-remote-https
+libexec/git-core/git-remote-testsvn
+@comment MD5:94d61390dcf95bb0e52901213a96e95d
+libexec/git-core/git-repack
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-replace
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-request-pull
+@comment MD5:3d5837e16c86c5662ef6f37b2287fef7
+libexec/git-core/git-rerere
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-reset
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-rev-list
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-rev-parse
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-revert
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-rm
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-send-email
+@comment MD5:610d969493cb3bc2bab37ebdb5392b5b
+libexec/git-core/git-send-pack
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-sh-i18n
+@comment MD5:53189a5edc3b5a2744795433ef483341
+libexec/git-core/git-sh-i18n--envsubst
+@comment MD5:dc078ad8facb301cd85fd7012ef92da1
+libexec/git-core/git-sh-setup
+@comment MD5:d4b49e7fe68781c5afa3e04a967f952f
+libexec/git-core/git-shell
+@comment MD5:108970c7fbee9352509f319a2de6cd21
+libexec/git-core/git-shortlog
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-show
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-show-branch
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-show-index
+@comment MD5:f7b91879e07dcb4ebc404c8801fe393a
+libexec/git-core/git-show-ref
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-stage
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-stash
+@comment MD5:5c8b12beb705be7a5c1a3a0fb65b0854
+libexec/git-core/git-status
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-stripspace
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-submodule
+@comment MD5:d9fe8f5961a8231ed7022d0dd340e124
+libexec/git-core/git-svn
+@comment MD5:107821477a9b2f718768d191299cf38a
+libexec/git-core/git-symbolic-ref
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-tag
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-unpack-file
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-unpack-objects
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-update-index
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-update-ref
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-update-server-info
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-upload-archive
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-upload-pack
+@comment MD5:8a88e313c878fa78e4ee4744f0114ad0
+libexec/git-core/git-var
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-verify-pack
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-verify-tag
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-web--browse
+@comment MD5:b0cccabd660da53946d226d115b17844
+libexec/git-core/git-whatchanged
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/git-write-tree
+@comment MD5:c2ffcbb7f8951fe586136dc1f075bf16
+libexec/git-core/mergetools/araxis
+@comment MD5:5b639da656b7dbec126594570cd9c25b
+libexec/git-core/mergetools/bc3
+@comment MD5:3c2e8fe3b7ae78b61f0497f7fbc7ef13
+libexec/git-core/mergetools/codecompare
+@comment MD5:03afcd3625af75f0363db5f90a064334
+libexec/git-core/mergetools/deltawalker
+@comment MD5:ccde9c76854e29dfcd10b658d45696d5
+libexec/git-core/mergetools/diffmerge
+@comment MD5:6c8dd3072726f3df6514b74086d8e51c
+libexec/git-core/mergetools/diffuse
+@comment MD5:ef50ab55061adaff4e4dff8dd1896ba3
+libexec/git-core/mergetools/ecmerge
+@comment MD5:bb1ff45fb519617283def63b6bfe5c31
+libexec/git-core/mergetools/emerge
+@comment MD5:b0ccca169ca33042d5ba48648e1145b8
+libexec/git-core/mergetools/gvimdiff
+@comment MD5:bdd9fc39701396aaf483db1d69c74f83
+libexec/git-core/mergetools/gvimdiff2
+@comment MD5:bdd9fc39701396aaf483db1d69c74f83
+libexec/git-core/mergetools/kdiff3
+@comment MD5:eaa751ab1d18d9e1674a00c4a6f03573
+libexec/git-core/mergetools/kompare
+@comment MD5:ed4700a8bf7310a6a490798ab85fadd1
+libexec/git-core/mergetools/meld
+@comment MD5:64db90e5bfd9b26ad17bed5c52348f6b
+libexec/git-core/mergetools/opendiff
+@comment MD5:34245911950f22ed4f498635097771d1
+libexec/git-core/mergetools/p4merge
+@comment MD5:35000f1b85f80483a39476137ed31ab3
+libexec/git-core/mergetools/tkdiff
+@comment MD5:b83e016d08a5780e96c5ab5de0cc34ea
+libexec/git-core/mergetools/tortoisemerge
+@comment MD5:1a04abf58471028588241349a16805de
+libexec/git-core/mergetools/vimdiff
+@comment MD5:4520a62034a563598ecd1c266fa0ebf1
+libexec/git-core/mergetools/vimdiff2
+@comment MD5:bdd9fc39701396aaf483db1d69c74f83
+libexec/git-core/mergetools/xxdiff
+@comment MD5:876d3e1efa4134f00d82de1d5f3a49f7
+share/examples/git/git-completion.bash
+@comment MD5:fd22af44a8e4163cf5f45b7658b16908
+share/examples/git/git-prompt.sh
+@comment MD5:c0e01f3735d2239c3b3f1875b5d49343
+share/examples/git/templates/description
+@comment MD5:a0a7c3fff21f2aea3cfa1d0316dd816c
+share/examples/git/templates/hooks/applypatch-msg.sample
+@comment MD5:9cc72dc973e24f9623bd3fe708f60ef5
+share/examples/git/templates/hooks/commit-msg.sample
+@comment MD5:579a3c1e12a1e74a98169175fb913012
+share/examples/git/templates/hooks/post-update.sample
+@comment MD5:2b7ea5cee3c49ff53d41e00785eb974c
+share/examples/git/templates/hooks/pre-applypatch.sample
+@comment MD5:a4a7e457b55b5ac2877f7973dbba37e9
+share/examples/git/templates/hooks/pre-commit.sample
+@comment MD5:01b1688f97f94776baae85d77b06048b
+share/examples/git/templates/hooks/pre-push.sample
+@comment MD5:9b64ca5761c6de555d7d1b3c948ecfeb
+share/examples/git/templates/hooks/pre-rebase.sample
+@comment MD5:eb6d992acb056b8f7ec4170d3b97a650
+share/examples/git/templates/hooks/prepare-commit-msg.sample
+@comment MD5:99e389d372a97d029007a07cf30aae32
+share/examples/git/templates/hooks/update.sample
+@comment MD5:f51b02427757e79621b5235d7efdf117
+share/examples/git/templates/info/exclude
+@comment MD5:036208b4a1ab4a235d75c181e685e5a3
+share/locale/bg/LC_MESSAGES/git.mo
+@comment MD5:838e2b1fadc929e78470e7cfa01545be
+share/locale/de/LC_MESSAGES/git.mo
+@comment MD5:9582ba17c677818a62b2e105fa87c278
+share/locale/fr/LC_MESSAGES/git.mo
+@comment MD5:2f9f419bdab4ee156eeecd85b84fc445
+share/locale/is/LC_MESSAGES/git.mo
+@comment MD5:cae70bdd2e2d0fa2fdc56fae1f8e391a
+share/locale/it/LC_MESSAGES/git.mo
+@comment MD5:5cd8d03239473ca91be914a4dbce0179
+share/locale/pt_PT/LC_MESSAGES/git.mo
+@comment MD5:0a80c0e0d1a2cefebe7159de1fcdb0fd
+share/locale/sv/LC_MESSAGES/git.mo
+@comment MD5:b1b4bcda9d29ba20cd90b413a8f0908c
+share/locale/vi/LC_MESSAGES/git.mo
+@comment MD5:89876215fdc17bf29be4983566e03609
+share/locale/zh_CN/LC_MESSAGES/git.mo
+@comment MD5:6e86f546c518de7d28ca5445e08bc972
+@pkgdir share/examples/git/templates/branches
+@comment The following lines are automatically generated
+@comment from the installed .packlist files.
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++INSTALL
+@ignore
++DEINSTALL
+@ignore
++DISPLAY
+@display +DISPLAY
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

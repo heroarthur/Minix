@@ -1,0 +1,559 @@
+@cwd /usr/pkg
+@name libxml2-2.9.1nb1
+@blddep xmlcatmgr-2.2nb1
+@pkgdep xmlcatmgr>=2.0beta1
+@blddep pth-2.0.7nb3
+@pkgdep pth>=2.0.0nb2
+@blddep digest-20121220
+@comment $NetBSD: PLIST,v 1.44 2013/05/26 09:22:14 adam Exp $
+bin/xml2-config
+@comment MD5:afadec8d94081f92cce2c287a5c26d70
+bin/xmlcatalog
+@comment MD5:9863fc3f5711b0e69c70e038325a3bbe
+bin/xmllint
+@comment MD5:fd852bb383743cb03b5336c22d2a5242
+include/libxml2/libxml/DOCBparser.h
+@comment MD5:21e6523a86338325c527e1e8847adc1d
+include/libxml2/libxml/HTMLparser.h
+@comment MD5:083a413aedc738e1903735b7f1678087
+include/libxml2/libxml/HTMLtree.h
+@comment MD5:46cf4cefb419e18c40b8d5b6ac982f3f
+include/libxml2/libxml/SAX.h
+@comment MD5:bf46553ceac47b24126d4a1abb7b26fa
+include/libxml2/libxml/SAX2.h
+@comment MD5:30b9cfece736e3665919a807186f1daa
+include/libxml2/libxml/c14n.h
+@comment MD5:083bf52bbdd0563ff61605cb2bc9316f
+include/libxml2/libxml/catalog.h
+@comment MD5:1d5e464fe629dde9758d6c33ea7a3d8e
+include/libxml2/libxml/chvalid.h
+@comment MD5:4e1ca6554b98687e75d03662cd92d14e
+include/libxml2/libxml/debugXML.h
+@comment MD5:73816937df233c77ebfa261f3ca00dd8
+include/libxml2/libxml/dict.h
+@comment MD5:462e1e5d56f06e7cfc42d58681ec2c86
+include/libxml2/libxml/encoding.h
+@comment MD5:e07b28c25a85356f585dd6891e0c7778
+include/libxml2/libxml/entities.h
+@comment MD5:f4cca2b723ae54764d5d82c1dbca5b2d
+include/libxml2/libxml/globals.h
+@comment MD5:eb03437a51e53aa6d793a3e883fc7b54
+include/libxml2/libxml/hash.h
+@comment MD5:747ad49c1a665e2eafaf052cbd9d165b
+include/libxml2/libxml/list.h
+@comment MD5:a81670013af01c8003fa9fdbd9a8cad7
+include/libxml2/libxml/nanoftp.h
+@comment MD5:a4aad060f2cedb04dacbe4c58969817a
+include/libxml2/libxml/nanohttp.h
+@comment MD5:d31b62933eab6d58a46eb075b49b7715
+include/libxml2/libxml/parser.h
+@comment MD5:a26c0312c27745885befa1032887d674
+include/libxml2/libxml/parserInternals.h
+@comment MD5:58b7508a651118d1805cce49ac8a8a6c
+include/libxml2/libxml/pattern.h
+@comment MD5:db123ed3ecc27ab31b3f808e96edb492
+include/libxml2/libxml/relaxng.h
+@comment MD5:a328442632f38bca7dd8da7033a940de
+include/libxml2/libxml/schemasInternals.h
+@comment MD5:076e786284dcaae8e177dba666b2c5af
+include/libxml2/libxml/schematron.h
+@comment MD5:96d9e0c083c4949e246ce02cf31de483
+include/libxml2/libxml/threads.h
+@comment MD5:2c630b6409352bcd1e10d94177215265
+include/libxml2/libxml/tree.h
+@comment MD5:b10dfbacf9287fe392dd7c2882692bc4
+include/libxml2/libxml/uri.h
+@comment MD5:032d430e35153af35f2fe17a9e9c37bf
+include/libxml2/libxml/valid.h
+@comment MD5:3c082c0a5b81e1bc9fd9a21b69014584
+include/libxml2/libxml/xinclude.h
+@comment MD5:1f8b2beb8f49da4bf3a658d31dccb2ef
+include/libxml2/libxml/xlink.h
+@comment MD5:8b82b67e61ebffc721bd23af66724f49
+include/libxml2/libxml/xmlIO.h
+@comment MD5:349fb904f3956bbe95554cb8e3ee53f2
+include/libxml2/libxml/xmlautomata.h
+@comment MD5:3c3c0a7d353bacfbede7c2decf27e62a
+include/libxml2/libxml/xmlerror.h
+@comment MD5:2b11be6d31c8a2b35ba0eedc3b8778ea
+include/libxml2/libxml/xmlexports.h
+@comment MD5:c7982540f18e547b3ca70c7259c59e4c
+include/libxml2/libxml/xmlmemory.h
+@comment MD5:c0167c625ecaf670d76480506425b472
+include/libxml2/libxml/xmlmodule.h
+@comment MD5:de174bf853776e7e653c66c059d19e61
+include/libxml2/libxml/xmlreader.h
+@comment MD5:dbd5ae99042659a13427209a2bc0041f
+include/libxml2/libxml/xmlregexp.h
+@comment MD5:fea3110c96e8cd9013900e1c8e5b6c0b
+include/libxml2/libxml/xmlsave.h
+@comment MD5:eed2463cad941f74f99b8b9bc03aa74d
+include/libxml2/libxml/xmlschemas.h
+@comment MD5:44ee98f77e997b8843fe6e5c45aa4ab0
+include/libxml2/libxml/xmlschemastypes.h
+@comment MD5:160197e01dfa56cd9ad09d201d5bdeb4
+include/libxml2/libxml/xmlstring.h
+@comment MD5:d7b3f89a079ef478fec75b33b9d094a7
+include/libxml2/libxml/xmlunicode.h
+@comment MD5:b9f0b8acddfee9b620ea822978a51d29
+include/libxml2/libxml/xmlversion.h
+@comment MD5:732397cbe9fb8d5742b5e284b53765d3
+include/libxml2/libxml/xmlwriter.h
+@comment MD5:8694436144b1fb0aab2e2d6b725035e3
+include/libxml2/libxml/xpath.h
+@comment MD5:2e60b359a61db15d05409ebef1b140b1
+include/libxml2/libxml/xpathInternals.h
+@comment MD5:58ce94e0f37b4f6473d2465eb8e69b91
+include/libxml2/libxml/xpointer.h
+@comment MD5:5b8025430888d5b99d03d159ddc78388
+lib/libxml2.la
+@comment MD5:f7de5a913200738d700e1994cf3722bb
+lib/libxml2.a
+@comment MD5:63fb38e6795238606285fdd7b6274533
+lib/libxml2.so
+@comment Symlink:libxml2.so.2.9.1
+lib/libxml2.so.2
+@comment Symlink:libxml2.so.2.9.1
+lib/libxml2.so.2.9.1
+@comment MD5:8837dc07a7ab08f1725f57c12fc228bb
+lib/pkgconfig/libxml-2.0.pc
+@comment MD5:5a2cdf70f6c22b4b7fc201be14b595f8
+lib/xml2Conf.sh
+@comment MD5:143934955c2c2017b5589fd359691492
+man/man1/xml2-config.1
+@comment MD5:f9ea1b8ede868111a96fc3dbd9db79e6
+man/man1/xmlcatalog.1
+@comment MD5:c01059c82575fe971688706702d175e7
+man/man1/xmllint.1
+@comment MD5:a4fccf8511a71bd73fe475598cfcb98b
+man/man3/libxml.3
+@comment MD5:1bc9e496f1d34157a9e0d1b65704819a
+share/aclocal/libxml.m4
+@comment MD5:a07f9db1c83755505dbf961c953efdf8
+share/doc/libxml2-2.9.1/Copyright
+@comment MD5:2044417e2e5006b65a8b9067b683fcf1
+share/doc/libxml2/DOM.gif
+@comment MD5:b3d91cf23f7c9199b395356ea98cd097
+share/doc/libxml2/FAQ.html
+@comment MD5:8dde77397ac88522c8b318b86ec05797
+share/doc/libxml2/Libxml2-Logo-180x168.gif
+@comment MD5:6704060ba0272a9624e0a732455439ba
+share/doc/libxml2/Libxml2-Logo-90x34.gif
+@comment MD5:29dfd4b3dec5fee179d3dc7e3d65be8a
+share/doc/libxml2/encoding.html
+@comment MD5:f9f432151d59662678b676d3993f1a34
+share/doc/libxml2/examples.xml
+@comment MD5:e6fad87730c6957a238a06ad3e33a4e9
+share/doc/libxml2/examples.xsl
+@comment MD5:821de9e855568781f8c87ad0fe9afcba
+share/doc/libxml2/html/book1.html
+@comment MD5:020c93695443958db6263629b77c69f3
+share/doc/libxml2/html/home.png
+@comment MD5:f6192f4292d744423df690e785d60fdf
+share/doc/libxml2/html/index.html
+@comment MD5:020c93695443958db6263629b77c69f3
+share/doc/libxml2/html/left.png
+@comment MD5:f771308152ab24a69682daed70ce136d
+share/doc/libxml2/html/libxml-DOCBparser.html
+@comment MD5:a9c425e3ab0c095b85759a321c294a72
+share/doc/libxml2/html/libxml-HTMLparser.html
+@comment MD5:b20a43ee13f4a8020b84830aa83cefb0
+share/doc/libxml2/html/libxml-HTMLtree.html
+@comment MD5:b639bc91545a89e12d9c0a34a23bd6de
+share/doc/libxml2/html/libxml-SAX.html
+@comment MD5:a1dddf7f62888196c45c587a216cbe8a
+share/doc/libxml2/html/libxml-SAX2.html
+@comment MD5:2d8812144ee7796aa073b748ba560d34
+share/doc/libxml2/html/libxml-c14n.html
+@comment MD5:af407530b72ad6d8342eab7e3d90207b
+share/doc/libxml2/html/libxml-catalog.html
+@comment MD5:6ccaf618b222577f8b1c9ed8278ea357
+share/doc/libxml2/html/libxml-chvalid.html
+@comment MD5:4bec2549c1505b9048041b722cb052c6
+share/doc/libxml2/html/libxml-debugXML.html
+@comment MD5:b1b29857fbff5d68b7bdf982f8b9f6c7
+share/doc/libxml2/html/libxml-dict.html
+@comment MD5:308664351097957a8906371b16eebe07
+share/doc/libxml2/html/libxml-encoding.html
+@comment MD5:812d49f58d6f7721ccf9289c0813a473
+share/doc/libxml2/html/libxml-entities.html
+@comment MD5:4152826047a1c89380293b5bbf64d1b9
+share/doc/libxml2/html/libxml-globals.html
+@comment MD5:7487fd3b2740f53f259016b9032caf19
+share/doc/libxml2/html/libxml-hash.html
+@comment MD5:53ff0d00bc6b42b1f6981a58a4bc5ff8
+share/doc/libxml2/html/libxml-lib.html
+@comment MD5:020c93695443958db6263629b77c69f3
+share/doc/libxml2/html/libxml-list.html
+@comment MD5:086afdd20e6be957346251d3ea8552f0
+share/doc/libxml2/html/libxml-nanoftp.html
+@comment MD5:c07d479ce51894e6181be84cd7afc8f6
+share/doc/libxml2/html/libxml-nanohttp.html
+@comment MD5:a4457c15280d27457677a436286c344e
+share/doc/libxml2/html/libxml-parser.html
+@comment MD5:9d5386ea89cb8076d20e90387dc9bafb
+share/doc/libxml2/html/libxml-parserInternals.html
+@comment MD5:dc212b49555db1f4d3473021415990f5
+share/doc/libxml2/html/libxml-pattern.html
+@comment MD5:bff29ccd97d10d65cd40201985ba2501
+share/doc/libxml2/html/libxml-relaxng.html
+@comment MD5:da69ff4b925629ce5667c63895aecf3f
+share/doc/libxml2/html/libxml-schemasInternals.html
+@comment MD5:9fe427f9b1b272d687e6ed524df9ac77
+share/doc/libxml2/html/libxml-schematron.html
+@comment MD5:f0ddff7bae5bba25b1c98abd75038c36
+share/doc/libxml2/html/libxml-threads.html
+@comment MD5:8bfd4253309b18e5b94f01228f3c6887
+share/doc/libxml2/html/libxml-tree.html
+@comment MD5:a486d62191feac7ec73bef64e12cd5f1
+share/doc/libxml2/html/libxml-uri.html
+@comment MD5:9b4186c1502963221da42717dfcf2789
+share/doc/libxml2/html/libxml-valid.html
+@comment MD5:51b24ec90bd3c5591130fa219172dca8
+share/doc/libxml2/html/libxml-xinclude.html
+@comment MD5:2639d942d8a7bb71201ef35d8dd0a5d1
+share/doc/libxml2/html/libxml-xlink.html
+@comment MD5:1de0d3b14ab220eb6b51bfa254b03769
+share/doc/libxml2/html/libxml-xmlIO.html
+@comment MD5:e9d7b75133b68febff966553614ca1e3
+share/doc/libxml2/html/libxml-xmlautomata.html
+@comment MD5:28a6fdabf1bcc027c5723ef484551a3b
+share/doc/libxml2/html/libxml-xmlerror.html
+@comment MD5:075ac8f6b952c468be09ecfaf14412d8
+share/doc/libxml2/html/libxml-xmlexports.html
+@comment MD5:76a89eb95c8256a4277f65250245ef9a
+share/doc/libxml2/html/libxml-xmlmemory.html
+@comment MD5:6bd0aa471409515f9163b553b2015786
+share/doc/libxml2/html/libxml-xmlmodule.html
+@comment MD5:dad4c35e0c0a8fb9bc1db2d42ae5f664
+share/doc/libxml2/html/libxml-xmlreader.html
+@comment MD5:61db95ee91a1056009c76ad04c7aad47
+share/doc/libxml2/html/libxml-xmlregexp.html
+@comment MD5:b170bec8b4f424d383d29272223801e2
+share/doc/libxml2/html/libxml-xmlsave.html
+@comment MD5:8e4208e2908bd9a021c31ee1338755d2
+share/doc/libxml2/html/libxml-xmlschemas.html
+@comment MD5:455628ea9eca007ecaa224305df3b0c8
+share/doc/libxml2/html/libxml-xmlschemastypes.html
+@comment MD5:57f70610c6c35b63d64475139be83b70
+share/doc/libxml2/html/libxml-xmlstring.html
+@comment MD5:f23cac8dae5cd01f3cf983e8667522ae
+share/doc/libxml2/html/libxml-xmlunicode.html
+@comment MD5:7b282351048157db2233f4a8c9ed305c
+share/doc/libxml2/html/libxml-xmlversion.html
+@comment MD5:d9e2cd59ac2a1aa5319d09f7ad726a63
+share/doc/libxml2/html/libxml-xmlwriter.html
+@comment MD5:f7345386e22ec21cf60d91371eeaed57
+share/doc/libxml2/html/libxml-xpath.html
+@comment MD5:9e3290a0c3f1704b066d736cdadaa93f
+share/doc/libxml2/html/libxml-xpathInternals.html
+@comment MD5:463d1f6b154041eaed041a32ffd5a8c5
+share/doc/libxml2/html/libxml-xpointer.html
+@comment MD5:578d2d95c3a254fdd208d5eb5d8bc063
+share/doc/libxml2/html/libxml-xzlib.html
+@comment MD5:8d55e7cdc5a0363d945c8a672841bd6f
+share/doc/libxml2/html/right.png
+@comment MD5:ebd7e6d206d73850d77d305ab548f957
+share/doc/libxml2/html/up.png
+@comment MD5:2f07d9272deb4ae870ca6821117877fa
+share/doc/libxml2/io1.c
+@comment MD5:8861af9d5ae163e2679d14cccd7c50a8
+share/doc/libxml2/io1.res
+@comment MD5:cd4b9f35e733918782f0a449f1cf58e3
+share/doc/libxml2/io2.c
+@comment MD5:064a8c92267a391f5cbc41dbf49b14ad
+share/doc/libxml2/io2.res
+@comment MD5:c6a030758261e4b23c18fe8fa9b9f1cb
+share/doc/libxml2/libxml.gif
+@comment MD5:7b77627ea524c095934962f5dee442cb
+share/doc/libxml2/parse1.c
+@comment MD5:35924de5d0e047f4e2732e8ef4d31fea
+share/doc/libxml2/parse2.c
+@comment MD5:1533aa6faa9efa078a56d2d37b4e318c
+share/doc/libxml2/parse3.c
+@comment MD5:745ea8e70138377b1fb1d0e3116dba63
+share/doc/libxml2/parse4.c
+@comment MD5:1ebc80d9df8a1b0568f9cf7a2cc70a3e
+share/doc/libxml2/reader1.c
+@comment MD5:b30f26d62bb3c37fc9cba51fff13924e
+share/doc/libxml2/reader1.res
+@comment MD5:c7e547f58d4407d091d189a1ebfeab77
+share/doc/libxml2/reader2.c
+@comment MD5:8b66731b71444ec57b99acc9d41a5f1d
+share/doc/libxml2/reader3.c
+@comment MD5:2874d5506c9f0b9f4a1dead26d58e559
+share/doc/libxml2/reader3.res
+@comment MD5:ce152220e5a24918935d6f0c8bbcf587
+share/doc/libxml2/reader4.c
+@comment MD5:c7d0e7908cfc12c1102a58f4e530bbfd
+share/doc/libxml2/reader4.res
+@comment MD5:2f8c9c74667d1434104e5610a77f824f
+share/doc/libxml2/redhat.gif
+@comment MD5:dd0216f442bf6845c103aba1b4bcb869
+share/doc/libxml2/smallfootonly.gif
+@comment MD5:e92b022a99a76d6fceeb35576bb7718f
+share/doc/libxml2/structure.gif
+@comment MD5:f10610a92f24c3f0fc35078f5764867e
+share/doc/libxml2/test1.xml
+@comment MD5:5ffe018a2890cdd13b4d08d674cf8dd4
+share/doc/libxml2/test2.xml
+@comment MD5:4084cf4871ee86fef27f5e5ee91ea455
+share/doc/libxml2/test3.xml
+@comment MD5:0ba76ca9c89e995bbaf258ab154e5205
+share/doc/libxml2/testWriter.c
+@comment MD5:f76b29aaee2bb1f0323ed8b28a45a794
+share/doc/libxml2/tree1.c
+@comment MD5:8e3b9f050ff7e6ecd2912940cbb2394f
+share/doc/libxml2/tree1.res
+@comment MD5:4d4d5f3e8297d35e59d9f92c876b42ac
+share/doc/libxml2/tree2.c
+@comment MD5:58c5720b77f06428c3824c66003c6b73
+share/doc/libxml2/tree2.res
+@comment MD5:8e5cc417bcb23115c4f802404e09657e
+share/doc/libxml2/tst.xml
+@comment MD5:6d10ac1b8fb04bc8fb73f9964589a223
+share/doc/libxml2/tutorial/apa.html
+@comment MD5:51b23839855ffbb232c8ba2211a4d9ca
+share/doc/libxml2/tutorial/apb.html
+@comment MD5:6fa0d1a793a7d794967c497dc9112077
+share/doc/libxml2/tutorial/apc.html
+@comment MD5:c263a905499b8177ee93b6ab39b26266
+share/doc/libxml2/tutorial/apd.html
+@comment MD5:9f3342db337c1a28df32d4b85eba94be
+share/doc/libxml2/tutorial/ape.html
+@comment MD5:69164a2345a37ac0b1001f2084ee5abc
+share/doc/libxml2/tutorial/apf.html
+@comment MD5:4b58ea573ee05ceb46cac6c3eeef8211
+share/doc/libxml2/tutorial/apg.html
+@comment MD5:a84665f786e99169afa8e9dceb5003ca
+share/doc/libxml2/tutorial/aph.html
+@comment MD5:d49dfaba969e5b9161748d98b6f8eb0b
+share/doc/libxml2/tutorial/api.html
+@comment MD5:0433fb6f377e50662e0f89b1e2f8e49a
+share/doc/libxml2/tutorial/ar01s02.html
+@comment MD5:d2b5e466f1613a0a281969296efe652e
+share/doc/libxml2/tutorial/ar01s03.html
+@comment MD5:af7d8b5f8bf6e7c6949c5f1b260289ef
+share/doc/libxml2/tutorial/ar01s04.html
+@comment MD5:08161b16d07d12969e2ff0db52c0006d
+share/doc/libxml2/tutorial/ar01s05.html
+@comment MD5:a39259d226409f45e234b8e4f0ae1e9f
+share/doc/libxml2/tutorial/ar01s06.html
+@comment MD5:4d622cd5afe28d58e8808651c896ff1e
+share/doc/libxml2/tutorial/ar01s07.html
+@comment MD5:c3d0264c72c908e119c22c7787892db9
+share/doc/libxml2/tutorial/ar01s08.html
+@comment MD5:47bfaa87452e5e5d3436b232d96b1cf7
+share/doc/libxml2/tutorial/ar01s09.html
+@comment MD5:066052f4864add31dffd8fc4bb1b9b7f
+share/doc/libxml2/tutorial/images/blank.png
+@comment MD5:6f7573d4bb6bf0f55ed9ebd79f3f786f
+share/doc/libxml2/tutorial/images/callouts/1.png
+@comment MD5:0f67842b8cc059137a88288e95115a18
+share/doc/libxml2/tutorial/images/callouts/10.png
+@comment MD5:29fd9e419eee2efa4ef6ce493ca51a9c
+share/doc/libxml2/tutorial/images/callouts/2.png
+@comment MD5:782f998bab59d0221977c1c0eaa676c8
+share/doc/libxml2/tutorial/images/callouts/3.png
+@comment MD5:35dcf1dd29a802080c984e52d76e5b1f
+share/doc/libxml2/tutorial/images/callouts/4.png
+@comment MD5:3d412b47729eb73afc7aa430feeb7da0
+share/doc/libxml2/tutorial/images/callouts/5.png
+@comment MD5:489005941fbb522369466ca850189c59
+share/doc/libxml2/tutorial/images/callouts/6.png
+@comment MD5:f64cfcfac0c4219edebc96d6d043c84c
+share/doc/libxml2/tutorial/images/callouts/7.png
+@comment MD5:0def94f52c5e45256232320aaffeb1ce
+share/doc/libxml2/tutorial/images/callouts/8.png
+@comment MD5:2f899cf0909049b0472654d7357eaeb3
+share/doc/libxml2/tutorial/images/callouts/9.png
+@comment MD5:5ba16a0731d050493bd7e0b95244aafc
+share/doc/libxml2/tutorial/images/caution.png
+@comment MD5:2245032ab69fc481e2eefd246aa96e07
+share/doc/libxml2/tutorial/images/draft.png
+@comment MD5:1b1da3ec69df05af5f2a5475e8a8a24b
+share/doc/libxml2/tutorial/images/home.png
+@comment MD5:700644702db92b31d7488edfb3adfe7e
+share/doc/libxml2/tutorial/images/important.png
+@comment MD5:ca20b7b781cf82d1aeb36ce63590ccd0
+share/doc/libxml2/tutorial/images/next.png
+@comment MD5:c4ec8d7f81407ce09d175d7366c25ba0
+share/doc/libxml2/tutorial/images/note.png
+@comment MD5:109e4af9c43357a74c6de01db819f36f
+share/doc/libxml2/tutorial/images/prev.png
+@comment MD5:2188e42454c65ed8a37126d0f5f5830a
+share/doc/libxml2/tutorial/images/tip.png
+@comment MD5:dbb88aaf05b4a6a7df59c72cc5c947b4
+share/doc/libxml2/tutorial/images/toc-blank.png
+@comment MD5:a9dfccc01739501bbc01d561da12c944
+share/doc/libxml2/tutorial/images/toc-minus.png
+@comment MD5:72baddf4a76d4d74f634edf1e71134b3
+share/doc/libxml2/tutorial/images/toc-plus.png
+@comment MD5:ee8d311bafbc474875730d7644e86047
+share/doc/libxml2/tutorial/images/up.png
+@comment MD5:ddf37bee4d12f626b42004e26bdd4e13
+share/doc/libxml2/tutorial/images/warning.png
+@comment MD5:59c28f6840b1f20094af4ffc16ce3189
+share/doc/libxml2/tutorial/includeaddattribute.c
+@comment MD5:ba57721ff902105ef3c79eb199f4da5e
+share/doc/libxml2/tutorial/includeaddkeyword.c
+@comment MD5:268f90fc598ccf5a5bd1de7d1f57c873
+share/doc/libxml2/tutorial/includeconvert.c
+@comment MD5:b91e86a449cb257dd92ada947c2b2320
+share/doc/libxml2/tutorial/includegetattribute.c
+@comment MD5:af83032a68f54f420f04430efd7629c8
+share/doc/libxml2/tutorial/includekeyword.c
+@comment MD5:5508972bd6f704cddb4b4faeaa5397b0
+share/doc/libxml2/tutorial/includexpath.c
+@comment MD5:a9718d128b1abbf9710cb7ea315cffec
+share/doc/libxml2/tutorial/index.html
+@comment MD5:c3df2af08328cd4cbf697d55ca9cd419
+share/doc/libxml2/tutorial/ix01.html
+@comment MD5:2f9c98d5610fc9a8f02c7312c3c49691
+share/doc/libxml2/tutorial/xmltutorial.pdf
+@comment MD5:12df01000d92ab495235de65abcd4e46
+share/doc/libxml2/w3c.png
+@comment MD5:ba69544b9cfa7659a0bb1b81410680a9
+share/doc/libxml2/writer.xml
+@comment MD5:1e16356328b8e3fa703a18858a11f3bb
+share/doc/libxml2/xml.html
+@comment MD5:257c19751508de43a549447d4579dd4d
+share/doc/libxml2/xpath1.c
+@comment MD5:87445983c77091ef0441ff775fb8edc6
+share/doc/libxml2/xpath1.res
+@comment MD5:cf508aadb27c5c145ac58d256326e8eb
+share/doc/libxml2/xpath2.c
+@comment MD5:413d481a75246b5af3d8e7f489e3408f
+share/doc/libxml2/xpath2.res
+@comment MD5:c32344efbb7334a5f2563420e0d1723c
+share/examples/libxml2/testHTML.c
+@comment MD5:6b181ebf4001bb62b07c7be7d79a2f01
+share/examples/libxml2/testSAX.c
+@comment MD5:34e3e9b268e1915652c15c4be11216a8
+share/examples/libxml2/testXPath.c
+@comment MD5:1db9d6ae0438d72387bcfd0ff1ae5ce4
+share/examples/libxml2/xmllint.c
+@comment MD5:beb9b25f86a2024c533c753dac4b876d
+share/gtk-doc/html/libxml2/general.html
+@comment MD5:06a61c706c6dd033190315e9af7c07a1
+share/gtk-doc/html/libxml2/home.png
+@comment MD5:f6192f4292d744423df690e785d60fdf
+share/gtk-doc/html/libxml2/index.html
+@comment MD5:b0b369ddf6959a2604b422c9268a0a3f
+share/gtk-doc/html/libxml2/left.png
+@comment MD5:f771308152ab24a69682daed70ce136d
+share/gtk-doc/html/libxml2/libxml2-DOCBparser.html
+@comment MD5:bde929bed90adf39144b561ad443c278
+share/gtk-doc/html/libxml2/libxml2-HTMLparser.html
+@comment MD5:448bf8a3ac020486b4b50ac3cdd52c16
+share/gtk-doc/html/libxml2/libxml2-HTMLtree.html
+@comment MD5:e53dcd12a0e8e51413ca1de4986d7898
+share/gtk-doc/html/libxml2/libxml2-SAX.html
+@comment MD5:5ba9dd3cf89972a337869e55024aeb0e
+share/gtk-doc/html/libxml2/libxml2-SAX2.html
+@comment MD5:9a8574da93ad762a54194f690db4dbee
+share/gtk-doc/html/libxml2/libxml2-c14n.html
+@comment MD5:57a9ef60a8af4df6586ab78061a75fd6
+share/gtk-doc/html/libxml2/libxml2-catalog.html
+@comment MD5:bcd705392f52867a1afadc1166739d17
+share/gtk-doc/html/libxml2/libxml2-chvalid.html
+@comment MD5:dca486d382dbf88f4d9155e3f7a826cf
+share/gtk-doc/html/libxml2/libxml2-debugXML.html
+@comment MD5:efd04207438816e0ce69c47bc93e525b
+share/gtk-doc/html/libxml2/libxml2-dict.html
+@comment MD5:d14b588f5594ea39b8e7a849cdb8e854
+share/gtk-doc/html/libxml2/libxml2-encoding.html
+@comment MD5:eac9c8c39be246af865c4ad51bf94d32
+share/gtk-doc/html/libxml2/libxml2-entities.html
+@comment MD5:c3e16380b528dec8cb514eef9064e88c
+share/gtk-doc/html/libxml2/libxml2-globals.html
+@comment MD5:08b752bd53e687bf8ac51400c62ded68
+share/gtk-doc/html/libxml2/libxml2-hash.html
+@comment MD5:11b6563618a2b99b9831857a5e81cfd2
+share/gtk-doc/html/libxml2/libxml2-list.html
+@comment MD5:e26c2e29812e0dd9b790a38f447f6aba
+share/gtk-doc/html/libxml2/libxml2-nanoftp.html
+@comment MD5:79f4eb67e7eb955c19bd5337a8cc5177
+share/gtk-doc/html/libxml2/libxml2-nanohttp.html
+@comment MD5:0eac4dace4fda9fcd0bb2ebb6c16aaf0
+share/gtk-doc/html/libxml2/libxml2-parser.html
+@comment MD5:0eb4b8574b05c69b2a71117f5f6f532f
+share/gtk-doc/html/libxml2/libxml2-parserInternals.html
+@comment MD5:b2757ce5c41539e70df72da43af67825
+share/gtk-doc/html/libxml2/libxml2-pattern.html
+@comment MD5:6129a6b5661fc0a38d5c967153651d26
+share/gtk-doc/html/libxml2/libxml2-relaxng.html
+@comment MD5:f98fee61d7e051dff9719e13b768b26c
+share/gtk-doc/html/libxml2/libxml2-schemasInternals.html
+@comment MD5:f69402825563b84f449e76963e654c55
+share/gtk-doc/html/libxml2/libxml2-schematron.html
+@comment MD5:b3700a489202f309f02c6309f9d86984
+share/gtk-doc/html/libxml2/libxml2-threads.html
+@comment MD5:bb12a300c2c86bc49f586858a1ef6cd0
+share/gtk-doc/html/libxml2/libxml2-tree.html
+@comment MD5:f81bce570e86b9f7c8ea84d05fdd13bd
+share/gtk-doc/html/libxml2/libxml2-uri.html
+@comment MD5:c46c9dfea580890ac48b70346c987bf0
+share/gtk-doc/html/libxml2/libxml2-valid.html
+@comment MD5:b4165290c6751ed9b2074eb915f0601f
+share/gtk-doc/html/libxml2/libxml2-xinclude.html
+@comment MD5:644e5093b3931eee1fece47fb9a3c908
+share/gtk-doc/html/libxml2/libxml2-xlink.html
+@comment MD5:fe35c6e86ba9419aea9f628ed45bc57a
+share/gtk-doc/html/libxml2/libxml2-xmlIO.html
+@comment MD5:1dd2f72b5a9014978f94155981fa6486
+share/gtk-doc/html/libxml2/libxml2-xmlautomata.html
+@comment MD5:9cd301cf92ecca4ff9e896663f6d6570
+share/gtk-doc/html/libxml2/libxml2-xmlerror.html
+@comment MD5:224e4d1d01547e68fe3bacf06e86361c
+share/gtk-doc/html/libxml2/libxml2-xmlexports.html
+@comment MD5:62aebfe3442aedae77f8ff0514a8160c
+share/gtk-doc/html/libxml2/libxml2-xmlmemory.html
+@comment MD5:39b84ef4ba3ed47beab81db312ae0d8c
+share/gtk-doc/html/libxml2/libxml2-xmlmodule.html
+@comment MD5:215331b3567ef3b2e79cf35b1998a357
+share/gtk-doc/html/libxml2/libxml2-xmlreader.html
+@comment MD5:576384e2dd8965ab77e6f459022d827f
+share/gtk-doc/html/libxml2/libxml2-xmlregexp.html
+@comment MD5:6acc1dcd1cca779afdafdc323228451b
+share/gtk-doc/html/libxml2/libxml2-xmlsave.html
+@comment MD5:ee31535906cba2ee6455e430f48eb236
+share/gtk-doc/html/libxml2/libxml2-xmlschemas.html
+@comment MD5:55b5ed0793dd7f64e9c25cfe4be40287
+share/gtk-doc/html/libxml2/libxml2-xmlschemastypes.html
+@comment MD5:b696ea0c3753e8390d062e8865fd6bdf
+share/gtk-doc/html/libxml2/libxml2-xmlstring.html
+@comment MD5:93955ef5e0a1e52d2c1a58e12a6d6aae
+share/gtk-doc/html/libxml2/libxml2-xmlunicode.html
+@comment MD5:9ac652a74d46f8c3e1caa26c19732b2a
+share/gtk-doc/html/libxml2/libxml2-xmlversion.html
+@comment MD5:11a6e7c28ccbdbc1ca91213139decfa9
+share/gtk-doc/html/libxml2/libxml2-xmlwriter.html
+@comment MD5:088d1735eaf6fcd0e4117c3cad0aa691
+share/gtk-doc/html/libxml2/libxml2-xpath.html
+@comment MD5:09af6c8f3ce2aec4abfc523bc197bda6
+share/gtk-doc/html/libxml2/libxml2-xpathInternals.html
+@comment MD5:7e1cd39d27fb760f721fb1f5e276dcf9
+share/gtk-doc/html/libxml2/libxml2-xpointer.html
+@comment MD5:eb4ef1b1665e08fd1c43e44f311367bb
+share/gtk-doc/html/libxml2/libxml2.devhelp
+@comment MD5:25fdebc867717cda3a5e218e00298be4
+share/gtk-doc/html/libxml2/right.png
+@comment MD5:ebd7e6d206d73850d77d305ab548f957
+share/gtk-doc/html/libxml2/style.css
+@comment MD5:a7b180ebf583ed0c315d70d6a4890f79
+share/gtk-doc/html/libxml2/up.png
+@comment MD5:2f07d9272deb4ae870ca6821117877fa
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

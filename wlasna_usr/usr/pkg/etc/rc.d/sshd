@@ -1,0 +1,120 @@
+#!/bin/sh
+#
+# $NetBSD: sshd.sh,v 1.13 2011/05/17 03:26:52 taca Exp $
+#
+# PROVIDE: sshd
+# REQUIRE: DAEMON LOGIN
+
+if [ -f /etc/rc.subr ]
+then
+	. /etc/rc.subr
+fi
+
+name="sshd"
+rcvar=$name
+command="/usr/pkg/sbin/${name}"
+keygen_command="/usr/pkg/bin/ssh-keygen"
+pidfile="/usr/pkg/var/run/${name}.pid"
+required_files="/usr/pkg/etc/ssh/sshd_config"
+extra_commands="keygen reload"
+
+sshd_keygen()
+{
+	(
+	umask 022
+	if [ -f /usr/pkg/etc/ssh/ssh_host_key ]; then
+		echo "You already have an RSA host key in /usr/pkg/etc/ssh/ssh_host_key"
+		echo "Skipping protocol version 1 RSA Key Generation"
+	else
+		${keygen_command} -t rsa1 -b 1024 -f /usr/pkg/etc/ssh/ssh_host_key -N ''
+	fi
+
+	if [ -f /usr/pkg/etc/ssh/ssh_host_dsa_key ]; then
+		echo "You already have a DSA host key in /usr/pkg/etc/ssh/ssh_host_dsa_key"
+		echo "Skipping protocol version 2 DSA Key Generation"
+	else
+		${keygen_command} -t dsa -f /usr/pkg/etc/ssh/ssh_host_dsa_key -N ''
+	fi
+
+	if [ -f /usr/pkg/etc/ssh/ssh_host_rsa_key ]; then
+		echo "You already have a RSA host key in /usr/pkg/etc/ssh/ssh_host_rsa_key"
+		echo "Skipping protocol version 2 RSA Key Generation"
+	else
+		${keygen_command} -t rsa -f /usr/pkg/etc/ssh/ssh_host_rsa_key -N ''
+	fi
+
+	if [ -f /usr/pkg/etc/ssh/ssh_host_ecdsa_key ]; then
+		echo "You already have a ECDSA host key in /usr/pkg/etc/ssh/ssh_host_ecdsa_key"
+		echo "Skipping protocol version 2 ECDSA Key Generation"
+	else
+		${keygen_command} -t ecdsa -f /usr/pkg/etc/ssh/ssh_host_ecdsa_key -N ''
+	fi
+
+	if [ -f /usr/pkg/etc/ssh/ssh_host_ed25519_key ]; then
+		echo "You already have a ED25519 host key in /usr/pkg/etc/ssh/ssh_host_ed25519_key"
+		echo "Skipping protocol version 2 ED25519 Key Generation"
+	else
+		${keygen_command} -t ed25519 -f /usr/pkg/etc/ssh/ssh_host_ed25519_key -N ''
+	fi
+	)
+}
+
+sshd_precmd()
+{
+	if [ ! -f /usr/pkg/etc/ssh/ssh_host_key -o \
+	     ! -f /usr/pkg/etc/ssh/ssh_host_dsa_key -o \
+	     ! -f /usr/pkg/etc/ssh/ssh_host_rsa_key -o \
+	     ! -f /usr/pkg/etc/ssh/ssh_host_ecdsa_key ]; then
+		if [ -f /etc/rc.subr -a -f /etc/rc.conf -a -f /etc/rc.d/DAEMON ]
+		then
+			run_rc_command keygen
+		else
+			eval ${keygen_cmd}
+		fi
+	fi
+}
+
+keygen_cmd=sshd_keygen
+start_precmd=sshd_precmd
+
+if [ -f /etc/rc.subr -a -f /etc/rc.conf -a -f /etc/rc.d/DAEMON ]
+then
+	load_rc_config $name
+	run_rc_command "$1"
+else
+	case ${1:-start} in
+	start)
+		if [ -x ${command} -a -f ${required_files} ]
+		then
+			echo "Starting ${name}."
+			eval ${start_precmd}
+			eval ${command} ${sshd_flags} ${command_args}
+		fi
+		;;
+	stop)
+		if [ -f ${pidfile} ]; then
+			pid=`/usr/bin/head -1 ${pidfile}`
+			echo "Stopping ${name}."
+			kill -TERM ${pid}
+		else
+			echo "${name} not running?"
+		fi
+		;;
+	restart)
+		( $0 stop )
+		sleep 1
+		$0 start
+		;;
+	status)
+		if [ -f ${pidfile} ]; then
+			pid=`/usr/bin/head -1 ${pidfile}`
+			echo "${name} is running as pid ${pid}."
+		else
+			echo "${name} is not running."
+		fi
+		;;
+	keygen)
+		eval ${keygen_cmd}
+		;;
+	esac
+fi

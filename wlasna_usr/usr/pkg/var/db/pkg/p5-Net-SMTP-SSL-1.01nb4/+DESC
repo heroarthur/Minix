@@ -1,0 +1,5 @@
+The Perl 5 module Net::SMTP::SSL implements the same API as Net::SMTP,
+but uses IO::Socket::SSL for its network operations.
+
+Homepage:
+http://search.cpan.org/dist/Net-SMTP-SSL/

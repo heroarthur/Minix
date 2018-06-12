@@ -1,0 +1,46 @@
+@cwd /usr/pkg
+@name p5-IO-Socket-SSL-1.967
+@blddep p5-Net-LibIDN-0.12nb5
+@pkgdep p5-Net-LibIDN-[0-9]*
+@blddep p5-Net-SSLeay-1.58
+@pkgdep p5-Net-SSLeay>=1.33
+@blddep perl-5.18.2nb1
+@pkgdep perl<5.20.0
+@blddep perl-5.18.2nb1
+@pkgdep perl>=5.18.0
+@blddep pth-2.0.7nb3
+@pkgdep pth>=2.0.0nb2
+@blddep digest-20121220
+@comment The following lines are automatically generated
+@comment from the installed .packlist files.
+lib/perl5/vendor_perl/5.18.0/IO/Socket/SSL.pm
+@comment MD5:c7de9238e44d4666b3007e6090ab2580
+lib/perl5/vendor_perl/5.18.0/IO/Socket/SSL/Intercept.pm
+@comment MD5:a64a7d534f4f43544ee818a487c9bfa7
+lib/perl5/vendor_perl/5.18.0/IO/Socket/SSL/Utils.pm
+@comment MD5:062f68fe10dc843df3ff5d31f887c96c
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/IO/Socket/SSL/.packlist
+@comment MD5:b0c80d6b717bcdaf696dbea9089f7f48
+lib/perl5/vendor_perl/man/man3/IO::Socket::SSL.3
+@comment MD5:060aa415b99241a51499ebbb02bfd1d2
+lib/perl5/vendor_perl/man/man3/IO::Socket::SSL::Intercept.3
+@comment MD5:6312514f083f76045c93a69eb8621028
+lib/perl5/vendor_perl/man/man3/IO::Socket::SSL::Utils.3
+@comment MD5:3eeb3ed0c6c0c1aa9581d89969a489f5
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++INSTALL
+@ignore
++DEINSTALL
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

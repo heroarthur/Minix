@@ -1,0 +1,46 @@
+@cwd /usr/pkg
+@name p5-Digest-HMAC-1.03nb3
+@blddep perl-5.18.2nb1
+@pkgdep {perl>=5.9.3,p5-Digest-SHA>=1.00}
+@blddep perl-5.18.2nb1
+@pkgdep {perl>=5.7.3,p5-Digest-MD5>=2.00}
+@blddep perl-5.18.2nb1
+@pkgdep perl<5.20.0
+@blddep perl-5.18.2nb1
+@pkgdep perl>=5.18.0
+@blddep pth-2.0.7nb3
+@pkgdep pth>=2.0.0nb2
+@blddep digest-20121220
+@comment The following lines are automatically generated
+@comment from the installed .packlist files.
+lib/perl5/vendor_perl/5.18.0/Digest/HMAC.pm
+@comment MD5:977cd2b318fb4dac825b967b5b039d81
+lib/perl5/vendor_perl/5.18.0/Digest/HMAC_MD5.pm
+@comment MD5:27c160c239939d80303ce48f60f81038
+lib/perl5/vendor_perl/5.18.0/Digest/HMAC_SHA1.pm
+@comment MD5:8ca1cd1ba766532da4d975a38c832d21
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Digest/HMAC/.packlist
+@comment MD5:b429c12aad0b384e785dd8379ceb5ec6
+lib/perl5/vendor_perl/man/man3/Digest::HMAC.3
+@comment MD5:f5d3af9d126b730690d8c3b2b2979fac
+lib/perl5/vendor_perl/man/man3/Digest::HMAC_MD5.3
+@comment MD5:0cc7baadde53a9f9d42d1e9289663010
+lib/perl5/vendor_perl/man/man3/Digest::HMAC_SHA1.3
+@comment MD5:65ccf9695fcf2d11d14ccfb54db80bfc
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++INSTALL
+@ignore
++DEINSTALL
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

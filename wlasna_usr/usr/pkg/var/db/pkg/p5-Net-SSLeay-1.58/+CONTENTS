@@ -1,0 +1,202 @@
+@cwd /usr/pkg
+@name p5-Net-SSLeay-1.58
+@blddep perl-5.18.2nb1
+@pkgdep {perl>=5.7.3,p5-MIME-Base64-[0-9]*}
+@blddep perl-5.18.2nb1
+@pkgdep perl<5.20.0
+@blddep perl-5.18.2nb1
+@pkgdep perl>=5.18.0
+@blddep pth-2.0.7nb3
+@pkgdep pth>=2.0.0nb2
+@blddep openssl-1.0.1g
+@pkgdep openssl>=1.0.1c
+@blddep digest-20121220
+@blddep p5-Test-Exception-0.32
+@blddep p5-Test-Warn-0.24nb2
+@comment The following lines are automatically generated
+@comment from the installed .packlist files.
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/Net/SSLeay.pm
+@comment MD5:a15cfa11291086408886ef839d3a2874
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/Net/SSLeay.pod
+@comment MD5:6301f5cfa807e4aa7e3506fd041dd7bd
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/Net/SSLeay/Handle.pm
+@comment MD5:2d7b08623e01d93d088142ba3d99968e
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/.packlist
+@comment MD5:746715c46fba071a78bbfd25fc58f987
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/SSLeay.bs
+@comment MD5:d41d8cd98f00b204e9800998ecf8427e
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/SSLeay.so
+@comment MD5:a725c1b92a67dedd9c18160c9d1ee121
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/autosplit.ix
+@comment MD5:d70adb9df5f7a6e6583da3e71c707bd7
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/debug_read.al
+@comment MD5:f6a4e7422b37ebb91f6f46cba9d7f257
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/do_https.al
+@comment MD5:cfe03ab462493311b81523f1be05bb50
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/do_https2.al
+@comment MD5:d5d93145c318a23d65d44f8c79510ca4
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/do_https3.al
+@comment MD5:a21bc6d73e8d09e31b6749bbdabc5b38
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/do_https4.al
+@comment MD5:24ea9b26b7361c9dcc9c0c0a3dee4f3a
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/do_httpx2.al
+@comment MD5:b2c6567ef991f5e432b85fdd0df8fdd0
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/do_httpx3.al
+@comment MD5:c25f50c07f16b9736e294430993baa9e
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/do_httpx4.al
+@comment MD5:50f48c96a7b16f60955ac46cfc40d4bd
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/dump_peer_certificate.al
+@comment MD5:9f5c6d3ddd673b8a71a5b6a2d7b41268
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/get_http.al
+@comment MD5:da41234ec158dfdaeaafcd846766ca0d
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/get_http3.al
+@comment MD5:f59122b215a212ddda85c532f1345b91
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/get_http4.al
+@comment MD5:0f7f586cee2419f183b53b25f3d638cd
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/get_https.al
+@comment MD5:45be48fabe2adbd35f5ea019f5d866d8
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/get_https3.al
+@comment MD5:452069adf83ae7061ed463f246b1569a
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/get_https4.al
+@comment MD5:4099a0b712df99ad75d2aeeb7fee6173
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/get_httpx.al
+@comment MD5:53af738053750fe476a3874f7eea685d
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/get_httpx3.al
+@comment MD5:50497832ad860e3fe6875ee7ba1da8ac
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/get_httpx4.al
+@comment MD5:ec5e9c4067480bf480fd2725232bf8e0
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/head_http.al
+@comment MD5:6b1277a647d8052c6a95c30c2ecbeef6
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/head_http3.al
+@comment MD5:89d0036208639ad21f148296f9fba18d
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/head_http4.al
+@comment MD5:0f4e0d02c947bdac186a3a337a92d634
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/head_https.al
+@comment MD5:2496c513a0f5481d004c3e4b1a04d82d
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/head_https3.al
+@comment MD5:120c52d0e00a3972094ac376b9666d3d
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/head_https4.al
+@comment MD5:9d4cb1fb850593ee9318e07794609405
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/head_httpx.al
+@comment MD5:8fe265bec4cbcfa0ed648f296c9c6d9e
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/head_httpx3.al
+@comment MD5:e512adc2fcf9c0c005d5be5e28872641
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/head_httpx4.al
+@comment MD5:d7cd94ddb5d7123b4b49bcf856cbea14
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/http_cat.al
+@comment MD5:319c31458ab4cefd46b34e3a6e4a9bb3
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/https_cat.al
+@comment MD5:d2794ce1b82f2cab67ebe6679fb5a658
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/httpx_cat.al
+@comment MD5:22bc02ca17213e5cb2bd53c78ebe6242
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/initialize.al
+@comment MD5:2dde94a849150f79e7137c5f0981e2be
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/make_form.al
+@comment MD5:12a8d45bbf1ebb918086751b80e29e5e
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/make_headers.al
+@comment MD5:977712b6a6ccc030b5c27b984dc327bf
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/new_x_ctx.al
+@comment MD5:f1ef712c01ec47be50f2f4924f1c4b6a
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/open_proxy_tcp_connection.al
+@comment MD5:f222befc53fcb9798e4e18b8bb7f4237
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/open_tcp_connection.al
+@comment MD5:c4a877fb08e33adb24821468de569f53
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/post_http.al
+@comment MD5:1433ae7c89a047dd6c8af5569cd01a7e
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/post_http3.al
+@comment MD5:d71104985524ad187b269a519c4b62d0
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/post_http4.al
+@comment MD5:14fd6250129c4777a0a21226e2b020f1
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/post_https.al
+@comment MD5:35563a6ca5658f3642ab10eb528a4694
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/post_https3.al
+@comment MD5:5f102c557a2902b0374b286cb8e9328b
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/post_https4.al
+@comment MD5:6ba1d4d4af9e8cc2f655b343f70c577e
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/post_httpx.al
+@comment MD5:9855e32d8249268b2116e028a13bf562
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/post_httpx3.al
+@comment MD5:3e01be2f28e4fbcff850d2ba713043fd
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/post_httpx4.al
+@comment MD5:b9415f4212ef113f5cd1805c78be1f6e
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/put_http.al
+@comment MD5:da48a81fafac336b44b4922c20e70bee
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/put_http3.al
+@comment MD5:981308c330a40aba52d53bbed325e4ae
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/put_http4.al
+@comment MD5:ce52b77b337408ecc760ff932606b51c
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/put_https.al
+@comment MD5:616a692450781787e4ef6cbf44c0278e
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/put_https3.al
+@comment MD5:e687e7ab59398e7d38ec9f7c9de5b49c
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/put_https4.al
+@comment MD5:2210e7282d6e5f7b29014994230786ba
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/put_httpx.al
+@comment MD5:5f0ed6c2cc223f8d9d9e3ec03145cd90
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/put_httpx3.al
+@comment MD5:3f6750d5a20e5832436d3610d4adfed8
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/put_httpx4.al
+@comment MD5:0a95c009b23501c541f9710e7451faed
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/randomize.al
+@comment MD5:206b83b99e2b168a125c666e81f8ca6d
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/set_cert_and_key.al
+@comment MD5:ff242d5d91d305b2b11ec4fc4e97c8c5
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/set_proxy.al
+@comment MD5:b0824791f352d3f94bced2960ca16738
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/set_server_cert_and_key.al
+@comment MD5:958f02d5d05e2b00448c4c1565d3870d
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/ssl_read_CRLF.al
+@comment MD5:5d425f65e600cd2eb11fbbe7d06b09a1
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/ssl_read_all.al
+@comment MD5:c2b9e53319cfa2b59a74555b41c68bfb
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/ssl_read_until.al
+@comment MD5:96f4b08973b2cd77648d32dd4ed76068
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/ssl_write_CRLF.al
+@comment MD5:24bc6b40c85d61aa21c7e71728f9852e
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/ssl_write_all.al
+@comment MD5:5e6c37111ce59db1bf048d549c2b5d72
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/sslcat.al
+@comment MD5:934143b1d0339a1e6067bba93e38467b
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/tcp_read_CRLF.al
+@comment MD5:5408756921ab72b2c6dccfb46555e4bf
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/tcp_read_all.al
+@comment MD5:a3add197f6955206d2aca81b8473fda5
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/tcp_read_until.al
+@comment MD5:5007ecb5a628ca762b1771658f91f48d
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/tcp_write_CRLF.al
+@comment MD5:2caafd52ebec697062b5456941e4539d
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/tcp_write_all.al
+@comment MD5:a8b16990726c2376b96485968a4598d0
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/tcpcat.al
+@comment MD5:820429774e20efdd0f63209cb9d7a17d
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/tcpxcat.al
+@comment MD5:6306ce4f3211a4c276e23c1f495ed76c
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/want_X509_lookup.al
+@comment MD5:28864296560de89ea62fdde28673a3cd
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/want_nothing.al
+@comment MD5:6ae277b3061f9a53d0912aab4c13e24b
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/want_read.al
+@comment MD5:514762ff474035037a4a887733c82d9e
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Net/SSLeay/want_write.al
+@comment MD5:95f68aa9840c57a743004bde8ab402f8
+lib/perl5/vendor_perl/man/man3/Net::SSLeay.3
+@comment MD5:2bc2e57239867722a2f3c97f67d4bdf5
+lib/perl5/vendor_perl/man/man3/Net::SSLeay::Handle.3
+@comment MD5:81efaedb6e8311e001c0154f6d480f8a
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++INSTALL
+@ignore
++DEINSTALL
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

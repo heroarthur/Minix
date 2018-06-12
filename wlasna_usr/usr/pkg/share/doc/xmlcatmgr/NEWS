@@ -1,0 +1,170 @@
+XML Catalog Manager                                                    NEWS
+===========================================================================
+
+
+Version 2.2
+-----------
+
+Third stable version of the 2.x branch, released on 2004/09/01.
+
+* Converted to use the GNU Build System (GNU Automake and GNU Autoconf).
+
+* Because of the previous change, the build has been hopefully fixed in
+  several platforms, specially under Irix 6.5 using the MIPSpro C compiler.
+
+
+Version 2.1
+-----------
+
+Second stable version of the 2.x branch, released on 2004/05/02.
+
+* Fixed an attribute name when parsing the `uri' tag in XML catalogs; it
+  expects `name', not `uriId'.
+
+* Fixed a warning message when removing entries from an XML catalog.
+
+* Fixed several warnings when building mem.c code in a system with glibc
+  2.[23].x and -O2 enabled.
+
+* Added the `-p' flag which changes the behavior of the `add' action so
+  that new entries are prepended instead of appended.
+
+* Improved consistency of the lookup action so that it behaves equally
+  for SGML and XML catalogs (this includes making XML lookup show all
+  matching entries).
+
+* Documentation is now installed in an unversioned directory by default.
+
+
+Version 2.0
+-----------
+
+First stable version of the 2.x branch, released on 2004/03/26.
+
+* Fixed build under HP-UX and Tru64 Unix.
+
+* Fixed a crash that occurred during parsing of some malformed XML
+  catalogs.
+
+
+Version 2.0beta1
+----------------
+
+First beta version of the 2.x branch, released on 2004/01/23.
+
+* Recognize two default catalog files, one for XML and one for SGML,
+  instead of only one as in previous versions.
+
+* Added the `-h' option to xmlcatmgr, which shows a descriptive usage
+  message.
+
+* Added multiple comments to the code, explaining what each function does.
+
+* Some bug fixes.
+
+
+Version 2.0alpha2
+-----------------
+
+Second alpha version of the 2.x branch, released on 2004/01/17.
+
+* Fixes to allow multiple entries with the same content in both SGML and
+  XML catalog files.  Sorry but this may break command line compatibility
+  with old versions in some scenarios; that is, the "remove" action now
+  takes pairs of values.  Even though, if just one argument is given to
+  "remove", it behaves as before to help the transition to newer versions.
+
+* New catalogs are created now in memory before writting them to disk.
+  This ensures that they will look exactly the same after creation and
+  after some manipulation (addition and removal of entries).
+
+* Added an option to configure, '-n doc', to disable installation of
+  distribution documentation files in the system.
+
+* Some bug fixes.
+
+
+Version 2.0alpha1
+-----------------
+
+First alpha version of the 2.x branch, released on 2003/12/23.
+
+* xmlcatmgr has been completely rewritten in C.  Even though, command line
+  compatibility has been kept, so that existing scripts using this program
+  do not break.
+
+* Buildtool is not used any more.  A custom build infrastructure has been
+  implemented, as something small and very portable was needed.
+
+* Added the `lookup' action, used to search for entries in catalogs.
+
+* Added real parsers to manipulate SGML and XML catalogs.  The program is
+  not line oriented any more, thus beeing a lot more flexible.
+
+* Multiple race conditions fixed, which were unavoidable from a shell
+  script.
+
+* Better handling of special characters and spaces in strings, difficult
+  to handle from shell scripts.
+
+
+Version 1.2
+-----------
+
+Third stable version of the 1.x branch, released on 2003/12/16.
+
+* Added the BT_PROG_GREP variable to the build system; this is to allow the
+  user override the grep program used by xmlcatmgr.  In some systems, like
+  Solaris, the -F flag is not supported, so an alternative must be used.
+
+
+Version 1.1
+-----------
+
+Second stable version of the 1.x branch, released on 2003/10/11.
+
+* Fixed AWK code generation to work with the mawk interpreter.
+
+* Fixed Makefile.boot to install documentation inside the directory pointed
+  by the BT_DIR_DOC variable.
+
+
+Version 1.0
+-----------
+
+First stable version of the 1.x branch, released on 2003/09/08.
+
+* Adapted Buildtool scripts to the latest version, 0.14.  As a side effect,
+  distribution documentation is now installed into the system.
+
+* Minor manpage fixes.
+
+* Code cleanup.
+
+
+Version 0.2
+-----------
+
+Second alpha version of the 1.x branch, released on 2003/01/28.
+
+* Added XML Catalogs management.  You must use the new `-s' flag to handle
+  SGML Catalogs as XML format becomes the default.
+
+* Dropped use of getopt in favour of getopts, as the former does not handle
+  whitespace in variables properly.
+
+* Handle comments in SGML catalogs properly.
+
+* Several manpage improvements.
+
+
+Version 0.1
+-----------
+
+First alpha version of the 1.x branch, released on 2003/01/10.
+
+* First public version.
+
+
+===========================================================================
+$Id: NEWS,v 1.3 2004/09/01 08:59:10 jmmv Exp $

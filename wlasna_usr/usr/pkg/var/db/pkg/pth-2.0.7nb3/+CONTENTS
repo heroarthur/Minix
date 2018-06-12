@@ -1,0 +1,81 @@
+@cwd /usr/pkg
+@pkgcfl pth-current-[0-9]*
+@pkgcfl pth-syscall<1.4.1nb1
+@name pth-2.0.7nb3
+@blddep digest-20121220
+@comment $NetBSD: PLIST,v 1.4 2010/09/07 10:46:47 drochner Exp $
+bin/pth-config
+@comment MD5:70947e2895c7691f49b0b301cfdea504
+bin/pthread-config
+@comment MD5:c029e70ca3f9769b7d73bf3a3e662eb0
+include/pth.h
+@comment MD5:69c154d247582b667b931a6362c46fbd
+include/pthread.h
+@comment MD5:25c163b0d229ffe9533b5b560f762796
+lib/libpth.la
+@comment MD5:01719ace9f32ba8344c0fd1e88a71fca
+lib/libpth.a
+@comment MD5:84bd43b5597fa8cdedcfbeaba54bfa87
+lib/libpth.so
+@comment Symlink:libpth.so.20.0.27
+lib/libpth.so.20
+@comment Symlink:libpth.so.20.0.27
+lib/libpth.so.20.0.27
+@comment MD5:8c153cedf1e717937bbfb8d0ea36906e
+lib/libpthread.la
+@comment MD5:bb38a78ab7657616ba70c5b382c75b2b
+lib/libpthread.a
+@comment MD5:92da66d094717f7c4d89a91aae74ccbe
+lib/libpthread.so
+@comment Symlink:libpthread.so.20.0.27
+lib/libpthread.so.20
+@comment Symlink:libpthread.so.20.0.27
+lib/libpthread.so.20.0.27
+@comment MD5:ff8fd5ff97c46faec2ab456446e0f22b
+man/man1/pth-config.1
+@comment MD5:0d5bb65e297119701511a100579ab554
+man/man1/pthread-config.1
+@comment MD5:7fa1c70c90d3df54a37a3d3bb717b1e0
+man/man3/pth.3
+@comment MD5:9149e51d27fa3f5d25f910870aa002c7
+man/man3/pthread.3
+@comment MD5:c780c974ac65c2479b9122acfedf7b0e
+share/aclocal/pth.m4
+@comment MD5:8c11745356b87a2ae5730c9e3ac02a02
+share/doc/pth/ANNOUNCE
+@comment MD5:956f51e25cd130b41b11fe510f6a8b96
+share/doc/pth/AUTHORS
+@comment MD5:193681d74fd7e50bf0b45c912e3f4629
+share/doc/pth/COPYING
+@comment MD5:4c603c471bc48b83d1bb6fd35e9b742a
+share/doc/pth/HACKING
+@comment MD5:4234743e7f6e367d98bbf6bd8d715da7
+share/doc/pth/NEWS
+@comment MD5:4f44a3955a7eb694769c848f74680930
+share/doc/pth/README
+@comment MD5:2c792a56baf56a7e7e62cb5846cff07e
+share/doc/pth/SUPPORT
+@comment MD5:f2e2fa36eb2f5bc5f25b92777013586a
+share/doc/pth/TESTS
+@comment MD5:09a2c13881f9bbc390f201dbcb7bb364
+share/doc/pth/THANKS
+@comment MD5:af445cc11476c2234b841afe624a2807
+share/doc/pth/USERS
+@comment MD5:5a5718db0f6f534363939b582a943584
+share/doc/pth/pthread.ps
+@comment MD5:8d0a5605d51ad8630b60bbb28f5c8140
+share/doc/pth/rse-pmt.ps
+@comment MD5:7efb29958b34ece5a19f3733c4b411b0
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

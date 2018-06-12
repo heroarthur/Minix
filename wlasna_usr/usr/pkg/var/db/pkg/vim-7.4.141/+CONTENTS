@@ -1,0 +1,37 @@
+@cwd /usr/pkg
+@pkgcfl vim-kde-[0-9]*
+@pkgcfl vim-gtk-[0-9]*
+@pkgcfl vim-gtk2-[0-9]*
+@pkgcfl vim-motif-[0-9]*
+@pkgcfl vim-xaw-[0-9]*
+@pkgcfl vim-kde-[0-9]*
+@name vim-7.4.141
+@blddep vim-share-7.4.141
+@pkgdep vim-share-7.4.141{,nb*}
+@blddep gettext-lib-0.18.3.2
+@pkgdep gettext-lib>=0.18
+@blddep digest-20121220
+@comment $NetBSD: PLIST,v 1.2 2005/10/23 14:13:50 rillig Exp $
+bin/rview
+@comment Symlink:vim
+bin/rvim
+@comment Symlink:vim
+bin/vim
+@comment MD5:1c53b3de71886b12efa461a7023febff
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++INSTALL
+@ignore
++DEINSTALL
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

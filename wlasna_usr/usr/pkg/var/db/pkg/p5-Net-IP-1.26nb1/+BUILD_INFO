@@ -1,0 +1,36 @@
+ABI=
+BUILD_DATE=2014-07-29 10:40:16 +0000
+BUILD_HOST=Minix minix 3.3.0 Minix 3.3.0 (GENERIC) i686
+CATEGORIES=net perl5
+CC_VERSION=clang-3.4 (branches/release_34 195771)
+CFLAGS=-O2 -march=i586 -I/usr/pkg/include
+CMAKE_ARGS=
+CONFIGURE_ARGS=
+CONFIGURE_ENV=ac_cv_header_spawn_h=no ac_cv_func_msync=no gl_have_pthread=no PTHREAD_CFLAGS=\ -D_REENTRANT PTHREAD_LDFLAGS= PTHREAD_LIBS=-lpthread PTHREADBASE=/usr/pkg INSTALL_INFO= MAKEINFO=/usr/pkgsrc/work/net/p5-Net-IP/work/.tools/bin/makeinfo FLEX= BISON= PKG_CONFIG= PKG_CONFIG_LIBDIR=/usr/pkgsrc/work/net/p5-Net-IP/work/.buildlink/lib/pkgconfig:/usr/pkgsrc/work/net/p5-Net-IP/work/.buildlink/share/pkgconfig PKG_CONFIG_LOG=/usr/pkgsrc/work/net/p5-Net-IP/work/.pkg-config.log PKG_CONFIG_PATH= MAKE=make WRAPPER_DEBUG=no WRAPPER_UPDATE_CACHE=yes CXXCPP=cpp CC=cc CFLAGS=-O2\ -march=i586\ -I/usr/pkg/include CPPFLAGS=-I/usr/pkg/include CXX=c++ CXXFLAGS=-O2\ -march=i586\ -I/usr/pkg/include COMPILER_RPATH_FLAG=-Wl,-R F77=f77 FC=f77 FFLAGS=-O LANG=C LC_ALL=C LC_COLLATE=C LC_CTYPE=C LC_MESSAGES=C LC_MONETARY=C LC_NUMERIC=C LC_TIME=C LDFLAGS=-L/usr/pkg/lib\ -Wl,-R/usr/pkg/lib LINKER_RPATH_FLAG=-R PATH=/usr/pkgsrc/work/net/p5-Net-IP/work/.wrapper/bin:/usr/pkgsrc/work/net/p5-Net-IP/work/.buildlink/bin:/usr/pkgsrc/work/net/p5-Net-IP/work/.tools/bin:/usr/pkg/bin::/usr/pbulk/bin:/usr/pbulk/sbin:/usr/pkg/bin:/usr/pkg/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/usr/pkg/bin:/usr/pkg/bin PREFIX=/usr/pkg MAKELEVEL=0 PKG_SYSCONFDIR=/usr/pkg/etc HOME=/usr/pkgsrc/work/net/p5-Net-IP/work/.home
+CPPFLAGS=   -I/usr/pkg/include
+FFLAGS=-O
+HOMEPAGE=http://search.cpan.org/dist/Net-IP/
+INIT_SYSTEM=rc.d
+LDFLAGS=  -L/usr/pkg/lib -Wl,-R/usr/pkg/lib
+LICENSE=gnu-gpl-v2 OR artistic
+LOCALBASE=/usr/pkg
+MACHINE_ARCH=i386
+MACHINE_GNU_ARCH=i386
+MAINTAINER=pkgsrc-users@NetBSD.org
+NO_BIN_ON_CDROM=
+NO_BIN_ON_FTP=
+NO_SRC_ON_CDROM=
+NO_SRC_ON_FTP=
+OBJECT_FMT=ELF
+OPSYS=NetBSD
+OS_VERSION=3.3.0
+PKGGNUDIR=gnu/
+PKGINFODIR=info
+PKGMANDIR=man
+PKGPATH=net/p5-Net-IP
+PKGTOOLS_VERSION=20091115
+PKG_SYSCONFBASEDIR=/usr/pkg/etc
+PKG_SYSCONFDIR=/usr/pkg/etc
+RESTRICTED=
+_PLIST_IGNORE_FILES=
+_USE_DESTDIR=user-destdir

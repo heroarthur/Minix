@@ -1,0 +1,24 @@
+===========================================================================
+$NetBSD: MESSAGE,v 1.5 2004/01/23 17:12:16 jmmv Exp $
+
+The following catalogs have been installed:
+
+	* /usr/pkg/etc/sgml/catalog
+	  System wide SGML catalog.  Can be edited by the administrator and
+	  is not changed by packages.  This is the *default* catalog when
+	  working in SGML mode.
+
+	* /usr/pkg/etc/xml/catalog
+	  System wide XML catalog.  Can be edited by the administrator and
+	  is not changed by packages.  This is the *default* catalog when
+	  working in XML mode.
+
+	* /usr/pkg/share/sgml/catalog
+	  Handles SGML stuff installed under /usr/pkg/share/sgml.
+	  Automatically handled by packages.
+
+	* /usr/pkg/share/xml/catalog
+	  Handles XML stuff installed under /usr/pkg/share/xml.
+	  Automatically handled by packages.
+
+===========================================================================

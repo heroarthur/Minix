@@ -1,0 +1,46 @@
+@cwd /usr/pkg
+@name xmlcatmgr-2.2nb1
+@blddep digest-20121220
+@comment $NetBSD: PLIST,v 1.9 2009/06/14 18:17:34 joerg Exp $
+bin/xmlcatmgr
+@comment MD5:449404b3533606b30b2fb80ae3430520
+man/man1/xmlcatmgr.1
+@comment MD5:c68d51c6d3e5305a35f4558845831f6e
+share/doc/xmlcatmgr/AUTHORS
+@comment MD5:d029e2211e12384d1094349661889545
+share/doc/xmlcatmgr/COPYING
+@comment MD5:0553386a96993210475104c8a701d203
+share/doc/xmlcatmgr/NEWS
+@comment MD5:ca8646239b07d0a677fefe327b5eb886
+share/doc/xmlcatmgr/README
+@comment MD5:e18686ec9ae75c7ad56cab2b9aa960f7
+share/doc/xmlcatmgr/TODO
+@comment MD5:aa6931817424f03f182ad37f1f34c768
+share/examples/xmlcatmgr/catalog.etc.sgml
+@comment MD5:ced24ae9ca59c4e943a1b33ea2a348b6
+share/examples/xmlcatmgr/catalog.etc.xml
+@comment MD5:15c502f81a5c1b91f6c9c20a15d1eb12
+share/examples/xmlcatmgr/catalog.share.sgml
+@comment MD5:aea7cd0d9477e4320216adf88ec983ac
+share/examples/xmlcatmgr/catalog.share.xml
+@comment MD5:f56ccbaba1cccd24c167ba15ab6f864f
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++INSTALL
+@ignore
++DEINSTALL
+@ignore
++DISPLAY
+@display +DISPLAY
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

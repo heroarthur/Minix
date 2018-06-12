@@ -1,0 +1,80 @@
+@cwd /usr/pkg
+@name p5-Authen-SASL-2.16nb1
+@blddep p5-Digest-HMAC-1.03nb3
+@pkgdep p5-Digest-HMAC-[0-9]*
+@blddep perl-5.18.2nb1
+@pkgdep {perl>=5.7.3,p5-Digest-MD5-[0-9]*}
+@blddep p5-GSSAPI-0.28nb4
+@pkgdep p5-GSSAPI-[0-9]*
+@blddep perl-5.18.2nb1
+@pkgdep perl<5.20.0
+@blddep perl-5.18.2nb1
+@pkgdep perl>=5.18.0
+@blddep pth-2.0.7nb3
+@pkgdep pth>=2.0.0nb2
+@blddep digest-20121220
+@comment The following lines are automatically generated
+@comment from the installed .packlist files.
+lib/perl5/vendor_perl/5.18.0/Authen/SASL.pm
+@comment MD5:4c7359f343202bb17cde465eeb8d2bc5
+lib/perl5/vendor_perl/5.18.0/Authen/SASL.pod
+@comment MD5:76b4000abc94fddf58fd33e4c9efa6af
+lib/perl5/vendor_perl/5.18.0/Authen/SASL/CRAM_MD5.pm
+@comment MD5:8b307eb5fd7b82e6ab0ad46281dcadf9
+lib/perl5/vendor_perl/5.18.0/Authen/SASL/EXTERNAL.pm
+@comment MD5:05ff59381b8ddd5f123175a1d2a45281
+lib/perl5/vendor_perl/5.18.0/Authen/SASL/Perl.pm
+@comment MD5:35d9690b2f1f80e9f4332652ba6a914d
+lib/perl5/vendor_perl/5.18.0/Authen/SASL/Perl.pod
+@comment MD5:86043679511915cfe000103ce6c50c83
+lib/perl5/vendor_perl/5.18.0/Authen/SASL/Perl/ANONYMOUS.pm
+@comment MD5:2010b1b2e00b776912d974bfb765a1d3
+lib/perl5/vendor_perl/5.18.0/Authen/SASL/Perl/CRAM_MD5.pm
+@comment MD5:1a7cb91acea0081c1e9e049c70839dca
+lib/perl5/vendor_perl/5.18.0/Authen/SASL/Perl/DIGEST_MD5.pm
+@comment MD5:9d7c48101a6d8f96eb6cc377c7ebc58c
+lib/perl5/vendor_perl/5.18.0/Authen/SASL/Perl/EXTERNAL.pm
+@comment MD5:a3d966f5ad246ef93c46588dacf427fa
+lib/perl5/vendor_perl/5.18.0/Authen/SASL/Perl/GSSAPI.pm
+@comment MD5:c3dca0422760ddd5dd57d1936e19467c
+lib/perl5/vendor_perl/5.18.0/Authen/SASL/Perl/LOGIN.pm
+@comment MD5:a7b9616598b1cf729f0e03f521294f77
+lib/perl5/vendor_perl/5.18.0/Authen/SASL/Perl/PLAIN.pm
+@comment MD5:835ca684b78fadeb2668c3fb8c324037
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Authen/SASL/.packlist
+@comment MD5:dcb2606cb7a7dd60301021609835476a
+lib/perl5/vendor_perl/man/man3/Authen::SASL.3
+@comment MD5:a591a354322463f77adcd54fd31b72f1
+lib/perl5/vendor_perl/man/man3/Authen::SASL::Perl.3
+@comment MD5:328009174d94a23b2c4aa1452c50f5aa
+lib/perl5/vendor_perl/man/man3/Authen::SASL::Perl::ANONYMOUS.3
+@comment MD5:aec24401580ba7f82a544e09e8bf3832
+lib/perl5/vendor_perl/man/man3/Authen::SASL::Perl::CRAM_MD5.3
+@comment MD5:af15cd90f61ab806ea0c5978aa469e3c
+lib/perl5/vendor_perl/man/man3/Authen::SASL::Perl::DIGEST_MD5.3
+@comment MD5:a5768e8db7eac623bb46a93d954907cb
+lib/perl5/vendor_perl/man/man3/Authen::SASL::Perl::EXTERNAL.3
+@comment MD5:43a12a76222ebc1fa7d7491895d69635
+lib/perl5/vendor_perl/man/man3/Authen::SASL::Perl::GSSAPI.3
+@comment MD5:4a60d6c59fac37068e4d2063bf532095
+lib/perl5/vendor_perl/man/man3/Authen::SASL::Perl::LOGIN.3
+@comment MD5:ba1058769a01a1692324880bd06fb37e
+lib/perl5/vendor_perl/man/man3/Authen::SASL::Perl::PLAIN.3
+@comment MD5:b7689db6ae8cbfbf3a0c435c2698e3a0
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++INSTALL
+@ignore
++DEINSTALL
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

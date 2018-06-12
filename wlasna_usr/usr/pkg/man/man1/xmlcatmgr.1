@@ -1,0 +1,245 @@
+.\"
+.\" XML Catalog Manager (xmlcatmgr)
+.\" $Id: xmlcatmgr.1.in,v 1.2 2004/08/31 21:25:47 jmmv Exp $
+.\"
+.\" Copyright (c) 2003, 2004 Julio M. Merino Vidal.  All rights reserved.
+.\"
+.\" Redistribution and use in source and binary forms, with or without
+.\" modification, are permitted provided that the following conditions
+.\" are met:
+.\" 1. Redistributions of source code must retain the above copyright
+.\"    notice, this list of conditions and the following disclaimer.
+.\" 2. Redistributions in binary form must reproduce the above copyright
+.\"    notice, this list of conditions and the following disclaimer in
+.\"    the documentation and/or other materials provided with the
+.\"    distribution.
+.\" 3. Neither the name of the author nor the names of contributors may
+.\"    be used to endorse or promote products derived from this software
+.\"    without specific prior written permission.
+.\"
+.\" THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS''
+.\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+.\" TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+.\" PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR
+.\" OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+.\" SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+.\" LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF
+.\" USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+.\" ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+.\" OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
+.\" OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+.\" SUCH DAMAGE.
+.\"/
+.Dd May 1, 2004
+.Dt XMLCATMGR 1
+.Os
+.Sh NAME
+.Nm xmlcatmgr
+.Nd XML and SGML catalog manager
+.Sh SYNOPSIS
+.Nm
+.Op Fl hpsv
+.Op Fl c Ar catalog
+.Ar action
+.Op Ar action_arg ...
+.Sh DESCRIPTION
+.Nm
+is a utility used to manipulate SGML and XML catalogs.
+It is designed with simplicity in mind: it does not depend on
+external programs nor libraries.
+This manpage corresponds to
+.Nm
+version
+.Em 2.2 .
+.Pp
+A catalog is a lookup mechanism used to translate entities into other
+different entities.
+They can, for example, map public identifiers to local files or URIs.
+This allows you to tell the parser where to look for entities without
+having to modify the original document source.
+.Pp
+Catalogs come in two different formats: SGML catalogs and XML catalogs.
+The former are supported by many programs, as are very easy to parse
+and have existed for a long time.
+XML catalogs are quite recent and are much more powerful than the others.
+.Nm
+can manage both of them, but its default behavior is to handle XML
+catalogs (hence, the name of the program).
+.Pp
+The following options are available:
+.Bl -tag -width XcXcatalog
+.It Fl c Ar catalog
+Use
+.Ar catalog
+as the catalog file.
+If not specified, the catalog defaults to
+.Pa /usr/pkg/etc/xml/catalog
+if running in XML mode, or to
+.Pa /usr/pkg/etc/sgml/catalog
+if running in SGML mode
+(see the
+.Fl s
+flag).
+.It Fl h
+Show a descriptive usage message and exit.
+.It Fl p
+When adding a new entry to a catalog (using the
+.Ar add
+action), prepend it instead of inserting it at the end.
+.It Fl s
+Use the standard SGML catalog format to parse the catalog, instead of
+the XML format.
+.It Fl v
+Show version information and exit.
+.El
+.Pp
+The
+.Ar action
+argument specifies what to do with the catalog file.
+It is mandatory and may require extra arguments.
+The action name can be preceded by the
+.Ql --
+string, to maintain some compatibility with the
+.Nm xmlcatalog
+utility included in the
+.Nm libxml2
+package.
+.Pp
+The following actions are available:
+.Bl -tag -width addXtypeXorigXreplace
+.It add Ar type Ar orig Ar replace
+Add an entry to the catalog.
+.Ar type
+specifies the type of entry (see below),
+.Ar orig
+is the public identifier to be replaced and
+.Ar replace
+is the system URI used to do the replacement.
+.Pp
+If
+.Ar replace
+is the
+.Ql --
+string, it is ignored.
+This is specially useful in scripts, as you can parse three arguments
+at a time regardless the current
+.Ar type
+expectations.
+.Pp
+If all entries can be added successfully, the program returns 0;
+otherwise \*[Gt]0.
+.It create
+Create an empty catalog.
+Produces an error if it already exists.
+.It destroy
+Delete the catalog file.
+.It lookup Ar value
+Check if given entries exist in the catalog, specified by their
+.Ar value
+argument.
+This matches the value passed to
+.Ar orig
+when using the
+.Ql add
+action.
+All entries found are printed to standard output.
+.Pp
+Note that this action does not recurse into catalogs, nor does network
+lookups.
+It is only provided to check if entries exist in an specific catalog, to
+decide if they should be registered or not.
+.Pp
+If all entries exist, the program returns 0; otherwise \*[Gt]0.
+.It remove Ar type Ar value
+Remove entries from the catalog, specified by their
+.Ar type
+and their
+.Ar value .
+The former provides the type of entry (see below), while the later matches
+the value passed in the
+.Ar orig
+parameter when using the
+.Ql add
+action.
+.Pp
+If just
+.Em one
+argument is provided, all matching entries are removed, regardless their
+type.
+This is only provided for command line compatibility with all previous
+versions, so do not use it any more (a warning message will be shown).
+.Pp
+If all entries were removed successfully, the program returns 0;
+otherwise \*[Gt]0.
+.El
+.Pp
+When parsing SGML catalogs, the
+.Ar type
+used by
+.Ql add
+and
+.Ql remove
+actions can be one of the following:
+.Ql BASE ,
+.Ql CATALOG ,
+.Ql DELEGATE ,
+.Ql DOCTYPE ,
+.Ql DOCUMENT ,
+.Ql ENTITY ,
+.Ql LINKTYPE ,
+.Ql NOTATION ,
+.Ql OVERRIDE ,
+.Ql PUBLIC ,
+.Ql SGMLDECL
+and
+.Ql SYSTEM .
+When parsing XML catalogs, it can be:
+.Ql delegatePublic ,
+.Ql delegateSystem ,
+.Ql delegateURI ,
+.Ql group
+(not supported),
+.Ql nextCatalog ,
+.Ql public ,
+.Ql rewriteSystem ,
+.Ql rewriteURI ,
+.Ql system
+and
+.Ql uri .
+.Sh SEE ALSO
+.Bl -bullet
+.It
+.Pa http://www.jclark.com/sp/catalog.htm
+- Quick introduction to the SGML catalog format.
+.It
+.Pa http://www.oasis-open.org/committees/entity/spec.html
+- Full reference of the XML catalog format.
+.It
+.Pa http://www.xmlsoft.org/
+-
+.Nm libxml2
+homepage.
+.It
+.Pa http://xmlcatmgr.sourceforge.net/
+-
+.Nm xmlcatmgr
+homepage.
+.El
+.Sh HISTORY
+.Nm
+was created because the
+.Nx
+Packages Collection needed a very small catalog manager to automatically
+(un)register catalog entries when (de)installing packages.
+.Pp
+It was released as an independant program through Sourceforge in
+the hope that it is useful to more people.
+.Pp
+For a list of changes between versions, see:
+.Pa /usr/pkg/share/doc/xmlcatmgr/CHANGES .
+.Sh AUTHORS
+The
+.Nm
+utility was written by
+.An Julio M. Merino Vidal
+.Aq jmmv@users.sourceforge.net .

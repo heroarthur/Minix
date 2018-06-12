@@ -1,0 +1,36 @@
+@cwd /usr/pkg
+@pkgcfl gettext<=0.10.35
+@name gettext-lib-0.18.3.2
+@blddep digest-20121220
+@comment $NetBSD: PLIST,v 1.6 2012/08/29 09:01:01 sbd Exp $
+include/gettext/libintl.h
+@comment MD5:494c59761f775a25d7d516991507f7a2
+lib/libintl.la
+@comment MD5:3d8af8804a325d6c22cb839f0f8fa9cd
+lib/libintl.a
+@comment MD5:d69f7767166542843ca84b7c912bd680
+lib/libintl.so
+@comment Symlink:libintl.so.8.1.2
+lib/libintl.so.8
+@comment Symlink:libintl.so.8.1.2
+lib/libintl.so.8.1.2
+@comment MD5:3370985cd42d24d462b9f291621839ef
+share/examples/gettext/locale.alias
+@comment MD5:bac5b04768fd6cf6d154ef9ca0637aef
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++INSTALL
+@ignore
++DEINSTALL
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

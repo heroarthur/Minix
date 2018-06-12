@@ -1,0 +1,80 @@
+@cwd /usr/pkg
+@pkgcfl audit-packages-[0-9]*
+@name pkg_install-20130902nb1
+@comment $NetBSD: PLIST,v 1.16 2012/03/04 11:40:46 wiz Exp $
+man/cat1/pkg_add.0
+@comment MD5:fd581e029b91969d43301d98684ca082
+man/cat1/pkg_admin.0
+@comment MD5:15c022b2c0e843bd96b074b02adc2908
+man/cat1/pkg_create.0
+@comment MD5:51e9d9a37402c041b64ff569eee1d059
+man/cat1/pkg_delete.0
+@comment MD5:c92c62a8eedb9084f6a1b97967d0ccbe
+man/cat1/pkg_info.0
+@comment MD5:5cb40835d0cd64c64c4a13eacb0ab9f9
+man/cat5/pkg_install.conf.0
+@comment MD5:5ca01d8daa3fe90a0f98ecdaceb3d7cc
+man/cat5/pkg_summary.0
+@comment MD5:4e0d55f2e78fe6e1c97de7f54aee5ef7
+man/cat7/pkgsrc.0
+@comment MD5:522174aaa0263ccf1a715e27c8904977
+man/cat8/audit-packages.0
+@comment MD5:ecde4cbf3de00f28088e1a93119178bc
+man/cat8/download-vulnerability-list.0
+@comment MD5:b3174138abaaa7a871a62b4798ae6ecd
+man/man1/pkg_add.1
+@comment MD5:b767322138a4b24fe8449e93aac9d353
+man/man1/pkg_admin.1
+@comment MD5:ca5de28c040cac4ab6bd0b0f4fb0c7b8
+man/man1/pkg_create.1
+@comment MD5:9b30954511ee5a2dc90772e5acfe2a5f
+man/man1/pkg_delete.1
+@comment MD5:020187b47ac4c701e45008cb5a913ca4
+man/man1/pkg_info.1
+@comment MD5:72ac630aecc392e4d2848f313422379b
+man/man5/pkg_install.conf.5
+@comment MD5:c1102309260b5c70f5469e65ced9b1c2
+man/man5/pkg_summary.5
+@comment MD5:3be2123424e60cf379e904b737dddfc3
+man/man7/pkgsrc.7
+@comment MD5:fc62be665db8924cefd8fc8d9880d80f
+man/man8/audit-packages.8
+@comment MD5:c12307b3fe0a2e93c884b7edc2fa7c25
+man/man8/download-vulnerability-list.8
+@comment MD5:e511ac4da4dedd696a0a83459349adf6
+sbin/audit-packages
+@comment MD5:d09aea4dc697d0051c09044b927059a8
+sbin/download-vulnerability-list
+@comment MD5:03bc26109bd103eb06a0e39d2387b1d6
+sbin/pkg_add
+@comment MD5:2a12edd7487ab9d3f1124d27340283ee
+sbin/pkg_admin
+@comment MD5:d312c3d0096af4ddc730a3038dbcc904
+sbin/pkg_create
+@comment MD5:613489bbc5c99531bd690523979a3385
+sbin/pkg_delete
+@comment MD5:36afa529e517f2189b2ef46fdf957cbc
+sbin/pkg_info
+@comment MD5:a8e6913fa7c0586c14a9eb4eac1412df
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++INSTALL
+@ignore
++DEINSTALL
+@ignore
++DISPLAY
+@display +DISPLAY
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL
+@ignore
++PRESERVE

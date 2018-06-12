@@ -1,0 +1,43 @@
+ABI=
+BUILD_DATE=2014-07-29 06:53:27 +0000
+BUILD_HOST=Minix minix 3.3.0 Minix 3.3.0 (GENERIC) i686
+CATEGORIES=lang devel perl5
+CC_VERSION=clang-3.4 (branches/release_34 195771)
+CFLAGS=-O2 -march=i586 -I/usr/include
+CMAKE_ARGS=
+CONFIGURE_ARGS=-sde -Duseshrplib -Uuseithreads -Uusemymalloc
+CONFIGURE_ENV=ac_cv_header_spawn_h=no ac_cv_func_msync=no gl_have_pthread=no DL_CFLAGS= DL_LDFLAGS= DL_LIBS= INSTALL_INFO= MAKEINFO=/usr/pkgsrc/work/lang/perl5/work/.tools/bin/makeinfo FLEX= BISON= PKG_CONFIG= PKG_CONFIG_LIBDIR=/usr/pkgsrc/work/lang/perl5/work/.buildlink/lib/pkgconfig:/usr/pkgsrc/work/lang/perl5/work/.buildlink/share/pkgconfig PKG_CONFIG_LOG=/usr/pkgsrc/work/lang/perl5/work/.pkg-config.log PKG_CONFIG_PATH= MAKE=make WRAPPER_DEBUG=no WRAPPER_UPDATE_CACHE=yes CXXCPP=cpp CC=cc CFLAGS=-O2\ -march=i586\ -I/usr/include CPPFLAGS=-I/usr/include CXX=c++ CXXFLAGS=-O2\ -march=i586\ -I/usr/include COMPILER_RPATH_FLAG=-Wl,-R F77=f77 FC=f77 FFLAGS=-O LANG=C LC_ALL=C LC_COLLATE=C LC_CTYPE=C LC_MESSAGES=C LC_MONETARY=C LC_NUMERIC=C LC_TIME=C LDFLAGS=-L/usr/lib\ -Wl,-R/usr/lib\ -Wl,-R/usr/pkg/lib LINKER_RPATH_FLAG=-R PATH=/usr/pkgsrc/work/lang/perl5/work/.wrapper/bin:/usr/pkgsrc/work/lang/perl5/work/.buildlink/bin:/usr/pkgsrc/work/lang/perl5/work/.tools/bin:/usr/pkg/bin::/usr/pbulk/bin:/usr/pbulk/sbin:/usr/pkg/bin:/usr/pkg/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/usr/pkg/bin:/usr/pkg/bin PREFIX=/usr/pkg MAKELEVEL=0 PKG_SYSCONFDIR=/usr/pkg/etc HOME=/usr/pkgsrc/work/lang/perl5/work/.home
+CPPFLAGS=   -I/usr/include
+FFLAGS=-O
+HOMEPAGE=http://www.perl.org/
+INIT_SYSTEM=rc.d
+LDFLAGS=  -L/usr/lib -Wl,-R/usr/lib -Wl,-R/usr/pkg/lib
+LICENSE=gnu-gpl-v2 OR artistic
+LOCALBASE=/usr/pkg
+MACHINE_ARCH=i386
+MACHINE_GNU_ARCH=i386
+MAINTAINER=pkgsrc-users@NetBSD.org
+NO_BIN_ON_CDROM=
+NO_BIN_ON_FTP=
+NO_SRC_ON_CDROM=
+NO_SRC_ON_FTP=
+OBJECT_FMT=ELF
+OPSYS=NetBSD
+OS_VERSION=3.3.0
+PERL5_SITEPREFIX=/usr/pkg
+PKGGNUDIR=gnu/
+PKGINFODIR=info
+PKGMANDIR=man
+PKGPATH=lang/perl5
+PKGTOOLS_VERSION=20091115
+PKG_OPTIONS=64bitauto
+PKG_SYSCONFBASEDIR=/usr/pkg/etc
+PKG_SYSCONFDIR=/usr/pkg/etc
+PROVIDES=/usr/pkg/lib/perl5/5.18.0/i386-netbsd/CORE/libperl.so
+REQUIRES=/usr/lib/libc.so.12
+REQUIRES=/usr/lib/libcrypt.so.1
+REQUIRES=/usr/lib/libm.so.0
+RESTRICTED=
+SUPERSEDES=p5-Tie-File<=0.99 p5-Memoize<=1.03 p5-I18N-LangTags<=0.39 p5-Locale-Maketext<=1.23
+_PLIST_IGNORE_FILES=
+_USE_DESTDIR=user-destdir

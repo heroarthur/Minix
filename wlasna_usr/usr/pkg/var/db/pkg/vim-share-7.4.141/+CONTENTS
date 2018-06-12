@@ -1,0 +1,2620 @@
+@cwd /usr/pkg
+@pkgcfl vim-kde-[0-9]*
+@name vim-share-7.4.141
+@blddep digest-20121220
+@comment $NetBSD: PLIST,v 1.22 2014/01/11 23:24:03 morr Exp $
+bin/xxd
+@comment MD5:a037f7cea32b654ac69c4ff7580e9a73
+man/man1/evim.1
+@comment MD5:b9c058b757cede940198f84a2a49c9a9
+man/man1/vim.1
+@comment MD5:7e2df564f1d1c79e4e5dc0bf20d23b60
+man/man1/vimdiff.1
+@comment MD5:acbd9419aa4fa2c856ce66df43e8c3f5
+man/man1/vimtutor.1
+@comment MD5:2a87ad5216a69f0cfcb24bc3814488c3
+man/man1/xxd.1
+@comment MD5:cc8400bac3d2f944f06b236f8c56d173
+share/vim/vim74/autoload/README.txt
+@comment MD5:2d99f4ef102e29e6cd36a19975d4968e
+share/vim/vim74/autoload/ada.vim
+@comment MD5:70fffdb6a49fcb2a15ed09af7de413bc
+share/vim/vim74/autoload/adacomplete.vim
+@comment MD5:2e68ef6a59541539a213268aa51d90d7
+share/vim/vim74/autoload/ccomplete.vim
+@comment MD5:baa4930dfde3da996038bc0cc14882a2
+share/vim/vim74/autoload/clojurecomplete.vim
+@comment MD5:32c99cce6c238c9e1c4fb55bae43a1c7
+share/vim/vim74/autoload/csscomplete.vim
+@comment MD5:519e0d48d327daef6e470e5305aa62f2
+share/vim/vim74/autoload/decada.vim
+@comment MD5:852a3d8c5283c21d0710458c40c6f477
+share/vim/vim74/autoload/getscript.vim
+@comment MD5:d1310c5e7d55a3213bd9edbe9dab7da4
+share/vim/vim74/autoload/gnat.vim
+@comment MD5:12c86e4b4d978dcbd39a9068afb31e14
+share/vim/vim74/autoload/gzip.vim
+@comment MD5:343362d3293ed1557329599239c54fa4
+share/vim/vim74/autoload/htmlcomplete.vim
+@comment MD5:fd4d9d9574e2ef5edfce8a90368def2c
+share/vim/vim74/autoload/javascriptcomplete.vim
+@comment MD5:2b939814050b10dab16f7d2c9af2c130
+share/vim/vim74/autoload/netrw.vim
+@comment MD5:b5f90cc72204a503efc2565d0e2b5b8f
+share/vim/vim74/autoload/netrwFileHandlers.vim
+@comment MD5:230271ab58a96771c1d903c64f54d403
+share/vim/vim74/autoload/netrwSettings.vim
+@comment MD5:0bf34ba2850e0a6081d8d559fa61ebc0
+share/vim/vim74/autoload/paste.vim
+@comment MD5:1f1968eab49f4a4639b319c82479506b
+share/vim/vim74/autoload/phpcomplete.vim
+@comment MD5:9acf2d2f202b0dab1cbabdf6915bb4c4
+share/vim/vim74/autoload/python3complete.vim
+@comment MD5:c3eb0d48a4829c275a9cd7226bcab9fd
+share/vim/vim74/autoload/pythoncomplete.vim
+@comment MD5:6e7adfbd5d26c1d161030ec203a7f243
+share/vim/vim74/autoload/rubycomplete.vim
+@comment MD5:fb8152bfa32f5e875801778587ec4718
+share/vim/vim74/autoload/spellfile.vim
+@comment MD5:ee055d158854988d122a63abc406ab4f
+share/vim/vim74/autoload/sqlcomplete.vim
+@comment MD5:5ca27f5b8136846b961cde6de3e5473d
+share/vim/vim74/autoload/syntaxcomplete.vim
+@comment MD5:2febf3fe94b5ed896cc0b98d64ea8d8e
+share/vim/vim74/autoload/tar.vim
+@comment MD5:5e165e38d9e9b7dd1bf77d56530d11a1
+share/vim/vim74/autoload/tohtml.vim
+@comment MD5:c98eeb6569e929b588d9be8f9320894b
+share/vim/vim74/autoload/vimball.vim
+@comment MD5:0dac516eb1da176e37f3d678685ddd7d
+share/vim/vim74/autoload/xml/html32.vim
+@comment MD5:e31e8146e8d7bd5e0245676c1516f45e
+share/vim/vim74/autoload/xml/html401f.vim
+@comment MD5:94a90af0e66e242af5a0742b07f3ecd9
+share/vim/vim74/autoload/xml/html401s.vim
+@comment MD5:a9366d9aade0471a6fc8e35fc8049c78
+share/vim/vim74/autoload/xml/html401t.vim
+@comment MD5:3152e62866a11edbeebd38b2b92ea947
+share/vim/vim74/autoload/xml/html40f.vim
+@comment MD5:29a98f426d44e6c577036e8fa3d062ef
+share/vim/vim74/autoload/xml/html40s.vim
+@comment MD5:5313d009d711142cc0ba0666f3ae1f5d
+share/vim/vim74/autoload/xml/html40t.vim
+@comment MD5:682b28a4d6381e150727aa9a342afc17
+share/vim/vim74/autoload/xml/xhtml10f.vim
+@comment MD5:182c3d69746f67afcd36cc7fd6ae9ef0
+share/vim/vim74/autoload/xml/xhtml10s.vim
+@comment MD5:d0bdac7d1719a6fbeaab79de51be0d7b
+share/vim/vim74/autoload/xml/xhtml10t.vim
+@comment MD5:0d85c774b9096f1ec19df4ac1b99563c
+share/vim/vim74/autoload/xml/xhtml11.vim
+@comment MD5:27845aee34f67b7eb35fe424a71e8eef
+share/vim/vim74/autoload/xml/xsd.vim
+@comment MD5:98beb90a349771cc18363d6964e4aff3
+share/vim/vim74/autoload/xml/xsl.vim
+@comment MD5:11ee9faa6d69635986b0e320447e2f30
+share/vim/vim74/autoload/xmlcomplete.vim
+@comment MD5:49417c92918e35972c6386fda8245725
+share/vim/vim74/autoload/zip.vim
+@comment MD5:0150e1b07c0bde2ba6739041756ae879
+share/vim/vim74/bugreport.vim
+@comment MD5:1d0c1e34bb5ba239597c75b900bd7756
+share/vim/vim74/colors/README.txt
+@comment MD5:adfeb225f9694b9a5062145c99bc2941
+share/vim/vim74/colors/blue.vim
+@comment MD5:07ec7dc8f16f7582efa8914a5c5f5ee9
+share/vim/vim74/colors/darkblue.vim
+@comment MD5:9b8631389ebd61d934468a2d15183e14
+share/vim/vim74/colors/default.vim
+@comment MD5:0fa61e5a87822fb3a516cfe9d5208f28
+share/vim/vim74/colors/delek.vim
+@comment MD5:3edf6d4f824e5d388981a391a58778a8
+share/vim/vim74/colors/desert.vim
+@comment MD5:269e7ad67496f082a8d5fb36ba833d08
+share/vim/vim74/colors/elflord.vim
+@comment MD5:ba5a9ea6aaf7c9ba29af00c81c53f6ef
+share/vim/vim74/colors/evening.vim
+@comment MD5:980d4838b5b27cb08b128120a1437d90
+share/vim/vim74/colors/koehler.vim
+@comment MD5:fa2103fe5bca043a3c56e9f3bfc9a937
+share/vim/vim74/colors/morning.vim
+@comment MD5:a7df46649af7956811b4a092839e9a58
+share/vim/vim74/colors/murphy.vim
+@comment MD5:e86678597d808f39a622423c384958ac
+share/vim/vim74/colors/pablo.vim
+@comment MD5:5604e9b96fa423b24c836739d76d4b53
+share/vim/vim74/colors/peachpuff.vim
+@comment MD5:f72b6d6f5956e6025013d1e4621bd851
+share/vim/vim74/colors/ron.vim
+@comment MD5:fae89451730ad795c2c802079ba1bcaa
+share/vim/vim74/colors/shine.vim
+@comment MD5:80f095e0e6d8fb18f7157818465065fc
+share/vim/vim74/colors/slate.vim
+@comment MD5:dbad2c1a19dd219982c4cee5a6dc9034
+share/vim/vim74/colors/torte.vim
+@comment MD5:eae9165de98058a3bf9eabae662681f2
+share/vim/vim74/colors/zellner.vim
+@comment MD5:0323e102fffc67a3cd0a84d82e6267ac
+share/vim/vim74/compiler/README.txt
+@comment MD5:961f189a6fb803ea0e47a29fd908961c
+share/vim/vim74/compiler/ant.vim
+@comment MD5:5cc1e7ee30041a9e717418003e702482
+share/vim/vim74/compiler/bcc.vim
+@comment MD5:2ef1d76541de283f5c245ff6be5e5129
+share/vim/vim74/compiler/bdf.vim
+@comment MD5:72501d7cb955a7ea8f1fab7e64153183
+share/vim/vim74/compiler/checkstyle.vim
+@comment MD5:6cd7c74c3a1ccabe4ef0362c70fd70c0
+share/vim/vim74/compiler/cs.vim
+@comment MD5:e731d2964765415755c994948b322735
+share/vim/vim74/compiler/cucumber.vim
+@comment MD5:863c886ca3935d9ff5fa501f6764af15
+share/vim/vim74/compiler/decada.vim
+@comment MD5:4d2a461d202ed7049193f7a17af8bbae
+share/vim/vim74/compiler/dot.vim
+@comment MD5:685dcf5c740c5beec49ef976d9d15d17
+share/vim/vim74/compiler/erlang.vim
+@comment MD5:7cc2510f06d11e58030b54badd6653a7
+share/vim/vim74/compiler/eruby.vim
+@comment MD5:95a517db65a3a376d0301f457dbb95c3
+share/vim/vim74/compiler/fortran_F.vim
+@comment MD5:d0e1424abb2e3f17707618a499c29998
+share/vim/vim74/compiler/fortran_cv.vim
+@comment MD5:03802b2c99db9eeca07e25c1c89b7e44
+share/vim/vim74/compiler/fortran_elf90.vim
+@comment MD5:6eaccce95c588a828377e6220717a1f9
+share/vim/vim74/compiler/fortran_g77.vim
+@comment MD5:d44126af80c1fa6c40d01ba929007752
+share/vim/vim74/compiler/fortran_lf95.vim
+@comment MD5:d46d7accf6570f7e5ac2a5709b6f79cf
+share/vim/vim74/compiler/fpc.vim
+@comment MD5:09280649431a3f84b4669c7a1a3b3ced
+share/vim/vim74/compiler/g95.vim
+@comment MD5:e2848bdb30d409a560fa59b19da8964f
+share/vim/vim74/compiler/gcc.vim
+@comment MD5:aa58c19bcc26307bd9ac110f30127f72
+share/vim/vim74/compiler/gfortran.vim
+@comment MD5:94c919e77532ab49305a2b04b8f8844d
+share/vim/vim74/compiler/gnat.vim
+@comment MD5:7d16f5716a1af44a32bab2a6514f9c9e
+share/vim/vim74/compiler/haml.vim
+@comment MD5:c148e8a1be6986e75fd9489301740c60
+share/vim/vim74/compiler/hp_acc.vim
+@comment MD5:df92aa990eae0cb95b542221cb9a4e97
+share/vim/vim74/compiler/icc.vim
+@comment MD5:139cbe90bc1b3e4fae9e01837d8d77b9
+share/vim/vim74/compiler/ifort.vim
+@comment MD5:e8489e7ab7740625c3c30cb0058153b4
+share/vim/vim74/compiler/intel.vim
+@comment MD5:bc03880164830be9293f9c5cd71c709f
+share/vim/vim74/compiler/irix5_c.vim
+@comment MD5:f7a7b01ad76d40034341294b9da35c1d
+share/vim/vim74/compiler/irix5_cpp.vim
+@comment MD5:af4b2c05f8836e7aac7683f2dadbd475
+share/vim/vim74/compiler/javac.vim
+@comment MD5:9f09aef961fb9d93ff2b4a7c098818fc
+share/vim/vim74/compiler/jikes.vim
+@comment MD5:62c1c447863b8ec9dc2839461f905f26
+share/vim/vim74/compiler/mcs.vim
+@comment MD5:064bf4c0933abe89e97d969fe42f537e
+share/vim/vim74/compiler/mips_c.vim
+@comment MD5:7197fc1af69c330c44e7028b06efce77
+share/vim/vim74/compiler/mipspro_c89.vim
+@comment MD5:f075afb9c84b634aa238870a2bee2372
+share/vim/vim74/compiler/mipspro_cpp.vim
+@comment MD5:7cdaf75ede4bfffd027b5f28f60aa9cd
+share/vim/vim74/compiler/modelsim_vcom.vim
+@comment MD5:8bb85fc62069d2ee0ab634b6ce0ec78a
+share/vim/vim74/compiler/msbuild.vim
+@comment MD5:8a0f6598bdc693ca0e9bf821d6581bfd
+share/vim/vim74/compiler/msvc.vim
+@comment MD5:d88c08a14bc9dfcc02924a3eb4f15b16
+share/vim/vim74/compiler/neato.vim
+@comment MD5:57e0cb2068d4eccfe359ea31f9f30590
+share/vim/vim74/compiler/ocaml.vim
+@comment MD5:a6aef2300a145e3bdc1c84aec5ac2f85
+share/vim/vim74/compiler/onsgmls.vim
+@comment MD5:ef18f7642b06e150331599770558c8e4
+share/vim/vim74/compiler/pbx.vim
+@comment MD5:f8be2b4192779b26d54ff0334f14bda5
+share/vim/vim74/compiler/perl.vim
+@comment MD5:bb237628cedf2e97abf5a523f5496173
+share/vim/vim74/compiler/php.vim
+@comment MD5:6f3f14c4f416461416ec31685b1d8dd2
+share/vim/vim74/compiler/pyunit.vim
+@comment MD5:473c0a9272c724de81e6023133fd55a1
+share/vim/vim74/compiler/rake.vim
+@comment MD5:7d4ef264696a45029da8b456ae36994b
+share/vim/vim74/compiler/rspec.vim
+@comment MD5:d4fe3688628b21ee32b83e589b1a266c
+share/vim/vim74/compiler/rst.vim
+@comment MD5:d5610a59ce18bb50aaa7da6883a09b00
+share/vim/vim74/compiler/ruby.vim
+@comment MD5:a926250e5ceb4d41fd4442ddd404a214
+share/vim/vim74/compiler/rubyunit.vim
+@comment MD5:3a4060f2aa2679f5ee6484f13f670e51
+share/vim/vim74/compiler/sass.vim
+@comment MD5:178484d7c2fce7ef4af51c438208a022
+share/vim/vim74/compiler/se.vim
+@comment MD5:7bad6237213a204202f42b622203d9b8
+share/vim/vim74/compiler/splint.vim
+@comment MD5:b348ac86a93a7ac484f8a9591dee1a69
+share/vim/vim74/compiler/tcl.vim
+@comment MD5:289846eed79c0f68c6123eddbfd14816
+share/vim/vim74/compiler/tex.vim
+@comment MD5:883e98a039ff8d8613289483d573ed3f
+share/vim/vim74/compiler/tidy.vim
+@comment MD5:0610112c9bb5bb9f3287f84ab10c54fc
+share/vim/vim74/compiler/xbuild.vim
+@comment MD5:4a1da4d4de202f7088e0139b7f9a6508
+share/vim/vim74/compiler/xmllint.vim
+@comment MD5:ca72fcc1753250ba47b18e015601f042
+share/vim/vim74/compiler/xmlwf.vim
+@comment MD5:0ad0dcb95e79af87d03d732a9f87624b
+share/vim/vim74/delmenu.vim
+@comment MD5:f7453358491e878cb558e74a9e6c6939
+share/vim/vim74/doc/arabic.txt
+@comment MD5:bf3a7f8707b20a1d7dc002963bd64927
+share/vim/vim74/doc/autocmd.txt
+@comment MD5:2045fa6cb777101277e5b5fbd73f2ed1
+share/vim/vim74/doc/change.txt
+@comment MD5:4a1859533af0f999055df874f03b5b31
+share/vim/vim74/doc/cmdline.txt
+@comment MD5:9f5cfccdc7c0a2b3bfe93caf74e42fc3
+share/vim/vim74/doc/debug.txt
+@comment MD5:96eb5537ade1340c006608f162ac34ac
+share/vim/vim74/doc/debugger.txt
+@comment MD5:4937ca031ca77e71c3b0bf6c0d0c6a44
+share/vim/vim74/doc/develop.txt
+@comment MD5:d25258868a9e365336be0da4f455dc44
+share/vim/vim74/doc/diff.txt
+@comment MD5:b85da90f62065c78c5802c2f00690337
+share/vim/vim74/doc/digraph.txt
+@comment MD5:e77dbd2997427b8c63ee91d566bb1723
+share/vim/vim74/doc/editing.txt
+@comment MD5:9fc6618b384cb1e5d8eba8c792944b5c
+share/vim/vim74/doc/eval.txt
+@comment MD5:f2f546bd218cd5e650622304b495a47c
+share/vim/vim74/doc/farsi.txt
+@comment MD5:fda511ebee793c717ef2638ee5ff982f
+share/vim/vim74/doc/filetype.txt
+@comment MD5:037bb2ad837aef3ccf757d18d7339cbb
+share/vim/vim74/doc/fold.txt
+@comment MD5:c3019975ea2000b3cea7eb8b37026300
+share/vim/vim74/doc/ft_ada.txt
+@comment MD5:72fa22b472a3ecb2be23a47efc661290
+share/vim/vim74/doc/ft_sql.txt
+@comment MD5:4f5bf9b33bdf0e7060e7b67e1d718b62
+share/vim/vim74/doc/gui.txt
+@comment MD5:c165da5c79669e87fba6a4ab02de1be0
+share/vim/vim74/doc/gui_w16.txt
+@comment MD5:6d7e490d94205b78b06c0cd32031db5a
+share/vim/vim74/doc/gui_w32.txt
+@comment MD5:83715ad8790ead60ee217181eb2859c8
+share/vim/vim74/doc/gui_x11.txt
+@comment MD5:af3bd62c786ae96071cc67799de11d42
+share/vim/vim74/doc/hangulin.txt
+@comment MD5:8ddef850925e57436f988e84e9be8dfc
+share/vim/vim74/doc/hebrew.txt
+@comment MD5:8558bd7298e54fd8998514310de2ac79
+share/vim/vim74/doc/help.txt
+@comment MD5:4cd37d66337e1ce3781119d7c68c8c23
+share/vim/vim74/doc/helphelp.txt
+@comment MD5:8db6e7445f7764fdc363118d5be53d76
+share/vim/vim74/doc/howto.txt
+@comment MD5:de5c0433291211c6db8b7cb97d8ab942
+share/vim/vim74/doc/if_cscop.txt
+@comment MD5:0640236402ddd5f548afdf5c12701da7
+share/vim/vim74/doc/if_lua.txt
+@comment MD5:7bea48fece8ee70ae5d4afac618d7132
+share/vim/vim74/doc/if_mzsch.txt
+@comment MD5:7b1d56f1e00186efe98f2f381d5148f4
+share/vim/vim74/doc/if_ole.txt
+@comment MD5:4398b141d642a86aec6370e497815e63
+share/vim/vim74/doc/if_perl.txt
+@comment MD5:e9facafec6b8ecd22f66a1aecb6623f8
+share/vim/vim74/doc/if_pyth.txt
+@comment MD5:ed1fabd5ce3171b386474ba1c52a1819
+share/vim/vim74/doc/if_ruby.txt
+@comment MD5:7804174d2158c4dc8e410b37faa07cb7
+share/vim/vim74/doc/if_sniff.txt
+@comment MD5:0e4b5d01f89ef4d9437899cd6a5f15ca
+share/vim/vim74/doc/if_tcl.txt
+@comment MD5:4fe659100025294484a6160c8813a4ec
+share/vim/vim74/doc/indent.txt
+@comment MD5:9a7efec5da2d2762d3ea1b53f4d12dac
+share/vim/vim74/doc/index.txt
+@comment MD5:b4ba188e9eaa30fccb980b537f92abf1
+share/vim/vim74/doc/insert.txt
+@comment MD5:c079d322d6c6fdf87ce591cc462e6ee5
+share/vim/vim74/doc/intro.txt
+@comment MD5:26ea7807725f975b26e62fb332109206
+share/vim/vim74/doc/map.txt
+@comment MD5:a1153e67165ce8203e3195baabff3e91
+share/vim/vim74/doc/mbyte.txt
+@comment MD5:543eba3f8c3bee00dd2d47333b7da185
+share/vim/vim74/doc/message.txt
+@comment MD5:0562a73d58d6a2c7538ec7fabc70e9f2
+share/vim/vim74/doc/mlang.txt
+@comment MD5:f138becd73c4b08e3d387e647269686b
+share/vim/vim74/doc/motion.txt
+@comment MD5:8aeedc65e6f3a452ea225bf1e30394f6
+share/vim/vim74/doc/netbeans.txt
+@comment MD5:57deac2583ea43024dd94ff8a3086e05
+share/vim/vim74/doc/options.txt
+@comment MD5:a2a1365106a27bdf7b70b5176b36e815
+share/vim/vim74/doc/os_390.txt
+@comment MD5:1081ae6d1f8e0f01dbd9c7f5e7a1bbe5
+share/vim/vim74/doc/os_amiga.txt
+@comment MD5:9ae4fb2ebbcdedae42e9c75ee3ec928a
+share/vim/vim74/doc/os_beos.txt
+@comment MD5:e04a9689ce6ecf4bd7011ddb48e76b42
+share/vim/vim74/doc/os_dos.txt
+@comment MD5:ab2745f3955b90e164acaea307ee6180
+share/vim/vim74/doc/os_mac.txt
+@comment MD5:08ad52860b181a91e602332ce2559399
+share/vim/vim74/doc/os_mint.txt
+@comment MD5:4ed3ef78d95d80e5a2b36c082a38208a
+share/vim/vim74/doc/os_msdos.txt
+@comment MD5:788cf7444cd2d7f0bff48f61526de5dc
+share/vim/vim74/doc/os_os2.txt
+@comment MD5:921fa6a452842ac3b68abd98658f5ff8
+share/vim/vim74/doc/os_qnx.txt
+@comment MD5:77aafd74a62762a22861a4116f09e5fb
+share/vim/vim74/doc/os_risc.txt
+@comment MD5:4bdb94982190bfa2b8ccb7853bb9750d
+share/vim/vim74/doc/os_unix.txt
+@comment MD5:ef459dc88932a27c4d677408ecf96476
+share/vim/vim74/doc/os_vms.txt
+@comment MD5:c1c53c0f5aa0e58823a976d4c6070305
+share/vim/vim74/doc/os_win32.txt
+@comment MD5:c5d6be234be537b0a95f8776c6026f2d
+share/vim/vim74/doc/pattern.txt
+@comment MD5:127d2482f040dc7a004784f7143d5cb9
+share/vim/vim74/doc/pi_getscript.txt
+@comment MD5:dd27f885e302d3e3ad66ba7abdb874ca
+share/vim/vim74/doc/pi_gzip.txt
+@comment MD5:30e20e8471be6d6e90c30ee5ca7b9ad5
+share/vim/vim74/doc/pi_netrw.txt
+@comment MD5:0b4ef26baa7aeb67b2a151a18c394b36
+share/vim/vim74/doc/pi_paren.txt
+@comment MD5:11bd6e654dfa64c47c5fa051bb2a88f5
+share/vim/vim74/doc/pi_spec.txt
+@comment MD5:08076ccdb79a6585ed50d7af811cc435
+share/vim/vim74/doc/pi_tar.txt
+@comment MD5:4c21ab5409d0dbcf710232aca925514c
+share/vim/vim74/doc/pi_vimball.txt
+@comment MD5:ac972e5a7e6b665eceea4a24273176a0
+share/vim/vim74/doc/pi_zip.txt
+@comment MD5:870bbe2ae8857466637c511f0b1ad321
+share/vim/vim74/doc/print.txt
+@comment MD5:38b6c86c3c83bd337a016e2ece873257
+share/vim/vim74/doc/quickfix.txt
+@comment MD5:488d93e6e7e7b7b30defb40df64204c7
+share/vim/vim74/doc/quickref.txt
+@comment MD5:f2370368440dd850dd489f5c95e15350
+share/vim/vim74/doc/quotes.txt
+@comment MD5:2c2aa41d12b812b8a3bc2233a179b320
+share/vim/vim74/doc/recover.txt
+@comment MD5:d8e0e293444d3f140648d821e827cf50
+share/vim/vim74/doc/remote.txt
+@comment MD5:ed50b8715b2349b1a5f6cf254adb1406
+share/vim/vim74/doc/repeat.txt
+@comment MD5:315e64c6755a92e699b192a6c5045554
+share/vim/vim74/doc/rileft.txt
+@comment MD5:45ddf4195d22583b7d65b3e21293c0a3
+share/vim/vim74/doc/russian.txt
+@comment MD5:6ba5d74e1b9b9d4a9cfe8943fdd15f66
+share/vim/vim74/doc/scroll.txt
+@comment MD5:f3b90c3c4b7d4daa94d09c02397b9b84
+share/vim/vim74/doc/sign.txt
+@comment MD5:8e32b72f5aa63ceba9ccc1037dfb8a4c
+share/vim/vim74/doc/spell.txt
+@comment MD5:4b27310e8f607ef44536846261ff4f84
+share/vim/vim74/doc/sponsor.txt
+@comment MD5:d8eef6d36b82de86971f5b2b9e9913f7
+share/vim/vim74/doc/starting.txt
+@comment MD5:26489921e63fe9e3c5d01c1da82de8f9
+share/vim/vim74/doc/syntax.txt
+@comment MD5:34ebd1f1649872b9a9ce533a78e4c3d8
+share/vim/vim74/doc/tabpage.txt
+@comment MD5:b49cad471fa6b564045412981a4a6c6d
+share/vim/vim74/doc/tags
+@comment MD5:68dcf75bba2f76ac2bbf7a05a9ffa4ea
+share/vim/vim74/doc/tagsrch.txt
+@comment MD5:15febaec30760a3a791042cd6d140cd1
+share/vim/vim74/doc/term.txt
+@comment MD5:31a1d5a85fcd2ae525f8d7d460deb029
+share/vim/vim74/doc/tips.txt
+@comment MD5:b115f4036334a90afed37bad32c77f44
+share/vim/vim74/doc/todo.txt
+@comment MD5:04f1bfee85f00092d5d8c05b649657c4
+share/vim/vim74/doc/uganda.txt
+@comment MD5:b779e18be6ed77facc770691c967b8f8
+share/vim/vim74/doc/undo.txt
+@comment MD5:41137d2e291f7341c3f5ed4f659adf90
+share/vim/vim74/doc/usr_01.txt
+@comment MD5:9affc9a109556ff63bdc5ee306824d05
+share/vim/vim74/doc/usr_02.txt
+@comment MD5:b00e29b1d7817465214a69dba5b38b80
+share/vim/vim74/doc/usr_03.txt
+@comment MD5:951a74ea984f22ffd8e4520db0e7d4c2
+share/vim/vim74/doc/usr_04.txt
+@comment MD5:65b3bca1dc39ed955f3003d3c29c328a
+share/vim/vim74/doc/usr_05.txt
+@comment MD5:fc9ac51c32fb5da03794096111e18d92
+share/vim/vim74/doc/usr_06.txt
+@comment MD5:b9059820ab8475b48d20f8b0a45911d3
+share/vim/vim74/doc/usr_07.txt
+@comment MD5:092ef49da2db4534acd93fecfb435001
+share/vim/vim74/doc/usr_08.txt
+@comment MD5:42ae262ec6618922562117551644f9e9
+share/vim/vim74/doc/usr_09.txt
+@comment MD5:2eed883590562aa4106276e1fd34a9e4
+share/vim/vim74/doc/usr_10.txt
+@comment MD5:1666aec1198892d8735cf5d6b49867e5
+share/vim/vim74/doc/usr_11.txt
+@comment MD5:40bc697928832deeb1f8cdbb012f59a2
+share/vim/vim74/doc/usr_12.txt
+@comment MD5:51b2fdd2f2c86c25b3d2b321b993bc6a
+share/vim/vim74/doc/usr_20.txt
+@comment MD5:c85029343d2705a4b22cd3dabc85c2ed
+share/vim/vim74/doc/usr_21.txt
+@comment MD5:8ac1418ac8ef3b54ff1169fa239fadd3
+share/vim/vim74/doc/usr_22.txt
+@comment MD5:4bd9dd2c412bd98df011e73790851dfa
+share/vim/vim74/doc/usr_23.txt
+@comment MD5:df92567cc3586ad80bad00e39b1d837c
+share/vim/vim74/doc/usr_24.txt
+@comment MD5:9aea7c3f29a6c317e899d8ce94a92e4b
+share/vim/vim74/doc/usr_25.txt
+@comment MD5:f4ab9278fd0f31a04a2d8796b538e1bb
+share/vim/vim74/doc/usr_26.txt
+@comment MD5:3af0106f99bf5e3a1b0694b654eb9d8d
+share/vim/vim74/doc/usr_27.txt
+@comment MD5:8b3fff26fe407ea3d0294107edde092a
+share/vim/vim74/doc/usr_28.txt
+@comment MD5:0c617bac732f752bdeb40e23b96920ef
+share/vim/vim74/doc/usr_29.txt
+@comment MD5:975d2275420d2be3e17e6653d3070c8a
+share/vim/vim74/doc/usr_30.txt
+@comment MD5:880dac4e40a84096bd5565513186f2ea
+share/vim/vim74/doc/usr_31.txt
+@comment MD5:a8f6f984eda14769e6fddc05115b37ab
+share/vim/vim74/doc/usr_32.txt
+@comment MD5:d594b50f44e93cd81921a40ae5101d4f
+share/vim/vim74/doc/usr_40.txt
+@comment MD5:debdd22bb8b8c29e391f2a64adb390b5
+share/vim/vim74/doc/usr_41.txt
+@comment MD5:83cc561aef547c7e1ce156f1f26100a2
+share/vim/vim74/doc/usr_42.txt
+@comment MD5:7977c2263b81cb2668a4337a7bd2d18c
+share/vim/vim74/doc/usr_43.txt
+@comment MD5:1df795d7add2be310ee70ded84cbc5d0
+share/vim/vim74/doc/usr_44.txt
+@comment MD5:33956b54b62562dfe23f8e2ffbb49775
+share/vim/vim74/doc/usr_45.txt
+@comment MD5:a42e714bacdfb8328c0f3cde1d79295a
+share/vim/vim74/doc/usr_90.txt
+@comment MD5:786e755fa8784ba27bcd7a2978835545
+share/vim/vim74/doc/usr_toc.txt
+@comment MD5:0ef209682b30f45b35037426b0c1d705
+share/vim/vim74/doc/various.txt
+@comment MD5:3d5846da74ae942a1134f1c43917320c
+share/vim/vim74/doc/version4.txt
+@comment MD5:61560e9535675b8014d54ee01755129d
+share/vim/vim74/doc/version5.txt
+@comment MD5:0590b94a576213c3144634a3236b2226
+share/vim/vim74/doc/version6.txt
+@comment MD5:494a6febb83aa9aab204fe601f8ae9f5
+share/vim/vim74/doc/version7.txt
+@comment MD5:a0247bfc228aa9c82b35e8bae7c5220d
+share/vim/vim74/doc/vi_diff.txt
+@comment MD5:0f53e02726d94a644a7732408a5c1735
+share/vim/vim74/doc/vim2html.pl
+@comment MD5:cca7d8c58c313fb1e4b719d632aec347
+share/vim/vim74/doc/visual.txt
+@comment MD5:7519a1185d0ad9e9b79891b81e189a26
+share/vim/vim74/doc/windows.txt
+@comment MD5:bda0053d59d81f6eef257be3005801f0
+share/vim/vim74/doc/workshop.txt
+@comment MD5:0f866ed3f7936273b281c6138cd1ad38
+share/vim/vim74/evim.vim
+@comment MD5:50e17df6382f825a9be25d0f4943c0e0
+share/vim/vim74/filetype.vim
+@comment MD5:3b0eabae9857e1d4c8e5f61c94a50ab3
+share/vim/vim74/ftoff.vim
+@comment MD5:b2aa3d9712c9dced6c8eb2e84891ee65
+share/vim/vim74/ftplugin.vim
+@comment MD5:99747385736fe10dc64c314503337e4e
+share/vim/vim74/ftplugin/README.txt
+@comment MD5:6fc526040d33514956850e8f314427d1
+share/vim/vim74/ftplugin/a2ps.vim
+@comment MD5:ecd060d3e2457190ac923b8ffcff4596
+share/vim/vim74/ftplugin/aap.vim
+@comment MD5:9d20b18c2e5726c613db97441a14188b
+share/vim/vim74/ftplugin/abap.vim
+@comment MD5:af9ede9bd3a518f51c52f9a1cad0c5ec
+share/vim/vim74/ftplugin/abaqus.vim
+@comment MD5:21baa5e75f2adcceb6de68b98889c142
+share/vim/vim74/ftplugin/ada.vim
+@comment MD5:a88c9276db3a1cd641aa624deac6ebe2
+share/vim/vim74/ftplugin/alsaconf.vim
+@comment MD5:57c703bd683d9f036d7272f69d5c0190
+share/vim/vim74/ftplugin/ant.vim
+@comment MD5:65278f3800159ab78c61d74ee6fc4acd
+share/vim/vim74/ftplugin/arch.vim
+@comment MD5:8eb48050460cc8d9030ef10a2506fe18
+share/vim/vim74/ftplugin/art.vim
+@comment MD5:bbc846bc116d961f09c54eaa39bfc183
+share/vim/vim74/ftplugin/aspvbs.vim
+@comment MD5:07eccc8f7c3daba9972aac1f6802ffe0
+share/vim/vim74/ftplugin/automake.vim
+@comment MD5:7ad3f8b423e0557e596f4c95f89569e2
+share/vim/vim74/ftplugin/bdf.vim
+@comment MD5:4dce6b3e7437e1bb96c15f6a30b28e7b
+share/vim/vim74/ftplugin/bst.vim
+@comment MD5:4175e39c75e706e769b38c9ee6fae2ae
+share/vim/vim74/ftplugin/btm.vim
+@comment MD5:a11a20506c3e24769caecbdddad99803
+share/vim/vim74/ftplugin/c.vim
+@comment MD5:4e89b6191e48f18f23d5ca4824084920
+share/vim/vim74/ftplugin/calendar.vim
+@comment MD5:c13d9aa0b83ecb353bd5643f376cbfc2
+share/vim/vim74/ftplugin/cdrdaoconf.vim
+@comment MD5:930d544861adc0c3b9ffa681e7a051a7
+share/vim/vim74/ftplugin/ch.vim
+@comment MD5:4fc410fe9595530b17e335d532d347cc
+share/vim/vim74/ftplugin/changelog.vim
+@comment MD5:ad7d1dbdec0b717bca07e52aee8adf1f
+share/vim/vim74/ftplugin/clojure.vim
+@comment MD5:c9019c5856c1be22958efca35695bae3
+share/vim/vim74/ftplugin/cobol.vim
+@comment MD5:c5b4c99aea64fea83dc92d79a98a1901
+share/vim/vim74/ftplugin/conf.vim
+@comment MD5:cd4e8da90f676d334612ff26c0940cf7
+share/vim/vim74/ftplugin/config.vim
+@comment MD5:7e83f5a8ed9dd5e68d27b0dff35eb4a3
+share/vim/vim74/ftplugin/context.vim
+@comment MD5:48e8a033ce40f555e282fece38acf98f
+share/vim/vim74/ftplugin/cpp.vim
+@comment MD5:e267628aee072967ed75138edadfedfd
+share/vim/vim74/ftplugin/crm.vim
+@comment MD5:ec00c4160a318d05932cf10ddeddafd9
+share/vim/vim74/ftplugin/cs.vim
+@comment MD5:a54e3e20d18bbd2d083721ee8e95ce11
+share/vim/vim74/ftplugin/csc.vim
+@comment MD5:0140a2ca30e90791719db6f375cf1084
+share/vim/vim74/ftplugin/csh.vim
+@comment MD5:59ef78c07ae7d5bc50ffcdd32187954b
+share/vim/vim74/ftplugin/css.vim
+@comment MD5:c3c3d260b6e736e1917d59f4b6494bbf
+share/vim/vim74/ftplugin/cucumber.vim
+@comment MD5:7c7dc7ba4f4a32f8d9acf8493359c504
+share/vim/vim74/ftplugin/cvsrc.vim
+@comment MD5:49ed1e114de8a205ca7163b3a83baa42
+share/vim/vim74/ftplugin/debchangelog.vim
+@comment MD5:38dc30f8cc9e2eab4077ed15b2deb921
+share/vim/vim74/ftplugin/debcontrol.vim
+@comment MD5:2d1d73e5a87d6fa51824fc1c91450e94
+share/vim/vim74/ftplugin/denyhosts.vim
+@comment MD5:930d544861adc0c3b9ffa681e7a051a7
+share/vim/vim74/ftplugin/dictconf.vim
+@comment MD5:0a05ec043a833c102031d8a3d18e0e17
+share/vim/vim74/ftplugin/dictdconf.vim
+@comment MD5:740b40a1b73ba55e2f46b5fb310812d3
+share/vim/vim74/ftplugin/diff.vim
+@comment MD5:07422deff3a7cf6e538648e75e1bae02
+share/vim/vim74/ftplugin/dircolors.vim
+@comment MD5:948efe8bd2b19356bdd5cea58e0fb082
+share/vim/vim74/ftplugin/docbk.vim
+@comment MD5:02d44c88687b83c01fefedcdf2dfd8b4
+share/vim/vim74/ftplugin/dosbatch.vim
+@comment MD5:97e18465a33b11eef2c40cabd0208700
+share/vim/vim74/ftplugin/dosini.vim
+@comment MD5:7180f765b2aa554c689483cc55847726
+share/vim/vim74/ftplugin/dtd.vim
+@comment MD5:3736c9dd40c25c48fef7008491a47efc
+share/vim/vim74/ftplugin/dtrace.vim
+@comment MD5:2c70cdce5870b4a438a39b6eb28b3b24
+share/vim/vim74/ftplugin/elinks.vim
+@comment MD5:004db00cf3167da750c03f8a44e6278e
+share/vim/vim74/ftplugin/erlang.vim
+@comment MD5:d42a8ec31a8bba73d310007a72dfdff3
+share/vim/vim74/ftplugin/eruby.vim
+@comment MD5:6ec2ecfd7943ca8f9ea70f9bf6c10d6d
+share/vim/vim74/ftplugin/eterm.vim
+@comment MD5:6e271912bc41d51c35ad7e14d9b6a079
+share/vim/vim74/ftplugin/falcon.vim
+@comment MD5:e55736e91a50a6cc02d54d80dcec0696
+share/vim/vim74/ftplugin/fetchmail.vim
+@comment MD5:bd5d5b6c336981400d600a9f3f954932
+share/vim/vim74/ftplugin/flexwiki.vim
+@comment MD5:f5232b03bbda26aaf1fce7d1d4f1ab78
+share/vim/vim74/ftplugin/fortran.vim
+@comment MD5:57fd68b85d79c9deafe85b6b74a3115c
+share/vim/vim74/ftplugin/framescript.vim
+@comment MD5:184ae501e0858ead4d744caa31069b0c
+share/vim/vim74/ftplugin/fvwm.vim
+@comment MD5:a794b08f8360f6261a907cebc918d17f
+share/vim/vim74/ftplugin/git.vim
+@comment MD5:6e8d749dd21ae5cb78a0a66215c206ba
+share/vim/vim74/ftplugin/gitcommit.vim
+@comment MD5:3b25a4321d474e94c58e63b290447b72
+share/vim/vim74/ftplugin/gitconfig.vim
+@comment MD5:3c0c80142d3bef37ecac61718bd068f5
+share/vim/vim74/ftplugin/gitrebase.vim
+@comment MD5:c023b26da52810b49c0a25e9f895adbb
+share/vim/vim74/ftplugin/gitsendemail.vim
+@comment MD5:458cb889027a28bb70ea7d900812bbd6
+share/vim/vim74/ftplugin/gpg.vim
+@comment MD5:f20bda21b401ae984b3fc6456f6e0142
+share/vim/vim74/ftplugin/gprof.vim
+@comment MD5:72aa494bf91db4ba5afcc827fdca812b
+share/vim/vim74/ftplugin/group.vim
+@comment MD5:78c0e5d569edc53aa44ce803dc98b6a9
+share/vim/vim74/ftplugin/grub.vim
+@comment MD5:350e3111854acf264d0bfc09cde78dac
+share/vim/vim74/ftplugin/haml.vim
+@comment MD5:9a3ea89d658133aa0b9e408464ac15c2
+share/vim/vim74/ftplugin/hamster.vim
+@comment MD5:a19fdba49df5f49ad12bd1de100efa8a
+share/vim/vim74/ftplugin/haskell.vim
+@comment MD5:92110aa2449f8ea7ecb8b63626b202dd
+share/vim/vim74/ftplugin/help.vim
+@comment MD5:23c2a7453a8e0a445ad36134d6dfc184
+share/vim/vim74/ftplugin/hostconf.vim
+@comment MD5:930d544861adc0c3b9ffa681e7a051a7
+share/vim/vim74/ftplugin/hostsaccess.vim
+@comment MD5:cb16cfd6d1059a03123b1c27e3b420ee
+share/vim/vim74/ftplugin/html.vim
+@comment MD5:1a97b02463d6a1dc6cd1bec1faee70fb
+share/vim/vim74/ftplugin/htmldjango.vim
+@comment MD5:938fc0f4679d6cd929b6c49b44de3aa6
+share/vim/vim74/ftplugin/indent.vim
+@comment MD5:24b4373bad05d7c3b89ace0f4c05478c
+share/vim/vim74/ftplugin/initex.vim
+@comment MD5:0676424b8ecec7196badd2688620068f
+share/vim/vim74/ftplugin/ishd.vim
+@comment MD5:d8b4d0dc3656fc1c92c084d4c457b963
+share/vim/vim74/ftplugin/j.vim
+@comment MD5:ec043abacc1ad6f70364b257cadc7b7e
+share/vim/vim74/ftplugin/java.vim
+@comment MD5:9264fe555d1ef68e475c487c8be89537
+share/vim/vim74/ftplugin/javascript.vim
+@comment MD5:7689de94647eb8e0358590b7951a2a8b
+share/vim/vim74/ftplugin/jproperties.vim
+@comment MD5:f58d07ed227439813bf3af8b677f3c97
+share/vim/vim74/ftplugin/jsp.vim
+@comment MD5:586db374c77343e830a3c217c6723b7a
+share/vim/vim74/ftplugin/kconfig.vim
+@comment MD5:0764a0025bbb212e053e7c2883c3f5b3
+share/vim/vim74/ftplugin/kwt.vim
+@comment MD5:d263a9fb446870a2526ea901eb0f4b27
+share/vim/vim74/ftplugin/ld.vim
+@comment MD5:c68f0298aa28db588a6298df898f92bd
+share/vim/vim74/ftplugin/lftp.vim
+@comment MD5:fcc6c837cd008ab3231a2a6ed221bf3b
+share/vim/vim74/ftplugin/libao.vim
+@comment MD5:0d1f12c41899ef0738b8f8b9414ee0a1
+share/vim/vim74/ftplugin/limits.vim
+@comment MD5:448049157a1aba157dde080e7579697f
+share/vim/vim74/ftplugin/liquid.vim
+@comment MD5:bff73576a4e046b7a260f99096b85d2a
+share/vim/vim74/ftplugin/lisp.vim
+@comment MD5:d3eadd55047dd2dde704cbc6785a9105
+share/vim/vim74/ftplugin/logcheck.vim
+@comment MD5:980371dd195f94eb9fea6c3e7d088f5a
+share/vim/vim74/ftplugin/loginaccess.vim
+@comment MD5:670a9cd634a1e62b812f9d48702ac49b
+share/vim/vim74/ftplugin/logindefs.vim
+@comment MD5:0ab396f83a81663a7abc7f8ab0491486
+share/vim/vim74/ftplugin/logtalk.dict
+@comment MD5:32b8bf9947acbc2a106bb2ed81c94424
+share/vim/vim74/ftplugin/logtalk.vim
+@comment MD5:e3aa0be86b471e94778ecdfd7640fb99
+share/vim/vim74/ftplugin/lprolog.vim
+@comment MD5:5bbb2e39c88fcd3b8970bbd801f03cc4
+share/vim/vim74/ftplugin/lua.vim
+@comment MD5:d0f1a008cbd1f79260f466411ca4f95a
+share/vim/vim74/ftplugin/m4.vim
+@comment MD5:00092a06bb07a197042c2a334407eb2f
+share/vim/vim74/ftplugin/mail.vim
+@comment MD5:f43fddd78927ba54975ac391a9a7eaa8
+share/vim/vim74/ftplugin/mailaliases.vim
+@comment MD5:0764a0025bbb212e053e7c2883c3f5b3
+share/vim/vim74/ftplugin/mailcap.vim
+@comment MD5:a431cf1d255efc57a7c589ca9c239b6e
+share/vim/vim74/ftplugin/make.vim
+@comment MD5:b2a407d591419b7b44460c77f07aee4f
+share/vim/vim74/ftplugin/man.vim
+@comment MD5:0d16707d91e30dc5255b63eea4f8ec96
+share/vim/vim74/ftplugin/manconf.vim
+@comment MD5:ed65fd406e6df44fa0731a29f15ae99f
+share/vim/vim74/ftplugin/markdown.vim
+@comment MD5:8fa7554dc5f6dd3b1b5ed0fbfffdbf5c
+share/vim/vim74/ftplugin/matlab.vim
+@comment MD5:21d32d1f76d9cec61e7ddd847e03861b
+share/vim/vim74/ftplugin/mf.vim
+@comment MD5:58dd565160015fe7b05672b45c934cc2
+share/vim/vim74/ftplugin/modconf.vim
+@comment MD5:f523eb02c90fd3c14f033f8beff71f1b
+share/vim/vim74/ftplugin/mp.vim
+@comment MD5:1a7e0bbbe537a60138ccf5961536bcba
+share/vim/vim74/ftplugin/mplayerconf.vim
+@comment MD5:98d0250403ddff0f695fdc66e9889d56
+share/vim/vim74/ftplugin/mrxvtrc.vim
+@comment MD5:b41ca318890f70d33af953b61f73d3bf
+share/vim/vim74/ftplugin/msmessages.vim
+@comment MD5:272fd209f360ec946fa102b946dcea47
+share/vim/vim74/ftplugin/muttrc.vim
+@comment MD5:e8ca8fcc393e3bce7ee26fa8acb1dece
+share/vim/vim74/ftplugin/nanorc.vim
+@comment MD5:7abe72062f3bcfcd0f9bd10eefe3df29
+share/vim/vim74/ftplugin/netrc.vim
+@comment MD5:7dd57cf1e300c0f1fe760b7af636cfd8
+share/vim/vim74/ftplugin/nsis.vim
+@comment MD5:09ef20a11f3f4cde95164a944806209d
+share/vim/vim74/ftplugin/objc.vim
+@comment MD5:fa7bb815601437d206a225e82af3ff36
+share/vim/vim74/ftplugin/ocaml.vim
+@comment MD5:c6a1782bd2689d62ccd3e199b0c0b121
+share/vim/vim74/ftplugin/occam.vim
+@comment MD5:8da24ca44faf40517c2b90884be7acfe
+share/vim/vim74/ftplugin/pamconf.vim
+@comment MD5:c730052aed494a4ed60a69ad0c4a4628
+share/vim/vim74/ftplugin/pascal.vim
+@comment MD5:a4b749ac8439c2ee3d324e59006032d3
+share/vim/vim74/ftplugin/passwd.vim
+@comment MD5:342d4adf60370d10d8034893274ff73e
+share/vim/vim74/ftplugin/pdf.vim
+@comment MD5:f0e92b87799aa330809c2bd2cbb23d29
+share/vim/vim74/ftplugin/perl.vim
+@comment MD5:eb3c5e27e18907ed363572a7da2e3880
+share/vim/vim74/ftplugin/perl6.vim
+@comment MD5:837ebbe9b9e1d2b6ae87572e27e7be93
+share/vim/vim74/ftplugin/php.vim
+@comment MD5:1bc61099386b74b246304fdd7c2613e5
+share/vim/vim74/ftplugin/pinfo.vim
+@comment MD5:257325f669886cd29880bd3e4c8f3f5b
+share/vim/vim74/ftplugin/plaintex.vim
+@comment MD5:6f530a263a9e7150dc207259a345d274
+share/vim/vim74/ftplugin/postscr.vim
+@comment MD5:6b5dfdcc8a9587d5c528e8892f9a3530
+share/vim/vim74/ftplugin/procmail.vim
+@comment MD5:a60a89bfc7ae3f4d32c46de814a4db7c
+share/vim/vim74/ftplugin/prolog.vim
+@comment MD5:e0d7c6202314786eb82af69b339f5c17
+share/vim/vim74/ftplugin/protocols.vim
+@comment MD5:c4e9f3b355aa7c7961a0879391611ac0
+share/vim/vim74/ftplugin/pyrex.vim
+@comment MD5:0cbf02d5648be693007b92e3f865ae0d
+share/vim/vim74/ftplugin/python.vim
+@comment MD5:55a7a098612b540a4fb74e29765ceb0a
+share/vim/vim74/ftplugin/qf.vim
+@comment MD5:d90a97323b1fb237913f2a5cc5f12a82
+share/vim/vim74/ftplugin/quake.vim
+@comment MD5:19d1a0a8ecba484b742c1a5ccb6d53e8
+share/vim/vim74/ftplugin/racc.vim
+@comment MD5:6d9c3f8e041c94d0f8aebfacb5972fb3
+share/vim/vim74/ftplugin/readline.vim
+@comment MD5:1c2a65dbc90eb6369aeb52f7da777447
+share/vim/vim74/ftplugin/reva.vim
+@comment MD5:92ef122f7661a8d7137bbe98465c1b3c
+share/vim/vim74/ftplugin/rnc.vim
+@comment MD5:c2506a447b64a62cd73839c3a0bc96af
+share/vim/vim74/ftplugin/rpl.vim
+@comment MD5:9255ee908afd2a5289dd2c1265c5b1e1
+share/vim/vim74/ftplugin/rst.vim
+@comment MD5:0db9068ed1582f2d87a2dc555ef51a32
+share/vim/vim74/ftplugin/ruby.vim
+@comment MD5:03d123b777d74e7e312e19e67c56fe28
+share/vim/vim74/ftplugin/sass.vim
+@comment MD5:3e8a9a1d93bd39d512df208bf4e04227
+share/vim/vim74/ftplugin/scheme.vim
+@comment MD5:369f7e6449d5b1be070ca75761bbe858
+share/vim/vim74/ftplugin/screen.vim
+@comment MD5:9c3e56e5e464d8c19125fcea1ac247d8
+share/vim/vim74/ftplugin/scss.vim
+@comment MD5:e5580634ae4a2396826073cbfdf861de
+share/vim/vim74/ftplugin/sensors.vim
+@comment MD5:098e39e67f9e328276a506003a0bfd0c
+share/vim/vim74/ftplugin/services.vim
+@comment MD5:9d401f5efc34c1703dac61b62b104530
+share/vim/vim74/ftplugin/setserial.vim
+@comment MD5:6d3a72b33133949b18c52a5bb9a7e3ce
+share/vim/vim74/ftplugin/sgml.vim
+@comment MD5:6a608df5f8be82b8d378339773847575
+share/vim/vim74/ftplugin/sh.vim
+@comment MD5:cf1a58437f2aad4393ce1fdfdbc57daa
+share/vim/vim74/ftplugin/sieve.vim
+@comment MD5:076268eb826a161a00a37a1acaa3d3eb
+share/vim/vim74/ftplugin/slpconf.vim
+@comment MD5:b6f8293440c54218cf3165039e5d14e1
+share/vim/vim74/ftplugin/slpreg.vim
+@comment MD5:4bdd24de6b6374fadc308c036dda9eac
+share/vim/vim74/ftplugin/slpspi.vim
+@comment MD5:bf0032b350af9d2001bffa8cb102d57e
+share/vim/vim74/ftplugin/spec.vim
+@comment MD5:f4c5ed49627ff8bc10793fb97007a446
+share/vim/vim74/ftplugin/sql.vim
+@comment MD5:6ce843cd0e3e1c92dd18e5109aa16cee
+share/vim/vim74/ftplugin/sshconfig.vim
+@comment MD5:95ecc0696ca386f7d301af0d99562d92
+share/vim/vim74/ftplugin/sudoers.vim
+@comment MD5:3fabe63494c7215bb6e03c103603fab2
+share/vim/vim74/ftplugin/svg.vim
+@comment MD5:e724d9206c4bd6feda0d42e62dc94783
+share/vim/vim74/ftplugin/sysctl.vim
+@comment MD5:dcf801415139048e0775a3b9718ffa69
+share/vim/vim74/ftplugin/tcl.vim
+@comment MD5:958eb158e7d20fd9d3d173938aff2b2f
+share/vim/vim74/ftplugin/tcsh.vim
+@comment MD5:767aa975ac6ed03df0d3cfbd669cce0a
+share/vim/vim74/ftplugin/terminfo.vim
+@comment MD5:8526a7afa67fb877c3448dde314fbae5
+share/vim/vim74/ftplugin/tex.vim
+@comment MD5:cda9576368a912e7be5f027a00e18b97
+share/vim/vim74/ftplugin/treetop.vim
+@comment MD5:e8406e66277291c5d8ac13239e204d74
+share/vim/vim74/ftplugin/tt2html.vim
+@comment MD5:9fe54bc7948743eb20ddaee8f313d98f
+share/vim/vim74/ftplugin/udevconf.vim
+@comment MD5:553caf9691c1615c3c8eb4b44dd6a1c3
+share/vim/vim74/ftplugin/udevperm.vim
+@comment MD5:7de5ad6167f27cf6282b320827367318
+share/vim/vim74/ftplugin/udevrules.vim
+@comment MD5:d58098940c316bbc76662aecd8ee88c3
+share/vim/vim74/ftplugin/updatedb.vim
+@comment MD5:77044302ac485d523bd597793a26d800
+share/vim/vim74/ftplugin/vb.vim
+@comment MD5:ff32d8af502aabc00c6b8ddb62f642fb
+share/vim/vim74/ftplugin/verilog.vim
+@comment MD5:3e0937809db9639eed05afebb417e8a9
+share/vim/vim74/ftplugin/vhdl.vim
+@comment MD5:ee869fe6cf8a9ff60bee11df711e35ed
+share/vim/vim74/ftplugin/vim.vim
+@comment MD5:7c96a5e14707cc76b3dc0b1e56a08d05
+share/vim/vim74/ftplugin/xdefaults.vim
+@comment MD5:dea77d4e0c85621a00d5de786f89a1fc
+share/vim/vim74/ftplugin/xf86conf.vim
+@comment MD5:3a2c43fd812525222369e6cd1ca49e37
+share/vim/vim74/ftplugin/xhtml.vim
+@comment MD5:3eeeae46317073037279afee0dac790b
+share/vim/vim74/ftplugin/xinetd.vim
+@comment MD5:816f7cc34b85e8b27f4cca5d166d3f62
+share/vim/vim74/ftplugin/xml.vim
+@comment MD5:318c2ade58976fd6f0c1ee480f25729f
+share/vim/vim74/ftplugin/xmodmap.vim
+@comment MD5:311d5acbea5f3f9b79a97d6662f1743f
+share/vim/vim74/ftplugin/xs.vim
+@comment MD5:48e506a5eb4e95e8140931efe01c82c8
+share/vim/vim74/ftplugin/xsd.vim
+@comment MD5:0634f7d3e0591ae64515e8344eea20b1
+share/vim/vim74/ftplugin/xslt.vim
+@comment MD5:e7ddfd22375afcd9cdfa7be7ad75993b
+share/vim/vim74/ftplugin/yaml.vim
+@comment MD5:37be9768ffb7b1002ec7f5ebfaaf68ac
+share/vim/vim74/ftplugin/zimbu.vim
+@comment MD5:bad6729badcd6654879cec8086b2641e
+share/vim/vim74/ftplugin/zsh.vim
+@comment MD5:00ffc6b325e09110292ce29f8e77adef
+share/vim/vim74/ftplugof.vim
+@comment MD5:8036186efc1cb15806282e014e57c4c4
+share/vim/vim74/gvimrc_example.vim
+@comment MD5:548e3c61636ff0ab398f5e2073cb1db6
+share/vim/vim74/indent.vim
+@comment MD5:43702bcd91f0c5047ce01828719a4228
+share/vim/vim74/indent/README.txt
+@comment MD5:76756a54a88543e7d9385911086c33c3
+share/vim/vim74/indent/aap.vim
+@comment MD5:e683e72b1a3e56c1277ad6481e3cd70b
+share/vim/vim74/indent/ada.vim
+@comment MD5:117b4b5b8d688705bb7ffe95f1c6194e
+share/vim/vim74/indent/ant.vim
+@comment MD5:d4f91c49d83691375b0161f71caccef7
+share/vim/vim74/indent/automake.vim
+@comment MD5:415223e0d04aa18f84cf59213e94dbfb
+share/vim/vim74/indent/awk.vim
+@comment MD5:4bfdd9fddb7a43b1049e2e9b06cfe628
+share/vim/vim74/indent/bib.vim
+@comment MD5:5d858b5c22c0ccf9a8fddd4252b89ae1
+share/vim/vim74/indent/bst.vim
+@comment MD5:799b75f55e762d602021d470d344e8f2
+share/vim/vim74/indent/c.vim
+@comment MD5:4e7cba98b7f71cdb34f18c5d8a897bca
+share/vim/vim74/indent/cdl.vim
+@comment MD5:1aa2f23eeba6c73036d0d1f1674d66e4
+share/vim/vim74/indent/ch.vim
+@comment MD5:14636a5e982b5edcd943c6e7ee469f11
+share/vim/vim74/indent/chaiscript.vim
+@comment MD5:92df1787ef1c904110e3138373f21d5e
+share/vim/vim74/indent/changelog.vim
+@comment MD5:9d3952c2ca0ada35e90ec68b52ddb7f1
+share/vim/vim74/indent/clojure.vim
+@comment MD5:91a93e918ceb377fc2b5836d5e132e52
+share/vim/vim74/indent/cmake.vim
+@comment MD5:1246369a2f7e419ce4159472f906d682
+share/vim/vim74/indent/cobol.vim
+@comment MD5:a10e3e3e69a1db993ff16f269b27de8f
+share/vim/vim74/indent/config.vim
+@comment MD5:25b8f510f403a065b382730c6669fafd
+share/vim/vim74/indent/cpp.vim
+@comment MD5:c2ed98d5b26e976e52f57b6517da938c
+share/vim/vim74/indent/cs.vim
+@comment MD5:0a630511bfa56ae3bda77848b0227e03
+share/vim/vim74/indent/css.vim
+@comment MD5:c65f4dfb71b3d47072d177096653d881
+share/vim/vim74/indent/cucumber.vim
+@comment MD5:e04015e063b8c297c0bab4d520312b06
+share/vim/vim74/indent/cuda.vim
+@comment MD5:0dc07c8112eadd596314f76c60df32dc
+share/vim/vim74/indent/d.vim
+@comment MD5:af0e4bca887c362aed435a9dad582739
+share/vim/vim74/indent/dictconf.vim
+@comment MD5:9473daf470813e05e378b6f9c557da94
+share/vim/vim74/indent/dictdconf.vim
+@comment MD5:4887a3be5c6dfb7e4a50b5a5474bee67
+share/vim/vim74/indent/docbk.vim
+@comment MD5:9a5a3170278206dd62dc5cea9ef75087
+share/vim/vim74/indent/dtd.vim
+@comment MD5:5dc3f0b53a23d497b84ce480fb4ad039
+share/vim/vim74/indent/dtrace.vim
+@comment MD5:1057c3812cd98eaeed5c03da2b9650b4
+share/vim/vim74/indent/dylan.vim
+@comment MD5:8e9a0e5b2aeda976e3cca642291d7db2
+share/vim/vim74/indent/eiffel.vim
+@comment MD5:adc9b7fc70147a5a80daf8b834365b5b
+share/vim/vim74/indent/erlang.vim
+@comment MD5:02c3a3cb64efd4d124e3bdff91d5b11b
+share/vim/vim74/indent/eruby.vim
+@comment MD5:5fce2e68c7dc64ebf6ec4e213296c056
+share/vim/vim74/indent/eterm.vim
+@comment MD5:40cc22acfbb466cd8f15015ba0fef2f2
+share/vim/vim74/indent/falcon.vim
+@comment MD5:2563d8e93b781af6b433627bc351bdc1
+share/vim/vim74/indent/fortran.vim
+@comment MD5:56897e0eb48b9460f61ed36cb9a5c676
+share/vim/vim74/indent/framescript.vim
+@comment MD5:08c68da5470c3f870e067247bb4f2cd1
+share/vim/vim74/indent/gitconfig.vim
+@comment MD5:82e62b8b9cd04e5b072016d0eb1a334a
+share/vim/vim74/indent/gitolite.vim
+@comment MD5:1b77a192466442f9e9bb7bdd8e114351
+share/vim/vim74/indent/haml.vim
+@comment MD5:77726d1c68d714845c1ac23cf0bb89bd
+share/vim/vim74/indent/hamster.vim
+@comment MD5:486564d27ac6a0b64fb5ff884769b6ad
+share/vim/vim74/indent/html.vim
+@comment MD5:690b569d7ad2a122ecd02dc34920ddfe
+share/vim/vim74/indent/htmldjango.vim
+@comment MD5:a4be45ddc347cd0a840a0052cfb776be
+share/vim/vim74/indent/idlang.vim
+@comment MD5:d90b4bb3848b133d2694ef1249aa3358
+share/vim/vim74/indent/ishd.vim
+@comment MD5:2f33e4596b75aaa34a6d029c6cb5b169
+share/vim/vim74/indent/j.vim
+@comment MD5:95151667cc73622507bc2f2d6ae0e90d
+share/vim/vim74/indent/java.vim
+@comment MD5:521e769e0fdc651f5dd4990e0477e8e5
+share/vim/vim74/indent/javascript.vim
+@comment MD5:ecc112d5ad101f683d977ca2ac1194bf
+share/vim/vim74/indent/jsp.vim
+@comment MD5:972a463263b464755dd25a0673921a32
+share/vim/vim74/indent/ld.vim
+@comment MD5:855c8eee0f664a015f3693fbae49f88a
+share/vim/vim74/indent/lifelines.vim
+@comment MD5:7a1c34fe5192c32176ea05bfab6055df
+share/vim/vim74/indent/liquid.vim
+@comment MD5:47d49cca9a608cce841349bb3bb7ba12
+share/vim/vim74/indent/lisp.vim
+@comment MD5:f0c7b9a269114f86e4f9a714b23210f0
+share/vim/vim74/indent/logtalk.vim
+@comment MD5:a2f296ee7374c73fe35750cdfcfe4db8
+share/vim/vim74/indent/lua.vim
+@comment MD5:0bee4a9531b00f3aa8f9bf8b835c1a34
+share/vim/vim74/indent/mail.vim
+@comment MD5:a5723c24b70fb64d23e869b132794dff
+share/vim/vim74/indent/make.vim
+@comment MD5:7e11c61721a88f52c9d3fecd810a95cf
+share/vim/vim74/indent/matlab.vim
+@comment MD5:ed824e38664a83a51c50689135d29cc5
+share/vim/vim74/indent/mma.vim
+@comment MD5:3fae08154e17b52c0821d66418780568
+share/vim/vim74/indent/mp.vim
+@comment MD5:84258cbb9a4478a11c48521ddc0efed4
+share/vim/vim74/indent/objc.vim
+@comment MD5:f269e4c0e2469a407f83a1c12d2ba5a9
+share/vim/vim74/indent/ocaml.vim
+@comment MD5:6dfd7212a34ed8bda50e626ce203f62f
+share/vim/vim74/indent/occam.vim
+@comment MD5:65511cb96b7e16fd2b7118a3fbf72cfe
+share/vim/vim74/indent/pascal.vim
+@comment MD5:54b8bd1fa88cb10f3021dd9a53982387
+share/vim/vim74/indent/perl.vim
+@comment MD5:a9ac74c264f2aa8a88d985d56041f702
+share/vim/vim74/indent/perl6.vim
+@comment MD5:4b75ae854982724aacae925d37389928
+share/vim/vim74/indent/php.vim
+@comment MD5:f134f627b478b6e3f48e6afd82fd5043
+share/vim/vim74/indent/postscr.vim
+@comment MD5:17ac639742aabfc278cda9b552c51bbe
+share/vim/vim74/indent/pov.vim
+@comment MD5:8090249d6f037c004f5f8d217d0c2a6a
+share/vim/vim74/indent/prolog.vim
+@comment MD5:f67500a24650720ad494da775fba5efd
+share/vim/vim74/indent/pyrex.vim
+@comment MD5:dd3df4e8d77d3c40e770c2c06c85f9e5
+share/vim/vim74/indent/python.vim
+@comment MD5:c79535f69f96c14c2ebbefb93aa85d9d
+share/vim/vim74/indent/r.vim
+@comment MD5:f249d628981bfee17c46a9b682046113
+share/vim/vim74/indent/readline.vim
+@comment MD5:33252b32cac7cc6af67e2f4c9c5ac29e
+share/vim/vim74/indent/rpl.vim
+@comment MD5:fdec0b0a6c1e83b095202abd23574cea
+share/vim/vim74/indent/rst.vim
+@comment MD5:33d3d3e6325711f0b955bceec3db6d26
+share/vim/vim74/indent/ruby.vim
+@comment MD5:499a60cb9f976dfa81af674a15cc09e9
+share/vim/vim74/indent/sass.vim
+@comment MD5:f6d68da922f45157a0d8e9e1a48104f4
+share/vim/vim74/indent/scheme.vim
+@comment MD5:91fed31081160e4557fdb1e347f12e63
+share/vim/vim74/indent/scss.vim
+@comment MD5:3fa1576b2ec6651e930c5decdce33d12
+share/vim/vim74/indent/sdl.vim
+@comment MD5:19acc0cd0de0b9f598e36c222b8f9c07
+share/vim/vim74/indent/sh.vim
+@comment MD5:648e098b73185bc417404b006cdafc96
+share/vim/vim74/indent/sml.vim
+@comment MD5:91bda5c39b753d11056d1cf1cacc6961
+share/vim/vim74/indent/sql.vim
+@comment MD5:8498fe2a48dc376a1c47d36dd1dc59d0
+share/vim/vim74/indent/sqlanywhere.vim
+@comment MD5:f07a06b1355538e766fe887b16a8a250
+share/vim/vim74/indent/tcl.vim
+@comment MD5:1cb9dd7c137aaf5766afc49d62563f8b
+share/vim/vim74/indent/tcsh.vim
+@comment MD5:89f865be8cbd60afc4e32207c41ea1f8
+share/vim/vim74/indent/tex.vim
+@comment MD5:1f5f3ae084e42dd2e392b427f4863cca
+share/vim/vim74/indent/tf.vim
+@comment MD5:e81ecf32fc5d9122b14e4fee7f437264
+share/vim/vim74/indent/tilde.vim
+@comment MD5:6279a75d00466ce6914be192dc558038
+share/vim/vim74/indent/treetop.vim
+@comment MD5:89bebb1f23cad87fbe7a748bd6a6f055
+share/vim/vim74/indent/vb.vim
+@comment MD5:f8e182dba0dc0be17539761d01f4da6c
+share/vim/vim74/indent/verilog.vim
+@comment MD5:ef75ece1c343d7a78e794f4200233aba
+share/vim/vim74/indent/vhdl.vim
+@comment MD5:29221dee022fdd86f3ec3fcd9f9fbebf
+share/vim/vim74/indent/vim.vim
+@comment MD5:b4101ed38ac08eb3f21e71ce1867fa5f
+share/vim/vim74/indent/xf86conf.vim
+@comment MD5:207c0d2828be9496a55f97ad589176c2
+share/vim/vim74/indent/xhtml.vim
+@comment MD5:04aa82d0f6506c4f79177b5086e9b2dd
+share/vim/vim74/indent/xinetd.vim
+@comment MD5:0516fbe42d154f07b3926e71e56f0f52
+share/vim/vim74/indent/xml.vim
+@comment MD5:28d13202388755941e10b5b1b0c2539f
+share/vim/vim74/indent/xsd.vim
+@comment MD5:e67a32fc868f85dd1e8a52f937bc6db1
+share/vim/vim74/indent/xslt.vim
+@comment MD5:39dc925c7e63bc9a42807babb691a4f0
+share/vim/vim74/indent/yacc.vim
+@comment MD5:9dc77bb558be45812a4ee7aeb6f1f559
+share/vim/vim74/indent/yaml.vim
+@comment MD5:07b1f6681f424003acaf1309998fd633
+share/vim/vim74/indent/zimbu.vim
+@comment MD5:e907c376adfa0e00660d452f0490dd1e
+share/vim/vim74/indent/zsh.vim
+@comment MD5:e40acad38f19a73ed082015d33dd2623
+share/vim/vim74/indoff.vim
+@comment MD5:f5cf5cdd869f13913750d028aef66c37
+share/vim/vim74/macros/README.txt
+@comment MD5:09dff2f01f1dcf65a21b009256f39f5b
+share/vim/vim74/macros/dvorak
+@comment MD5:72fd5f0e2baf02a8515a340c4f6cd46e
+share/vim/vim74/macros/editexisting.vim
+@comment MD5:0bc1c5235ed1e401d54a8d90d02ad854
+share/vim/vim74/macros/hanoi/click.me
+@comment MD5:f5ee345cbea8e97bd733e6312f9ed317
+share/vim/vim74/macros/hanoi/hanoi.vim
+@comment MD5:58625709496107a3724c8904cfd1c23b
+share/vim/vim74/macros/hanoi/poster
+@comment MD5:8b7e7df53c9f572af19e44c0bdcd5cc8
+share/vim/vim74/macros/justify.vim
+@comment MD5:b3d938f2c00d7ea9b1a6721633829755
+share/vim/vim74/macros/less.bat
+@comment MD5:15206cc43cd53936d6f974576825d30a
+share/vim/vim74/macros/less.sh
+@comment MD5:0edb12cf4299ff8057ea582c77fe7fe3
+share/vim/vim74/macros/less.vim
+@comment MD5:731601d305d5c364c69976eeb84ee1d3
+share/vim/vim74/macros/life/click.me
+@comment MD5:4580e5268ddf10175cdd86f87f481d71
+share/vim/vim74/macros/life/life.vim
+@comment MD5:9fa2b3c1e7284a99223ea09e8037190a
+share/vim/vim74/macros/matchit.txt
+@comment MD5:1d2f0a5cba607a28427a0f70781ae5ff
+share/vim/vim74/macros/matchit.vim
+@comment MD5:ff8807b750876f1fa480612c4f6c57c5
+share/vim/vim74/macros/maze/Makefile
+@comment MD5:f392910e4d9c17d7da6cb58d57189d8d
+share/vim/vim74/macros/maze/README.txt
+@comment MD5:dbe46843befacbc5be9512acb2305089
+share/vim/vim74/macros/maze/main.aap
+@comment MD5:41fb1a67324c7a03ffa666d9a7a12f1d
+share/vim/vim74/macros/maze/maze.c
+@comment MD5:c0a7bc9b665124a464c3dc013f17078c
+share/vim/vim74/macros/maze/maze_5.78
+@comment MD5:8bd8ef771049d3cbf779c7b72f4dbb44
+share/vim/vim74/macros/maze/maze_mac
+@comment MD5:6889b6fe110414616ed293100ed4cd9d
+share/vim/vim74/macros/maze/mazeansi.c
+@comment MD5:ef0d15a8bb8033023558b360515c4d3f
+share/vim/vim74/macros/maze/mazeclean.c
+@comment MD5:ae07a931eb5fc0ddbc863af3e7b89185
+share/vim/vim74/macros/maze/poster
+@comment MD5:414eb5c28a5b3e48218d66b19d7daf9e
+share/vim/vim74/macros/shellmenu.vim
+@comment MD5:7d26c7dabdd373155198024d490a4857
+share/vim/vim74/macros/swapmous.vim
+@comment MD5:f8e32ee65ecb31e4e446ba06dfce9ac3
+share/vim/vim74/macros/urm/README.txt
+@comment MD5:6e209d9b3a38ba38ae681e0e9bea3ce6
+share/vim/vim74/macros/urm/examples
+@comment MD5:5f4c2d42d944c21086e831a0ac52b21f
+share/vim/vim74/macros/urm/urm
+@comment MD5:156d11392174a988c62e4ff88f949fc9
+share/vim/vim74/macros/urm/urm.vim
+@comment MD5:c85f9b90b23870531a6ea800b7b2d995
+share/vim/vim74/menu.vim
+@comment MD5:6ff1950373e19b45ffa6533af84757b5
+share/vim/vim74/mswin.vim
+@comment MD5:b063bb049b10d90a688d3d76de0fdd97
+share/vim/vim74/optwin.vim
+@comment MD5:f132f4d16a8d52f6a004672e962f798b
+share/vim/vim74/plugin/README.txt
+@comment MD5:e7ac2e87035de9eef781833b24404684
+share/vim/vim74/plugin/getscriptPlugin.vim
+@comment MD5:f1c3baf0e3978bcecd3fee6fe825815f
+share/vim/vim74/plugin/gzip.vim
+@comment MD5:ff81d8314965b6f9b887ebe41996d8ef
+share/vim/vim74/plugin/matchparen.vim
+@comment MD5:e0fc5e0ff0fd2df894b54ad40c04fe3e
+share/vim/vim74/plugin/netrwPlugin.vim
+@comment MD5:6e56e6ca806e2d988345108a7a55a351
+share/vim/vim74/plugin/rrhelper.vim
+@comment MD5:53d36f36e05b21a096142266318958df
+share/vim/vim74/plugin/spellfile.vim
+@comment MD5:561f55a478fee8efcce9313fc26c5f90
+share/vim/vim74/plugin/tarPlugin.vim
+@comment MD5:e5d4c9f0835b2b10832e28095899bcc2
+share/vim/vim74/plugin/tohtml.vim
+@comment MD5:d93dce8754962944ab95335aaf1f1e5f
+share/vim/vim74/plugin/vimballPlugin.vim
+@comment MD5:770edbe23e37554e45abca09861aa6b0
+share/vim/vim74/plugin/zipPlugin.vim
+@comment MD5:77b68a1a53932ea0d03a39d9e65e83c3
+share/vim/vim74/print/ascii.ps
+@comment MD5:8b2021e3414c5aba3764ebedd99f9264
+share/vim/vim74/print/cidfont.ps
+@comment MD5:2befb01b3ce122821fcc8a5618d3cdd2
+share/vim/vim74/print/cns_roman.ps
+@comment MD5:47d7830b6c1ca39161533d95f40f4d1b
+share/vim/vim74/print/cp1250.ps
+@comment MD5:d4b39d0551b6ab3dac30227859698659
+share/vim/vim74/print/cp1251.ps
+@comment MD5:bd42590eaf1686201dea18293de3d3f5
+share/vim/vim74/print/cp1252.ps
+@comment MD5:0e90852367db3ec1ca22c4bc3b8d2026
+share/vim/vim74/print/cp1253.ps
+@comment MD5:da8e09b02fc1472951e9cbcf2b69f9eb
+share/vim/vim74/print/cp1254.ps
+@comment MD5:8b96bb351f251d89bc3394670081bfa9
+share/vim/vim74/print/cp1255.ps
+@comment MD5:33c3cdf5984284e3c87eb6ab0b22df75
+share/vim/vim74/print/cp1257.ps
+@comment MD5:22487f34dd9a78003ac296ce3efa19b0
+share/vim/vim74/print/dec-mcs.ps
+@comment MD5:7017e861b365ff8d41b6f00d17c88899
+share/vim/vim74/print/ebcdic-uk.ps
+@comment MD5:7d367dd06eac2a2b9562f1665d252c83
+share/vim/vim74/print/gb_roman.ps
+@comment MD5:b24c4954f69f724fe2ef25674340fd64
+share/vim/vim74/print/hp-roman8.ps
+@comment MD5:84c504bcdbf4b31a8e4431dff692f94f
+share/vim/vim74/print/iso-8859-10.ps
+@comment MD5:cd7c34b9307bc1a90e0aaf723d233f75
+share/vim/vim74/print/iso-8859-11.ps
+@comment MD5:f73611895f0092767ee3bf9c3cac0092
+share/vim/vim74/print/iso-8859-13.ps
+@comment MD5:e5f08db1cff18cdb60a547b65a197156
+share/vim/vim74/print/iso-8859-14.ps
+@comment MD5:122d3b1f06be392c3467800890a6384e
+share/vim/vim74/print/iso-8859-15.ps
+@comment MD5:9f4093d544d6e00393263717d84f9d69
+share/vim/vim74/print/iso-8859-2.ps
+@comment MD5:c6f7bae1e82087fb174c1b189d123bee
+share/vim/vim74/print/iso-8859-3.ps
+@comment MD5:ed8a3c9a169641ae213d35d801b2577e
+share/vim/vim74/print/iso-8859-4.ps
+@comment MD5:41e39273d8f847bf536ea5baed213c77
+share/vim/vim74/print/iso-8859-5.ps
+@comment MD5:759e64123ce8f359069d4a1289f0ccfa
+share/vim/vim74/print/iso-8859-7.ps
+@comment MD5:ed95eb358813c388a4bcf6ad2fddee67
+share/vim/vim74/print/iso-8859-8.ps
+@comment MD5:e0a5f7a6313593329ea2d821acde66ab
+share/vim/vim74/print/iso-8859-9.ps
+@comment MD5:315e33a3342d475d72ae5cf51b002ee0
+share/vim/vim74/print/jis_roman.ps
+@comment MD5:cfaa694e54ea6f1cfc85854139a9de54
+share/vim/vim74/print/koi8-r.ps
+@comment MD5:8e596759a9882cd0fa43481cb7f550e9
+share/vim/vim74/print/koi8-u.ps
+@comment MD5:6f5cdf992ea69c8ce82a3ab76f44fe64
+share/vim/vim74/print/ks_roman.ps
+@comment MD5:0dbf52c5d2064517a4a56a0c702c5e57
+share/vim/vim74/print/latin1.ps
+@comment MD5:8eed7dedb465b6e0456537bcecd8b29e
+share/vim/vim74/print/mac-roman.ps
+@comment MD5:01ff7f454336ee635701631b547de91e
+share/vim/vim74/print/prolog.ps
+@comment MD5:6892f86e91b6baf8e93f23d817e87680
+share/vim/vim74/scripts.vim
+@comment MD5:815c4f687d53782f167f9e6396734e5c
+share/vim/vim74/spell/check_locales.vim
+@comment MD5:a4979f616e886622f3e89e9d81def3b0
+share/vim/vim74/spell/cleanadd.vim
+@comment MD5:ec7950f1d6f0cd7988c13003a3f6ada6
+share/vim/vim74/spell/en.ascii.spl
+@comment MD5:e674b6543f8da47cfe379e16007bcd83
+share/vim/vim74/spell/en.ascii.sug
+@comment MD5:c65365f093b81417bfb8dcf00deb424c
+share/vim/vim74/spell/en.latin1.spl
+@comment MD5:d8f37830c5f70ee4e16dea65bacf7626
+share/vim/vim74/spell/en.latin1.sug
+@comment MD5:acacb2876cdec0c0bdfd180ed6d78c4f
+share/vim/vim74/spell/en.utf-8.spl
+@comment MD5:50c96885b445e2415c72e35e7e3fd5ac
+share/vim/vim74/spell/en.utf-8.sug
+@comment MD5:bdd937743295cd3c2b3b665f672e0c4d
+share/vim/vim74/spell/fixdup.vim
+@comment MD5:bc2d05429eedcaa2ee6654c288d893a3
+share/vim/vim74/spell/he.vim
+@comment MD5:75feaee80c55b0733734050fe6928260
+share/vim/vim74/spell/spell.vim
+@comment MD5:db228893f149dde33f61fd70a1e5a097
+share/vim/vim74/spell/yi.vim
+@comment MD5:8f922928be4b5e4493c7c5e985c02d77
+share/vim/vim74/synmenu.vim
+@comment MD5:aabbf8625ab065ce02914f788f6810da
+share/vim/vim74/syntax/2html.vim
+@comment MD5:3a1c43cdc6e1fda73e53d43e81f9c1f8
+share/vim/vim74/syntax/README.txt
+@comment MD5:4299d25a1f615ca9f3f269916dd0e911
+share/vim/vim74/syntax/a2ps.vim
+@comment MD5:ddff87c6321e123385bd2ea5f1b62218
+share/vim/vim74/syntax/a65.vim
+@comment MD5:008cd780bdd9fb4b8c2ab01ac406a323
+share/vim/vim74/syntax/aap.vim
+@comment MD5:cbfe4137f536f56f191a41596c2d1d8d
+share/vim/vim74/syntax/abap.vim
+@comment MD5:4f948366d39653436d70323a6b95130c
+share/vim/vim74/syntax/abaqus.vim
+@comment MD5:5a79c37a6e59fb822dfa413172308487
+share/vim/vim74/syntax/abc.vim
+@comment MD5:46997f0c6785c6046ace8df370e89386
+share/vim/vim74/syntax/abel.vim
+@comment MD5:ea0df6741d1512a1de72b3a82eeb3f2f
+share/vim/vim74/syntax/acedb.vim
+@comment MD5:44aaca85ff91288292d89a758167bfc4
+share/vim/vim74/syntax/ada.vim
+@comment MD5:696bf076b891d36e0cd44d4f4137b6eb
+share/vim/vim74/syntax/aflex.vim
+@comment MD5:457afed391d230f08d878e79038ca40a
+share/vim/vim74/syntax/ahdl.vim
+@comment MD5:439de573ebc2130d97c5f8f8478b58fe
+share/vim/vim74/syntax/alsaconf.vim
+@comment MD5:a26b45a89d4089abf9fc05318e7e8bcc
+share/vim/vim74/syntax/amiga.vim
+@comment MD5:2f3f2ac34b12def42ee6d117e7d6796c
+share/vim/vim74/syntax/aml.vim
+@comment MD5:c90983909f7b6045c7897c49cc4366ab
+share/vim/vim74/syntax/ampl.vim
+@comment MD5:abd3db2c9e943c0930b35235484b58fd
+share/vim/vim74/syntax/ant.vim
+@comment MD5:9a6dc5f512822901a775b767017d8afa
+share/vim/vim74/syntax/antlr.vim
+@comment MD5:7e20587386e8d6079951de0235c7d8b5
+share/vim/vim74/syntax/apache.vim
+@comment MD5:dff4712f5a6fc8d6f5192cf65da8c36f
+share/vim/vim74/syntax/apachestyle.vim
+@comment MD5:9ac590a5ea107a0d84874920b60d0add
+share/vim/vim74/syntax/aptconf.vim
+@comment MD5:bcded1fdc2b8b3a67cc353d1c6abd6e7
+share/vim/vim74/syntax/arch.vim
+@comment MD5:54c591d0da2a51974ed0b8788e609ccb
+share/vim/vim74/syntax/arduino.vim
+@comment MD5:f66e0cc2f3b59dc719a96120ba23a5d7
+share/vim/vim74/syntax/art.vim
+@comment MD5:35c416b7e705915cde18c7da4beebf50
+share/vim/vim74/syntax/asciidoc.vim
+@comment MD5:3be78725c90f2dfb886c1f66ffec2dd0
+share/vim/vim74/syntax/asm.vim
+@comment MD5:f7f0042aeb41d19e38d2d8ceb25ef78d
+share/vim/vim74/syntax/asm68k.vim
+@comment MD5:adee2ed801362279f455c89b73f4d817
+share/vim/vim74/syntax/asmh8300.vim
+@comment MD5:ec995d67f2a66b46a185d347f86217a4
+share/vim/vim74/syntax/asn.vim
+@comment MD5:4b50c0d726855a9ff72d464745f223cc
+share/vim/vim74/syntax/aspperl.vim
+@comment MD5:9b91f325f0b8d570b3f0609259bca13d
+share/vim/vim74/syntax/aspvbs.vim
+@comment MD5:53503e748c3205308dcd7a5acc3fe2e7
+share/vim/vim74/syntax/asterisk.vim
+@comment MD5:bffaefd79f2852e2f45c6381e6c0fb5d
+share/vim/vim74/syntax/asteriskvm.vim
+@comment MD5:459b542300f09399b258007bfccaa3ce
+share/vim/vim74/syntax/atlas.vim
+@comment MD5:6646a216735b5e139b2162790b3652aa
+share/vim/vim74/syntax/autohotkey.vim
+@comment MD5:98e8723484e674305be15ca003fc4e70
+share/vim/vim74/syntax/autoit.vim
+@comment MD5:8a8fe441246817e83a0fef1b3c1c43f6
+share/vim/vim74/syntax/automake.vim
+@comment MD5:38bab1b9b994b5ddd9f193da16d5dc1f
+share/vim/vim74/syntax/ave.vim
+@comment MD5:0830bf2d8b330b562bd0356e3abeb4c8
+share/vim/vim74/syntax/awk.vim
+@comment MD5:bd288fa8a4395ff6a1d8351e095b6ef7
+share/vim/vim74/syntax/ayacc.vim
+@comment MD5:da5407d38336095a0b2b0e4d41469271
+share/vim/vim74/syntax/b.vim
+@comment MD5:23f420ebac2adbe387ec455c969ae155
+share/vim/vim74/syntax/baan.vim
+@comment MD5:cb427f5a91589c62ff79a8822136af9a
+share/vim/vim74/syntax/basic.vim
+@comment MD5:15bfdec3bc1d88d56adb3f2e2f1e32aa
+share/vim/vim74/syntax/bc.vim
+@comment MD5:77ff07d7267dee1e76ca64ceb1762426
+share/vim/vim74/syntax/bdf.vim
+@comment MD5:1d52d84fd8620809690c84baa3147624
+share/vim/vim74/syntax/bib.vim
+@comment MD5:218ca94155092aba068861bf78aa4b7d
+share/vim/vim74/syntax/bindzone.vim
+@comment MD5:297fb2e61feda972332359d0aebc8249
+share/vim/vim74/syntax/blank.vim
+@comment MD5:cf5cdc0999b37077784c6537cb1f60c2
+share/vim/vim74/syntax/bst.vim
+@comment MD5:f88b48a41652043f487941d14a0bdcfa
+share/vim/vim74/syntax/btm.vim
+@comment MD5:834f11b88bfee189abc67a4e7c5a51a0
+share/vim/vim74/syntax/bzr.vim
+@comment MD5:23738b5010ab0678f9a128881cc76c3e
+share/vim/vim74/syntax/c.vim
+@comment MD5:0c91d0c9f00e8adbfe841d2457c2ecf4
+share/vim/vim74/syntax/cabal.vim
+@comment MD5:23983077fe07037def02f704dc87d0e4
+share/vim/vim74/syntax/calendar.vim
+@comment MD5:d09448ab630be01cc1956bf7d18ce42b
+share/vim/vim74/syntax/catalog.vim
+@comment MD5:8694c9cf3960a49023d65b5009cf0c16
+share/vim/vim74/syntax/cdl.vim
+@comment MD5:996e479baef608ef4dc5910097f3dab7
+share/vim/vim74/syntax/cdrdaoconf.vim
+@comment MD5:673f0c82c9622403d79fcfca7ecd4c57
+share/vim/vim74/syntax/cdrtoc.vim
+@comment MD5:4933e1ecebf525cb19abfadd538c0c8b
+share/vim/vim74/syntax/cf.vim
+@comment MD5:a51d302a824352ee993fd5e291b9f295
+share/vim/vim74/syntax/cfg.vim
+@comment MD5:598c51dcd77cc8fa12e07dc6dd9ec895
+share/vim/vim74/syntax/ch.vim
+@comment MD5:31cadc1f292f1f9265730089ec300a84
+share/vim/vim74/syntax/chaiscript.vim
+@comment MD5:1b234fffb764b193fc4e15baa5b95300
+share/vim/vim74/syntax/change.vim
+@comment MD5:07e8f1b13528898401cf52f0bfc8ee87
+share/vim/vim74/syntax/changelog.vim
+@comment MD5:40e7e9714d7b7ff0b3b266c9379ec164
+share/vim/vim74/syntax/chaskell.vim
+@comment MD5:032dcba4e18461211590239d91a4d79f
+share/vim/vim74/syntax/cheetah.vim
+@comment MD5:d485c8a329666d19b1d471ec85adf100
+share/vim/vim74/syntax/chill.vim
+@comment MD5:7971cb62b33371d9f32deca3e464499f
+share/vim/vim74/syntax/chordpro.vim
+@comment MD5:581e00e16927dedb79f8015c4ea164a4
+share/vim/vim74/syntax/cl.vim
+@comment MD5:a5f38bb16235a20c6a48ce39919761a3
+share/vim/vim74/syntax/clean.vim
+@comment MD5:0868f0c49b423c43799343ec758334fd
+share/vim/vim74/syntax/clipper.vim
+@comment MD5:d5a4a72d41dc252417f4a6e28064d14e
+share/vim/vim74/syntax/clojure.vim
+@comment MD5:c86f3800b12ee8be1266d25a35c1a854
+share/vim/vim74/syntax/cmake.vim
+@comment MD5:01e4a2caece9b55d068a2d528852b7bb
+share/vim/vim74/syntax/cmusrc.vim
+@comment MD5:189e64bd26c355dab44a97982b7692fa
+share/vim/vim74/syntax/cobol.vim
+@comment MD5:a7ab5838d16152bb8f11348bdc85aa47
+share/vim/vim74/syntax/coco.vim
+@comment MD5:2173c44ef6b1044da95c78c0c2040495
+share/vim/vim74/syntax/colortest.vim
+@comment MD5:1c2438f0b0241aae121c3a3eee622339
+share/vim/vim74/syntax/conaryrecipe.vim
+@comment MD5:a1af6baaa5eb95ccbe0e5be60747ae06
+share/vim/vim74/syntax/conf.vim
+@comment MD5:a9881c410f91621ac8dfb9e710fb4c43
+share/vim/vim74/syntax/config.vim
+@comment MD5:883bc6045f439fd05fbe085412b69b5f
+share/vim/vim74/syntax/context.vim
+@comment MD5:f4f342af28d62252202c87116339d21a
+share/vim/vim74/syntax/cpp.vim
+@comment MD5:5c516482fedd4a21490c974fe27aa8b0
+share/vim/vim74/syntax/crm.vim
+@comment MD5:a11726da54e7d3eec419e3a6942a70a0
+share/vim/vim74/syntax/crontab.vim
+@comment MD5:2b0da23191f9b149762433bb90133b79
+share/vim/vim74/syntax/cs.vim
+@comment MD5:6e2b5cd361cba6d957d4c0cbc831187b
+share/vim/vim74/syntax/csc.vim
+@comment MD5:d4d6a28ad952b7c37848bc6c80991954
+share/vim/vim74/syntax/csdl.vim
+@comment MD5:4dd50ec7b6a2547235b723a5163446e6
+share/vim/vim74/syntax/csh.vim
+@comment MD5:ed19dcdb08c3842e85a8794d8d901b9e
+share/vim/vim74/syntax/csp.vim
+@comment MD5:8b4a98f41af72db0bfdae58b079d318b
+share/vim/vim74/syntax/css.vim
+@comment MD5:528144f2631f83ba4c628ae637908981
+share/vim/vim74/syntax/cterm.vim
+@comment MD5:8a9cef54249e0c9b5ae0429221480efe
+share/vim/vim74/syntax/ctrlh.vim
+@comment MD5:e8f42c20c14c68031670c73b18fa4ddb
+share/vim/vim74/syntax/cucumber.vim
+@comment MD5:59a2655057facf699a247be630243154
+share/vim/vim74/syntax/cuda.vim
+@comment MD5:a12e9a9dc7ff69c73de076ea495b70fb
+share/vim/vim74/syntax/cupl.vim
+@comment MD5:3883e86a0806fe8ba112a79d60c26566
+share/vim/vim74/syntax/cuplsim.vim
+@comment MD5:2e4c658952568556d07224f44e337306
+share/vim/vim74/syntax/cvs.vim
+@comment MD5:4147414b91cc873d3baba75903252e33
+share/vim/vim74/syntax/cvsrc.vim
+@comment MD5:c952cd8787e55d934f71f313380bc49f
+share/vim/vim74/syntax/cweb.vim
+@comment MD5:ea2b78f3620fc5e8f2e59d77ec8fa61b
+share/vim/vim74/syntax/cynlib.vim
+@comment MD5:46acb23371947e50eefd226ad0ec5f1e
+share/vim/vim74/syntax/cynpp.vim
+@comment MD5:ce56e58f2689cfffe8b8df320a4a07e2
+share/vim/vim74/syntax/d.vim
+@comment MD5:3bf7de30c79d013cf5273913da719d54
+share/vim/vim74/syntax/datascript.vim
+@comment MD5:6cc9c0c81039f006687390a0efc60995
+share/vim/vim74/syntax/dcd.vim
+@comment MD5:1b98e98785c1f5a195e95a9b689a78d2
+share/vim/vim74/syntax/dcl.vim
+@comment MD5:49a63d556b2324eb94d295dc70c8f720
+share/vim/vim74/syntax/debchangelog.vim
+@comment MD5:c1fbdf4efb80aea940a8d372260ab2c0
+share/vim/vim74/syntax/debcontrol.vim
+@comment MD5:190a65e86d51c75877766c47b211afa4
+share/vim/vim74/syntax/debsources.vim
+@comment MD5:7e0e0ea6dd1cff2f0474f238af773111
+share/vim/vim74/syntax/def.vim
+@comment MD5:38753f18f28033731fbc7f33bc149c47
+share/vim/vim74/syntax/denyhosts.vim
+@comment MD5:a4a7837d972af83d2105113517044286
+share/vim/vim74/syntax/desc.vim
+@comment MD5:a99ce892e1e9d4d9d9e10539c0d7ccc1
+share/vim/vim74/syntax/desktop.vim
+@comment MD5:3f38dcfb5897bd6c082b269062fce268
+share/vim/vim74/syntax/dictconf.vim
+@comment MD5:1dbeef69a58ce2d15a68da11d1ebd205
+share/vim/vim74/syntax/dictdconf.vim
+@comment MD5:5217e733e681d0e4e25b4e3b897931bf
+share/vim/vim74/syntax/diff.vim
+@comment MD5:41eb4763a5831701cc2dcd192b4d1b4e
+share/vim/vim74/syntax/dircolors.vim
+@comment MD5:3e52ec753678e03766f48e44d407f800
+share/vim/vim74/syntax/dirpager.vim
+@comment MD5:84e52add8eec44b934ef8c9f6f896116
+share/vim/vim74/syntax/diva.vim
+@comment MD5:4a354179acf5c12454b89662e4ee0aea
+share/vim/vim74/syntax/django.vim
+@comment MD5:1bd9ba6ea5d04e5cbf397dfc435532f0
+share/vim/vim74/syntax/dns.vim
+@comment MD5:dfa090589fc6cf30cbfa679ce1e57b2a
+share/vim/vim74/syntax/dnsmasq.vim
+@comment MD5:ecfd302ba68ecf3b28f15ab5ce676b83
+share/vim/vim74/syntax/docbk.vim
+@comment MD5:1399a72b3b8dddd83a9a0cf1b6ee7bcb
+share/vim/vim74/syntax/docbksgml.vim
+@comment MD5:cc349b914d0346a1778e6ec2ab0a6b9e
+share/vim/vim74/syntax/docbkxml.vim
+@comment MD5:53af9fe8f4ea5a02a02527530e2decf8
+share/vim/vim74/syntax/dosbatch.vim
+@comment MD5:12cd3b58a7ab7aec6e40098eadb957d1
+share/vim/vim74/syntax/dosini.vim
+@comment MD5:7bcc3599f54e7ab2439bdfc4d67a4c0e
+share/vim/vim74/syntax/dot.vim
+@comment MD5:0023225c18ac40a7fbd911fee6a36f66
+share/vim/vim74/syntax/doxygen.vim
+@comment MD5:87173f519533a23c6e9d298455f34acf
+share/vim/vim74/syntax/dracula.vim
+@comment MD5:0b1b567ee97ec2c49bd9b29218c8f954
+share/vim/vim74/syntax/dsl.vim
+@comment MD5:53d0ddfa95909458cf09cceba9424626
+share/vim/vim74/syntax/dtd.vim
+@comment MD5:ca58634a7856fe40b4152ad41b479b23
+share/vim/vim74/syntax/dtml.vim
+@comment MD5:38900f865ffa5a36d3eca82c47ffd858
+share/vim/vim74/syntax/dtrace.vim
+@comment MD5:0f36a33a3c0bd84363f3576727aa1e03
+share/vim/vim74/syntax/dts.vim
+@comment MD5:6d620117aa1d29d75f832d34d7e1b533
+share/vim/vim74/syntax/dylan.vim
+@comment MD5:c206f514005486421008d76d32066524
+share/vim/vim74/syntax/dylanintr.vim
+@comment MD5:39e3e6ec55de86780f4ba45cb32a449b
+share/vim/vim74/syntax/dylanlid.vim
+@comment MD5:a62936ff94fb40df468e96a34761332f
+share/vim/vim74/syntax/ecd.vim
+@comment MD5:aa5c3f0680f371ed1c92be3b12a1048f
+share/vim/vim74/syntax/edif.vim
+@comment MD5:6e204b4578bf56ef489f1c7da1d78de3
+share/vim/vim74/syntax/eiffel.vim
+@comment MD5:31c9f90533c27f77f1490d0b4084a38a
+share/vim/vim74/syntax/elf.vim
+@comment MD5:b90c646c806713c197306c6bb47477f8
+share/vim/vim74/syntax/elinks.vim
+@comment MD5:2076915d8eff13740ebc27d2698bd6b6
+share/vim/vim74/syntax/elmfilt.vim
+@comment MD5:2e2964b5d2205182ac76f52811416c5b
+share/vim/vim74/syntax/erlang.vim
+@comment MD5:a8f83308310396d5255d276c129ba0a9
+share/vim/vim74/syntax/eruby.vim
+@comment MD5:b0d2b766e4ba64b7196efe3cc81bde4e
+share/vim/vim74/syntax/esmtprc.vim
+@comment MD5:606de00aab6f12e3b21bcae6064aadf4
+share/vim/vim74/syntax/esqlc.vim
+@comment MD5:aa5a1152da5ddd2cef565f7d9b3729fa
+share/vim/vim74/syntax/esterel.vim
+@comment MD5:0b3923d5ea5fe568ebcc21b0a4311729
+share/vim/vim74/syntax/eterm.vim
+@comment MD5:003ee2b0d11cccf6629d9f94ddfe7d63
+share/vim/vim74/syntax/eviews.vim
+@comment MD5:2ced39136305c8611ae56488a9cf798e
+share/vim/vim74/syntax/exim.vim
+@comment MD5:9b258d1e536b70ae4b1271267cc7853a
+share/vim/vim74/syntax/expect.vim
+@comment MD5:dfb0fa4a2ea9c718bcd3cb4401131f86
+share/vim/vim74/syntax/exports.vim
+@comment MD5:feefe65b62e868b8bb62c3a3c3f1c8c9
+share/vim/vim74/syntax/falcon.vim
+@comment MD5:22b55d572f206fff79d941d35b93b05e
+share/vim/vim74/syntax/fan.vim
+@comment MD5:0e13c9118e877c7ea2386e54a2ec21b7
+share/vim/vim74/syntax/fasm.vim
+@comment MD5:32f065d1a8f6186658b372e8c9c60226
+share/vim/vim74/syntax/fdcc.vim
+@comment MD5:52b319aff2705bb9e35f655507c42d77
+share/vim/vim74/syntax/fetchmail.vim
+@comment MD5:17bdf691ccb01350fdc45a74c5d308a6
+share/vim/vim74/syntax/fgl.vim
+@comment MD5:7d7a6c6aa565ea78ae40eded9b7b4f0b
+share/vim/vim74/syntax/flexwiki.vim
+@comment MD5:376f8dff19e484feb6ca0856b64cfa0b
+share/vim/vim74/syntax/focexec.vim
+@comment MD5:1706f854d4a0804d999819c536639167
+share/vim/vim74/syntax/form.vim
+@comment MD5:91f63cae77d82aa16f5cf79cc767c598
+share/vim/vim74/syntax/forth.vim
+@comment MD5:095a7a2e59253f880149f9ab9ce6c938
+share/vim/vim74/syntax/fortran.vim
+@comment MD5:ee3de92792cf6db00c2793fe229b160c
+share/vim/vim74/syntax/foxpro.vim
+@comment MD5:617f48747c6b959d4e44240940b47d70
+share/vim/vim74/syntax/framescript.vim
+@comment MD5:6d432bd28dac90e86278a20c19aefa26
+share/vim/vim74/syntax/freebasic.vim
+@comment MD5:0f553ea6c8c2b5438662ca471a2c58b3
+share/vim/vim74/syntax/fstab.vim
+@comment MD5:0ef21c6731c6a20d70913b810a51a08b
+share/vim/vim74/syntax/fvwm.vim
+@comment MD5:be8d4710844ca006588d255a6e7505d4
+share/vim/vim74/syntax/fvwm2m4.vim
+@comment MD5:70007906caf8695fc54cfb002c96f3f1
+share/vim/vim74/syntax/gdb.vim
+@comment MD5:bb5b1e423f0049b52c7f1a57fd9bbc82
+share/vim/vim74/syntax/gdmo.vim
+@comment MD5:3e8b1bcb6feb8eed9b37465f5fe0b96c
+share/vim/vim74/syntax/gedcom.vim
+@comment MD5:f7933fea6405f507794d8ee7d9d2ab0a
+share/vim/vim74/syntax/git.vim
+@comment MD5:050b362c66085e1f8d77dfdc81e55dac
+share/vim/vim74/syntax/gitcommit.vim
+@comment MD5:e1d99d5a1916a606d1fd609839432727
+share/vim/vim74/syntax/gitconfig.vim
+@comment MD5:5ba3703feebeb15d498887eb18aeb5fb
+share/vim/vim74/syntax/gitolite.vim
+@comment MD5:3ea904a1d6e6b7a21662098a289ddffc
+share/vim/vim74/syntax/gitrebase.vim
+@comment MD5:91a5e077871f9f7da2cec0ffd31c5324
+share/vim/vim74/syntax/gitsendemail.vim
+@comment MD5:4c0928db50d642b60d653633fb996f41
+share/vim/vim74/syntax/gkrellmrc.vim
+@comment MD5:87c8d974457dd278d94f700c61984cd8
+share/vim/vim74/syntax/gnash.vim
+@comment MD5:26d5eab1073aec09f342b4f2dd34e176
+share/vim/vim74/syntax/gnuplot.vim
+@comment MD5:43abd932e8a6e4fd78bf1e851999a9ce
+share/vim/vim74/syntax/gp.vim
+@comment MD5:82465b1754806346a0f24abf8b5638fd
+share/vim/vim74/syntax/gpg.vim
+@comment MD5:0a42dcbc64739e59c2c1483b0ccf899e
+share/vim/vim74/syntax/gprof.vim
+@comment MD5:105d3fd574974b587db63f5af66e77d4
+share/vim/vim74/syntax/grads.vim
+@comment MD5:1ca71fe9fa778670cd400bf228859e4e
+share/vim/vim74/syntax/gretl.vim
+@comment MD5:39e76d6a4065f39dbb6e7169cdaf130d
+share/vim/vim74/syntax/groff.vim
+@comment MD5:93042d949c61b10a8ea1f1453a048e43
+share/vim/vim74/syntax/groovy.vim
+@comment MD5:55fcafea6ef27921e63ce400ca30ec35
+share/vim/vim74/syntax/group.vim
+@comment MD5:d65af34918fd3b11b3dce45efb7183b7
+share/vim/vim74/syntax/grub.vim
+@comment MD5:328dddc9dac84c3a9c4ca72169d3f5fa
+share/vim/vim74/syntax/gsp.vim
+@comment MD5:d0f28c7adb290291d637099795ba25ca
+share/vim/vim74/syntax/gtkrc.vim
+@comment MD5:ee01d5416ad1505e97ca8d20fed45250
+share/vim/vim74/syntax/haml.vim
+@comment MD5:e21d974a3cd29b39b955c2c34c5b81f4
+share/vim/vim74/syntax/hamster.vim
+@comment MD5:1434ba9fe463a668312a49b59e6cbfc3
+share/vim/vim74/syntax/haskell.vim
+@comment MD5:eb18055ffb1be08584947cf0f3a5f04d
+share/vim/vim74/syntax/haste.vim
+@comment MD5:d5b915d92507fa29f50f60476503997a
+share/vim/vim74/syntax/hastepreproc.vim
+@comment MD5:04213346abda014938e95eb07553fa99
+share/vim/vim74/syntax/hb.vim
+@comment MD5:a7c1dc15a0a77c181df04429abcfedd9
+share/vim/vim74/syntax/help.vim
+@comment MD5:7f6d2d28acf5fa11e668d55d44fdee70
+share/vim/vim74/syntax/hercules.vim
+@comment MD5:587d0db0654459b061df0506a613cdc8
+share/vim/vim74/syntax/hex.vim
+@comment MD5:29d6192a63502c403db3a426f543172e
+share/vim/vim74/syntax/hgcommit.vim
+@comment MD5:8c0f2031f3f63a3aa0c75ed7bc44a623
+share/vim/vim74/syntax/hitest.vim
+@comment MD5:c383b9e738c95ac96972a3517f723df2
+share/vim/vim74/syntax/hog.vim
+@comment MD5:ff46831509a1f827a27ee4ef43db66ae
+share/vim/vim74/syntax/hostconf.vim
+@comment MD5:7f41f93332259cf1d95f74a37b1818fa
+share/vim/vim74/syntax/hostsaccess.vim
+@comment MD5:b722cd177453bb07cbc4effaece9909b
+share/vim/vim74/syntax/html.vim
+@comment MD5:104aca547faa7cb95049cfc4a7b3b2a2
+share/vim/vim74/syntax/htmlcheetah.vim
+@comment MD5:45b2dffd5f12f7a2e8bf5c1b37971fa5
+share/vim/vim74/syntax/htmldjango.vim
+@comment MD5:c182cc9b02d6c0249192e18d2ffd5aba
+share/vim/vim74/syntax/htmlm4.vim
+@comment MD5:50b9cdfbb3923c2c22bd645ad45c9467
+share/vim/vim74/syntax/htmlos.vim
+@comment MD5:e36c76dbc5a8318e64b20fccb920de1c
+share/vim/vim74/syntax/ia64.vim
+@comment MD5:e4b93b437d3b8a41a9966b06a0027647
+share/vim/vim74/syntax/ibasic.vim
+@comment MD5:822663a6c1155124c043b571cf8bbee9
+share/vim/vim74/syntax/icemenu.vim
+@comment MD5:cbe0893eeaa9fc4621d2505e2dbb5778
+share/vim/vim74/syntax/icon.vim
+@comment MD5:587b816037f336f31de4a9c0af722bc9
+share/vim/vim74/syntax/idl.vim
+@comment MD5:fa3a99d28aa5c07d1f2602574b0f6c4d
+share/vim/vim74/syntax/idlang.vim
+@comment MD5:27d6cfc3b400154302b8c16c0c471be1
+share/vim/vim74/syntax/indent.vim
+@comment MD5:4cfa8c29604cf3ff6bbaf1d41ca9077b
+share/vim/vim74/syntax/inform.vim
+@comment MD5:c250b6032cc748d28343939d22ecbaf9
+share/vim/vim74/syntax/initex.vim
+@comment MD5:e1c992fe643c86bad544a955727f62d3
+share/vim/vim74/syntax/initng.vim
+@comment MD5:5f673a8bdc13faad7e5bffc03e1232fc
+share/vim/vim74/syntax/inittab.vim
+@comment MD5:eb1b098d4ba71101bf73c91bc7fa5049
+share/vim/vim74/syntax/ipfilter.vim
+@comment MD5:113df98e9385e1f5ec94a1fd25e5a159
+share/vim/vim74/syntax/ishd.vim
+@comment MD5:74cf4b00f128968a36d1a9694a151717
+share/vim/vim74/syntax/iss.vim
+@comment MD5:034c0a3548940f761917beede9244bca
+share/vim/vim74/syntax/ist.vim
+@comment MD5:566b192ade7c7f71a19f652e09a5ff35
+share/vim/vim74/syntax/j.vim
+@comment MD5:2ab0a626c2770699b4b9701b125f9c6d
+share/vim/vim74/syntax/jal.vim
+@comment MD5:13991780b9c7684c2e97115cf43bce93
+share/vim/vim74/syntax/jam.vim
+@comment MD5:b44f4569233e08f615d5cb47ccc9ec91
+share/vim/vim74/syntax/jargon.vim
+@comment MD5:8b83fc29a7e282fa165895b1131bb1ed
+share/vim/vim74/syntax/java.vim
+@comment MD5:ce24ffb90d9c19513c445ad12884d4ec
+share/vim/vim74/syntax/javacc.vim
+@comment MD5:16ac75238946c1b606018b14806c23d6
+share/vim/vim74/syntax/javascript.vim
+@comment MD5:09b68015f9a68e7dea90e26a28e33c7e
+share/vim/vim74/syntax/jess.vim
+@comment MD5:e6fc62a61901f6575fd64133cc4f9fb7
+share/vim/vim74/syntax/jgraph.vim
+@comment MD5:fa9550e17050dee1e696b4b8da2bfea0
+share/vim/vim74/syntax/jovial.vim
+@comment MD5:3f41ea47e3abc05586089f48535969a5
+share/vim/vim74/syntax/jproperties.vim
+@comment MD5:c5c69d1bbdeb1211fb7babc95b51f658
+share/vim/vim74/syntax/jsp.vim
+@comment MD5:953b3c94f7f54339da14319a0c936bf2
+share/vim/vim74/syntax/kconfig.vim
+@comment MD5:3831bab9a41a0310eab60242dd89cc04
+share/vim/vim74/syntax/kix.vim
+@comment MD5:85b28bfae6de4cb720fcb1bd46a20579
+share/vim/vim74/syntax/kscript.vim
+@comment MD5:2a4c21800b02ec60c0fabcd230039edd
+share/vim/vim74/syntax/kwt.vim
+@comment MD5:4d285219ac3efc9ab1632372fa069afd
+share/vim/vim74/syntax/lace.vim
+@comment MD5:eb12bf79f2889be4dbc67b991c549a54
+share/vim/vim74/syntax/latte.vim
+@comment MD5:0c4424d49f7c78b4bd7540db5db29e6f
+share/vim/vim74/syntax/ld.vim
+@comment MD5:a34646c6962175dc6be1ec0eb809c15d
+share/vim/vim74/syntax/ldapconf.vim
+@comment MD5:2155ca9fe7d71bf3a9d46c7ab954b338
+share/vim/vim74/syntax/ldif.vim
+@comment MD5:41110873f8ce3e191eae952532e71de2
+share/vim/vim74/syntax/lex.vim
+@comment MD5:cb1fc51e17a4be3171edb67ae8f909c2
+share/vim/vim74/syntax/lftp.vim
+@comment MD5:0a5a3f9c80e610f8daf693b635e6a0a7
+share/vim/vim74/syntax/lhaskell.vim
+@comment MD5:0ef3977fef46232fca35ff1b3f97e7c1
+share/vim/vim74/syntax/libao.vim
+@comment MD5:c1fd234daba593be89bf44b489a5fe32
+share/vim/vim74/syntax/lifelines.vim
+@comment MD5:812420d49e84e3ce06b634b82392ef83
+share/vim/vim74/syntax/lilo.vim
+@comment MD5:621d954193314dc705cdbe631529e15a
+share/vim/vim74/syntax/limits.vim
+@comment MD5:965adf5c5a603bdbb95f0c436a73fbdd
+share/vim/vim74/syntax/liquid.vim
+@comment MD5:9b68e8142be5b8de96e7ba9edd8fc2b0
+share/vim/vim74/syntax/lisp.vim
+@comment MD5:780dc670bf21bae5d84d3c26c989df42
+share/vim/vim74/syntax/lite.vim
+@comment MD5:78d7d2a1310a259bfeb24b3659eb5c36
+share/vim/vim74/syntax/litestep.vim
+@comment MD5:5f7e5d823d499ab02c04b600dfa6d7b6
+share/vim/vim74/syntax/loginaccess.vim
+@comment MD5:43f58a0c04eb6860f044fbee0294651e
+share/vim/vim74/syntax/logindefs.vim
+@comment MD5:36ca5b74e83dd969562dfa49a5c604af
+share/vim/vim74/syntax/logtalk.vim
+@comment MD5:50a3167bc57d484f4f05789385d2ede3
+share/vim/vim74/syntax/lotos.vim
+@comment MD5:c9f697f6c57b337d70510ae8d7b66920
+share/vim/vim74/syntax/lout.vim
+@comment MD5:f7c652b54914edd0321bf5d716da9233
+share/vim/vim74/syntax/lpc.vim
+@comment MD5:e5b4f4a1f8ec381fbe86634f66a0951d
+share/vim/vim74/syntax/lprolog.vim
+@comment MD5:4d4a3816178066451167360799475daf
+share/vim/vim74/syntax/lscript.vim
+@comment MD5:e1267fe550d41c27e475da0f5701521e
+share/vim/vim74/syntax/lsl.vim
+@comment MD5:c50283c1d6988f367bedbca5ea9c2293
+share/vim/vim74/syntax/lss.vim
+@comment MD5:fa6979584f20906c68857e834d2f1bc7
+share/vim/vim74/syntax/lua.vim
+@comment MD5:0239eee212a3cae38c73eb60105425e4
+share/vim/vim74/syntax/lynx.vim
+@comment MD5:024edc2ec799115420356a3257d9b525
+share/vim/vim74/syntax/m4.vim
+@comment MD5:6a76c5afa8d3cc092866b13ff63b4df5
+share/vim/vim74/syntax/mail.vim
+@comment MD5:beb3c2658a5e4dadc5693d026856f403
+share/vim/vim74/syntax/mailaliases.vim
+@comment MD5:ad66baf4b04a175620c98a5e38311f98
+share/vim/vim74/syntax/mailcap.vim
+@comment MD5:3cbc4e4583629075afc1da3375bfd328
+share/vim/vim74/syntax/make.vim
+@comment MD5:a2a7e7b609696aafda7727c431c47beb
+share/vim/vim74/syntax/mallard.vim
+@comment MD5:cab7e0a94e4c963254ab7bae30dae0fb
+share/vim/vim74/syntax/man.vim
+@comment MD5:7b57e08e8f2448769bb7022f5436a994
+share/vim/vim74/syntax/manconf.vim
+@comment MD5:7d825384ed7d447142fac632588ae12a
+share/vim/vim74/syntax/manual.vim
+@comment MD5:d7c53684cbb81f5fec3a9165ae0ec68c
+share/vim/vim74/syntax/maple.vim
+@comment MD5:c66de259c5a2c065d2030006c77d6be2
+share/vim/vim74/syntax/markdown.vim
+@comment MD5:d4ba4b1cf32196ce3d0cce1455011dc8
+share/vim/vim74/syntax/masm.vim
+@comment MD5:2f9406974c8a03b8af11f667cbf78fa5
+share/vim/vim74/syntax/mason.vim
+@comment MD5:10b64ad986e5241ef5a628cfa38b3f1a
+share/vim/vim74/syntax/master.vim
+@comment MD5:16a0efb9f55a5e669afd8774ccbdf329
+share/vim/vim74/syntax/matlab.vim
+@comment MD5:621a7041545d99689b5dbe3067c28f96
+share/vim/vim74/syntax/maxima.vim
+@comment MD5:0b0a58d6704469429e3e627e6894aa61
+share/vim/vim74/syntax/mel.vim
+@comment MD5:02eb8f9c1e7090871c6c4ce5db285a31
+share/vim/vim74/syntax/messages.vim
+@comment MD5:0047e3498f30bc4e1fc7ba641d4489fc
+share/vim/vim74/syntax/mf.vim
+@comment MD5:8fa39a7d77d5cee375a6b1c4613ba707
+share/vim/vim74/syntax/mgl.vim
+@comment MD5:496e018001a39094d9c6a46ba25d8fa5
+share/vim/vim74/syntax/mgp.vim
+@comment MD5:50a38839232eb7cedd067be0b0b9034d
+share/vim/vim74/syntax/mib.vim
+@comment MD5:ad83f8531b5f0beec2ab8e063e639e85
+share/vim/vim74/syntax/mix.vim
+@comment MD5:9241ba99fac3672af09ec9c4a23d0da8
+share/vim/vim74/syntax/mma.vim
+@comment MD5:a5cd6e1fca09d662614afd880cd05cc4
+share/vim/vim74/syntax/mmix.vim
+@comment MD5:d8e39c020f823e7f6dc6040debad0a3d
+share/vim/vim74/syntax/mmp.vim
+@comment MD5:5f5423f4b23d92a926f3be487a2b3920
+share/vim/vim74/syntax/modconf.vim
+@comment MD5:d58f03467bb042c5ae3d05bd3217c994
+share/vim/vim74/syntax/model.vim
+@comment MD5:078b77c605874d9d820c84313411f815
+share/vim/vim74/syntax/modsim3.vim
+@comment MD5:4b7f75d6422fdbc22a385e901d70f3b2
+share/vim/vim74/syntax/modula2.vim
+@comment MD5:2155d9c980e8b680d71648ff36550d1f
+share/vim/vim74/syntax/modula3.vim
+@comment MD5:9885cdccf3f6c56b429c7bb85a8c2f90
+share/vim/vim74/syntax/monk.vim
+@comment MD5:5034af241823502f12263e76c8eb56d9
+share/vim/vim74/syntax/moo.vim
+@comment MD5:a728c3929e46db0bebd485de6c0c2bae
+share/vim/vim74/syntax/mp.vim
+@comment MD5:6556fc94535022a82293ccad8e33d958
+share/vim/vim74/syntax/mplayerconf.vim
+@comment MD5:1ce867c9fea16de28ad50ebc87ed8744
+share/vim/vim74/syntax/mrxvtrc.vim
+@comment MD5:e592848e2a8380316594af7fbf630ff3
+share/vim/vim74/syntax/msidl.vim
+@comment MD5:786c7d27484946637de2078707d21afd
+share/vim/vim74/syntax/msmessages.vim
+@comment MD5:6cf3ab6f5d1044b8e43f73fa8b8d333e
+share/vim/vim74/syntax/msql.vim
+@comment MD5:b59808c0ffe85ceede71926e261e13a4
+share/vim/vim74/syntax/mupad.vim
+@comment MD5:4f1033045dd1c4a77da9fc92e50e6d81
+share/vim/vim74/syntax/mush.vim
+@comment MD5:856f3ef70678390fbba1f270ac31b1f6
+share/vim/vim74/syntax/muttrc.vim
+@comment MD5:b6384026fcb97629b418cd1e7ad85157
+share/vim/vim74/syntax/mysql.vim
+@comment MD5:e3264c28d83e7e255fb12b984affc9fb
+share/vim/vim74/syntax/named.vim
+@comment MD5:db537b1dc419c15ab27ae826b088d572
+share/vim/vim74/syntax/nanorc.vim
+@comment MD5:f5cdae7b9ef486bb3ce788ee518bf7c2
+share/vim/vim74/syntax/nasm.vim
+@comment MD5:fe879b5fa9c0a80af277c2c948685472
+share/vim/vim74/syntax/nastran.vim
+@comment MD5:2cf138330cd480f27e13f62fa8dd5677
+share/vim/vim74/syntax/natural.vim
+@comment MD5:6e2b99fab7c78b8831c4b78e15cced04
+share/vim/vim74/syntax/ncf.vim
+@comment MD5:6d29c18b9bf8a76f7a9173afef13fd14
+share/vim/vim74/syntax/netrc.vim
+@comment MD5:b61072b620503c62508b67dd104cc901
+share/vim/vim74/syntax/netrw.vim
+@comment MD5:e457af60816189ab49161245c5934b90
+share/vim/vim74/syntax/ninja.vim
+@comment MD5:772275448ab1dc9266d25931ea052b82
+share/vim/vim74/syntax/nosyntax.vim
+@comment MD5:fc6be3f145a3bc91e1edff782c5ca67a
+share/vim/vim74/syntax/nqc.vim
+@comment MD5:d9e40c1ade320524f6aefc8cd08ebc67
+share/vim/vim74/syntax/nroff.vim
+@comment MD5:d952179967285639b84bf7fd59f21fdb
+share/vim/vim74/syntax/nsis.vim
+@comment MD5:225ea65438625f2126c8c6d70cbc7284
+share/vim/vim74/syntax/obj.vim
+@comment MD5:c50057b774becdbc43614166effbeb3a
+share/vim/vim74/syntax/objc.vim
+@comment MD5:25e1708212320bd6d317eedc8d41ac74
+share/vim/vim74/syntax/objcpp.vim
+@comment MD5:cc19bbb424fc41676013743c4d8068c9
+share/vim/vim74/syntax/ocaml.vim
+@comment MD5:b1d26ed00f4290935fc383a98ef66ca9
+share/vim/vim74/syntax/occam.vim
+@comment MD5:48dcc61d82237f02a7ffe33d7f672403
+share/vim/vim74/syntax/omnimark.vim
+@comment MD5:a8cbe7d43b3c6202db004861bc70e7bb
+share/vim/vim74/syntax/openroad.vim
+@comment MD5:9c628a9dcfc8f0746e9c1178f70e8216
+share/vim/vim74/syntax/opl.vim
+@comment MD5:697f52be89bca3a953d67c69b9a23c8d
+share/vim/vim74/syntax/ora.vim
+@comment MD5:0933ac4c4e47d25579169ab785c1b5a7
+share/vim/vim74/syntax/pamconf.vim
+@comment MD5:dd1809d5b930329b67f370527788ecfe
+share/vim/vim74/syntax/papp.vim
+@comment MD5:1a082103f218f7e1990d5683538a30cf
+share/vim/vim74/syntax/pascal.vim
+@comment MD5:955c96165c689e00c209fb5d50adb3e2
+share/vim/vim74/syntax/passwd.vim
+@comment MD5:6a7a4e02af24a9b8a2a9b1bed8bad2e4
+share/vim/vim74/syntax/pcap.vim
+@comment MD5:ac964eac321ca2406305552b363a93b6
+share/vim/vim74/syntax/pccts.vim
+@comment MD5:8d632a440a0da259f6159f074b162ac8
+share/vim/vim74/syntax/pdf.vim
+@comment MD5:135fc19d6523fd01b9d8b322f531307f
+share/vim/vim74/syntax/perl.vim
+@comment MD5:1e00373a0042985669f88b93a30fcbed
+share/vim/vim74/syntax/perl6.vim
+@comment MD5:c9334ffb0121cdfbcbc9892f19b11ec0
+share/vim/vim74/syntax/pf.vim
+@comment MD5:4f98b160fc9c48f04fc7e8bd5cbd285a
+share/vim/vim74/syntax/pfmain.vim
+@comment MD5:db4f889f308e572126d6300c29276e3c
+share/vim/vim74/syntax/php.vim
+@comment MD5:105938c03f352e2a8fb2aaf7b82aab8d
+share/vim/vim74/syntax/phtml.vim
+@comment MD5:a829cd077eab3afec7c5462a1c940fdd
+share/vim/vim74/syntax/pic.vim
+@comment MD5:fea4bca0269578cc42e7b8f7af60e39d
+share/vim/vim74/syntax/pike.vim
+@comment MD5:2105a4de3b971eca2de440af9adbb3c9
+share/vim/vim74/syntax/pilrc.vim
+@comment MD5:b9a86729bd23f24dd6ef8649f9e36674
+share/vim/vim74/syntax/pine.vim
+@comment MD5:8f4a1ec46a852a7224616b16bf919741
+share/vim/vim74/syntax/pinfo.vim
+@comment MD5:f863d703e1ea8f33eed9ca505b33188f
+share/vim/vim74/syntax/plaintex.vim
+@comment MD5:8198585e3e4942a6705fabb1e8b887d6
+share/vim/vim74/syntax/pli.vim
+@comment MD5:1808e54f6134d258fa659a73b3330c23
+share/vim/vim74/syntax/plm.vim
+@comment MD5:562408d27defcb7eda27525313c3777c
+share/vim/vim74/syntax/plp.vim
+@comment MD5:100c166951a4e68c93801203e3135f1a
+share/vim/vim74/syntax/plsql.vim
+@comment MD5:4cf923deae5675d13839756bdfdbacfd
+share/vim/vim74/syntax/po.vim
+@comment MD5:a9ed97bc971ff9d86a83460941b9ac2c
+share/vim/vim74/syntax/pod.vim
+@comment MD5:b27bde31a805bee024bdac5d1ace206d
+share/vim/vim74/syntax/postscr.vim
+@comment MD5:c682ac5b2ae8587e61395f5c819ca2b4
+share/vim/vim74/syntax/pov.vim
+@comment MD5:ffc32a5451c9f84157e7238143afb90e
+share/vim/vim74/syntax/povini.vim
+@comment MD5:2bc6e6a7df681c54d5d45678305ec6e3
+share/vim/vim74/syntax/ppd.vim
+@comment MD5:a22337344a1d8721dcd2f8e2dbfb0381
+share/vim/vim74/syntax/ppwiz.vim
+@comment MD5:b958066ada4b37afcba2ce2a2c1e05be
+share/vim/vim74/syntax/prescribe.vim
+@comment MD5:851fa40d0a2f8cde6eaa526e0607e8ab
+share/vim/vim74/syntax/privoxy.vim
+@comment MD5:80f93807dae85bfe75530e415784d2c5
+share/vim/vim74/syntax/procmail.vim
+@comment MD5:a7b494437b5edd3bf39cf6ce88f7a2ef
+share/vim/vim74/syntax/progress.vim
+@comment MD5:74987c9a14f53e14574d2441b6a822e0
+share/vim/vim74/syntax/prolog.vim
+@comment MD5:1b9ebe0046bfeda27e1348e7ecaed68d
+share/vim/vim74/syntax/promela.vim
+@comment MD5:fbc30fd5bda7873a4ade85c473bf4aa3
+share/vim/vim74/syntax/proto.vim
+@comment MD5:266f9a56dd35985d789b1205e66438c8
+share/vim/vim74/syntax/protocols.vim
+@comment MD5:d2738a692d797d9d687e1f7a87ef609e
+share/vim/vim74/syntax/psf.vim
+@comment MD5:61d4f2e1bb4cc7af83c8eb04db2d8c42
+share/vim/vim74/syntax/ptcap.vim
+@comment MD5:5d9f0c0666a1ccb5e40c9ddfcf21f71e
+share/vim/vim74/syntax/purifylog.vim
+@comment MD5:f124f36728d781d9a3662d66456d8f56
+share/vim/vim74/syntax/pyrex.vim
+@comment MD5:eda42734053c459bc21ec62d09f7b473
+share/vim/vim74/syntax/python.vim
+@comment MD5:21ce367fc9660e0c06015c027744c161
+share/vim/vim74/syntax/qf.vim
+@comment MD5:63f360888de043bbef9c81b876e11ff6
+share/vim/vim74/syntax/quake.vim
+@comment MD5:f1e728f33a94333fe73551b164985bef
+share/vim/vim74/syntax/r.vim
+@comment MD5:918e50dfd0f6a3de724478b4dfc3515b
+share/vim/vim74/syntax/racc.vim
+@comment MD5:1586b9df4be975393ce2157269a843ad
+share/vim/vim74/syntax/radiance.vim
+@comment MD5:22748970139f2f252afa406ca88a40fb
+share/vim/vim74/syntax/ratpoison.vim
+@comment MD5:d34369778f895e131f8d1571ce76d494
+share/vim/vim74/syntax/rc.vim
+@comment MD5:f2aa5129ba5043432a74764c7e29bd00
+share/vim/vim74/syntax/rcs.vim
+@comment MD5:1587efd36aeb9e4c2fe516b0624dd364
+share/vim/vim74/syntax/rcslog.vim
+@comment MD5:293eefadb6c84dda708e2b95593b7b96
+share/vim/vim74/syntax/readline.vim
+@comment MD5:90bb31f02b7eee091657edd1d84d48f8
+share/vim/vim74/syntax/rebol.vim
+@comment MD5:0208e88b45a03efc03efa99716d17bb4
+share/vim/vim74/syntax/redif.vim
+@comment MD5:0e640b777529d30e9965721e6060415c
+share/vim/vim74/syntax/registry.vim
+@comment MD5:7482e7df9ebcdb9534e635eab20f1a1f
+share/vim/vim74/syntax/remind.vim
+@comment MD5:eb3a793796d07897573437598e82de2e
+share/vim/vim74/syntax/resolv.vim
+@comment MD5:47a0936a76b972e0506a5311178e7b00
+share/vim/vim74/syntax/reva.vim
+@comment MD5:5469203da09f57edabb0df88a807895a
+share/vim/vim74/syntax/rexx.vim
+@comment MD5:9c77e5d540003436c55e581ad191ddc9
+share/vim/vim74/syntax/rhelp.vim
+@comment MD5:79558c14298cd7168cf9e9717f2b2f2e
+share/vim/vim74/syntax/rib.vim
+@comment MD5:1232278f1ae2257ff3d8753e3f2db574
+share/vim/vim74/syntax/rnc.vim
+@comment MD5:214da384b3652bc10121506da3ca2bc0
+share/vim/vim74/syntax/rng.vim
+@comment MD5:47b4e77b1fe8dbac6a9d2479556eff21
+share/vim/vim74/syntax/rnoweb.vim
+@comment MD5:83583f94be98f60b08286580097cc019
+share/vim/vim74/syntax/robots.vim
+@comment MD5:77b9f652605d3de6b09173fc0fe5dd45
+share/vim/vim74/syntax/rpcgen.vim
+@comment MD5:86e87f1f842d84a35658b64b985324fd
+share/vim/vim74/syntax/rpl.vim
+@comment MD5:f1ddedaf2ced60255ed3dd739a6883e3
+share/vim/vim74/syntax/rst.vim
+@comment MD5:ddba88e3b877fe7268f9c2c186fd6349
+share/vim/vim74/syntax/rtf.vim
+@comment MD5:df1969891699e4dcb9f36402f981acd9
+share/vim/vim74/syntax/ruby.vim
+@comment MD5:71bf7e5b178c1bffecab18f5b6be8dc8
+share/vim/vim74/syntax/samba.vim
+@comment MD5:7d0f1288b80601a9db83c141fa667c0e
+share/vim/vim74/syntax/sas.vim
+@comment MD5:774e9c8bc8515af2273dd20a683eff75
+share/vim/vim74/syntax/sass.vim
+@comment MD5:1600b609f7fb237283b5decdaa9bfe10
+share/vim/vim74/syntax/sather.vim
+@comment MD5:5d90a4daa42efa99eeec7770924a9a3a
+share/vim/vim74/syntax/scheme.vim
+@comment MD5:ed69aec4d508d16df1a5ed514fe40a17
+share/vim/vim74/syntax/scilab.vim
+@comment MD5:9a639daa9d3de8d78349af09115d94e5
+share/vim/vim74/syntax/screen.vim
+@comment MD5:44755ad520910ad0ab593aa2e97936a0
+share/vim/vim74/syntax/scss.vim
+@comment MD5:c1fcc97ad2954b22630a86a15c6e6745
+share/vim/vim74/syntax/sd.vim
+@comment MD5:049e918f061883ff3fab323ac3fc5d2e
+share/vim/vim74/syntax/sdc.vim
+@comment MD5:65903a32ac3bf7540f730da280654753
+share/vim/vim74/syntax/sdl.vim
+@comment MD5:08f53853e6413d0647006c441f184072
+share/vim/vim74/syntax/sed.vim
+@comment MD5:e993165aed0c46a19c6016220f4e8bf6
+share/vim/vim74/syntax/sendpr.vim
+@comment MD5:5b278534699828b95d6a5f38929a7e2b
+share/vim/vim74/syntax/sensors.vim
+@comment MD5:5f49c1f3aac93221d43c7457b358e91c
+share/vim/vim74/syntax/services.vim
+@comment MD5:0216c0cad51fafa0506231d63150a78e
+share/vim/vim74/syntax/setserial.vim
+@comment MD5:256f87a156713ff3e549b067123f5c9d
+share/vim/vim74/syntax/sgml.vim
+@comment MD5:2a6238931020e041ecc66ce0652d4272
+share/vim/vim74/syntax/sgmldecl.vim
+@comment MD5:256c18a8435e751f268e0cf9f34d9e06
+share/vim/vim74/syntax/sgmllnx.vim
+@comment MD5:30b37ad6bc2dea65a6942d4ece077e72
+share/vim/vim74/syntax/sh.vim
+@comment MD5:efc100f98160b64db56865b7fbe3564a
+share/vim/vim74/syntax/sicad.vim
+@comment MD5:b019fe9a009c1279c9580dfa5990aa73
+share/vim/vim74/syntax/sieve.vim
+@comment MD5:f8a66d41def3e68ec44afa8c43145e4c
+share/vim/vim74/syntax/simula.vim
+@comment MD5:0249c4ab253ac2f63ee500c74669da2d
+share/vim/vim74/syntax/sinda.vim
+@comment MD5:7a6bcf9d5830d4d2d0ca292f5b3ce102
+share/vim/vim74/syntax/sindacmp.vim
+@comment MD5:82cb5787104d4c6d85aaacf8a9d30b23
+share/vim/vim74/syntax/sindaout.vim
+@comment MD5:598e5e80da9583ba7e87371fce165c49
+share/vim/vim74/syntax/sisu.vim
+@comment MD5:992cbe0efac583abefdfc7f3a91f5ce2
+share/vim/vim74/syntax/skill.vim
+@comment MD5:3a1cd22477ccb516459f85e65ba5634d
+share/vim/vim74/syntax/sl.vim
+@comment MD5:833e3f39a4b97f08d1ef642a6aa689c7
+share/vim/vim74/syntax/slang.vim
+@comment MD5:8350fc30e85c24d39c6c33e4889e41dd
+share/vim/vim74/syntax/slice.vim
+@comment MD5:9ef5821f842334693ef80ae7beb8e4a9
+share/vim/vim74/syntax/slpconf.vim
+@comment MD5:433ffa3e22f5ab253086692f1dc02720
+share/vim/vim74/syntax/slpreg.vim
+@comment MD5:ebb41f3e9db3d9b52116f0d87a8b49cf
+share/vim/vim74/syntax/slpspi.vim
+@comment MD5:a0cc4496eaa1ec2ffa31eeaf3e1b1f92
+share/vim/vim74/syntax/slrnrc.vim
+@comment MD5:46c52921e8b81cb500658375e5701c3e
+share/vim/vim74/syntax/slrnsc.vim
+@comment MD5:8706ee6f94c78b1584a01de6d97f8d54
+share/vim/vim74/syntax/sm.vim
+@comment MD5:22c081936dfce8de5f49e5c6d3edfead
+share/vim/vim74/syntax/smarty.vim
+@comment MD5:e09a8192ea2ac07d210272f374123535
+share/vim/vim74/syntax/smcl.vim
+@comment MD5:ec5dde257dced3dd37b8ab8e28ae7511
+share/vim/vim74/syntax/smil.vim
+@comment MD5:63d1a0106dc527606dcfd44df3a8fa08
+share/vim/vim74/syntax/smith.vim
+@comment MD5:883b3cc46ae9c3fe841b2602d478ad9d
+share/vim/vim74/syntax/sml.vim
+@comment MD5:35960c59cc24012e63600cd628d76911
+share/vim/vim74/syntax/snnsnet.vim
+@comment MD5:3f3a9a2b237949d249421c1eb00d1570
+share/vim/vim74/syntax/snnspat.vim
+@comment MD5:fb76a5d9c89eb4413a20a43fde0e87f0
+share/vim/vim74/syntax/snnsres.vim
+@comment MD5:5a980a36850bad480de07f027a44cc3e
+share/vim/vim74/syntax/snobol4.vim
+@comment MD5:ed49dae48c02dfcb1c336d5d6700c298
+share/vim/vim74/syntax/spec.vim
+@comment MD5:34ae8ba674692a123323a268a56e25f7
+share/vim/vim74/syntax/specman.vim
+@comment MD5:135fc4a11f0159b17f2240c20a696c29
+share/vim/vim74/syntax/spice.vim
+@comment MD5:18e4d4e376664e76688582271eaed1bb
+share/vim/vim74/syntax/splint.vim
+@comment MD5:7d87eb4d6e6b6df95a19da6a7f72afed
+share/vim/vim74/syntax/spup.vim
+@comment MD5:0fd850e99823b87766797cd7b4995c3e
+share/vim/vim74/syntax/spyce.vim
+@comment MD5:bb9b6422f5c70f4a3f44346ce7013db0
+share/vim/vim74/syntax/sql.vim
+@comment MD5:e9b6268a4588757a4414a427717b3e6c
+share/vim/vim74/syntax/sqlanywhere.vim
+@comment MD5:49960494c746dc839c1c1a1f55649d4b
+share/vim/vim74/syntax/sqlforms.vim
+@comment MD5:26f140105af1454d67aaa13839dac8a7
+share/vim/vim74/syntax/sqlhana.vim
+@comment MD5:170c8109c1bab20515014ecec7b42ebf
+share/vim/vim74/syntax/sqlinformix.vim
+@comment MD5:8304e0e156f52ebbc4981b1a3f989f5e
+share/vim/vim74/syntax/sqlj.vim
+@comment MD5:b573879b8c6fb5bf59391100d5fbd63d
+share/vim/vim74/syntax/sqloracle.vim
+@comment MD5:dfeaafcf70b129c0771001d46c58b424
+share/vim/vim74/syntax/sqr.vim
+@comment MD5:5edd2dfe78f089bc562ac45a0aa8585c
+share/vim/vim74/syntax/squid.vim
+@comment MD5:83f860f8d58f682453726898f3b4aa17
+share/vim/vim74/syntax/sshconfig.vim
+@comment MD5:76e799cf7ce5ff398e5e1236d7949128
+share/vim/vim74/syntax/sshdconfig.vim
+@comment MD5:515117d24d442c9d7601a7b4b896c472
+share/vim/vim74/syntax/st.vim
+@comment MD5:233a064286e6925e47a0d45fb01cf65d
+share/vim/vim74/syntax/stata.vim
+@comment MD5:82360bc963ee74302ee1316facc0634c
+share/vim/vim74/syntax/stp.vim
+@comment MD5:1f5d0cbd3d83c4c523be283c0d3e888a
+share/vim/vim74/syntax/strace.vim
+@comment MD5:65dd53bd2a99abfc594c033aad21d536
+share/vim/vim74/syntax/sudoers.vim
+@comment MD5:cd46712e03e673a1d755dde6f0ef81dc
+share/vim/vim74/syntax/svg.vim
+@comment MD5:1ced1ef45686cf8b2acb9f95ee4c8ea9
+share/vim/vim74/syntax/svn.vim
+@comment MD5:0cabd73d215a11cfcef87e15c7298908
+share/vim/vim74/syntax/syncolor.vim
+@comment MD5:41f85bcdea0bc2b92d668c13ac887f04
+share/vim/vim74/syntax/synload.vim
+@comment MD5:03890bde3d8975bab8ceb7367115d98d
+share/vim/vim74/syntax/syntax.vim
+@comment MD5:1ae49a37e6768a55f260beb1fc6e73ab
+share/vim/vim74/syntax/sysctl.vim
+@comment MD5:5cdc01dd7cdecdc50a3586a1f4bb6a5e
+share/vim/vim74/syntax/tads.vim
+@comment MD5:6bcc148f4a44e05695d25c114a0fa095
+share/vim/vim74/syntax/tags.vim
+@comment MD5:724b2d52a4ca4d953cbbc3eac343efe9
+share/vim/vim74/syntax/tak.vim
+@comment MD5:1eb395cb0e07b3204a00ea798bb417e4
+share/vim/vim74/syntax/takcmp.vim
+@comment MD5:e1f647e5568ec422075ba49c972ff6db
+share/vim/vim74/syntax/takout.vim
+@comment MD5:5a10e2f86f0d576f95edbfbb2770bcca
+share/vim/vim74/syntax/tar.vim
+@comment MD5:ebf97dfa6cfcf843861c5210d9cf8ae2
+share/vim/vim74/syntax/taskdata.vim
+@comment MD5:e61eb9bbd2b10146a2631f381450a249
+share/vim/vim74/syntax/taskedit.vim
+@comment MD5:ad6866b92aa5a0310e0ac058ae695dd7
+share/vim/vim74/syntax/tasm.vim
+@comment MD5:bf0d73757899f4855cb0c9031b4c59ad
+share/vim/vim74/syntax/tcl.vim
+@comment MD5:e96b3f8cd10c17e9ca79479711a8e8e0
+share/vim/vim74/syntax/tcsh.vim
+@comment MD5:bc69dac79dd0171b3d5381f4bad747ab
+share/vim/vim74/syntax/terminfo.vim
+@comment MD5:62e0d9824d9bf5d7bb389059552754f9
+share/vim/vim74/syntax/tex.vim
+@comment MD5:e30f7b9ea0c40556d6c4ada05e8bd385
+share/vim/vim74/syntax/texinfo.vim
+@comment MD5:32778e16b58546ea481a9f06da7b897c
+share/vim/vim74/syntax/texmf.vim
+@comment MD5:ced07df283f9c4be6c28710bb0507e37
+share/vim/vim74/syntax/tf.vim
+@comment MD5:b9cc79a85919b55be881263344578cfb
+share/vim/vim74/syntax/tidy.vim
+@comment MD5:5f9ecdda795cb8f1651a058dec22e6df
+share/vim/vim74/syntax/tilde.vim
+@comment MD5:9166afb69e5711076750c9fad5f41db0
+share/vim/vim74/syntax/tli.vim
+@comment MD5:e90590b9a82d5e8275191e33aa08804c
+share/vim/vim74/syntax/tpp.vim
+@comment MD5:b8f43ed8a753733646d0fe082a79c728
+share/vim/vim74/syntax/trasys.vim
+@comment MD5:60f2870c5a0c6ba5bf305eb607a8cf90
+share/vim/vim74/syntax/treetop.vim
+@comment MD5:b014dedfb9662416338a03e1297a7e6e
+share/vim/vim74/syntax/trustees.vim
+@comment MD5:2ed0081f5de26f23ee669685ad61fa3f
+share/vim/vim74/syntax/tsalt.vim
+@comment MD5:609ad6105efa804a28d0c93dedebf500
+share/vim/vim74/syntax/tsscl.vim
+@comment MD5:c63cf7695e0fc4f06a405c127b81af24
+share/vim/vim74/syntax/tssgm.vim
+@comment MD5:4410fb91cc5528386f1d940f1c2914ec
+share/vim/vim74/syntax/tssop.vim
+@comment MD5:e7b51f7e7b9e33f041dfc2e9e1e0ecb9
+share/vim/vim74/syntax/tt2.vim
+@comment MD5:7693083b91549d4b033039b51cb9210c
+share/vim/vim74/syntax/tt2html.vim
+@comment MD5:7a38f25382f0fc3792112aab2518d0cb
+share/vim/vim74/syntax/tt2js.vim
+@comment MD5:46576f1b523d5dc2a508c7ccf00eca81
+share/vim/vim74/syntax/uc.vim
+@comment MD5:28edeed64bb7ea02eb1890a806d1e96a
+share/vim/vim74/syntax/udevconf.vim
+@comment MD5:c9ab7bed1db0bf616d8b1a8420323753
+share/vim/vim74/syntax/udevperm.vim
+@comment MD5:3b2209066a2e6f6577b5368cb02926f5
+share/vim/vim74/syntax/udevrules.vim
+@comment MD5:74798c4608b80318bc7db2d581b1e9c8
+share/vim/vim74/syntax/uil.vim
+@comment MD5:3206e83bce5be4ed8bf2544a70722b09
+share/vim/vim74/syntax/updatedb.vim
+@comment MD5:97b3ce814c9146ecd746ac399132b58e
+share/vim/vim74/syntax/upstart.vim
+@comment MD5:2528274d503ee8c69c29839dd85aae18
+share/vim/vim74/syntax/upstreamdat.vim
+@comment MD5:1329f403ac024a0c217694fc60c7f06b
+share/vim/vim74/syntax/upstreaminstalllog.vim
+@comment MD5:56edb57d221ce3e22458f380af5c7779
+share/vim/vim74/syntax/upstreamlog.vim
+@comment MD5:b86d32ab825d0698b9aec0b1d0a58aba
+share/vim/vim74/syntax/usserverlog.vim
+@comment MD5:315b9e7d5361a675e308beea28e31d83
+share/vim/vim74/syntax/usw2kagtlog.vim
+@comment MD5:75eee3ced3f4bb143029c7a9acf269d4
+share/vim/vim74/syntax/valgrind.vim
+@comment MD5:c6b45a20f5897e6e3eea78f108167ff3
+share/vim/vim74/syntax/vb.vim
+@comment MD5:143b2997124409bf60ed12e3147fd01d
+share/vim/vim74/syntax/vera.vim
+@comment MD5:9420a1ea558d35f1e32f9443a15b5c45
+share/vim/vim74/syntax/verilog.vim
+@comment MD5:87a2af17f1322d29e555ca95028ca85c
+share/vim/vim74/syntax/verilogams.vim
+@comment MD5:ebfac7710836f7dc9c0e425ce843a174
+share/vim/vim74/syntax/vgrindefs.vim
+@comment MD5:6214c8fab74680bd9655eb8ba209ec34
+share/vim/vim74/syntax/vhdl.vim
+@comment MD5:6036830ec4308e61e868578463e9972f
+share/vim/vim74/syntax/vim.vim
+@comment MD5:e962eb9436b49f7608ac7d8ad03a026f
+share/vim/vim74/syntax/viminfo.vim
+@comment MD5:27db7018e1550bf4c75d14cbe3b9d8c7
+share/vim/vim74/syntax/virata.vim
+@comment MD5:13287b3553343f02e8b811b1b98c92f0
+share/vim/vim74/syntax/vmasm.vim
+@comment MD5:a0facddb3b9cbf7695053e059f55f203
+share/vim/vim74/syntax/voscm.vim
+@comment MD5:b74c6935a994ce7bc3c453a61352e146
+share/vim/vim74/syntax/vrml.vim
+@comment MD5:98d1b75ec3373e2c4f359bbebbe526c3
+share/vim/vim74/syntax/vsejcl.vim
+@comment MD5:a6d9606066f3f3f46f96ee8ca121e312
+share/vim/vim74/syntax/wdiff.vim
+@comment MD5:74fddb20b4ea37954b362bfbd9e1574a
+share/vim/vim74/syntax/web.vim
+@comment MD5:9edc5328604f9bb5c61d51a4e44bc737
+share/vim/vim74/syntax/webmacro.vim
+@comment MD5:e4995b6b9fe0ddc39cd05661d4c58723
+share/vim/vim74/syntax/wget.vim
+@comment MD5:cff2d56ecf905a555ccd452fddc22527
+share/vim/vim74/syntax/whitespace.vim
+@comment MD5:d4fb228f0e7b287e5ca1f0db3a4b6c5c
+share/vim/vim74/syntax/winbatch.vim
+@comment MD5:f1e821294f2e8f595775fb42903cf4a2
+share/vim/vim74/syntax/wml.vim
+@comment MD5:4ec33d1410cfb04b91172e651643fdc8
+share/vim/vim74/syntax/wsh.vim
+@comment MD5:736060ab5864bb48776534ccf369525d
+share/vim/vim74/syntax/wsml.vim
+@comment MD5:46c8dbd9161fea1e800657af759880d4
+share/vim/vim74/syntax/wvdial.vim
+@comment MD5:286a8d506249db22ec19af60def946b8
+share/vim/vim74/syntax/xbl.vim
+@comment MD5:b93905caea81270835027d4f01bcb9a3
+share/vim/vim74/syntax/xdefaults.vim
+@comment MD5:20bc793773f36139fd36f3652510c128
+share/vim/vim74/syntax/xf86conf.vim
+@comment MD5:9f2f7182a961cb296c354fa6539533c2
+share/vim/vim74/syntax/xhtml.vim
+@comment MD5:7a8592f7e469adede308c53dcbe2f416
+share/vim/vim74/syntax/xinetd.vim
+@comment MD5:396f28268989258d276babdf4c52f4a7
+share/vim/vim74/syntax/xkb.vim
+@comment MD5:927ec6962519627df9296be76d19f426
+share/vim/vim74/syntax/xmath.vim
+@comment MD5:d933c4a3af726261b67d88bfd20cf12c
+share/vim/vim74/syntax/xml.vim
+@comment MD5:32bd8d2411b925ecac87e9c9b00c69e7
+share/vim/vim74/syntax/xmodmap.vim
+@comment MD5:396d77008cc7e48ffacfd9605ab2e532
+share/vim/vim74/syntax/xpm.vim
+@comment MD5:88bd9f58d7d3105cdff4882a12cf9536
+share/vim/vim74/syntax/xpm2.vim
+@comment MD5:a9b3ac6a0171edeb5d011ec96961e548
+share/vim/vim74/syntax/xquery.vim
+@comment MD5:061a19712353285e44896f3002478a16
+share/vim/vim74/syntax/xs.vim
+@comment MD5:6f260ae4b1f221ef480fbb54b33057ab
+share/vim/vim74/syntax/xsd.vim
+@comment MD5:d6d5e53c320fea19832a70b2d1dacc0c
+share/vim/vim74/syntax/xslt.vim
+@comment MD5:0829caa473cef563ade2f22066ef036e
+share/vim/vim74/syntax/xxd.vim
+@comment MD5:db1a6c3cc63f95de267937e0acb2883f
+share/vim/vim74/syntax/yacc.vim
+@comment MD5:86d738b8f78de7a78aae965e859f7650
+share/vim/vim74/syntax/yaml.vim
+@comment MD5:994e568a600ae3866836770bc4db48cf
+share/vim/vim74/syntax/z8a.vim
+@comment MD5:1029db9305b69b832ebc25e1f137ebf5
+share/vim/vim74/syntax/zimbu.vim
+@comment MD5:cefc6b8acc31321e84cbd44693697101
+share/vim/vim74/syntax/zsh.vim
+@comment MD5:35f5f77eed9977bda8730571a6813982
+share/vim/vim74/tools/README.txt
+@comment MD5:735fb2b96c24248203bfc84202ff098d
+share/vim/vim74/tools/blink.c
+@comment MD5:ccee74163816ec74f1af50ce84b9605d
+share/vim/vim74/tools/ccfilter.1
+@comment MD5:de522466f040a7c335b73d43f5cd88ed
+share/vim/vim74/tools/ccfilter.c
+@comment MD5:5f9e0b56ae8b50fa8b7c2ae287c36fc2
+share/vim/vim74/tools/ccfilter_README.txt
+@comment MD5:7a835f2bd14b76db5913e927c50219e6
+share/vim/vim74/tools/efm_filter.pl
+@comment MD5:cccdec5091b75c8857ebde4b275b1651
+share/vim/vim74/tools/efm_filter.txt
+@comment MD5:18c3e6a2ceeb082f0b373f9c5df36cf3
+share/vim/vim74/tools/efm_perl.pl
+@comment MD5:b547e461cdd7f4a29c50006c1dc95b4e
+share/vim/vim74/tools/mve.awk
+@comment MD5:5affa6f1aab23fe0e1baaaa2d2b1b5c6
+share/vim/vim74/tools/mve.txt
+@comment MD5:b2bd3cfa9cae3ab698562a2f285ad1ef
+share/vim/vim74/tools/pltags.pl
+@comment MD5:572a8bc4305da16b37f6466e56462a31
+share/vim/vim74/tools/ref
+@comment MD5:ffc87f42853543de3adfca96cfcb0165
+share/vim/vim74/tools/shtags.1
+@comment MD5:04c9b0617195dbd38cba83401398adb9
+share/vim/vim74/tools/shtags.pl
+@comment MD5:4487e272ec86d58ccd453b7f96a4b440
+share/vim/vim74/tools/unicode.vim
+@comment MD5:8beef9b0459a57551937f8ee541e7c4b
+share/vim/vim74/tools/vim132
+@comment MD5:490ab769eaf91fc1306dfc724794e901
+share/vim/vim74/tools/vim_vs_net.cmd
+@comment MD5:474e322c7d0dc563002a066e19fc4f33
+share/vim/vim74/tools/vimm
+@comment MD5:39e7540183e8608666c66e36f1e3ab11
+share/vim/vim74/tools/vimspell.sh
+@comment MD5:7da7273d075c56763ceb16f5e6ab5108
+share/vim/vim74/tools/vimspell.txt
+@comment MD5:de927b7bc390f47063d23d0d9d4e144f
+share/vim/vim74/tools/xcmdsrv_client.c
+@comment MD5:b6ff03651223fcc66654f344d93d136b
+share/vim/vim74/tutor/README.el.cp737.txt
+@comment MD5:e6bd05e1d5a88261f33509dc6ac0f547
+share/vim/vim74/tutor/README.el.txt
+@comment MD5:5320db3545b0ef8917b954815b729751
+share/vim/vim74/tutor/README.txt
+@comment MD5:654a17f2e16d6543da1b79bdb93e2b2e
+share/vim/vim74/tutor/tutor
+@comment MD5:72d16788454166c4dd03507dad7ac9c1
+share/vim/vim74/tutor/tutor.bar
+@comment MD5:2562ae972cec0ad057ecd739450d5993
+share/vim/vim74/tutor/tutor.bar.utf-8
+@comment MD5:ba0ddb5b55807d059405bdceb7143b99
+share/vim/vim74/tutor/tutor.ca
+@comment MD5:e01f12117ac53cb73e716f2e9b32ffd6
+share/vim/vim74/tutor/tutor.ca.utf-8
+@comment MD5:c0651fb19218c2902acd14d1285d3585
+share/vim/vim74/tutor/tutor.cs
+@comment MD5:706b35f5b4d93af836012361888c4a66
+share/vim/vim74/tutor/tutor.cs.cp1250
+@comment MD5:3e58bf28a9f73963b839d7eca7d5dafd
+share/vim/vim74/tutor/tutor.cs.utf-8
+@comment MD5:a3f279aff5a7480f46025f852904230a
+share/vim/vim74/tutor/tutor.de
+@comment MD5:1350f9622262e2cde9c1d5bab46432f1
+share/vim/vim74/tutor/tutor.de.utf-8
+@comment MD5:5cbbb8167081bf12e78cdb28c588897b
+share/vim/vim74/tutor/tutor.el
+@comment MD5:106e54cb4b35c18b94e7239c218cd5b2
+share/vim/vim74/tutor/tutor.el.cp737
+@comment MD5:dddeed50201970c7649930df4d20efef
+share/vim/vim74/tutor/tutor.el.utf-8
+@comment MD5:90708d8d6dc9d31579851d43eced1881
+share/vim/vim74/tutor/tutor.eo
+@comment MD5:5f7fef3cdfb68038b9081a448169665a
+share/vim/vim74/tutor/tutor.eo.utf-8
+@comment MD5:fcb22abcfdbd3274416203958aeee264
+share/vim/vim74/tutor/tutor.es
+@comment MD5:5f40f193e4df2b201cef3458da60214a
+share/vim/vim74/tutor/tutor.es.utf-8
+@comment MD5:87fc024eb75786190ccff68626d50f92
+share/vim/vim74/tutor/tutor.fr
+@comment MD5:2392e692cc08af30093d720c06977b47
+share/vim/vim74/tutor/tutor.fr.utf-8
+@comment MD5:7e6f5c81f85f77e633506f7966cc1e79
+share/vim/vim74/tutor/tutor.hr
+@comment MD5:695d02577edb38620a594ad16e63d776
+share/vim/vim74/tutor/tutor.hr.cp1250
+@comment MD5:2f8758718f5b5f3f865016b8735e355b
+share/vim/vim74/tutor/tutor.hr.utf-8
+@comment MD5:da1770e05145c113f47a617113f91c56
+share/vim/vim74/tutor/tutor.hu
+@comment MD5:d0fee66b93902b5cdb5129fb5561cc98
+share/vim/vim74/tutor/tutor.hu.cp1250
+@comment MD5:d0fee66b93902b5cdb5129fb5561cc98
+share/vim/vim74/tutor/tutor.hu.utf-8
+@comment MD5:efc33e7994681ba56da3af3de8301061
+share/vim/vim74/tutor/tutor.it
+@comment MD5:41be85eebb771e93df65955faa391ee4
+share/vim/vim74/tutor/tutor.it.utf-8
+@comment MD5:d455232b4156ada6561f3d59058bb8ee
+share/vim/vim74/tutor/tutor.ja.euc
+@comment MD5:f65e9fbee3a4de529ca90652a3734e1e
+share/vim/vim74/tutor/tutor.ja.sjis
+@comment MD5:1b2c7b9d773fcd602c8644ba362e7719
+share/vim/vim74/tutor/tutor.ja.utf-8
+@comment MD5:90273638402a40f4773cbdd8fc2b8d73
+share/vim/vim74/tutor/tutor.ko.euc
+@comment MD5:9d1755e94b6f60d50304cc1b233c20e8
+share/vim/vim74/tutor/tutor.ko.utf-8
+@comment MD5:097389916261b12ffcb53d8ba0376ad6
+share/vim/vim74/tutor/tutor.nb
+@comment MD5:7b59f030d0eb44103f9b3729c4a27808
+share/vim/vim74/tutor/tutor.nb.utf-8
+@comment MD5:9879c9926f9ad2d44d1984bf7d26a170
+share/vim/vim74/tutor/tutor.nl
+@comment MD5:c0950dbf852d767e81cdb935c657c48a
+share/vim/vim74/tutor/tutor.nl.utf-8
+@comment MD5:1398e80d3a1ab9ee1b880727e299c43d
+share/vim/vim74/tutor/tutor.no
+@comment MD5:7b59f030d0eb44103f9b3729c4a27808
+share/vim/vim74/tutor/tutor.no.utf-8
+@comment MD5:9879c9926f9ad2d44d1984bf7d26a170
+share/vim/vim74/tutor/tutor.pl
+@comment MD5:62a1688803eac4403ed2b30af1dde9de
+share/vim/vim74/tutor/tutor.pl.cp1250
+@comment MD5:cae1ffad4c053e1ae58fcfcc92aed860
+share/vim/vim74/tutor/tutor.pl.utf-8
+@comment MD5:bf172baf6999a7945af60fd6c6c0b106
+share/vim/vim74/tutor/tutor.pt
+@comment MD5:e220b0e0d02be3a2626d9ebba154398a
+share/vim/vim74/tutor/tutor.pt.utf-8
+@comment MD5:0d81b61e36722c96148a125b5fab8d36
+share/vim/vim74/tutor/tutor.ru
+@comment MD5:e89d2ba2499b4f32e14f05fb451da152
+share/vim/vim74/tutor/tutor.ru.cp1251
+@comment MD5:0f5c6f076fe5735131b61da9b5b8afb7
+share/vim/vim74/tutor/tutor.ru.utf-8
+@comment MD5:fe2a7e06c8138485496d51fd07b6c157
+share/vim/vim74/tutor/tutor.sk
+@comment MD5:d017cd4ab2b883df99e286c840f0f9a1
+share/vim/vim74/tutor/tutor.sk.cp1250
+@comment MD5:964237335c18499ff6526b68b7cae795
+share/vim/vim74/tutor/tutor.sk.utf-8
+@comment MD5:018ac25971d3d28463b4b60f69131652
+share/vim/vim74/tutor/tutor.sv
+@comment MD5:7466175b6115ba170d884b227e018fce
+share/vim/vim74/tutor/tutor.sv.utf-8
+@comment MD5:b239fc692d9ea77dec10f331806fcbbd
+share/vim/vim74/tutor/tutor.tr.iso9
+@comment MD5:f7028e624deaaa55127d724dd3907330
+share/vim/vim74/tutor/tutor.tr.utf-8
+@comment MD5:4583cce282c7fce825aa9ec7f71a0076
+share/vim/vim74/tutor/tutor.utf-8
+@comment MD5:fb9413efcff44a77a196443e8638597b
+share/vim/vim74/tutor/tutor.vi.utf-8
+@comment MD5:0cdcfa5e9b1901648f09079766cb0a07
+share/vim/vim74/tutor/tutor.vim
+@comment MD5:09e7b8e5089a63e6f83e413fb4dc09c7
+share/vim/vim74/tutor/tutor.zh.big5
+@comment MD5:7aac3c5526c22ca2eabe667220d09159
+share/vim/vim74/tutor/tutor.zh.euc
+@comment MD5:498a187bc910128cd38b0dcb3da4dc92
+share/vim/vim74/tutor/tutor.zh.utf-8
+@comment MD5:ff96ffc0b5e318437a867e33f5f34bc7
+share/vim/vim74/tutor/tutor.zh_cn.utf-8
+@comment MD5:260866eb9b600c68d7f70775632e0cac
+share/vim/vim74/tutor/tutor.zh_tw.utf-8
+@comment MD5:ff96ffc0b5e318437a867e33f5f34bc7
+share/vim/vim74/vimrc_example.vim
+@comment MD5:b18bd005832117243727e9fef1b45691
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

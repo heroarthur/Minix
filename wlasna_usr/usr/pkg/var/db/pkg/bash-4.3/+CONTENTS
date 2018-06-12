@@ -1,0 +1,126 @@
+@cwd /usr/pkg
+@pkgcfl static-bash-[0-9]*
+@name bash-4.3
+@blddep gettext-lib-0.18.3.2
+@pkgdep gettext-lib>=0.18
+@blddep digest-20121220
+@comment $NetBSD: PLIST,v 1.7 2014/03/12 10:08:46 wiz Exp $
+bin/bash
+@comment MD5:a42a3c86762bee72aa2309c6950586cf
+bin/bashbug
+@comment MD5:37a0bfbcb776ef91e77a7ad3831d306f
+info/bash.info
+@comment MD5:4f4cdff919e93ff8085af29f4d59ccb6
+man/man1/bash.1
+@comment MD5:70476716df06037af7f6590eec8ea003
+man/man1/bashbug.1
+@comment MD5:fcbe8177eab7c37363f3076934437c1f
+share/doc/bash/CHANGES
+@comment MD5:684a7f9b860bf3205dadbdfcf1435a6e
+share/doc/bash/COMPAT
+@comment MD5:8c87f3d62771409736cdee062f56f0d0
+share/doc/bash/FAQ
+@comment MD5:f6955ddbe135d75d7b59a422f131467c
+share/doc/bash/INTRO
+@comment MD5:846697acb9912668a33659a10c5a4ce2
+share/doc/bash/NEWS
+@comment MD5:786a7ba867bd80ec92a41d3e0ff0b71e
+share/doc/bash/POSIX
+@comment MD5:002ae8579c12bd3015f9b9f84fd99f41
+share/doc/bash/RBASH
+@comment MD5:632b3fbdfd170709a7e4c3724624bf33
+share/doc/bash/README
+@comment MD5:e800272ac95eade956214be4eacba8cf
+share/doc/bash/bash.html
+@comment MD5:fab3799bb0ada5a81c38a322247c130c
+share/doc/bash/bashref.html
+@comment MD5:2235b051a0781b503c2ad05f47fe6a69
+share/locale/af/LC_MESSAGES/bash.mo
+@comment MD5:db933979cd05c247d57d02c6bf3eb293
+share/locale/bg/LC_MESSAGES/bash.mo
+@comment MD5:be5607cf2dd215fb6bcb13a4d1e70d08
+share/locale/ca/LC_MESSAGES/bash.mo
+@comment MD5:b9587d9cc22311996bf0ca42df6ab4a4
+share/locale/cs/LC_MESSAGES/bash.mo
+@comment MD5:54152e20670db39ff0f90b37e4f560d1
+share/locale/da/LC_MESSAGES/bash.mo
+@comment MD5:178f7ce754adf6f2492219d3309601b7
+share/locale/de/LC_MESSAGES/bash.mo
+@comment MD5:a532cf0257b74aedc7ebfd3359efdbe8
+share/locale/el/LC_MESSAGES/bash.mo
+@comment MD5:cc24df3d16a5f80c0be9e656cf1b0c3b
+share/locale/en@boldquot/LC_MESSAGES/bash.mo
+@comment MD5:2a461c80f09a2c42859df7503acb6f73
+share/locale/en@quot/LC_MESSAGES/bash.mo
+@comment MD5:604ff9aad4a940ddaadbba9a09a320c9
+share/locale/eo/LC_MESSAGES/bash.mo
+@comment MD5:eca2225bbfd4b11b94647bd763ef108e
+share/locale/es/LC_MESSAGES/bash.mo
+@comment MD5:8a1aa99cc1dda6da4ecb3e823320b9c7
+share/locale/et/LC_MESSAGES/bash.mo
+@comment MD5:8436957deca317e407acab3b1034ecbd
+share/locale/fi/LC_MESSAGES/bash.mo
+@comment MD5:1f7aac99cb0d2c687f3cf0044f9476ec
+share/locale/fr/LC_MESSAGES/bash.mo
+@comment MD5:821a6a58b52c6216119d8acfafd3da26
+share/locale/ga/LC_MESSAGES/bash.mo
+@comment MD5:4b5605bc550e90f29f4d702d6c372019
+share/locale/gl/LC_MESSAGES/bash.mo
+@comment MD5:4e49bfba20bb9508fed3e83dee371c6f
+share/locale/hr/LC_MESSAGES/bash.mo
+@comment MD5:a4d6e7d66e1184660466ea26a03879ca
+share/locale/hu/LC_MESSAGES/bash.mo
+@comment MD5:e7aa615b30413e3b5227afb8371a8c7d
+share/locale/id/LC_MESSAGES/bash.mo
+@comment MD5:82c3279aa56a9eab1e43b26b7387f679
+share/locale/it/LC_MESSAGES/bash.mo
+@comment MD5:fb08b3dd6db049ab3cae993f3d5935fd
+share/locale/ja/LC_MESSAGES/bash.mo
+@comment MD5:2cbf395d0a926c6cfb45f81022a2338d
+share/locale/lt/LC_MESSAGES/bash.mo
+@comment MD5:00e2c790527e6e5a025d55489d041b00
+share/locale/nl/LC_MESSAGES/bash.mo
+@comment MD5:df6e277f1c17eb734948da4d105b96f3
+share/locale/pl/LC_MESSAGES/bash.mo
+@comment MD5:21e74e35229ab63612e210ab3334681b
+share/locale/pt_BR/LC_MESSAGES/bash.mo
+@comment MD5:ae8e1fa5a7c690b3cbce96a9106ae32f
+share/locale/ro/LC_MESSAGES/bash.mo
+@comment MD5:45e14c90ef660b04a62f6389725b4599
+share/locale/ru/LC_MESSAGES/bash.mo
+@comment MD5:5e0c1d9ac55507d6be79c38f39afa110
+share/locale/sk/LC_MESSAGES/bash.mo
+@comment MD5:878384f461926ad41112eabc0f15961e
+share/locale/sl/LC_MESSAGES/bash.mo
+@comment MD5:84e7c4f8b0f3a5f17dff4275d52d2def
+share/locale/sr/LC_MESSAGES/bash.mo
+@comment MD5:bdd6c08ea316ade0b115dc1a3a675e2c
+share/locale/sv/LC_MESSAGES/bash.mo
+@comment MD5:816f07a3e0528e54a2d013cfb28facca
+share/locale/tr/LC_MESSAGES/bash.mo
+@comment MD5:57103caa6d32ba931aa2f44a659ba9ad
+share/locale/uk/LC_MESSAGES/bash.mo
+@comment MD5:2fb88e102f63dc65440af4b299138369
+share/locale/vi/LC_MESSAGES/bash.mo
+@comment MD5:a95dad2c8bd5fab04f02358d19fe11f6
+share/locale/zh_CN/LC_MESSAGES/bash.mo
+@comment MD5:d390b21a6390f1fac45e7c6d3c5cbb11
+share/locale/zh_TW/LC_MESSAGES/bash.mo
+@comment MD5:07a8fec92b63e5a357f1c9f5ce98fa94
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++INSTALL
+@ignore
++DEINSTALL
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

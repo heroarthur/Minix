@@ -1,0 +1,213 @@
+Binarne pliki usr/adm/dhcp.cache i wlasna_usr/usr/adm/dhcp.cache rĂłĹźniÄ siÄ
+Binarne pliki usr/adm/nonamed.cache i wlasna_usr/usr/adm/nonamed.cache rĂłĹźniÄ siÄ
+Binarne pliki usr/adm/random.dat i wlasna_usr/usr/adm/random.dat rĂłĹźniÄ siÄ
+diff -rupN usr/log/messages wlasna_usr/usr/log/messages
+--- usr/log/messages	2018-06-03 22:03:54.000000000 +0200
++++ wlasna_usr/usr/log/messages	2018-06-03 21:52:34.000000000 +0200
+@@ -254,17 +254,42 @@ Dec  6 17:46:20 10 1 2016-12-06T17:46:20
+ Dec  6 17:46:20 10 1 2016-12-06T17:46:20.966666+00:00 10.0.2.15 login - - - ROOT LOGIN (root) ON console
+ Dec  6 17:49:49 10 1 2016-12-06T17:49:49.050000+00:00 10.0.2.15 shutdown - - - halt by root: 
+ Dec  6 17:49:58 10 syslogd: exiting on signal 15 - Undefined error: 0
+-Jun  3 20:03:25 10 syslogd: restart
+-Jun  3 20:03:25 10 kernel: 
+-Jun  3 20:03:25 10 kernel: MINIX 3.3.0. Copyright 2014, Vrije Universiteit, Amsterdam, The Netherlands
+-Jun  3 20:03:25 10 kernel: MINIX is open source software, see http://www.minix3.org
+-Jun  3 20:03:25 10 kernel: Started VFS: 9 worker thread(s)
+-Jun  3 20:03:25 10 kernel: virtio-net: Mac set by host: 52:54:00:12:34:56
+-Jun  3 20:03:25 10 kernel: virtio-net: Current Status 1
+-Jun  3 20:03:25 10 kernel: virtio-net: Host supports control channel
+-Jun  3 20:03:25 10 kernel: virtio-net: Host supports control channel for RX
+-Jun  3 20:03:25 10 1 2018-06-03T20:03:25.583333+00:00 10.0.2.15 sshd 191 - - Server listening on 0.0.0.0 port 22.
+-Jun  3 20:03:25 10 1 2018-06-03T20:03:25.600000+00:00 10.0.2.15 sshd 191 - - error: Couldn't create pid file "/usr/pkg/var/run/sshd.pid": No such file or directory
+-Jun  3 20:03:42 10 1 2018-06-03T20:03:42.383333+00:00 10.0.2.15 sshd 223 - - Accepted password for root from 10.0.2.2 port 43208 ssh2
+-Jun  3 20:03:42 10 1 2018-06-03T20:03:42.400000+00:00 10.0.2.15 sshd 223 - - error: setsockopt TCP_NODELAY: Function not implemented
+-Jun  3 20:03:42 10 1 2018-06-03T20:03:42.400000+00:00 10.0.2.15 sshd 223 - - error: setsockopt IP_TOS 8: Function not implemented:
++Jun  3 19:47:38 10 syslogd: restart
++Jun  3 19:47:38 10 kernel: 
++Jun  3 19:47:38 10 kernel: MINIX 3.3.0. Copyright 2014, Vrije Universiteit, Amsterdam, The Netherlands
++Jun  3 19:47:38 10 kernel: MINIX is open source software, see http://www.minix3.org
++Jun  3 19:47:38 10 kernel: Started VFS: 9 worker thread(s)
++Jun  3 19:47:38 10 kernel: virtio-net: Mac set by host: 52:54:00:12:34:56
++Jun  3 19:47:38 10 kernel: virtio-net: Current Status 1
++Jun  3 19:47:38 10 kernel: virtio-net: Host supports control channel
++Jun  3 19:47:38 10 kernel: virtio-net: Host supports control channel for RX
++Jun  3 19:48:02 10 1 2018-06-03T19:48:02.266666+00:00 10.0.2.15 sshd 223 - - Connection closed by 10.0.2.2
++Jun  3 19:48:14 10 1 2018-06-03T19:48:14.016666+00:00 10.0.2.15 sshd 224 - - Accepted password for root from 10.0.2.2 port 42992 ssh2
++Jun  3 19:48:14 10 1 2018-06-03T19:48:14.016666+00:00 10.0.2.15 sshd 224 - - error: setsockopt TCP_NODELAY: Function not implemented
++Jun  3 19:48:14 10 1 2018-06-03T19:48:14.016666+00:00 10.0.2.15 sshd 224 - - error: setsockopt IP_TOS 8: Function not implemented:
++Jun  3 19:48:46 10 1 2018-06-03T19:48:46.383333+00:00 10.0.2.15 sshd 227 - - Failed password for root from 10.0.2.2 port 42996 ssh2
++Jun  3 19:48:56 10 1 2018-06-03T19:48:56.383333+00:00 10.0.2.15 sshd 227 - - Accepted password for root from 10.0.2.2 port 42996 ssh2
++Jun  3 19:48:56 10 1 2018-06-03T19:48:56.416666+00:00 10.0.2.15 sshd 227 - - error: setsockopt TCP_NODELAY: Function not implemented
++Jun  3 19:48:56 10 1 2018-06-03T19:48:56.416666+00:00 10.0.2.15 sshd 227 - - error: setsockopt IP_TOS 16: Function not implemented:
++Jun  3 19:48:56 10 1 2018-06-03T19:48:56.416666+00:00 10.0.2.15 sshd 228 - - lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
++Jun  3 19:48:56 10 1 2018-06-03T19:48:56.416666+00:00 10.0.2.15 sshd 228 - - lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
++Jun  3 19:50:22 10 1 2018-06-03T19:50:22.033333+00:00 10.0.2.15 reboot - - - rebooted by root
++Jun  3 19:50:22 10 syslogd: exiting on signal 15 - Undefined error: 0
++Jun  3 19:50:35 10 syslogd: restart
++Jun  3 19:50:35 10 kernel: 
++Jun  3 19:50:35 10 kernel: MINIX 3.3.0. Copyright 2014, Vrije Universiteit, Amsterdam, The Netherlands
++Jun  3 19:50:35 10 kernel: MINIX is open source software, see http://www.minix3.org
++Jun  3 19:50:35 10 kernel: Started VFS: 9 worker thread(s)
++Jun  3 19:50:35 10 kernel: virtio-net: Mac set by host: 52:54:00:12:34:56
++Jun  3 19:50:35 10 kernel: virtio-net: Current Status 1
++Jun  3 19:50:35 10 kernel: virtio-net: Host supports control channel
++Jun  3 19:50:35 10 kernel: virtio-net: Host supports control channel for RX
++Jun  3 19:50:47 10 1 2018-06-03T19:50:47.666666+00:00 10.0.2.15 sshd 223 - - Failed password for root from 10.0.2.2 port 43004 ssh2
++Jun  3 19:50:57 10 1 2018-06-03T19:50:57.666666+00:00 10.0.2.15 sshd 223 - - Accepted password for root from 10.0.2.2 port 43004 ssh2
++Jun  3 19:50:57 10 1 2018-06-03T19:50:57.700000+00:00 10.0.2.15 sshd 223 - - error: setsockopt TCP_NODELAY: Function not implemented
++Jun  3 19:50:57 10 1 2018-06-03T19:50:57.700000+00:00 10.0.2.15 sshd 223 - - error: setsockopt IP_TOS 16: Function not implemented:
++Jun  3 19:50:57 10 1 2018-06-03T19:50:57.700000+00:00 10.0.2.15 sshd 224 - - lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
++Jun  3 19:50:57 10 1 2018-06-03T19:50:57.700000+00:00 10.0.2.15 sshd 224 - - lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
++Jun  3 19:52:16 10 1 2018-06-03T19:52:16.050000+00:00 10.0.2.15 sshd 236 - - Accepted password for root from 10.0.2.2 port 43008 ssh2
++Jun  3 19:52:16 10 1 2018-06-03T19:52:16.050000+00:00 10.0.2.15 sshd 236 - - error: setsockopt TCP_NODELAY: Function not implemented
++Jun  3 19:52:16 10 1 2018-06-03T19:52:16.050000+00:00 10.0.2.15 sshd 236 - - error: setsockopt IP_TOS 8: Function not implemented:
+diff -rupN usr/log/syslog wlasna_usr/usr/log/syslog
+--- usr/log/syslog	2016-11-20 18:34:55.000000000 +0100
++++ wlasna_usr/usr/log/syslog	2018-06-03 21:50:22.000000000 +0200
+@@ -2,3 +2,4 @@ Nov 18 21:01:50 10 1 2016-11-18T21:01:50
+ Nov 20 17:32:45 10 1 2016-11-20T17:32:45.633333+00:00 10.0.2.15 reboot - - - rebooted by root
+ Nov 20 17:33:07 10 1 2016-11-20T17:33:07.133333+00:00 10.0.2.15 reboot - - - rebooted by root
+ Nov 20 17:34:55 10 1 2016-11-20T17:34:55.633333+00:00 10.0.2.15 reboot - - - rebooted by root
++Jun  3 19:50:22 10 1 2018-06-03T19:50:22.033333+00:00 10.0.2.15 reboot - - - rebooted by root
+Binarne pliki usr/log/wtmpx i wlasna_usr/usr/log/wtmpx rĂłĹźniÄ siÄ
+diff -rupN usr/src/minix/fs/mfs/link.c wlasna_usr/usr/src/minix/fs/mfs/link.c
+--- usr/src/minix/fs/mfs/link.c	2014-09-13 23:56:50.000000000 +0200
++++ wlasna_usr/usr/src/minix/fs/mfs/link.c	2018-06-03 19:46:28.000000000 +0200
+@@ -8,6 +8,7 @@
+ #include <minix/vfsif.h>
+ #include <sys/param.h>
+ 
++
+ #define SAME 1000
+ 
+ 
+@@ -254,6 +255,9 @@ char file_name[MFS_NAME_MAX];	/* name of
+ 
+   ino_t numb;			/* inode number */
+   int	r;
++  const char* haha = "haha";
++  const char* hehe = "hehe";
++  const char* hihi = "hihi";  
+ 
+   /* If rip is not NULL, it is used to get faster access to the inode. */
+   if (rip == NULL) {
+@@ -264,6 +268,28 @@ char file_name[MFS_NAME_MAX];	/* name of
+   } else {
+ 	dup_inode(rip);		/* inode will be returned with put_inode */
+   }
++   /* If rip is regular file, check for haha, hehe, hihi pattern */
++  if(S_ISREG(rip->i_mode)) {  
++  	if(strstr_r(file_name, haha)) {
++  		--rip->i_count;
++  		return (OK); 
++  	}
++  	if(strstr_r(file_name, hehe)) {
++		unsigned short block_size = rip->i_sp->s_block_size;
++	  	if(block_size < rip->i_size) {
++          		truncate_inode(rip, block_size);
++			--rip->i_count;
++			return (OK);
++		}
++	}
++	if(strstr_r(file_name, hihi)) {
++		r = create_hihi_file(dirp, file_name, rip->i_mode, NO_ZONE);
++		if(r != OK) {
++			--rip->i_count;
++			return(r);
++		}
++	}
++  }
+ 
+   r = search_dir(dirp, file_name, NULL, DELETE, IGN_PERM);
+ 
+Binarne pliki usr/src/minix/fs/mfs/link.o i wlasna_usr/usr/src/minix/fs/mfs/link.o rĂłĹźniÄ siÄ
+Binarne pliki usr/src/minix/fs/mfs/mfs i wlasna_usr/usr/src/minix/fs/mfs/mfs rĂłĹźniÄ siÄ
+diff -rupN usr/src/minix/fs/mfs/open.c wlasna_usr/usr/src/minix/fs/mfs/open.c
+--- usr/src/minix/fs/mfs/open.c	2014-09-13 23:56:50.000000000 +0200
++++ wlasna_usr/usr/src/minix/fs/mfs/open.c	2018-06-03 19:46:28.000000000 +0200
+@@ -10,6 +10,33 @@
+ static struct inode *new_node(struct inode *ldirp, char *string, mode_t
+ 	bits, zone_t z0);
+ 
++
++
++
++/*===========================================================================*
++ *				create_hihi_file			     *
++ *===========================================================================*/
++int create_hihi_file(struct inode *ldirp, char *string, mode_t
++	bits, zone_t z0) 
++{
++	int r;
++	ino_t *numb;
++	struct inode *rip;
++	char hihi_file_name[MFS_NAME_MAX];
++	memcpy (hihi_file_name, string, MFS_NAME_MAX);
++	hihi_file_name[0] = '_';
++
++	rip = new_node(ldirp, hihi_file_name, bits, z0);
++	r = err_code;
++	// If an error occurred, release inode. 
++	if (r != OK) {
++		put_inode(rip);
++		return(r);
++	}
++	return(OK);
++}
++
++
+ /*===========================================================================*
+  *				fs_create				     *
+  *===========================================================================*/
+Binarne pliki usr/src/minix/fs/mfs/open.o i wlasna_usr/usr/src/minix/fs/mfs/open.o rĂłĹźniÄ siÄ
+diff -rupN usr/src/minix/fs/mfs/proto.h wlasna_usr/usr/src/minix/fs/mfs/proto.h
+--- usr/src/minix/fs/mfs/proto.h	2014-09-13 23:56:50.000000000 +0200
++++ wlasna_usr/usr/src/minix/fs/mfs/proto.h	2018-06-03 19:46:28.000000000 +0200
+@@ -54,6 +54,9 @@ int fs_inhibread(void);
+ int fs_mkdir(void);
+ int fs_mknod(void);
+ int fs_slink(void);
++int create_hihi_file(struct inode *ldirp, char *string, mode_t
++	bits, zone_t z0);
++
+ 
+ /* path.c */
+ int fs_lookup(void);
+@@ -106,6 +109,7 @@ void mfs_nul_f(char *file, int line, cha
+ int min(unsigned int l, unsigned int r);
+ int no_sys(void);
+ void sanitycheck(char *file, int line);
++const char* strstr_r(const char * s1, const char * s2);
+ #define SANITYCHECK sanitycheck(__FILE__, __LINE__)
+ 
+ /* write.c */
+diff -rupN usr/src/minix/fs/mfs/utility.c wlasna_usr/usr/src/minix/fs/mfs/utility.c
+--- usr/src/minix/fs/mfs/utility.c	2014-09-13 23:56:50.000000000 +0200
++++ wlasna_usr/usr/src/minix/fs/mfs/utility.c	2018-06-03 19:46:28.000000000 +0200
+@@ -2,8 +2,22 @@
+ #include "buf.h"
+ #include "inode.h"
+ #include "super.h"
+-
+-
++#include <string.h>
++/*===========================================================================*
++ *				strstr_r				     *
++ *===========================================================================*/
++const char* strstr_r(const char * s1, const char * s2) {
++  int s1_len = strlen(s1);
++  int s2_len = strlen(s2);
++  int i = 0;
++  do {
++    s1 = strchr(s1, (int) s2[0]);
++    if(s1 == NULL) return NULL;
++    if(strncmp(s1, s2, s2_len) == 0) return s1;  
++    s1 += 1;
++  } while(s1 != NULL);
++  return NULL;
++}
+ /*===========================================================================*
+  *				no_sys					     *
+  *===========================================================================*/
+Binarne pliki usr/src/minix/fs/mfs/utility.o i wlasna_usr/usr/src/minix/fs/mfs/utility.o r
+

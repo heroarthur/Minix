@@ -1,0 +1,117 @@
+@cwd /usr/pkg
+@name p5-MailTools-2.12nb1
+@blddep p5-TimeDate-2.30
+@pkgdep p5-TimeDate-[0-9]*
+@blddep perl-5.18.2nb1
+@pkgdep perl<5.20.0
+@blddep perl-5.18.2nb1
+@pkgdep perl>=5.18.0
+@blddep pth-2.0.7nb3
+@pkgdep pth>=2.0.0nb2
+@blddep digest-20121220
+@blddep p5-Net-1.23
+@comment The following lines are automatically generated
+@comment from the installed .packlist files.
+lib/perl5/vendor_perl/5.18.0/Mail/Address.pm
+@comment MD5:79503a5121e8c23e5fd1cf356c80f442
+lib/perl5/vendor_perl/5.18.0/Mail/Address.pod
+@comment MD5:6b07704cfdae2e9744abcdf1d8ac16df
+lib/perl5/vendor_perl/5.18.0/Mail/Cap.pm
+@comment MD5:a5c387e53b5e894819256e90cb0ff65d
+lib/perl5/vendor_perl/5.18.0/Mail/Cap.pod
+@comment MD5:be9624be9c29d382cefd104cfddcbaab
+lib/perl5/vendor_perl/5.18.0/Mail/Field.pm
+@comment MD5:7d917dc1c3f4001b6c4e4a02d89bcc5a
+lib/perl5/vendor_perl/5.18.0/Mail/Field.pod
+@comment MD5:4ae9fe7e9cd79a2ba585c01c7c3919f9
+lib/perl5/vendor_perl/5.18.0/Mail/Field/AddrList.pm
+@comment MD5:3f24b88ed6032e7966a97f7dc837eb34
+lib/perl5/vendor_perl/5.18.0/Mail/Field/AddrList.pod
+@comment MD5:14cb2bf0088f813f4c95c45cc8583463
+lib/perl5/vendor_perl/5.18.0/Mail/Field/Date.pm
+@comment MD5:e03fb3d0e9080966bb878be40aba1ea8
+lib/perl5/vendor_perl/5.18.0/Mail/Field/Date.pod
+@comment MD5:99cb1c1cdf7fa8fca7b93b75bbab0b18
+lib/perl5/vendor_perl/5.18.0/Mail/Field/Generic.pm
+@comment MD5:d45d99976e64aaec6a1ace8cfaafbf66
+lib/perl5/vendor_perl/5.18.0/Mail/Field/Generic.pod
+@comment MD5:f4768c07f2e5387e3bf2f0c22e9d049f
+lib/perl5/vendor_perl/5.18.0/Mail/Filter.pm
+@comment MD5:93c2ce0e2543a8c72969f0ec4bafccfb
+lib/perl5/vendor_perl/5.18.0/Mail/Filter.pod
+@comment MD5:ff378324b5c4915ce513b7dc71281493
+lib/perl5/vendor_perl/5.18.0/Mail/Header.pm
+@comment MD5:c14bc76dbd397be0b8de790a200c3d3c
+lib/perl5/vendor_perl/5.18.0/Mail/Header.pod
+@comment MD5:62513cfc94c002868220a2e8b0cbc9c5
+lib/perl5/vendor_perl/5.18.0/Mail/Internet.pm
+@comment MD5:3e77f84cf391f02662b1bd253364a96d
+lib/perl5/vendor_perl/5.18.0/Mail/Internet.pod
+@comment MD5:b15f1546999a8431aa0483ee0fc25c6a
+lib/perl5/vendor_perl/5.18.0/Mail/Mailer.pm
+@comment MD5:055e4863d30235cef0846ca12a5b65d4
+lib/perl5/vendor_perl/5.18.0/Mail/Mailer.pod
+@comment MD5:6e6616f16baaa477ba1796bce401f60b
+lib/perl5/vendor_perl/5.18.0/Mail/Mailer/qmail.pm
+@comment MD5:752c513b0dc3b3414cb79a265e8630ab
+lib/perl5/vendor_perl/5.18.0/Mail/Mailer/rfc822.pm
+@comment MD5:ee795a5b222324b79a349cc7d413e98b
+lib/perl5/vendor_perl/5.18.0/Mail/Mailer/sendmail.pm
+@comment MD5:93d1b0b76fb0f73c37cb7005f1b865a1
+lib/perl5/vendor_perl/5.18.0/Mail/Mailer/smtp.pm
+@comment MD5:2f475363fe9599256aa7540362f3c3bb
+lib/perl5/vendor_perl/5.18.0/Mail/Mailer/smtps.pm
+@comment MD5:390d22762c8e44c80324a2e8e2c197ca
+lib/perl5/vendor_perl/5.18.0/Mail/Mailer/testfile.pm
+@comment MD5:dc8da9e2386bc221d6a633633a36822a
+lib/perl5/vendor_perl/5.18.0/Mail/Send.pm
+@comment MD5:e56fdaaea7477bb492c36d1b78d3af14
+lib/perl5/vendor_perl/5.18.0/Mail/Send.pod
+@comment MD5:18211f722211fb948d4cb6c5e7eab761
+lib/perl5/vendor_perl/5.18.0/Mail/Util.pm
+@comment MD5:94b1c87fe76fec0a3fca7f6667956432
+lib/perl5/vendor_perl/5.18.0/Mail/Util.pod
+@comment MD5:956babcd49eba5be899a812a2e53f516
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Mail/.packlist
+@comment MD5:0fe32e66dc78e32a32f5fd1199008ee5
+lib/perl5/vendor_perl/man/man3/Mail::Address.3
+@comment MD5:a71ba921ca1bd6ff4a743d220d2e7c87
+lib/perl5/vendor_perl/man/man3/Mail::Cap.3
+@comment MD5:c5156f7ce8c55dbb4ab790bff468f5db
+lib/perl5/vendor_perl/man/man3/Mail::Field.3
+@comment MD5:4a7d0d4ef2408dc34ab07eaf53ab1b45
+lib/perl5/vendor_perl/man/man3/Mail::Field::AddrList.3
+@comment MD5:d2ec4b4b3c17269af81dd72bda1a7fcf
+lib/perl5/vendor_perl/man/man3/Mail::Field::Date.3
+@comment MD5:78bc4139eceabf5f54aa20e6454a8a15
+lib/perl5/vendor_perl/man/man3/Mail::Field::Generic.3
+@comment MD5:8d149685796f015de739beb7eb05741c
+lib/perl5/vendor_perl/man/man3/Mail::Filter.3
+@comment MD5:8c230c337a10c1fcc85341463b326c07
+lib/perl5/vendor_perl/man/man3/Mail::Header.3
+@comment MD5:a9de556ba22e3a1d7d580017e09fe04e
+lib/perl5/vendor_perl/man/man3/Mail::Internet.3
+@comment MD5:8cbd9637e53af83c341916cb25c08616
+lib/perl5/vendor_perl/man/man3/Mail::Mailer.3
+@comment MD5:a7774faa4419cce652e1955b8e56dd0e
+lib/perl5/vendor_perl/man/man3/Mail::Send.3
+@comment MD5:8c3b09aa5b2a8c1b4b5b113bd1757330
+lib/perl5/vendor_perl/man/man3/Mail::Util.3
+@comment MD5:3e44d2bbed3f5051557bd06e6d688385
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++INSTALL
+@ignore
++DEINSTALL
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

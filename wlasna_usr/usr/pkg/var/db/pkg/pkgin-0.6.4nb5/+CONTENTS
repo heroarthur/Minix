@@ -1,0 +1,39 @@
+@cwd /usr/pkg
+@name pkgin-0.6.4nb5
+@blddep pkg_install-20130902nb1
+@pkgdep pkg_install>=20130901
+@blddep openssl-1.0.1g
+@pkgdep openssl>=1.0.1c
+@blddep digest-20121220
+@blddep libfetch-2.36nb1
+@comment $NetBSD: PLIST,v 1.4 2014/01/21 16:31:27 jperkin Exp $
+etc/pkgin/repositories.conf
+@comment MD5:7ee98a987719b6b60156b806cccf9b80
+bin/pkgin
+@comment MD5:35a3e97638c3b4b175e444225ff09ae8
+man/cat1/pkgin.0
+@comment MD5:2391d264fe15de270def1ecdc03ee9ef
+man/man1/pkgin.1
+@comment MD5:cc04b54f7656752848fe4ba664bffc19
+share/examples/pkgin/repositories.conf.example
+@comment MD5:7ee98a987719b6b60156b806cccf9b80
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++INSTALL
+@ignore
++DEINSTALL
+@ignore
++DISPLAY
+@display +DISPLAY
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

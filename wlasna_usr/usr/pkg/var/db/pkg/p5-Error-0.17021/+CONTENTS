@@ -1,0 +1,38 @@
+@cwd /usr/pkg
+@name p5-Error-0.17021
+@blddep perl-5.18.2nb1
+@pkgdep perl<5.20.0
+@blddep perl-5.18.2nb1
+@pkgdep perl>=5.18.0
+@blddep pth-2.0.7nb3
+@pkgdep pth>=2.0.0nb2
+@blddep digest-20121220
+@comment The following lines are automatically generated
+@comment from the installed .packlist files.
+lib/perl5/vendor_perl/5.18.0/Error.pm
+@comment MD5:d4243285eaaf29c138d3c18e7d02ae6f
+lib/perl5/vendor_perl/5.18.0/Error/Simple.pm
+@comment MD5:98fc8344c5bff80b4bb2bcf03454c70d
+lib/perl5/vendor_perl/5.18.0/i386-netbsd/auto/Error/.packlist
+@comment MD5:5d284c2b4cd8a1911f6653e2db5f225a
+lib/perl5/vendor_perl/man/man3/Error.3
+@comment MD5:9850a490736558f34b2658112d9cc955
+lib/perl5/vendor_perl/man/man3/Error::Simple.3
+@comment MD5:75c2256108fccd6396aa3f1ae1e05962
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++INSTALL
+@ignore
++DEINSTALL
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL

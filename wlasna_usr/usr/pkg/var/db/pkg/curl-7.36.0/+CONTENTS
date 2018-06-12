@@ -1,0 +1,177 @@
+@cwd /usr/pkg
+@name curl-7.36.0
+@blddep heimdal-1.5.3nb5
+@pkgdep heimdal>=1.5.3nb4
+@blddep openssl-1.0.1g
+@pkgdep openssl>=1.0.1c
+@blddep libidn-1.28
+@pkgdep libidn>=1.20nb1
+@blddep digest-20121220
+@comment $NetBSD: PLIST,v 1.43 2013/12/31 11:48:03 adam Exp $
+bin/curl
+@comment MD5:706c3339e7bf7d4544e7164c6d2aa5aa
+bin/curl-config
+@comment MD5:24b72e2ee8d5f426b93fd4cfb54b0ebf
+include/curl/curl.h
+@comment MD5:3ba433238677f02d3d685fcdbe0d559c
+include/curl/curlbuild.h
+@comment MD5:0929c0e3fc02dc3ad9511b23140047ab
+include/curl/curlrules.h
+@comment MD5:b941ebb903de1b53d0d2ec084cdb0bf0
+include/curl/curlver.h
+@comment MD5:27b7eafc39393d75117ad1f6ecd4e108
+include/curl/easy.h
+@comment MD5:0bacb9036436a91bf66c007a56a2f9b9
+include/curl/mprintf.h
+@comment MD5:7500babc7c2aee695007440b0a88c6a5
+include/curl/multi.h
+@comment MD5:b647bb3f54bfdc382f1c5ae52a1499a8
+include/curl/stdcheaders.h
+@comment MD5:18c029ed6fdad0ce85ac094ca2841515
+include/curl/typecheck-gcc.h
+@comment MD5:a7a07edf1e683e8dca2eee31b33dbfc6
+lib/libcurl.la
+@comment MD5:501d0c29bd56cdef64c1811c84578dec
+lib/libcurl.a
+@comment MD5:846676069ce68e92a997d8b6dec4e085
+lib/libcurl.so
+@comment Symlink:libcurl.so.4.3.0
+lib/libcurl.so.4
+@comment Symlink:libcurl.so.4.3.0
+lib/libcurl.so.4.3.0
+@comment MD5:5ea293a6407621a6363b0b5c6b41c69f
+lib/pkgconfig/libcurl.pc
+@comment MD5:4436e3779a044bc7176f3c800b1dc43a
+man/man1/curl-config.1
+@comment MD5:db23d2120a27c11433a6616e4e79231c
+man/man1/curl.1
+@comment MD5:f11e02dc866a3dc376d91a05071fec6d
+man/man3/curl_easy_cleanup.3
+@comment MD5:e9ec5551f302b2e0c617cf6c49d14fa5
+man/man3/curl_easy_duphandle.3
+@comment MD5:8e7591e610c066a9e5c476b2e9b4084e
+man/man3/curl_easy_escape.3
+@comment MD5:7e9f186cd9f2c99c5e2ed914cc2a6f2c
+man/man3/curl_easy_getinfo.3
+@comment MD5:723c4812c43ace41e8a2e7ef97e60dd0
+man/man3/curl_easy_init.3
+@comment MD5:cd525665e495e4aa6a8f18113edffd6d
+man/man3/curl_easy_pause.3
+@comment MD5:3490b86762b25f30b92c0c6a49bcecf4
+man/man3/curl_easy_perform.3
+@comment MD5:5f5e6ec1a38f827138599d9c9b266a7e
+man/man3/curl_easy_recv.3
+@comment MD5:58a47b1c3309141520dab2102aa8aa5e
+man/man3/curl_easy_reset.3
+@comment MD5:3a054f4070ab6c7256619c64ad230f0b
+man/man3/curl_easy_send.3
+@comment MD5:93036cbf60e5a54082bcc1fbc8705da7
+man/man3/curl_easy_setopt.3
+@comment MD5:b0ec14faa3193c7b805fc3f439bae401
+man/man3/curl_easy_strerror.3
+@comment MD5:aa0a035db5c7b3fa9b021a10f63498e0
+man/man3/curl_easy_unescape.3
+@comment MD5:755552a3849e0fc205832655ce8c6307
+man/man3/curl_escape.3
+@comment MD5:a41fc08456fdf6271594760fc9a3d210
+man/man3/curl_formadd.3
+@comment MD5:ec0c2c7daf23284c92e082cede505cdd
+man/man3/curl_formfree.3
+@comment MD5:d2a0fc9f95c5b61831b9bc0737af976e
+man/man3/curl_formget.3
+@comment MD5:e83f8c9638b4bf88798668dc5bd37f24
+man/man3/curl_free.3
+@comment MD5:ade58b4aa1ebb82248d64f488184206e
+man/man3/curl_getdate.3
+@comment MD5:44db8aad1b2907a8eaed74e651b4c7fe
+man/man3/curl_getenv.3
+@comment MD5:50b699d4c53abde86594c043ab287137
+man/man3/curl_global_cleanup.3
+@comment MD5:5c7f973ed583c63df919d16d64f99a88
+man/man3/curl_global_init.3
+@comment MD5:d28c4ff0118436362968964e5bde76d0
+man/man3/curl_global_init_mem.3
+@comment MD5:5853883f906f9a4f9d17156374184d43
+man/man3/curl_mprintf.3
+@comment MD5:76e9e3a869c49bf6e3d350ca6aab8ff1
+man/man3/curl_multi_add_handle.3
+@comment MD5:85684d6e3581512c985ee8fb574dd4d8
+man/man3/curl_multi_assign.3
+@comment MD5:e88920d659d1ff393ba9286c542b1554
+man/man3/curl_multi_cleanup.3
+@comment MD5:5a03751bbabe11de3bad0cd7bc7a239f
+man/man3/curl_multi_fdset.3
+@comment MD5:39e1e9a4b4699bf45a17f701992d3334
+man/man3/curl_multi_info_read.3
+@comment MD5:8a8a5034eadf10ef41912cd21c252ebf
+man/man3/curl_multi_init.3
+@comment MD5:6feb23522c00b0d7627654fcbd38dd4a
+man/man3/curl_multi_perform.3
+@comment MD5:5d3ac98486842f6877afb3fea9e932da
+man/man3/curl_multi_remove_handle.3
+@comment MD5:ab2e0dd3c093029f4aff91ce6e6729a4
+man/man3/curl_multi_setopt.3
+@comment MD5:d2b3f2f99d577590b839869392f4aad4
+man/man3/curl_multi_socket.3
+@comment MD5:8941af8b2f78311a0e9fd71321e3541c
+man/man3/curl_multi_socket_action.3
+@comment MD5:98fd96dba7292787e43d7662ec2dada4
+man/man3/curl_multi_strerror.3
+@comment MD5:c975d9f638cd86255f6cb21ef96731f3
+man/man3/curl_multi_timeout.3
+@comment MD5:73fa2ce2b9a86ee78f8f1de7e165a0a6
+man/man3/curl_multi_wait.3
+@comment MD5:b40578e77cbc499a27bd64d223e832ed
+man/man3/curl_share_cleanup.3
+@comment MD5:3ad578c443ba8fc8c8718b2be1179b27
+man/man3/curl_share_init.3
+@comment MD5:08cb9ef051115e63f466024afb2cb62f
+man/man3/curl_share_setopt.3
+@comment MD5:9fa242e770ab2f4aa6d04ca007b2204e
+man/man3/curl_share_strerror.3
+@comment MD5:58f924d75f3641a627c1cfa4bf85c247
+man/man3/curl_slist_append.3
+@comment MD5:40f41b59f88ac90752ba612f4c21946e
+man/man3/curl_slist_free_all.3
+@comment MD5:4de87136429db6896fd50b797f277144
+man/man3/curl_strequal.3
+@comment MD5:5d712e2d93f88acc1ffbc49ac9c9e441
+man/man3/curl_unescape.3
+@comment MD5:5fce8490400a5ee13e82b5293bd6b89d
+man/man3/curl_version.3
+@comment MD5:d66da700f5bf57cfec0ec3edc92ffc98
+man/man3/curl_version_info.3
+@comment MD5:06e4219b3af0e21430cb2aadbc2f8360
+man/man3/libcurl-easy.3
+@comment MD5:85e9e264a22f1ae2d36b051e401424af
+man/man3/libcurl-errors.3
+@comment MD5:a25942fab4b56ba22aa8bc2ab328e632
+man/man3/libcurl-multi.3
+@comment MD5:7e7c558ab858bae9c2b415c73abafcd2
+man/man3/libcurl-share.3
+@comment MD5:7a8a718ce6825ff7d2b5903c510e998c
+man/man3/libcurl-tutorial.3
+@comment MD5:d91f9ff14ee4704d7a2a0346063f761e
+man/man3/libcurl.3
+@comment MD5:fe7159c5f668a1fe82de18689fe8f77b
+share/aclocal/libcurl.m4
+@comment MD5:5e22a13d29fa628c83c267cf9b4f3218
+share/doc/curl/FAQ
+@comment MD5:b42e4361782c7b5522395144b9cd1584
+share/doc/curl/MANUAL
+@comment MD5:effd60c1e96f8bf5b3eb5cc8b57c1825
+share/doc/curl/TheArtOfHttpScripting
+@comment MD5:97b415dc82ff5e641bcd9ebf01ecc483
+@cwd /usr/pkg
+@ignore
++COMMENT
+@ignore
++DESC
+@ignore
++BUILD_VERSION
+@ignore
++BUILD_INFO
+@ignore
++SIZE_PKG
+@ignore
++SIZE_ALL
